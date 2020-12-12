@@ -1,5 +1,5 @@
 ﻿NGame = {
-	END_DATE = "1453.1.1"
+	END_DATE = "1821.1.1" ### CKU VALUE ###
 	GAME_SPEED_TICKS = {	# how many seconds should a day take in every game speed
 		2
 		1
