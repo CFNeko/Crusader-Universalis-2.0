@@ -470,6 +470,15 @@
 					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
 					var:the_deal > 110
 				}
+				custom_description = {
+					text = "[Localize('Target is Human Player')]"
+					root = {
+						every_in_list = {
+							variable = enemy_list
+							is_ai = yes
+						}
+					}
+				}
 			
 			}
 			effect = {
