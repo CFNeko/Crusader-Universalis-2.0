@@ -369,6 +369,16 @@
 								target = scope:dork
 							}
 						}
+					every_prisoner = {
+						limit = { 
+							liege = scope:dork 
+						}
+						release_from_prison = yes 
+						add_opinion = {
+							modifier = released_from_prison
+							target = root
+						}							
+					}
 
 
 					}
@@ -444,6 +454,19 @@
 								gold = root.var:epeace_val
 								target = root
 							}
+						}
+					}
+
+					scope:dork= {
+						every_prisoner = {
+							limit = { 
+								liege = root 
+							}
+							release_from_prison = yes 
+							add_opinion = {
+								modifier = released_from_prison
+								target = scope:dork
+							}							
 						}
 					}
 
@@ -604,6 +627,30 @@
 								gold = root.var:epeace_val
 								target = root
 							}
+						}
+					}
+
+					every_prisoner = {
+						limit = { 
+							liege = scope:dork 
+						}
+						release_from_prison = yes 
+						add_opinion = {
+							modifier = released_from_prison
+							target = root
+						}							
+					}
+
+					scope:dork= {
+						every_prisoner = {
+							limit = { 
+								liege = root 
+							}
+							release_from_prison = yes 
+							add_opinion = {
+								modifier = released_from_prison
+								target = scope:dork
+							}							
 						}
 					}
 					every_character_war = {
