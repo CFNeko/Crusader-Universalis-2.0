@@ -3030,7 +3030,7 @@ window = {
 						#bottomhalf
 
 						button = {
-							position = { 200 380 }
+							position = { 200 340 }
 							onclick = "[GetVariableSystem.Toggle( 'view_offer' )]"
 							tooltip = "Toggle Offers"
 							size = { 32 32 }
@@ -3039,8 +3039,8 @@ window = {
 					#############
 					# Reset Deal
 					############
-						button = {
-							position = { 244 335 }
+						button_standard = {
+							position = { 370 395 }
 							onclick = "[ExecuteConsoleCommand('effect peace_reset_list')]"
 							onclick = "[GetScriptedGui('enemy_lands').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							onclick = "[GetScriptedGui('my_landia').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
@@ -3049,18 +3049,18 @@ window = {
 							onclick = "[GetScriptedGui('enemy_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							onclick = "[GetScriptedGui('my_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							
-							tooltip = "Reset Deal"
-							size = { 110 42 }
-							texture = "gfx/interface/icons/eu/send.dds"
-							text = "Reset Offer"
+							tooltip = "Reset Offer"
+							size = { 50 22 }
+							#texture = "gfx/interface/icons/eu/send.dds"
+							text = "Reset"
 						}
 
 						#text = "[GetPlayer.MakeScope.Var('the_deal').GetValue|0]"
 						icon = {
-							position = { 240 372 }
+							position = { 240 332 }
 								tooltip = "[GetScriptedGui('final_deal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								size = { 120 52 }
-								visible = "[GetScriptedGui('deal_score').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								#visible = "[GetScriptedGui('deal_score').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								texture = "gfx/interface/icons/eu/score.dds"
 								text_single = {
 									name = "deal_check"
@@ -3084,13 +3084,15 @@ window = {
 								enabled = "[GetScriptedGui('deal_score').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 						}
 						button = {
-							position = { 240 372 }
+							position = { 240 382 }
 								onclick = "[GetScriptedGui('final_deal').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								tooltip = "[GetScriptedGui('final_deal').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								size = { 120 52 }
-								visible = "[GetScriptedGui('final_deal').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+								#visible = "[GetScriptedGui('final_deal').IsShown(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								texture = "gfx/interface/icons/eu/send.dds"
 								text = "Send Offer"
+								default_format = "#high"
+								using = Font_Type_Flavor
 								enabled = "[GetScriptedGui('final_deal').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								
 						}
