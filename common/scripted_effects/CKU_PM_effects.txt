@@ -357,7 +357,7 @@
 						}
 						if = { 
 							limit = {
-								scope:this_guy.primary_title.tier = tier_dutchy
+								scope:this_guy.primary_title.tier = tier_duchy
 							}
 							root = {
 								change_variable = { name = the_deal add = 30 }
@@ -401,7 +401,7 @@
 						}
 						if = { 
 							limit = {
-								scope:this_guy.primary_title.tier = tier_dutchy
+								scope:this_guy.primary_title.tier = tier_duchy
 							}
 							root = {
 								change_variable = { name = the_deal subtract = 30 }
