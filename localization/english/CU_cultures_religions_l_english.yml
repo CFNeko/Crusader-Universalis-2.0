@@ -69,6 +69,16 @@
  # BALTIC
  semigallian:0 "Semigallian"
  semigallian_collective_noun:0 "Semigallians"
+ 
+ # JAPANESE
+ japanese_group:0 "Japanese"
+ japanese:0 "Japanese"
+ japanese_collective_noun:0 "Japanese"
+ 
+ # Ainu
+ ainu_group:0 "Ainu"
+ ainu:0 "Ainu"
+ ainu_collective_noun:0 "Ainu"
 
  # RELIGION #############
  # Christianity #
