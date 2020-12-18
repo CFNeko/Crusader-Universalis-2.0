@@ -23,6 +23,7 @@
 @nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
 @nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
 @misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+@scythe = "gfx/interface/icons/culture_innovations/scythe.dds"
 
 @camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
 @elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
@@ -363,6 +364,19 @@ innovation_civic_9 = {
 	flag = global_regular
 	flag = early_modern_era_regular
 	
+}
+
+innovation_civic_9 = {
+    group = culture_group_civic
+    culture_era = culture_era_early_modern
+    icon =  @scythe
+
+    modifier = {
+        development_growth_factor = 0.1
+    }
+    flag = global_regular
+    flag = early_modern_era_regular
+    
 }
 
 innovation_civic_10 = {
