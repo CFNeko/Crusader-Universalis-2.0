@@ -1,6 +1,6 @@
 #max_provinces = 1466
 definitions = "definition.csv"
-provinces = "provinces.png"
+provinces = "simple_provinces.png"
 #positions = "positions.txt"
 rivers = "rivers.png"
 #terrain_definition = "terrain.txt"
