@@ -79,6 +79,17 @@
  ainu_group:0 "Ainu"
  ainu:0 "Ainu"
  ainu_collective_noun:0 "Ainu"
+ 
+ # west germanic
+ western_germanic_group: "West Germanic"
+ english:0 "English"
+ english_collective_group_noun: "English"
+ scots:0 "Scots"
+ scots_collective_noun: "Scots"
+ hiberno_norman: "Hiberno-Norman"
+ hiberno_norman_colelctive_noun: "Hiberno-Normans"
+ ulster_scots: "Ulster-Scots"
+ ulster_scots_collective_noun: "Ulster-Scots"
 
  # RELIGION #############
  # Christianity #
