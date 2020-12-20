@@ -1,0 +1,17 @@
+Files to swap after Province Organizer
+
+
+- definitions.csv # Will load with just this changed
+- Recreate provinces.png # Will load with just this and definitions changed
+
+- landed_titles
+- history/characters
+- history/titles
+- Edit default.map for new sea and river ranges  # If a sea province is given a title the game will crash
+
+
+# Bug Causes
+- Game crashes due to province assertion error
+	-> Check that you are not assigning a landed title to a sea province (or river province?)
+- Province ownership not working (ie randomly generated instead of assigned)
+	-> Check that the province has a title. If a province in history/titles doesn't have a common/landed_titles equivalent every history below that in the file will be ignored
