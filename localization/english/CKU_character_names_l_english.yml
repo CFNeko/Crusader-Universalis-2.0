@@ -42,16 +42,25 @@ Yushkep_Kamuy: "Yushkep Kamuy"
  
 # Hiberno-Norman
 
-alb_eric: "Albéric"
-alb_ert: "Albért"
-B_ernab_e: "Bérnabé"
-Caoimh_in:0 "Caoimhín"
+alberic: "Albéric"
+albert: "Albért"
+Bernabe: "Bérnabé"
+Caoimhin:0 "Caoimhín"
 Clovis: "Clovis"
-danni_e: "Dannié"
+dannie: "Dannié"
 Dgib_ert: "Dgibért"
-_Eibhear: "Éibhear"
-J_acob: "Jácob"
+Eibhear: "Éibhear"
+Jacob: "Jácob"
+Allionora: "Allionóra"
 
 Allion_ora: "Allionóra"
 Aign_es: "Aignés"
+
+# Breton 
+
+Fransez: Frañsez
+Fra_nseza: "Frañseza"
+Loic: "Loïc"
+Mael: "Maël"
+Maelle: "Maëlle"
 
