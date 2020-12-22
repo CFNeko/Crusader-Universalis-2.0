@@ -30,15 +30,15 @@
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
-@culverin = "gfx/interface/icons/culture_innovations/culverin.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
 @pike_square = "gfx/interface/icons/culture_innovations/innovation_pike_square.dds"
 #@pike_shot = "gfx/interface/icons/culture_innovations/innovation_pike_shot.dds"
 @inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
 @colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
 @medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
 @art = "gfx/interface/icons/culture_innovations/art.dds"
-@scythe = "gfx/interface/icons/culture_innovations/scythe.dds"
-@spring = "gfx/interface/icons/culture_innovations/spring.dds"
+@scythe = "gfx/interface/icons/culture_innovations/innovation_scythe.dds"
+@spring = "gfx/interface/icons/culture_innovations/innovation_spring.dds"
 
 #culture_group_military
 innovation_military_1 = {
