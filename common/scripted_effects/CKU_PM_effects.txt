@@ -67,7 +67,7 @@
 
 		if = {
 			limit = {
-				NOT = { has_variable = epeace_val }
+			NOT = { has_variable = epeace_val }
 			}
 			set_variable = {
 				name = epeace_val
@@ -82,16 +82,9 @@
 			}
 			set_variable = { name = epeace_val value = scope:dork.current_gold_value }
 		}
-		if = {
-			limit = {
-				var:epeace_val = { compare_value < 0 }
-			}
-			set_variable = { name = epeace_val value = 0 }
-		}
-
 		set_variable = { name = peace_val value = 0 }
 		heres_the_deal = {}
-
+		
 	}
 	epeace_rem_gold = { 
 
@@ -106,7 +99,7 @@
 			}
 		}
 
-		change_variable = { name = epeace_val subtract = 25 }
+		change_variable = { name = epeace_val add = -25 }
 			
 			if = {
 				limit = {
@@ -198,31 +191,7 @@
 				set_variable = { name = epeace_val value = 0 }
 				set_variable = { name = the_deal value = 0 }
 				set_variable = { name = peace_val value = 0 }
-				set_variable = { name = ex_warscore value = 0 }
-				remove_character_flag = humiliation
-				remove_character_flag = ehumiliation
-				remove_character_flag = f_conversion
-				remove_character_flag = ef_conversion
-				remove_character_flag = f_vassalize
-				remove_character_flag = ef_vassalize
-				remove_character_flag = f_stronghook
-				remove_character_flag = ef_stronghook
-				remove_character_flag = f_weakhook
-				remove_character_flag = ef_weakhook
-				remove_character_flag = war_rep
-				remove_character_flag = ewar_rep
-				remove_character_flag = f_inquis
-				remove_character_flag = ef_inquis
-				remove_character_flag = f_decimation
-				remove_character_flag = ef_decimation
-				remove_character_flag = f_sacrifice
-				remove_character_flag = ef_sacrifice
-				remove_character_flag = f_death
-				remove_character_flag = ef_death
-				remove_character_flag = j_marriage
-				remove_character_flag = ej_marriage
-				remove_character_flag = unconditional_surrender
-				remove_character_flag = eunconditional_surrender
+			
 				heres_the_deal = {}
 			
 			}
@@ -234,159 +203,74 @@
 #################
 	heres_the_deal = {
 
-		if = {
-			limit = {
-			NOT = { has_variable = the_deal }
-			}
-			set_variable = {
-				name = the_deal
-				value = 0
-			}
-		}
-		set_variable = { name = the_deal value = 0 }
-		root = {
-			every_in_list = {
-				variable = enemy_list
-				save_scope_as = dork
-			}
-		}
+				if = {
+					limit = {
+					NOT = { has_variable = the_deal }
+					}
+					set_variable = {
+						name = the_deal
+						value = 0
+					}
+				}
+				set_variable = { name = the_deal value = 0 }
 
 			#start deal scores
+
 
 				#start lands
 					every_in_list = {
 						variable = given_lands
-						save_scope_as = this_land
+			
 						if ={
 							limit = { tier = tier_county }
 							root = {
-								if  ={
-									limit = {
-										scope:dork= {
-											has_claim_on = this_land
-										}
-									}
-									change_variable = { name = the_deal add = 7 }
-								}
-								else = {
-									change_variable = { name = the_deal add = 15 }
-								}
+								change_variable = { name = the_deal add = 15 }
 							}
 						}
 						if ={
 							limit = { tier = tier_duchy }
 							root = {
-								if  ={
-									limit = {
-										scope:dork= {
-											has_claim_on = this_land
-										}
-									}
-									change_variable = { name = the_deal add = 15 }
-								}
-								else = {
-									change_variable = { name = the_deal add = 30 }
-								}
+								change_variable = { name = the_deal add = 30 }
 							}
 						}
 						if ={
 							limit = { tier = tier_kingdom }
 							root = {
-								if  ={
-									limit = {
-										scope:dork= {
-											has_claim_on = this_land
-										}
-									}
-									change_variable = { name = the_deal add = 60 }
-								}
-								else = {
-									change_variable = { name = the_deal add = 70 }
-								}
+								change_variable = { name = the_deal add = 50 }
 							}
 						}
 						if ={
 							limit = { tier = tier_empire }
 							root = {
-								if  ={
-									limit = {
-										scope:dork= {
-											has_claim_on = this_land
-										}
-									}
-									change_variable = { name = the_deal add = 90 }
-								}
-								else = {
-									change_variable = { name = the_deal add = 110 }
-								}
+								change_variable = { name = the_deal add = 70 }
 							}
 						}
 					}
 					every_in_list = {
 						variable = taken_lands
-						save_scope_as = this_land2
+			
 						if ={
 							limit = { tier = tier_county }
 							root = {
-								if  ={
-									limit = {
-										root = {
-											has_claim_on = scope:this_land2	
-										}
-									}
-									change_variable = { name = the_deal subtract = 7 }
-								}
-								else = {
-									change_variable = { name = the_deal subtract = 15 }
-								}
+								change_variable = { name = the_deal subtract = 15 }
 							}
 						}
 						if ={
 							limit = { tier = tier_duchy }
 							root = {
-								if  ={
-									limit = {
-										root = {
-											has_claim_on = scope:this_land2	
-										}
-									}
-									change_variable = { name = the_deal subtract = 15 }
-								}
-								else = {
-									change_variable = { name = the_deal subtract = 30 }
-								}
+								change_variable = { name = the_deal subtract = 30 }
 							}
 						}
 						if ={
 							limit = { tier = tier_kingdom }
 							root = {
-								if  ={
-									limit = {
-										root = {
-											has_claim_on = scope:this_land2	
-										}
-									}
-									change_variable = { name = the_deal subtract = 90 }
-								}
-								else = {
-									change_variable = { name = the_deal subtract = 120 }
-								}
+								change_variable = { name = the_deal subtract = 50 }
 							}
 						}
 						if ={
 							limit = { tier = tier_empire }
 							root = {
-								if  ={
-									limit = {
-										root = {
-											has_claim_on = scope:this_land2	
-										}
-									}
-									change_variable = { name = the_deal subtract = 140 }
-								}
-								else = {
-									change_variable = { name = the_deal subtract = 170 }
-								}
+								change_variable = { name = the_deal subtract = 70 }
 							}
 						}
 					}
@@ -492,7 +376,7 @@
 								scope:this_guy.primary_title.tier = tier_empire
 							}
 							root = {
-								change_variable = { name = the_deal add = 110 }
+								change_variable = { name = the_deal add = 70 }
 							}
 						}
 					}
@@ -536,7 +420,7 @@
 								scope:this_guy.primary_title.tier = tier_empire
 							}
 							root = {
-								change_variable = { name = the_deal subtract = 110 }
+								change_variable = { name = the_deal subtract = 70 }
 							}
 						}
 					}
@@ -650,281 +534,55 @@
 					}
 				#endgold
 				#warscore
-					every_character_war = {
-						limit = { 
-							is_attacker = root
-						}
-						save_scope_as = war
-						root = {
-							change_variable = { name = the_deal add = scope:war.attacker_war_score }
-						}
+				every_character_war = {
+					limit = { 
+						is_attacker = root
 					}
-					every_character_war = {
-						limit = { 
-							is_defender = root
-						}
-						save_scope_as = war
-						root = {
-							change_variable = { name = the_deal add = scope:war.defender_war_score }
-						}
+					save_scope_as = war
+					root = {
+						change_variable = { name = the_deal add = scope:war.attacker_war_score }
 					}
+				}
+				every_character_war = {
+					limit = { 
+						is_defender = root
+					}
+					save_scope_as = war
+					root = {
+						change_variable = { name = the_deal add = scope:war.defender_war_score }
+					}
+				}
 				#fear
-					if = {
-						limit ={
-							scope:dork = {
-								has_dread_level_towards = {
-									target = root
-									level = 1
-								}
+				if = {
+					limit ={
+						scope:dork = {
+							has_dread_level_towards = {
+								target = root
+								level = 1
 							}
 						}
-							change_variable = { name = the_deal add = 10 }
+						change_variable = { name = the_deal add = 5 }
 					}
-					if = {
-						limit ={
-							scope:dork = {
-								has_dread_level_towards = {
-									target = root
-									level = 2
-								}
+				}
+				if = {
+					limit ={
+						scope:dork = {
+							has_dread_level_towards = {
+								target = root
+								level = 2
 							}
 						}
-						change_variable = { name = the_deal add = 20 }		
+						change_variable = { name = the_deal add = 10 }
 					}
+				}
 				#rivals
-					if = {
-						limit = {
-							scope:dork = { has_relation_rival = root }
-						}
-						change_variable = { name = the_deal subtract = 20 }
-					}
-				#Treaties
-					if = {
-						limit = {
-							has_character_flag = unconditional_surrender
-						}
-						change_variable = { name = the_deal add = 100 }
-					}
-					if = {
-						limit = {
-							has_character_flag = eunconditional_surrender
-						}
-						change_variable = { name = the_deal subtract = 100 }
-					}
-					if = {
-						limit = {
-							has_character_flag = humiliation
-						}
-						change_variable = { name = the_deal add = 40 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ehumiliation
-						}
-						change_variable = { name = the_deal subtract = 40 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_conversion
-						}
-						change_variable = { name = the_deal add = 20}
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_conversion
-						}
-						change_variable = { name = the_deal subtract = 30 }
-					}
-					if = {
-						limit = {
-							has_character_flag = j_marriage
-						}
-						change_variable = { name = the_deal add = 20 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ej_marriage
-						}
-						change_variable = { name = the_deal subtract = 50 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_vassalize
-						}
-						change_variable = { name = the_deal add = 40 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_vassalize
-						}
-						change_variable = { name = the_deal subtract = 70 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_stronghook
-						}
-						change_variable = { name = the_deal add = 60 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_stronghook
-						}
-						change_variable = { name = the_deal subtract = 100 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_weakhook
-						}
-						change_variable = { name = the_deal add = 40 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_weakhook
-						}
-						change_variable = { name = the_deal subtract = 80 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_death
-						}
-						change_variable = { name = the_deal add = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_death
-						}
-						change_variable = { name = the_deal subtract = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = war_rep
-						}
-						change_variable = { name = the_deal add = 15 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ewar_rep
-						}
-						change_variable = { name = the_deal subtract = 30 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_decimation
-						}
-						change_variable = { name = the_deal add = 90 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_decimation
-						}
-						change_variable = { name = the_deal subtract = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_sacrifice
-						}
-						change_variable = { name = the_deal add = 90 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_sacrifice
-						}
-						change_variable = { name = the_deal subtract = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = f_inquis
-						}
-						change_variable = { name = the_deal add = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_inquis
-						}
-						change_variable = { name = the_deal subtract = 130 }
-					}
-				#end treaty
-				#SPP
-					if = {
-						limit = {
-							has_dynasty_perk = erudition_legacy_5
-						}
-						change_variable = { name = the_deal add = 50 }
-					}
-
-				#
-				#EXTENDED WARSCORE
-					
-				#Add EXT WARSCORE
-					set_variable = { name = ex_warscore value = 0 }
-					change_variable = { name = ex_warscore add = root.var:ex_impr }
-					change_variable = { name = ex_warscore add = root.var:ex_occu }
-					change_variable = { name = ex_warscore add = root.var:ex_batl }
 				if = {
 					limit = {
-						var:ex_warscore = { compare_value > 100 }
-					}				
-					change_variable = { name = ex_warscore subtract = 100 }
-					change_variable = { name = the_deal add = root.var:ex_warscore }
-				}			
-				
+						scope:dork = { has_relation_rival = root }
+					}
+					change_variable = { name = the_deal add = -10 }
+				}
 	}
-	add_ex_impr = { 
-
-		set_variable = { name = ex_impr value = 0 }
-		set_variable = { name = mcss value = 0 }
-		change_variable = { name = ex_impr add = $tal$ }
-		change_variable = { name = ex_impr multiply = 100 }
-		set_variable = { name = ex_occu value = 0 }
-		change_variable = { name = ex_occu add = $cal$ }
-		change_variable = { name = ex_occu multiply = 100 }
-		set_variable = { name = ex_batl value = 0 }
-		change_variable = { name = ex_batl add = $dal$ }
-		change_variable = { name = ex_batl multiply = 100 }
-		change_variable = { name = mcss add = $tal$ }
-		change_variable = { name = mcss add = $cal$ }
-		change_variable = { name = mcss add = $dal$ }
-		change_variable = { name = mcss multiply = 100 }
-		
-
-	}
-
 ###########
 # End Deal
 ###########
-#1. Unconditional Surrender
-#	- Need a clear effect
-#2. Humiliation
-#	- DESC: Lose 1 level of Piety , Lose 1 level of Prestuge, Lose 1 Level of Dynasty Prestige
-#	- Condition:none
-#3. Conversion 
-#	- DESC: Converts the other party or converts to the other parites faith.
-#	- Condition: none ; debating trait zealous/faith warrior (user)
-#4. Peace Through Marriage
-#	- DESC: Family of root marries Family of opponent, vice versa.
-#	- Condition: none
-#5. Vassilation (condition NOT same tier)
-#	- DESC:Becomes a vassal
-#	- Condition: (user) has trait Diplomat
-#6. Strong Hook
-#	- DESC: Gets/Gives Strong Hook
-#	- Condition: (user) has dynasty perk, erudition_legacy_5 #! the Highest in Dynasty Perks for the category.
-#7. Weak Hook
-#	- DESC; Gets/Gives Weak Hook
-#	- Condition: (user) has trait education_diplomacy_3 or 4
-#8. Suicide
-#	- DESC: War is ended, after primary takes their own life./or Hands themself over to die.
-#	- Condition: (user and target) has trait zealous or crusader/faith warrior OR culture: Japan, North East region. 
-#9. War Reparations
-#	- DESC: (target) Member pays long term gold, Income avg% for next 5 years
-#	- Condition: (user) Has trait greed
-#10. Decimation
-#	- DESC: (target) Member loses 1 level of Prestige, half of vassals are whipped to death.
-#	- Condition: (user) has trait sadistic
-#11. Sacrifice 
-#	- DESC: (target) All lands are raided, lands get negative developement level. (user) gets gold from provinces, (target) All vassals killed, crucified (target) survives and keeps titles, gets negative opinion modifers, -1 level of Prestige, -1 level of Dynasty Prestige.
-#	- Condition: (user) has faith doctrine: tenet_human_sacrifice , has trait sadistic / IS witch/
-#12. Inquisition
-#	- DESC: (target) converts to (user) faith, along with lands.
-#	- Condition: (user) faith catholic, (target) NOT catholic, IS Vassal.
-#- nobody expected this! converts realm

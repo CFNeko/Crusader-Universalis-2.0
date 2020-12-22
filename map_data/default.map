@@ -1,6 +1,6 @@
 #max_provinces = 1466
 definitions = "definition.csv"
-provinces = "provinces.png"
+provinces = "simple_provinces.png"
 #positions = "positions.txt"
 rivers = "rivers.png"
 #terrain_definition = "terrain.txt"
@@ -16,11 +16,11 @@ seasons = "seasons.txt"
 #############
 # SEA ZONES
 #############
-sea_zones = RANGE { 14374 15132 }
+sea_zones = RANGE { 14196 14954 }
 ###############
 # MAJOR RIVERS
 ###############
-river_provinces = RANGE { 15133 16062 }
+river_provinces = RANGE { 14955 15884 }
 ########
 # LAKES
 ########
