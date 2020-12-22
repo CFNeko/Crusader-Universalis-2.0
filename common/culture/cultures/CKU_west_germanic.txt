@@ -1,0 +1,546 @@
+﻿west_germanic_group = {
+	graphical_cultures = {
+		western_coa_gfx
+		western_building_gfx
+		western_clothing_gfx
+		western_unit_gfx
+	}
+
+	english = {
+	    graphical_cultures = {
+			english_coa_gfx
+		}
+		
+		color = rgb { 190 0 0 }
+
+		cadet_dynasty_names = {
+        dynn_spencer
+		dynn_wellington
+		dynn_davidson
+		dynn_clarkson
+		dynn_ashley_cooper
+		dynn_battenberg
+		dynn_baden_powell
+		dynn_mortimer
+		dynn_lowry_corry
+		dynn_gough_calthorpe
+		dynn_de_mowbray
+		dynn_mowbray
+		dynn_giffard
+		dynn_de_dinham
+		dynn_dinham
+		dynn_de_grandison
+		dynn_de_la_warr
+		dynn_clavering
+		dynn_de_muncy
+		dynn_clinton
+		dynn_de_valence
+		dynn_la_latimer
+		dynn_latimer
+		dynn_hussey
+		}
+
+		dynasty_names = {
+		dynn_abney
+		dynn_abrahamson
+		dynn_adams
+		dynn_albertson
+	    dynn_appleby
+		dynn_appleton
+		dynn_arle
+		dynn_asquith
+		dynn_ashley
+		dynn_ashworth
+		dynn_aston
+		dynn_astley
+		dynn_audley
+		dynn_bardsley
+		dynn_baskerville
+		dynn_bates
+		dynn_beasley
+		dynn_bellamy
+		dynn_bentley
+		dynn_benton
+		dynn_berkeley
+		dynn_berry
+		dynn_beresford
+		dynn_beaman
+		dynn_beaumont
+		dynn_beaufort
+		dynn_beauclerk
+		dynn_beatty
+		dynn_benjaminson
+		dynn_bettencourt
+		dynn_b_eroub_e
+		dynn_bonner
+		dynn_brando
+		dynn_branson
+		dynn_brassey
+		dynn_brebeuf
+		dynn_bidault
+		dynn_brudenell
+		dynn_bruce
+		dynn_boyle
+		dynn_buxton
+		dynn_buffett
+		dynn_burnouf
+		dynn_butler
+		dynn_byron
+		dynn_campion
+		dynn_camoys
+		dynn_capell
+		dynn_carlisle
+		dynn_catesby
+		dynn_clifford
+		dynn_cheney
+		dynn_chandos
+		dynn_chadwick
+		dynn_churchill
+		dynn_courtney
+		dynn_courtenay
+		dynn_coventry
+		dynn_conyngham
+		dynn_cromwell
+		dynn_dagworth
+		dynn_de_bohun
+		dynn_de_la_armagnac
+		dynn_de_la_hay
+		dynn_delahaye
+		dynn_de_la_pole
+		dynn_de_montfort
+		dynn_de_vere
+		dynn_devereux
+		dynn_dubosc
+		dynn_dudley
+		dynn_dior
+		dynn_dormer
+		dynn_digby
+		dynn_erpingham
+		dynn_fawkes
+		dynn_fairfax
+		dynn_frankland
+		dynn_feilding
+		dynn_fortescue
+		dynn_fiennes
+		dynn_granville
+		dynn_harvey
+		dynn_hastings
+		dynn_harcourt
+		dynn_herbert
+		dynn_howard
+		dynn_johnson
+		dynn_kenworthy
+		dynn_la_despenser
+		dynn_lambton
+		dynn_lore
+		dynn_loh_eac
+		dynn_lumley
+		dynn_neville
+		dynn_manny
+		dynn_maxwell
+		dynn_montfort
+		dynn_osborne
+		dynn_robertson
+		dynn_russell
+		dynn_paget
+		dynn_paulet
+		dynn_peel
+		dynn_percy
+		dynn_pease
+		dynn_powell
+		dynn_poulett
+		dynn_savile
+		dynn_scales
+		dynn_seymour
+		dynn_stanley
+		dynn_talbot
+		dynn_tresham
+		dynn_tuberville
+		dynn_wintour
+		}
+
+		male_names = {
+		Aaron Adam Abraham Amis Albert Alexander Anabelle Anthony Andrew Arthur Augustus Bate Barnard Brian Christopher Cecil Cedric David Edward Edmund Elric Elis Eric George Geoffrey Guy Godfrey Harry Harold Hector Henry Hugh James Julius Julian 
+		John Walter William Oswald Marlin Martin Marvin Mark Maurice Matthew Michael Nicholas Thomas Ralph Raymond Randolph Richard Robert Roderick Rupert Francis Laurence Stephen Paul Peter Philip Simon Theobald Louis Lewis Stephanie Frederick
+		}
+		female_names = {
+		Aaren Abby Adelaide Alexendra Alice Diot Elizabeth Emma Jennifer Marilyn Mary Margaret Matilda Ida Isabel Lily Jean
+		}
+		
+		dynasty_title_names = no
+		
+		dynasty_of_location_prefix = "dynnp_of"
+		bastard_dynasty_prefix = "dynnp_fitz"
+
+		patronym_suffix_male = "dynnpat_suf_son"
+		patronym_suffix_female = "dynnpat_suf_son"
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 40
+		
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+	}
+	
+	scots = {
+	    graphical_cultures = {
+			scottish_coa_gfx
+		}
+		
+		color = rgb { 190 130 0 }
+
+		cadet_dynasty_names = {
+        dynn_dunn
+		dynn_macdavids
+		dynn_macwallace
+		dynn_macgregor
+		dynn_mackeith
+		}
+
+		dynasty_names = {
+		dynn_abernathy
+		dynn_acheson
+		dynn_addair
+		dynn_addison
+		dynn_affleck
+		dynn_alan
+		dynn_atkinson
+		dynn_baird
+		dynn_begbie
+		dynn_bruce
+		dynn_blackwood
+		dynn_breckenridge
+		dynn_carson
+		dynn_clacher
+		dynn_coutts
+		dynn_craig
+		dynn_dallas
+		dynn_david
+		dynn_davies
+		dynn_davis
+		dynn_dunbar
+		dynn_duncan
+		dynn_duncanson
+		dynn_dunn
+		dynn_douglas
+		dynn_fairbairn
+		dynn_faulkner
+		dynn_ferguson
+		dynn_frazier
+		dynn_fraser
+		dynn_gibson
+		dynn_gordon
+		dynn_graham
+		dynn_de_graham
+		dynn_greer
+		dynn_haig
+		dynn_henderson
+		dynn_holmes
+		dynn_houston
+		dynn_irvine
+		dynn_irving
+		dynn_innes
+		dynn_jackson
+		dynn_jardine
+		dynn_johnston
+		dynn_kerr
+		dynn_keith
+		dynn_kelly
+		dynn_kennoway
+		dynn_kendrick
+		dynn_kinnaird
+		dynn_kyle
+		dynn_lennox
+		dynn_lester
+		dynn_leslie
+		dynn_lindsay
+		dynn_lithgow
+		dynn_logan
+		dynn_mcalister
+		dynn_mcnab
+		dynn_macangus
+		dynn_maccallion
+		dynn_maccrum
+		dynn_macdonald
+		dynn_mcfarlane
+		dynn_mackay
+		dynn_mcarthur
+		dynn_mcafee
+		dynn_mcrae
+		dynn_melville
+		dynn_montgomery
+		dynn_ness
+		dynn_paterson
+		dynn_ramsey
+		dynn_sanders
+		dynn_scott
+		dynn_sterling
+		dynn_stewart
+		dynn_stuart
+		dynn_sutherland
+		dynn_thorburn
+		dynn_wallace
+		dynn_wallis
+		dynn_watson
+		}
+
+		male_names = {
+		Alexander Aifric Aidan Andrew Alan Angus Christopher Christian David Donald Duncan Ewan Evander Fergus Hector Gregor Gordon James Henry Harry Ian Julian John Finley Keith Lennox Logan Nicholas Malcolm Ranulf Randolf 
+		Ronald Roy Scott Stephan Thomas Wallace William 
+		}
+		female_names = {
+		Alexandra Alice Christina Elizabeth Malina Margaret Moira Finley Fiona Jean Edna Eilionoir Iona Keavy 
+		}
+		
+		dynasty_title_names = no
+		
+		dynasty_of_location_prefix = "dynnp_of"
+
+		patronym_prefix_male = "dynnpat_pre_Mac"
+		patronym_prefix_female = "dynnpat_pre_Mac"
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 40
+		
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		ethnicities = {
+			25 = caucasian_blond
+			25 = caucasian_ginger
+			35 = caucasian_brown_hair
+			15 = caucasian_dark_hair
+		}
+	}
+
+	hiberno_norman = {
+	    graphical_cultures = {
+			irish_coa_gfx
+		}
+		
+		color = rgb { 180 150 80 }
+
+		cadet_dynasty_names = {
+        { "dynnp_de" dynn_pale }
+		{ "dynnp_de" dynn_dublin }
+		{ "dynnp_de" dynn_tyrone }
+		dynn_fitzguy
+		dynn_fitzedouard
+		dynn_barrett
+		}
+
+		dynasty_names = {
+		dynn_burkes
+		dynn_butlers
+		dynn_carew
+		dynn_clanricarde
+		dynn_cusack
+		dynn_colbert
+		{ "dynnp_de" dynn_barry }
+		{ "dynnp_de" dynn_clare }
+		{ "dynnp_de" dynn_tancerville }
+		{ "dynnp_de" dynn_lacy }
+		{  "dynnp_de" dynn_arcy }
+		dynn_plunkett
+		dynn_savage
+		{  "dynnp_de" dynn_troyes }
+		dynn_fitzgerald
+		dynn_fitzgilbert
+		dynn_fitzmaurice
+		dynn_fitzpatrick
+		dynn_fitzduncan
+		dynn_fitzralph
+		dynn_fitzhenry
+		dynn_fitzpernel
+		dynn_fitzrobert
+		dynn_fitzeustache
+		}
+
+		male_names = {
+		Achard alb_eric alb_ert Alfred Aisling Brendan B_ernab_e Cadogan Caoimh_in Clovis Danni_e Dgib_ert Edward _Eibhear Farquhar Fionbharr George J_acob John Louis Martin Nicolas Philippe Richard Ralph William Thorold Galfrid Alvery Ottiwell
+		}
+		female_names = {
+		Allion_ora Anstace Aign_es Ascelina Ellice Mary Gillie Ortlina Ismay Primeveire Frethesenta Margerie
+		}
+		
+		patronym_prefix_male = "dynnpat_pre_fitz"
+		patronym_prefix_female = "dynnpat_pre_fitz"
+		always_use_patronym = yes
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 40
+		
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		dynasty_title_names = no
+		
+		ethnicities = {
+			20 = caucasian_blond
+			40 = caucasian_ginger
+			30 = caucasian_brown_hair
+			10 = caucasian_dark_hair
+		}
+	}
+	ulster_scots = {
+	    graphical_cultures = {
+			scottish_coa_gfx
+		}
+		
+		color = rgb { 255 210 0 }
+
+		cadet_dynasty_names = {
+        dynn_spencer
+		dynn_wellington
+		dynn_davidson
+		dynn_clarkson
+        dynn_dunn
+		dynn_macdavids
+		dynn_macwallace
+		dynn_macgregor
+		dynn_mackeith
+		}
+
+		dynasty_names = {
+		dynn_abernathy
+		dynn_acheson
+		dynn_addair
+		dynn_addison
+		dynn_affleck
+		dynn_alan
+		dynn_atkinson
+		dynn_baird
+		dynn_begbie
+		dynn_bruce
+		dynn_blackwood
+		dynn_breckenridge
+		dynn_campbell
+		dynn_carson
+		dynn_clacher
+		dynn_coutts
+		dynn_craig
+		dynn_dallas
+		dynn_david
+		dynn_davies
+		dynn_davis
+		dynn_dunbar
+		dynn_duncan
+		dynn_duncanson
+		dynn_douglas
+		dynn_doherty
+		dynn_dunn
+		dynn_fairbairn
+		dynn_faulkner
+		dynn_ferguson
+		dynn_frazier
+		dynn_fraser
+		dynn_gibson
+		dynn_gordon
+		dynn_graham
+		dynn_de_graham
+		dynn_greer
+		dynn_haig
+		dynn_henderson
+		dynn_holmes
+		dynn_houston
+		dynn_irvine
+		dynn_irving
+		dynn_innes
+		dynn_jackson
+		dynn_jardine
+		dynn_johnston
+		dynn_kerr
+		dynn_keith
+		dynn_kelly
+		dynn_kennoway
+		dynn_kendrick
+		dynn_kinnaird
+		dynn_kyle
+		dynn_lennox
+		dynn_lester
+		dynn_leslie
+		dynn_lindsay
+		dynn_lithgow
+		dynn_lumley
+		dynn_neville
+		dynn_manny
+		dynn_mcalister
+		dynn_mcnab
+		dynn_macangus
+		dynn_maccallion
+		dynn_maccrum
+		dynn_mcdermott
+		dynn_macdonald
+		dynn_mcfarlane
+		dynn_mackay
+		dynn_mcarthur
+		dynn_mcafee
+		dynn_mcrae
+		dynn_mclaughlin
+		dynn_melville
+		dynn_montgomery
+		dynn_moore
+		dynn_ness
+		dynn_paterson
+		dynn_ramsey
+		dynn_robertson
+		dynn_russell
+		dynn_paget
+		dynn_paulet
+		dynn_peel
+		dynn_percy
+		dynn_sanders
+		dynn_scott
+		dynn_sterling
+		dynn_sutherland
+		dynn_thorburn
+		dynn_wallace
+		dynn_wallis
+		dynn_watson
+		dynn_quigley
+		}
+
+		male_names = {
+		Alexander Aifric Aidan Andrew Alan Angus Christopher Christian David Donald Duncan Ewan Evander Fergus Hector Gregor Gordon James Henry Harry Ian Julian John Finley Keith Lennox Logan Nicholas Malcolm Ranulf Randolf 
+		Ronald Roy Scott Stephan Thomas Wallace William Oswald Marlin Martin Marvin Mark
+		}
+		female_names = {
+		Alexandra Alice Aidan Christina Elizabeth Malina Margaret Moira Finley Fiona Edna Eleanor Mary Emma Jennifer
+		}
+		
+		dynasty_title_names = no
+		
+		dynasty_of_location_prefix = "dynnp_of"
+
+		patronym_prefix_male = "dynnpat_pre_Mac"
+		patronym_prefix_female = "dynnpat_pre_Mac"
+		
+		pat_grf_name_chance = 50
+		mat_grf_name_chance = 10
+		father_name_chance = 40
+		
+		pat_grm_name_chance = 50
+		mat_grm_name_chance = 10
+		mother_name_chance = 40
+		
+		ethnicities = {
+			20 = caucasian_blond
+			35 = caucasian_ginger
+			30 = caucasian_brown_hair
+			15 = caucasian_dark_hair
+		}
+	}
+}
