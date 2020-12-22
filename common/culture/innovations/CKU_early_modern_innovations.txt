@@ -30,7 +30,7 @@
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
 @arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
-@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+@culverin = "gfx/interface/icons/culture_innovations/culverin.dds"
 @pike_square = "gfx/interface/icons/culture_innovations/innovation_pike_square.dds"
 #@pike_shot = "gfx/interface/icons/culture_innovations/innovation_pike_shot.dds"
 @inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
