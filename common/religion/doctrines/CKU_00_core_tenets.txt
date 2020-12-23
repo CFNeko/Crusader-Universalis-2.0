@@ -1,0 +1,96 @@
+﻿doctrine_core_tenets = {
+	group = "core_tenets"
+	number_of_picks = 3
+
+	#####################
+	# CKU Custom Tenets	#
+	#####################
+
+	tenet_mass_translation = {
+		icon = core_tenet_bigbook
+		piety_cost = {
+			if = {
+				limit = {
+					OR = {
+						religion_tag = christianity_religion
+						religion_tag = judaism_religion
+						religion_tag = islam_religion
+					}
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_mid
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_mass_translation }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			has_doctrine = abrahamic_hostility_doctrine
+		}
+
+		can_pick = {
+			always = yes
+		}
+		
+		parameters = {
+			mendicant_preachers_conversion_active = yes
+			#temporary until I add my own modifier
+		}	
+
+		character_modifier = {
+			faith_creation_piety_cost_mult = -0.20			
+		}
+
+	}
+	
+	#############################
+	# Empty Template Tenet 		#
+	#############################
+
+	tenets = {
+		is_shown = {
+			always = no
+		}
+		can_pick = {
+			always = yes
+		}
+
+		piety_cost = {
+			if = {
+				limit = {
+					always = no
+				}
+				value = faith_tenet_cost_low
+			}
+			else = {
+				value = faith_tenet_cost_massive
+			}
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenets }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		parameters = {
+			tenets_active = yes
+		}
+
+		character_modifier = {
+
+		}
+
+		traits = {
+			virtues = { brave = 2}
+			sins = { craven = 2}
+		}
+	}
+}
+

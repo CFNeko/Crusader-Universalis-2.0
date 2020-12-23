@@ -1,0 +1,728 @@
+############################################################
+# START TITLES
+###########################################################
+	enemy_lands = {
+		scope = character
+
+		effect = {
+			root = {
+				every_primary_war_enemy = {
+					save_scope_as = dork
+						root = {
+							add_to_variable_list = {
+								name = enemy_list
+								target = prev
+							}
+						}
+				}
+
+
+				every_in_list = {
+					variable = enemy_list
+					every_held_title = {
+						
+						limit = { NOT = { tier = tier_barony } }
+						root = {
+							add_to_variable_list = {
+								name = enemys_land
+								target = prev
+							}
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+
+	my_landia = {
+		scope = character
+		effect = {
+			root = {
+				every_held_title = {
+				
+					limit = { 
+						AND = {
+							NOT = { tier = tier_barony }
+							NOT = { this = root.primary_title }
+							NOT = { this = root.capital_province.county }
+						}
+					}
+					root = {
+						add_to_variable_list = {
+							name = my_lands
+							target = prev
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+# END LANDS
+############################################################
+# START CLAIMS
+###########################################################
+	enemy_claims = {
+		scope = character
+
+		effect = {
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					
+					every_claim = {
+						limit = { NOT = { tier = tier_barony } }
+						root = {
+							add_to_variable_list = {
+								name = enemys_claim
+								target = prev
+							}
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+
+	my_claim = {
+		scope = character
+
+		effect = {
+			root = {
+				every_claim = {
+					limit = { NOT = { tier = tier_barony } }
+					root = {
+						add_to_variable_list = {
+							name = my_claims
+							target = prev
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+
+# END CLAIMS
+###########################################################
+# START TITLES
+###########################################################
+	enemy_vassals = {
+		scope = character
+		effect = {
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+				scope:dork = {
+					every_vassal = {
+						root = {
+							add_to_variable_list = {
+								name = enemys_vassal
+								target = prev
+							}
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+
+	my_vassals = {
+		scope = character
+		effect = {
+			root = {
+				every_vassal = {
+					root = {
+						add_to_variable_list = {
+							name = your_vassals
+							target = prev
+						}
+					}
+				}
+				heres_the_deal = {}
+			}
+		}
+	}
+# END VASSALS
+###########################################################
+# START GIVING
+###########################################################
+	add_domain_give = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = given_lands target = scope:target }
+				}
+				remove_list_variable = { name = given_lands target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = given_lands
+					target = scope:target
+				}
+			}
+			root = {
+				heres_the_deal = {}
+			}
+		}
+	}
+	add_claim_give = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = given_claims target = scope:target }
+				}
+				remove_list_variable = { name = given_claims target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = given_claims
+					target = scope:target
+				}
+			}
+		root = {
+				heres_the_deal = {}
+			}	
+		}
+	}
+	add_vassal_give = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = given_vassals target = scope:target }
+				}
+				remove_list_variable = { name = given_vassals target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = given_vassals
+					target = scope:target
+				}
+			}
+			root = {
+				heres_the_deal = {}
+			}	
+		}
+	}
+# END GIVING
+###########################################################
+# START TAKING
+###########################################################
+	add_domain_take = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = taken_lands target = scope:target }
+				}
+				remove_list_variable = { name = taken_lands target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = taken_lands
+					target = scope:target
+				}
+			}
+			root = {
+				heres_the_deal = {}
+			}
+		}
+	}
+	add_claim_take = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = taken_claims target = scope:target }
+				}
+				remove_list_variable = { name = taken_claims target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = taken_claims
+					target = scope:target
+				}
+			}
+			root = {
+				heres_the_deal = {}
+			}
+		}
+	}
+	add_vassal_take = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = taken_vassals target = scope:target }
+				}
+				remove_list_variable = { name = taken_vassals target = scope:target }
+			}
+			else_if = {
+				add_to_variable_list = {
+					name = taken_vassals
+					target = scope:target
+				}
+			}
+			root = {
+				heres_the_deal = {}
+			}
+		}
+	}
+# END TAKING
+###########################################################
+# START PEACE TALKS
+###########################################################
+	# START ROOT SIDE
+		the_peace_effect = {
+			scope = character
+
+				effect = {
+					root = {
+
+						every_in_list = {
+							variable = enemy_list
+							save_scope_as = dork
+						}
+						every_in_list = {
+							variable = given_lands
+
+						create_title_and_vassal_change = {
+							type = created
+							save_scope_as = title_change
+							add_claim_on_loss = no
+						}
+
+						change_title_holder = {
+							holder = scope:dork
+							change = scope:title_change
+						}
+						resolve_title_and_vassal_change = scope:title_change
+						}
+
+
+						every_in_list = {
+							variable = given_claims
+							scope:dork = {
+								add_pressed_claim = prev
+							}
+
+							root = {
+								remove_claim = prev
+							}
+						}
+
+
+
+						every_in_list = {
+							variable = given_vassals
+
+							create_title_and_vassal_change = {
+								type = returned
+								save_scope_as = change
+								add_claim_on_loss = no
+							}
+							change_liege = {
+								liege = scope:dork
+								change = scope:change
+							}
+							
+							resolve_title_and_vassal_change = scope:change
+						}
+						if = {
+							limit = {
+								var:peace_val = { compare_value > 1 }
+							}
+							pay_short_term_gold = {
+								gold = root.var:peace_val
+								target = scope:dork
+							}
+						}
+					every_prisoner = {
+						limit = { 
+							liege = scope:dork 
+						}
+						release_from_prison = yes 
+						add_opinion = {
+							modifier = released_from_prison
+							target = root
+						}							
+					}
+
+
+					}
+				}
+
+
+		}
+	# END ROOT SIDE
+	# START ENEMY SIDE
+		the_peace_effect2 = {
+			scope = character
+
+
+
+			effect = {
+				root = {
+
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+					every_in_list = {
+							variable = taken_lands
+
+						create_title_and_vassal_change = {
+							type = created
+							save_scope_as = title_change
+							add_claim_on_loss = no
+						}
+
+						change_title_holder = {
+							holder = root
+							change = scope:title_change
+						}
+						resolve_title_and_vassal_change = scope:title_change
+					}
+
+
+					every_in_list = {
+						variable = taken_claims
+						root = {
+							add_pressed_claim = prev
+						}
+
+						scope:dork = {
+							remove_claim = prev
+						}
+					}
+
+
+
+					every_in_list = {
+						variable = taken_vassals
+
+						create_title_and_vassal_change = {
+							type = returned
+							save_scope_as = change
+							add_claim_on_loss = no
+						}
+						change_liege = {
+							liege = root
+							change = scope:change
+						}
+						
+						resolve_title_and_vassal_change = scope:change
+					}
+					if = {
+						limit = {
+							var:epeace_val = { compare_value > 1 }
+						}
+						scope:dork = {
+							pay_short_term_gold = {
+								gold = root.var:epeace_val
+								target = root
+							}
+						}
+					}
+
+					scope:dork= {
+						every_prisoner = {
+							limit = { 
+								liege = root 
+							}
+							release_from_prison = yes 
+							add_opinion = {
+								modifier = released_from_prison
+								target = scope:dork
+							}							
+						}
+					}
+
+				
+					
+				}
+			}
+		}
+	# END ENEMY SIDE
+	# FINAL DEAL
+		final_deal = {
+			scope = character
+
+			is_shown = {
+				custom_description = {
+					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
+					var:the_deal > 110
+				}
+			}
+
+			is_valid ={
+
+				custom_description = {
+					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
+					var:the_deal > 110
+				}
+				custom_description = {
+					text = "[Localize('Target is Human Player')]"
+					root = {
+						every_in_list = {
+							variable = enemy_list
+							is_ai = yes
+						}
+					}
+				}
+			
+			}
+			effect = {
+				root = {
+
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+					every_in_list = {
+						variable = given_lands
+
+					create_title_and_vassal_change = {
+						type = created
+						save_scope_as = title_change
+						add_claim_on_loss = no
+					}
+
+					change_title_holder = {
+						holder = scope:dork
+						change = scope:title_change
+					}
+					resolve_title_and_vassal_change = scope:title_change
+					}
+
+
+					every_in_list = {
+						variable = given_claims
+						scope:dork = {
+							add_pressed_claim = prev
+						}
+
+						root = {
+							remove_claim = prev
+						}
+					}
+
+
+
+					every_in_list = {
+						variable = given_vassals
+
+						create_title_and_vassal_change = {
+							type = returned
+							save_scope_as = change
+							add_claim_on_loss = no
+						}
+						change_liege = {
+							liege = scope:dork
+							change = scope:change
+						}
+						
+						resolve_title_and_vassal_change = scope:change
+					}
+
+
+	
+					if = {
+						limit = {
+							var:peace_val = { compare_value > 1 }
+						}
+						pay_short_term_gold = {
+							gold = root.var:peace_val
+							target = scope:dork
+						}
+					}
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+					every_in_list = {
+							variable = taken_lands
+
+						create_title_and_vassal_change = {
+							type = created
+							save_scope_as = title_change
+							add_claim_on_loss = no
+						}
+
+						change_title_holder = {
+							holder = root
+							change = scope:title_change
+						}
+						resolve_title_and_vassal_change = scope:title_change
+					}
+
+
+					every_in_list = {
+						variable = taken_claims
+						root = {
+							add_pressed_claim = prev
+						}
+
+						scope:dork = {
+							remove_claim = prev
+						}
+					}
+
+
+
+					every_in_list = {
+						variable = taken_vassals
+
+						create_title_and_vassal_change = {
+							type = returned
+							save_scope_as = change
+							add_claim_on_loss = no
+						}
+						change_liege = {
+							liege = root
+							change = scope:change
+						}
+						
+						resolve_title_and_vassal_change = scope:change
+					}
+
+					if = {
+						limit = {
+							var:epeace_val = { compare_value > 1 }
+						}					
+						scope:dork = {
+							pay_short_term_gold = {
+								gold = root.var:epeace_val
+								target = root
+							}
+						}
+					}
+
+					every_prisoner = {
+						limit = { 
+							liege = scope:dork 
+						}
+						release_from_prison = yes 
+						add_opinion = {
+							modifier = released_from_prison
+							target = root
+						}							
+					}
+
+					scope:dork= {
+						every_prisoner = {
+							limit = { 
+								liege = root 
+							}
+							release_from_prison = yes 
+							add_opinion = {
+								modifier = released_from_prison
+								target = scope:dork
+							}							
+						}
+					}
+					every_character_war = {
+						end_war = invalidated
+					}
+				}
+			}
+		}
+	# DEAL SCORE
+		deal_score = {
+
+			scope = character
+
+			is_shown = {
+				custom_description = {
+					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
+					#text = "Reason 1"
+					var:the_deal < 111
+				}
+			}
+
+		}
+##########################################################
+# END PEACE TALKS
+######################################################### 
+# MISC
+#########################################################
+	rem_my_enemy = {
+		effect = {
+			root = {
+				clear_variable_list = enemy_list
+			}
+		}
+	}
+	title_select = {
+
+		scope = title
+		effect = {
+
+			if = {
+				limit ={
+					has_variable = is_selected
+				}
+		
+				remove_variable = is_selected
+			}
+			else = {
+				set_variable = {
+					name = is_selected
+					value = flag:selected
+				}
+			}
+		}
+	}
+	char_select = {
+
+		scope = character
+		effect = {
+
+			if = {
+				limit ={
+					has_variable = is_selected
+				}
+		
+				remove_variable = is_selected
+			}
+			else = {
+				set_variable = {
+					name = is_selected
+					value = flag:selected
+				}
+			}
+		}
+	}
+##########################################################
