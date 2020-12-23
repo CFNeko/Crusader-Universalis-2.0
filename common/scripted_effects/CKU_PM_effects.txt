@@ -1,0 +1,588 @@
+
+###############
+# Gold Effects
+###############
+	peace_add_gold = { 
+		if = {
+			limit = {
+			NOT = { has_variable = peace_val }
+			}
+			set_variable = {
+				name = peace_val
+				value = 0
+			}
+		}
+			change_variable = { name = peace_val add = 25 }
+
+
+
+			if = {
+				limit = {
+					var:peace_val = { compare_value > root.current_gold_value }
+				}
+				set_variable = { name = peace_val value = current_gold_value }
+			}
+			set_variable = { name = epeace_val value = 0 }
+			heres_the_deal = {}
+	}
+	peace_rem_gold = { 
+
+		if = {
+			limit = {
+			NOT = { has_variable = peace_val }
+			}
+			set_variable = {
+				name = peace_val
+				value = 0
+			}
+		}
+
+		change_variable = { name = peace_val add = -25 }
+			
+		if = {
+			limit = {
+				var:peace_val = { compare_value < 1 }
+			}
+			set_variable = { name = peace_val value = 0 }
+		}
+		set_variable = { name = epeace_val value = 0 }
+		heres_the_deal = {}
+	}
+
+	peace_reset_gold = { 
+
+		set_variable = {
+			name = peace_val
+			value = 0
+		}
+		heres_the_deal = {}
+	}
+
+	epeace_add_gold = { 
+
+		every_in_list = {
+			variable = enemy_list
+			save_scope_as = dork
+		}
+
+		if = {
+			limit = {
+			NOT = { has_variable = epeace_val }
+			}
+			set_variable = {
+				name = epeace_val
+				value = 0
+			}
+		}
+		change_variable = { name = epeace_val add = 25 }
+
+		if = {
+			limit = {
+				var:epeace_val = { compare_value > scope:dork.current_gold_value }
+			}
+			set_variable = { name = epeace_val value = scope:dork.current_gold_value }
+		}
+		set_variable = { name = peace_val value = 0 }
+		heres_the_deal = {}
+		
+	}
+	epeace_rem_gold = { 
+
+
+		if = {
+			limit = {
+			NOT = { has_variable = epeace_val }
+			}
+			set_variable = {
+				name = epeace_val
+				value = 0
+			}
+		}
+
+		change_variable = { name = epeace_val add = -25 }
+			
+			if = {
+				limit = {
+					var:epeace_val = { compare_value < 1 }
+				}
+				set_variable = { name = epeace_val value = 0 }
+			}
+			set_variable = { name = peace_val value = 0 }
+			heres_the_deal = {}
+	}
+	epeace_reset_gold = { 
+
+			set_variable = {
+				name = epeace_val
+				value = 0
+			}
+			heres_the_deal = {}
+	}
+###########
+# End gold
+###########
+
+#########
+# Resets
+#########
+	peace_reset_list = {
+			root = {
+				every_in_list = {
+					variable = my_lands
+					remove_variable = is_selected
+				}
+				every_in_list = {
+					variable = enemys_lands
+					remove_variable = is_selected
+				}
+				every_in_list = {
+					variable = my_claims
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = enemys_claim
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = your_vassals
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = enemys_vassal
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = given_lands
+					remove_variable = is_selected
+				}				every_in_list = {
+					variable = taken_lands
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = given_claims
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = taken_claims
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = given_vassals
+					remove_variable = is_selected
+				}				
+				every_in_list = {
+					variable = taken_vassals
+					remove_variable = is_selected
+				}				
+
+				clear_variable_list = my_lands
+				clear_variable_list = enemy_list
+				clear_variable_list = enemys_land
+				clear_variable_list = my_claims
+				clear_variable_list = enemys_claim
+				clear_variable_list = your_vassals
+				clear_variable_list = enemys_vassal
+				clear_variable_list = given_lands
+				clear_variable_list = given_claims
+				clear_variable_list = given_vassals
+				clear_variable_list = taken_lands
+				clear_variable_list = taken_claims
+				clear_variable_list = taken_vassals
+				set_variable = { name = epeace_val value = 0 }
+				set_variable = { name = the_deal value = 0 }
+				set_variable = { name = peace_val value = 0 }
+			
+				heres_the_deal = {}
+			
+			}
+	}
+########
+
+##################
+# Deal Evaluation
+#################
+	heres_the_deal = {
+
+				if = {
+					limit = {
+					NOT = { has_variable = the_deal }
+					}
+					set_variable = {
+						name = the_deal
+						value = 0
+					}
+				}
+				set_variable = { name = the_deal value = 0 }
+
+			#start deal scores
+
+
+				#start lands
+					every_in_list = {
+						variable = given_lands
+			
+						if ={
+							limit = { tier = tier_county }
+							root = {
+								change_variable = { name = the_deal add = 15 }
+							}
+						}
+						if ={
+							limit = { tier = tier_duchy }
+							root = {
+								change_variable = { name = the_deal add = 30 }
+							}
+						}
+						if ={
+							limit = { tier = tier_kingdom }
+							root = {
+								change_variable = { name = the_deal add = 50 }
+							}
+						}
+						if ={
+							limit = { tier = tier_empire }
+							root = {
+								change_variable = { name = the_deal add = 70 }
+							}
+						}
+					}
+					every_in_list = {
+						variable = taken_lands
+			
+						if ={
+							limit = { tier = tier_county }
+							root = {
+								change_variable = { name = the_deal subtract = 15 }
+							}
+						}
+						if ={
+							limit = { tier = tier_duchy }
+							root = {
+								change_variable = { name = the_deal subtract = 30 }
+							}
+						}
+						if ={
+							limit = { tier = tier_kingdom }
+							root = {
+								change_variable = { name = the_deal subtract = 50 }
+							}
+						}
+						if ={
+							limit = { tier = tier_empire }
+							root = {
+								change_variable = { name = the_deal subtract = 70 }
+							}
+						}
+					}
+				#end lands
+
+				#start claims
+					every_in_list = {
+						variable = given_claims
+			
+						if ={
+							limit = { tier = tier_county }
+							root = {
+								change_variable = { name = the_deal add = 5 }
+							}
+						}
+						if ={
+							limit = { tier = tier_duchy }
+							root = {
+								change_variable = { name = the_deal add = 10 }
+							}
+						}
+						if ={
+							limit = { tier = tier_kingdom }
+							root = {
+								change_variable = { name = the_deal add = 15 }
+							}
+						}
+						if ={
+							limit = { tier = tier_empire }
+							root = {
+								change_variable = { name = the_deal add = 20 }
+							}
+						}
+					}
+					every_in_list = {
+						variable = taken_claims
+			
+						if ={
+							limit = { tier = tier_county }
+							root = {
+								change_variable = { name = the_deal subtract = 5 }
+							}
+						}
+						if ={
+							limit = { tier = tier_duchy }
+							root = {
+								change_variable = { name = the_deal subtract = 10 }
+							}
+						}
+						if ={
+							limit = { tier = tier_kingdom }
+							root = {
+								change_variable = { name = the_deal subtract = 15 }
+							}
+						}
+						if ={
+							limit = { tier = tier_empire }
+							root = {
+								change_variable = { name = the_deal subtract = 20 }
+							}
+						}
+					}
+				#end claims
+
+				#start vassals
+					every_in_list = {
+						variable = given_vassals
+						save_scope_as = this_guy
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_barony
+							}
+							root = {
+								change_variable = { name = the_deal add = 5 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_county
+							}
+							root = {
+								change_variable = { name = the_deal add = 15 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_duchy
+							}
+							root = {
+								change_variable = { name = the_deal add = 30 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_kingdom
+							}
+							root = {
+								change_variable = { name = the_deal add = 50 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_empire
+							}
+							root = {
+								change_variable = { name = the_deal add = 70 }
+							}
+						}
+					}
+					every_in_list = {
+						variable = taken_vassals
+						save_scope_as = this_guy
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_barony
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 5 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_county
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 15 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_duchy
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 30 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_kingdom
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 50 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_empire
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 70 }
+							}
+						}
+					}
+				#end vassals
+
+				#start gold
+					if = {
+						limit = { 
+							AND  = {
+								var:peace_val = { compare_value <= 50 }
+								var:peace_val = { compare_value > 1 }
+							}
+						}
+						change_variable = { name = the_deal add = 2 }
+					} 
+					if = {
+						limit = { 
+							AND = {
+								var:peace_val = { compare_value > 50 }
+								var:peace_val = { compare_value <= 100 }
+							}
+						}
+						change_variable = { name = the_deal add = 5 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:peace_val = { compare_value > 100 }
+								var:peace_val = { compare_value <= 200 }
+							}
+						}
+						change_variable = { name = the_deal add = 8 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:peace_val = { compare_value > 200 }
+								var:peace_val = { compare_value <= 300 }
+							}
+						}
+						change_variable = { name = the_deal add = 12 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:peace_val = { compare_value > 300 }
+								var:peace_val = { compare_value <= 400 }
+							}
+						}
+						change_variable = { name = the_deal add = 15 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:peace_val = { compare_value > 500 }
+							}
+						}
+						change_variable = { name = the_deal add = 20 }
+					}
+				# start enemy
+					if = {
+						limit = { 
+							AND  = {
+								var:epeace_val = { compare_value <= 50 }
+								var:epeace_val = { compare_value > 1 }
+							}
+						}
+						change_variable = { name = the_deal subtract = 2 }
+					} 
+					if = {
+						limit = { 
+							AND = {
+								var:epeace_val = { compare_value > 50 }
+								var:epeace_val = { compare_value <= 100 }
+							}
+						}
+						change_variable = { name = the_deal subtract = 5 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:epeace_val = { compare_value > 100 }
+								var:epeace_val = { compare_value <= 200 }
+							}
+						}
+						change_variable = { name = the_deal subtract = 8 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:epeace_val = { compare_value > 200 }
+								var:epeace_val = { compare_value <= 300 }
+							}
+						}
+						change_variable = { name = the_deal subtract = 12 }
+					}
+					if = {
+						limit = { 
+							AND = {
+								var:epeace_val = { compare_value > 300 }
+								var:epeace_val = { compare_value <= 400 }
+							}
+						}
+						change_variable = { name = the_deal subtract = 15 }
+					}
+					if = {
+						limit = { 
+							var:epeace_val = { compare_value > 500 }
+						}
+						change_variable = { name = the_deal subtract = 20 }
+					}
+				#endgold
+				#warscore
+				every_character_war = {
+					limit = { 
+						is_attacker = root
+					}
+					save_scope_as = war
+					root = {
+						change_variable = { name = the_deal add = scope:war.attacker_war_score }
+					}
+				}
+				every_character_war = {
+					limit = { 
+						is_defender = root
+					}
+					save_scope_as = war
+					root = {
+						change_variable = { name = the_deal add = scope:war.defender_war_score }
+					}
+				}
+				#fear
+				if = {
+					limit ={
+						scope:dork = {
+							has_dread_level_towards = {
+								target = root
+								level = 1
+							}
+						}
+						change_variable = { name = the_deal add = 5 }
+					}
+				}
+				if = {
+					limit ={
+						scope:dork = {
+							has_dread_level_towards = {
+								target = root
+								level = 2
+							}
+						}
+						change_variable = { name = the_deal add = 10 }
+					}
+				}
+				#rivals
+				if = {
+					limit = {
+						scope:dork = { has_relation_rival = root }
+					}
+					change_variable = { name = the_deal add = -10 }
+				}
+	}
+###########
+# End Deal
+###########
