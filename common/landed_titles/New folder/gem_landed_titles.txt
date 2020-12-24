@@ -1,0 +1,166 @@
+@correct_culture_primary_score = 100
+@better_than_the_alternatives_score = 50
+@always_primary_score = 1000
+
+#Empires
+
+
+e_Gachermenus = {
+	color = { 194 0 32 }
+	color2 = { 255 255 255 }
+	capital = c_Gazcleolia
+
+	definite_form = yes
+
+	ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:greek
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+	k_Lampsaagrintherna = {
+		color = { 175 30 130 }
+		color2 = { 255 255 23 }
+
+		capital = c_Gazcleolia
+
+		ai_primary_priority = {
+		if = {
+			limit = {
+				culture = culture:greek
+			}
+			add = @correct_culture_primary_score
+		}
+	}
+
+		d_Elbarmenus = {
+			color = { 255 252 0 }
+			color2 = { 255 255 255 }
+
+			capital = c_Gazcleolia
+
+			c_Andrkyrealous = {
+				color = { 255 252 0 }
+				color2 = { 255 255 255 }
+
+				b_Andrkyrealous = {
+					province = 1
+
+					color = { 255 252 0 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+			c_Chersonai = {
+				color = { 0 0 194 }
+				color2 = { 255 255 255 }
+
+				b_Chersonai = {
+					province = 6
+
+					color = { 0 0 194 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+			c_Lemorgalia = {
+				color = { 170 51 51 }
+				color2 = { 255 255 255 }
+
+				b_Lemorgalia = {
+					province = 8
+
+					color = { 170 51 51 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+		}
+
+		d_Erekeplia = {
+			color = { 194 0 32 }
+			color2 = { 255 255 255 }
+
+			capital = c_Chersonai
+
+			c_Iolgatiri = {
+				color = { 23 194 0 }
+				color2 = { 255 255 255 }
+
+				b_Iolgatiri = {
+					province = 5
+
+					color = { 23 194 0 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+			c_Helimisoli = {
+				color = { 194 0 32 }
+				color2 = { 255 255 255 }
+
+				b_Helimisoli = {
+					province = 7
+
+					color = { 194 0 32 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+		}
+
+		d_Knosaentrias = {
+			color = { 108 224 255 }
+			color2 = { 255 255 255 }
+
+			capital = c_Eubhieratrias
+
+			c_Gazcleolia = {
+				color = { 255 154 98 }
+				color2 = { 255 255 255 }
+
+				b_Gazcleolia = {
+					province = 2
+
+					color = { 255 154 98 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+			c_Eubhieratrias = {
+				color = { 166 0 131 }
+				color2 = { 255 255 255 }
+
+				b_Eubhieratrias = {
+					province = 3
+
+					color = { 166 0 131 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+
+			c_Ephasiesmos = {
+				color = { 108 224 255 }
+				color2 = { 255 255 255 }
+
+				b_Ephasiesmos = {
+					province = 4
+
+					color = { 108 224 255 }
+					color2 = { 255 255 255 }
+
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,402 @@
+#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+@arquebus = "gfx/interface/icons/culture_innovations/innovation_arquebus.dds"
+@culverin = "gfx/interface/icons/culture_innovations/innovation_culverin.dds"
+@pike_square = "gfx/interface/icons/culture_innovations/innovation_pike_square.dds"
+#@pike_shot = "gfx/interface/icons/culture_innovations/innovation_pike_shot.dds"
+@inquisition = "gfx/interface/icons/culture_innovations/inquisition.dds"
+@colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
+@medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
+@art = "gfx/interface/icons/culture_innovations/art.dds"
+@scythe = "gfx/interface/icons/culture_innovations/scythe.dds"
+@spring = "gfx/interface/icons/culture_innovations/spring.dds"
+
+#culture_group_military
+innovation_military_1 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @fortifications
+	custom = unlock_late_medieval_fortification_buildings
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_military_2 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @culverin
+
+	unlock_maa = culverin
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_military_3 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @levy_building
+	
+	custom = unlock_late_medieval_military_buildings
+	
+	modifier = {
+		levy_reinforcement_rate = 0.15
+	}
+
+	flag = global_regular
+	flag = early_modern_era_regular	
+}
+
+innovation_military_4 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	potential = {
+		NOT = {
+			#Turkic Group
+			this = culture:turkish
+			this = culture:pecheneg
+			this = culture:shatuo
+			this = culture:ongud
+			
+			#Iberian Group
+			this = culture:basque
+			this = culture:castilian
+			this = culture:catalan
+			this = culture:aragonese
+			this = culture:portuguese
+			
+			#West Germanic Group
+			this = culture:english
+			this = culture:scottish
+			this = culture:irish
+			this = culture:welsh
+
+			#Central Germanic Group
+			this = culture:swabian
+			this = culture:dutch
+			this = culture:bavarian
+			this = culture:franconian
+			
+			#Baltic Group
+			this = culture:czech
+			this = culture:polish
+			this = culture:lithuanian
+			this = culture:pommeranian
+
+			#East Slavic Group
+			this = culture:russian
+			this = culture:volhynian
+		}
+	}
+	
+	#can_progress = {
+	#	required_year_greater_or_equal_trigger = { YEAR = 1375 }
+	#	custom_description = {
+	#		text = "discovered_gunpowder"
+	#		is_target_in_global_variable_list = {
+	#			name = unavailable_unique_decisions
+	#			target = flag:flag_found_gunpowder
+	#		}
+	#	}
+	#}
+	
+	modifier = {
+		men_at_arms_cap = 1
+		men_at_arms_limit = 5
+	}
+
+	unlock_maa = arquebusier
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_military_5 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon = @arquebus
+	
+	modifier = {
+		siege_phase_time = -0.1
+	}
+	
+	unlock_maa = musketeer
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_military_6 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @weapons_and_armor_02
+	
+	maa_upgrade = {
+		type = culverin
+		siege_value = 0.1
+		damage = 50
+	}
+	modifier = {
+		men_at_arms_maintenance = 0.10
+	}
+	
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_7 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =   @pike_square
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_8 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =   @special_maa_01
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_9 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @culverin
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_military_10 = {
+	group = culture_group_military
+	culture_era = culture_era_early_modern
+	icon =  @maa_02
+	
+	maa_upgrade = {
+		type = heavy_infantry
+		toughness = 3
+	}
+	maa_upgrade = {
+		type = heavy_cavalry
+		toughness = 3
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+#culture_group_civic
+innovation_civic_1 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @majesty_01
+	
+	unlock_law = single_heir_succession_law
+	unlock_law = single_heir_succession_law_youngest
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_civic_2 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @spring
+	
+	custom = unlock_late_medieval_economic_buildings
+	
+	modifier = {
+		build_speed = -0.15
+	}
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_civic_3 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon =  @administration_1
+	
+	modifier = {
+		direct_vassal_opinion = 5
+		fellow_vassal_opinion = 5
+	}
+
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_civic_4 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @leadership_1
+	
+	unlock_casus_belli = de_jure_cb
+	custom = multiple_claim_wars_others
+	custom = cb_discount_prestige_10
+	flag = global_regular
+	flag = early_modern_era_regular
+}
+
+innovation_civic_5 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @administration_2
+	
+	modifier = {
+		monthly_prestige_gain_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_6 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @medicine
+	
+	modifier = {
+		domain_limit = 1
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_7 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @civil_construction_2
+
+	custom = reduce_develop_county_penalty_04
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_8 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @inquisition
+
+	modifier = {
+		development_growth_factor = 0.1
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_civic_9 = {
+    group = culture_group_civic
+    culture_era = culture_era_early_modern
+    icon =  @scythe
+
+    modifier = {
+        development_growth_factor = 0.1
+    }
+    flag = global_regular
+    flag = early_modern_era_regular
+    
+}
+
+innovation_civic_10 = {
+	group = culture_group_civic
+	culture_era = culture_era_early_modern
+	icon = @colonization
+	modifier = {
+		development_growth_factor = 0.1
+	}
+	flag = global_regular
+	flag = early_modern_era_regular
+	
+}
+
+innovation_gallowglass = {
+	group = culture_group_regional
+	culture_era = culture_era_early_modern
+
+	potential = {
+		OR = {
+			this = culture:gaelic
+			this = culture:scottish
+		}
+	}
+
+	icon = @maa_01
+	
+	modifier = {
+		mercenary_count_mult = 1
+		same_culture_mercenary_hire_cost_mult = -0.25
+	}
+
+	flag = global_regional
+	flag = early_modern_era_regional
+}
