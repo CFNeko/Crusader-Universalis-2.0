@@ -256,7 +256,7 @@
 		scope = character
 
 		saved_scope = {
-		target
+			target
 		}
 		effect = {
 			if = {
@@ -343,8 +343,6 @@
 							}
 						}
 
-
-
 						every_in_list = {
 							variable = given_vassals
 
@@ -373,25 +371,172 @@
 						limit = { 
 							liege = scope:dork 
 						}
-						release_from_prison = yes 
-						add_opinion = {
-							modifier = released_from_prison
-							target = root
-						}							
+						release_from_prison = yes 							
 					}
+					if = {
+						limit = {
+							has_character_flag = f_sacrifice
+						}
+						root = {
+							custom_description = {
+								text = SAC_EVERYTHING
+								every_held_title = {
+									limit = { tier = county }
+									save_scope_as = target
 
+							
+									add_county_modifier = {	#Prevent the county from being sacked again for quite a while.
+										modifier = recently_sacked_modifier
+										years = 20
+									}
+
+									change_development_progress = medium_development_progress_loss
+									change_development_level = -1
+									
+									scope:dork = {
+										add_gold = scope:target.raid_gold_value				
+									}	
+
+								}
+							}
+							every_vassal = {
+								death = {
+									#death_reason = death_crucified
+									killer = scope:dork
+								}
+							}
+							send_interface_message = {
+								type = event_raid_good
+								title = "Complete Destruction"
+								desc = "That felt good, maybe I'll do it again sometime"
+								right_icon = scope:dork
+							}
+						}
 
 					}
+					if = {
+						limit = {
+							has_character_flag = f_death
+						}
+						root = {		
+							death = {
+								killer = root
+								#death_reason = "death_suicide"
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = f_inquis
+						}
+						root = {
+							every_realm_county = {
+								set_county_faith = scope:dork.faith
+							}
+							every_vassal_or_below = {
+								set_character_faith_with_conversion = scope:dork.faith
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = f_decimation
+						}
+						root = {
+							add_prestige_level = -1
+							every_vassal = {
+								random_list = {
+									50 = {}
+									50 = {
+										death = {
+											killer = scope:dork
+											#death_reason = death_whipping #death_reason = death_crucified 
+										}
+									}
+								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = war_rep
+						}
+						root = {
+							pay_long_term_income = {
+								target = scope:dork
+								years = 5
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = f_weakhook
+						}
+						scope:dork = {
+							add_hook = {
+								type = favor_hook
+								target = root
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = f_vassalize
+						}
+						root = {
+							create_title_and_vassal_change = {
+								type = returned
+								save_scope_as = change
+								add_claim_on_loss = no
+							}
+							change_liege = {
+								liege = scope:dork
+								change = scope:change
+							}
+							
+							resolve_title_and_vassal_change = scope:change
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = f_stronghook
+						}
+						scope:dork = {
+							add_hook = {
+								type = loyalty_hook
+								target = root
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = humiliation
+						}
+						root = {	
+							add_prestige_level = -1
+						
+							root.dynasty = {
+								add_dynasty_prestige_level = -1
+								add_dynasty_prestige = -500
+							}
+						}
+
+					}
+					if = {
+						limit = {
+							has_character_flag = f_conversion
+						}
+						root = {
+							set_character_faith_with_conversion = scope:dork.faith
+						}
+					}																				
 				}
-
-
+			}
 		}
 	# END ROOT SIDE
 	# START ENEMY SIDE
 		the_peace_effect2 = {
 			scope = character
-
-
 
 			effect = {
 				root = {
@@ -462,18 +607,170 @@
 							limit = { 
 								liege = root 
 							}
-							release_from_prison = yes 
-							add_opinion = {
-								modifier = released_from_prison
-								target = scope:dork
-							}							
+							release_from_prison = yes 							
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_death
+						}
+						scope:dork = {
+							death = {
+								killer = scope:dork
+								#death_reason = "death_suicide"
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_sacrifice
+						}
+						scope:dork = {
+								custom_description = {
+									text = SAC_EVERYTHING
+									every_held_title = {
+										limit = { tier = county }
+										save_scope_as = target2
+
+								
+										add_county_modifier = {	#Prevent the county from being sacked again for quite a while.
+											modifier = recently_sacked_modifier
+											years = 20
+										}
+										change_development_progress = medium_development_progress_loss
+										change_development_level = -1
+										
+
+										root = {
+											add_gold = scope:target2.raid_gold_value							
+										}
+									}
+								}
+							every_vassal = {
+								death = {
+									#death_reason = death_crucified
+									killer = scope:dork
+								}
+							}
+							root = {
+								send_interface_message = {
+									type = event_raid_good
+									title = "Complete Destruction"
+									desc = "That felt good, maybe I'll do it again sometime"
+									right_icon = root
+								}
+							}
+						}
+
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_decimation
+						}
+						scope:dork = {
+							add_prestige_level = -1
+							every_vassal = {
+								random_list = {
+									50 = {}
+									50 = {
+										death = {
+											killer = root
+											#death_reason = death_whipping #death_reason = death_crucified 
+										}
+									}
+								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_inquis
+						}
+						scope:dork ={
+							every_realm_county = {
+								set_county_faith = root.faith
+							}
+							every_vassal_or_below = {
+								set_character_faith_with_conversion = root.faith
+							}
 						}
 					}
 
-				
+					if = {	
+						limit = {
+							has_character_flag = ewar_rep
+						}
+						scope:dork = {
+							pay_long_term_income = {
+								target = root
+								years = 5
+							}
+						}
 					
-				}
-			}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_stronghook
+						}
+						root = {
+							add_hook = {
+								type = loyalty_hook
+								target = scope:dork
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_weakhook
+						}
+						root = {
+							add_hook = {
+								type = favor_hook
+								target = scope:dork
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_vassalize
+						}
+						scope:dork = {
+							create_title_and_vassal_change = {
+								type = returned
+								save_scope_as = change
+								add_claim_on_loss = no
+							}
+							change_liege = {
+								liege = root
+								change = scope:change
+							}
+							
+							resolve_title_and_vassal_change = scope:change
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ehumiliation
+						}
+						scope:dork = {	
+						
+							add_prestige_level = -1
+							scope:dork.dynasty = {
+								add_dynasty_prestige_level = -1
+								add_dynasty_prestige = -500
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_conversion
+						}
+						scope:dork = {
+							set_character_faith_with_conversion = root.faith
+						}
+					}
+				}																
+			}					
 		}
 	# END ENEMY SIDE
 	# FINAL DEAL
@@ -511,20 +808,34 @@
 						variable = enemy_list
 						save_scope_as = dork
 					}
+					every_held_title = {
+						limit = {
+							has_variable = siege_list
+						}
+						remove_variable = siege_list
+					}
+					scope:dork = {
+						every_held_title = {
+							limit = {
+								has_variable = siege_list
+							}
+							remove_variable = siege_list
+						}
+					}
 					every_in_list = {
 						variable = given_lands
 
-					create_title_and_vassal_change = {
-						type = created
-						save_scope_as = title_change
-						add_claim_on_loss = no
-					}
+						create_title_and_vassal_change = {
+							type = created
+							save_scope_as = title_change
+							add_claim_on_loss = no
+						}
 
-					change_title_holder = {
-						holder = scope:dork
-						change = scope:title_change
-					}
-					resolve_title_and_vassal_change = scope:title_change
+						change_title_holder = {
+							holder = scope:dork
+							change = scope:title_change
+						}
+						resolve_title_and_vassal_change = scope:title_change
 					}
 
 
@@ -538,8 +849,6 @@
 							remove_claim = prev
 						}
 					}
-
-
 
 					every_in_list = {
 						variable = given_vassals
@@ -557,8 +866,6 @@
 						resolve_title_and_vassal_change = scope:change
 					}
 
-
-	
 					if = {
 						limit = {
 							var:peace_val = { compare_value > 1 }
@@ -568,10 +875,7 @@
 							target = scope:dork
 						}
 					}
-					every_in_list = {
-						variable = enemy_list
-						save_scope_as = dork
-					}
+
 					every_in_list = {
 							variable = taken_lands
 
@@ -599,8 +903,6 @@
 							remove_claim = prev
 						}
 					}
-
-
 
 					every_in_list = {
 						variable = taken_vassals
@@ -634,11 +936,7 @@
 						limit = { 
 							liege = scope:dork 
 						}
-						release_from_prison = yes 
-						add_opinion = {
-							modifier = released_from_prison
-							target = root
-						}							
+						release_from_prison = yes 							
 					}
 
 					scope:dork= {
@@ -646,13 +944,346 @@
 							limit = { 
 								liege = root 
 							}
-							release_from_prison = yes 
-							add_opinion = {
-								modifier = released_from_prison
-								target = scope:dork
-							}							
+							release_from_prison = yes 							
 						}
 					}
+				#Humiliation
+					if = {
+						limit = {
+							has_character_flag = humiliation
+						}
+						root = {	
+							add_prestige_level = -1
+							
+							root.dynasty = {
+								add_dynasty_prestige_level = -1
+								add_dynasty_prestige = -500
+							}
+						}
+
+					}
+					
+					if = {
+						limit = {
+							has_character_flag = ehumiliation
+						}
+						scope:dork = {	
+						
+							add_prestige_level = -1
+							scope:dork.dynasty = {
+								add_dynasty_prestige_level = -1
+								add_dynasty_prestige = -500
+							}
+						}
+					}					
+				#
+				#Convert
+					if = {
+						limit = {
+							has_character_flag = f_conversion
+						}
+						root = {
+							set_character_faith_with_conversion = scope:dork.faith
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_conversion
+						}
+						scope:dork = {
+							set_character_faith_with_conversion = root.faith
+						}
+					}
+				#
+				#Vassalize
+					if = {
+						limit = {
+							has_character_flag = f_vassalize
+						}
+						root = {
+							create_title_and_vassal_change = {
+								type = returned
+								save_scope_as = change
+								add_claim_on_loss = no
+							}
+							change_liege = {
+								liege = scope:dork
+								change = scope:change
+							}
+							
+							resolve_title_and_vassal_change = scope:change
+						}
+					}
+
+					if = {
+						limit = {
+							has_character_flag = ef_vassalize
+						}
+							scope:dork = {
+								create_title_and_vassal_change = {
+									type = returned
+									save_scope_as = change
+									add_claim_on_loss = no
+								}
+								change_liege = {
+									liege = root
+									change = scope:change
+								}
+								
+								resolve_title_and_vassal_change = scope:change
+							}
+					}
+				#
+				#Strong Hook
+					if = {
+						limit = {
+							has_character_flag = f_stronghook
+						}
+						scope:dork = {
+							add_hook = {
+								type = loyalty_hook
+								target = root
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_stronghook
+						}
+						root = {
+							add_hook = {
+								type = loyalty_hook
+								target = scope:dork
+							}
+						}
+					}
+				#	
+				#WeakHook
+					if = {
+						limit = {
+							has_character_flag = f_weakhook
+						}
+						scope:dork = {
+							add_hook = {
+								type = favor_hook
+								target = root
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_weakhook
+						}
+						root = {
+							add_hook = {
+								type = favor_hook
+								target = scope:dork
+							}
+						}
+					}
+				#
+				#War Rep	
+					if = {
+						limit = {
+							has_character_flag = war_rep
+						}
+						root = {
+							pay_long_term_income = {
+								target = scope:dork
+								years = 5
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ewar_rep
+						}
+						scope:dork = {
+							pay_long_term_income = {
+								target = root
+								years = 5
+							}
+						}
+					}
+				#
+				#inquisition
+					if = {
+						limit = {
+							has_character_flag = f_inquis
+						}
+						root = {
+							every_realm_county = {
+								set_county_faith = scope:dork.faith
+							}
+							every_vassal_or_below = {
+								set_character_faith_with_conversion = scope:dork.faith
+							}
+						}
+					}
+					
+					if = {
+						limit = {
+							has_character_flag = ef_inquis
+						}
+						scope:dork ={
+							every_realm_county = {
+								set_county_faith = root.faith
+							}
+							every_vassal_or_below = {
+								set_character_faith_with_conversion = root.faith
+							}
+						}
+					}
+				#
+				#Decimation
+					if = {
+						limit = {
+							has_character_flag = f_decimation
+						}
+						root = {
+							add_prestige_level = -1
+							every_vassal = {
+								random_list = {
+									50 = {}
+									50 = {
+										death = {
+											killer = scope:dork
+											#death_reason = death_whipping #death_reason = death_crucified 
+										}
+									}
+								}
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_decimation
+						}
+						scope:dork = {
+							add_prestige_level = -1
+							every_vassal = {
+								random_list = {
+									50 = {}
+									50 = {
+										death = {
+											killer = root
+											#death_reason = death_whipping #death_reason = death_crucified 
+										}
+									}
+								}
+							}
+						}
+					}
+				#
+				#destruction
+					if = {
+						limit = {
+							has_character_flag = f_sacrifice
+						}
+						root = {
+							custom_description = {
+								text = SAC_EVERYTHING
+								every_held_title = {
+									limit = { tier = county }
+									save_scope_as = target
+
+							
+									add_county_modifier = {	#Prevent the county from being sacked again for quite a while.
+										modifier = recently_sacked_modifier
+										years = 20
+									}
+
+									change_development_progress = medium_development_progress_loss
+									change_development_level = -1
+									
+									scope:dork = {
+										add_gold = scope:target.raid_gold_value				
+									}	
+
+								}
+							}
+							every_vassal = {
+								death = {
+									#death_reason = death_crucified
+									killer = scope:dork
+								}
+							}
+							send_interface_message = {
+								type = event_raid_good
+								title = "Complete Destruction"
+								desc = "That felt good, maybe I'll do it again sometime"
+								right_icon = scope:dork
+							}
+						}
+
+					}					
+					if = {
+						limit = {
+							has_character_flag = ef_sacrifice
+						}
+						scope:dork = {
+								custom_description = {
+									text = SAC_EVERYTHING
+									every_held_title = {
+										limit = { tier = county }
+										save_scope_as = target2
+
+								
+										add_county_modifier = {	#Prevent the county from being sacked again for quite a while.
+											modifier = recently_sacked_modifier
+											years = 20
+										}
+										change_development_progress = medium_development_progress_loss
+										change_development_level = -1
+										
+
+										root = {
+											add_gold = scope:target2.raid_gold_value							
+										}
+									}
+								}
+							every_vassal = {
+								death = {
+									#death_reason = death_crucified
+									killer = scope:dork
+								}
+							}
+							root = {
+								send_interface_message = {
+									type = event_raid_good
+									title = "Complete Destruction"
+									desc = "That felt good, maybe I'll do it again sometime"
+									right_icon = root
+								}
+							}
+						}
+
+					}
+				#
+				#Suicide
+					if = {
+						limit = {
+							has_character_flag = f_death
+						}
+						root = {		
+							death = {
+								killer = root
+								#death_reason = "death_suicide"
+							}
+						}
+					}
+					if = {
+						limit = {
+							has_character_flag = ef_death
+						}
+						scope:dork = {
+							death = {
+								killer = scope:dork
+								#death_reason = "death_suicide"
+							}
+						}
+					}
+				#														
 					every_character_war = {
 						end_war = invalidated
 					}
@@ -726,3 +1357,629 @@
 		}
 	}
 ##########################################################
+###########################################################
+# START Treaties
+###########################################################
+		tr_surrender = {
+			scope = character
+			is_valid = {
+				has_trait = invalid
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = unconditional_surrender
+					}
+					remove_character_flag = unconditional_surrender
+				}
+				else = {
+					add_character_flag = {
+						flag = unconditional_surrender
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}	
+			}
+		}
+		tr_humiliation = {
+			scope = character
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = humiliation
+					}
+					remove_character_flag = humiliation
+				}
+				else = {
+					add_character_flag = {
+						flag = humiliation
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tr_conversion = {
+			scope = character
+
+
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+			}
+			is_valid = {
+				scope:dork = {
+					NOT = { has_faith = root.faith }
+				}
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_conversion
+					}
+					remove_character_flag = f_conversion
+				}
+				else = {
+					add_character_flag = {
+						flag = f_conversion
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_marriage = {
+			scope = character
+			
+			is_valid = {
+				has_trait = invalid
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = j_marriage
+					}
+					remove_character_flag = j_marriage
+				}
+				else = {
+					add_character_flag = {
+						flag = j_marriage
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_vassalize = {
+			scope = character
+
+			is_valid = {
+				has_trait = diplomat
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_vassalize
+					}
+					remove_character_flag = f_vassalize
+				}
+				else = {
+					add_character_flag = {
+						flag = f_vassalize
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_shook = {
+			scope = character
+			is_valid = {
+				has_dynasty_perk = erudition_legacy_5
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_stronghook
+					}
+					remove_character_flag = f_stronghook
+				}
+				else = {
+					add_character_flag = {
+						flag = f_stronghook
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_whook = {
+			scope = character
+
+			is_valid = {
+				OR = {
+					has_trait = education_diplomacy_3
+					has_trait = education_diplomacy_4
+				}
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_weakhook
+					}
+					remove_character_flag = f_weakhook
+				}
+				else = {
+					add_character_flag = {
+						flag = f_weakhook
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_death= {
+			scope = character
+
+			is_valid = {
+				has_trait = zealous
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_death
+					}
+					remove_character_flag = f_death
+				}
+				else = {
+					add_character_flag = {
+						flag = f_death
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_warrep = {
+			scope = character
+
+			is_valid = {
+				has_trait = greedy
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = war_rep
+					}
+					remove_character_flag = war_rep
+				}
+				else = {
+					add_character_flag = {
+						flag = war_rep
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_decimation = {
+			scope = character
+
+			is_valid ={
+				has_trait = sadistic
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_decimation
+					}
+					remove_character_flag = f_decimation
+				}
+				else = {
+					add_character_flag = {
+						flag = f_decimation
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tr_sacrifice = {
+			scope = character
+			
+			is_valid = {
+				faith = { has_doctrine = tenet_human_sacrifice }
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_sacrifice
+					}
+					remove_character_flag = f_sacrifice
+				}
+				else = {
+					add_character_flag = {
+						flag = f_sacrifice
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tr_inquis = {
+			scope = character
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+			}
+			is_valid = {
+					root = {
+						has_faith = faith:catholic
+					}
+					scope:dork = {
+						NOT = { has_faith = faith:catholic }
+					}
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = f_inquis
+					}
+					remove_character_flag = f_inquis
+				}
+				else = {
+					add_character_flag = {
+						flag = f_inquis
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+
+	#enemy
+		tre_surrender = {
+			scope = character
+			is_valid = {
+				has_trait = invalid
+			}
+			
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = eunconditional_surrender
+					}
+					remove_character_flag = eunconditional_surrender
+				}
+				else = {
+					add_character_flag = {
+						flag = eunconditional_surrender
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}				
+			}
+		}
+		tre_humiliation = {
+			scope = character
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ehumiliation
+					}
+					remove_character_flag = ehumiliation
+				}
+				else = {
+					add_character_flag = {
+						flag = ehumiliation
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_conversion = {
+			scope = character
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+			}
+			is_valid = {
+				scope:dork = {
+					NOT = { has_faith = root.faith }
+				}
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_conversion
+					}
+					remove_character_flag = ef_conversion
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_conversion
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_marriage = {
+			scope = character
+			is_valid = {
+				has_trait = invalid
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ej_marriage
+					}
+					remove_character_flag = ej_marriage
+				}
+				else = {
+					add_character_flag = {
+						flag = ej_marriage
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_vassalize = {
+			scope = character
+
+			is_valid = {
+				has_trait = diplomat
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_vassalize
+					}
+					remove_character_flag = ef_vassalize
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_vassalize
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_shook = {
+			scope = character
+			is_valid = {
+				
+				has_dynasty_perk = erudition_legacy_5
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_stronghook
+					}
+					remove_character_flag = ef_stronghook
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_stronghook
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_whook = {
+			scope = character
+
+			is_valid = {
+				OR = {
+					has_trait = education_diplomacy_3
+					has_trait = education_diplomacy_4
+				}
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_weakhook
+					}
+					remove_character_flag = ef_weakhook
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_weakhook
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_death= {
+			scope = character
+
+			is_valid = {
+					has_trait = zealous
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_death
+					}
+					remove_character_flag = ef_death
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_death
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_warrep = {
+			scope = character
+
+			is_valid = {
+				has_trait = greedy
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ewar_rep
+					}
+					remove_character_flag = ewar_rep
+				}
+				else = {
+					add_character_flag = {
+						flag = ewar_rep
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_decimation = {
+			scope = character
+
+			is_valid ={
+				has_trait = sadistic
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_decimation
+					}
+					remove_character_flag = ef_decimation
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_decimation
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_sacrifice = {
+			scope = character
+			
+			is_valid = {
+				faith = { has_doctrine = tenet_human_sacrifice }
+			}
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_sacrifice
+					}
+					remove_character_flag = ef_sacrifice
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_sacrifice
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+		tre_inquis = {
+			scope = character
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+			}
+			is_valid = {
+					root = {
+						has_faith = faith:catholic
+					}
+					scope:dork = {
+						NOT = { has_faith = faith:catholic }
+					}
+			}
+
+			effect ={
+				if = {
+					limit = {
+						has_character_flag = ef_inquis
+					}
+					remove_character_flag = ef_inquis
+				}
+				else = {
+					add_character_flag = {
+						flag = ef_inquis
+					}
+				}
+				root = {
+					heres_the_deal = {}
+				}
+			}
+		}
+#1. Unconditional Surrender
+#2. Humiliation (minor Humiliation event) ie kiss the ring or bow in crowd. OR whatever / expose secrets
+#3. Conversion (target)
+#4. Joined thru Marriage
+
+#5. Vassilation (condition NOT same tier)
+#6. Strong Hook
+#7. Weak Hook
+#8. Love me or Else!  - makes taget love them, target becomes lover (has trait seduce)
+#or
+#8a. Death - war is ended, targets ends their own life the nobel way.
+
+#9. War Reparations (has trait Greed)
+#- member pays long term gold
+#10. Decimation (has trait sadistic)
+#- target is whipped event, every other vassal is executed
+#11. sacrifice ( has flag Witch )
+#- lands raised -population control etc.. lowered, every vassal executed
+#12. inquisition - is spanish?
+#- nobody expected this! converts realm

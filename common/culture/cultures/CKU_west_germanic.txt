@@ -543,4 +543,276 @@
 			15 = caucasian_dark_hair
 		}
 	}
+	
+	dutch = {
+		graphical_cultures = {
+			frisian_coa_gfx
+		}
+		color = { 0.8 0.59 0.4 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_von" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bergh" }
+			{ "dynnp_van" "dynn_Brabant" }
+			"dynn_De_Graeff"
+			{ "dynnp_van" "dynn_Egmond" }
+			{ "dynnp_van" "dynn_Amstel" }
+			{ "dynnp_van" "dynn_Arkel" }
+			{ "dynnp_van" "dynn_Brederode" }
+			{ "dynnp_van" "dynn_Breda" }
+			{ "dynnp_van" "dynn_Heemskerk" }
+			{ "dynnp_van" "dynn_Renesse" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wassenaer" }
+			{ "dynnp_van" "dynn_Rheden" }
+			{ "dynnp_van" "dynn_Bronckhorst" }
+			{ "dynnp_van" "dynn_Keppel" }
+			{ "dynnp_van" "dynn_Voorst" }
+			{ "dynnp_van" "dynn_Lathum" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			{ "dynnp_van" "dynn_Cuijck" }
+			{ "dynnp_van" "dynn_Bierum" }
+			{ "dynnp_van" "dynn_Rhenen" }
+			{ "dynnp_van" "dynn_Berthout" }
+			{ "dynnp_van" "dynn_Voorne" }
+			{ "dynnp_van" "dynn_Naaldwijk" }
+			{ "dynnp_van" "dynn_Yperen" }
+			{ "dynnp_van" "dynn_Zeeland" }
+			"dynn_Hoving"
+			"dynn_Kuiper"
+		}
+
+		dynasty_names = {
+			{ "dynnp_van" "dynn_Loon" }
+			{ "dynnp_von" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Geldern" }
+			{ "dynnp_van" "dynn_Bergh" }
+			{ "dynnp_van" "dynn_Brabant" }
+			"dynn_De_Graeff"
+			{ "dynnp_van" "dynn_Egmond" }
+			{ "dynnp_van" "dynn_Amstel" }
+			{ "dynnp_van" "dynn_Arkel" }
+			{ "dynnp_van" "dynn_Brederode" }
+			{ "dynnp_van" "dynn_Breda" }
+			{ "dynnp_van" "dynn_Heemskerk" }
+			{ "dynnp_van" "dynn_Renesse" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wassenaer" }
+			{ "dynnp_van" "dynn_Rheden" }
+			{ "dynnp_van" "dynn_Bronckhorst" }
+			{ "dynnp_van" "dynn_Keppel" }
+			{ "dynnp_van" "dynn_Voorst" }
+			{ "dynnp_van" "dynn_Lathum" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			{ "dynnp_van" "dynn_Cuijck" }
+			{ "dynnp_van" "dynn_Bierum" }
+			{ "dynnp_van" "dynn_Rhenen" }
+			{ "dynnp_van" "dynn_Berthout" }
+			{ "dynnp_van" "dynn_Voorne" }
+			{ "dynnp_van" "dynn_Naaldwijk" }
+			{ "dynnp_van" "dynn_Yperen" }
+			{ "dynnp_van" "dynn_Zeeland" }
+			"dynn_Hoving"
+			"dynn_Kuiper"
+		}
+		
+		male_names = {
+			Adriaen Albrecht Alwin Ambroos Antoon Arnold Arnulf 
+			Balderik Barend Barnaerd Bartolomeus Bavo Bertold Boudewijn Baldwin Brunink
+			Claes Claeuwaert 
+			Daevit Damaes Diederick Dirk Douwe Dries
+			Eduard Egmund Ekbert Emmo Engelbrecht 
+			Filips Floris Folbert Frans Frederik 
+			Gerard Gerolt Gerulf Gerrit Gijsbrecht Giselbert Godfried Godschalk Gozewijn Guij Gwijde 
+			Hendrik Herman Hubert Hugo Hein Hendrikus Henrikus Rijk
+			Ijsbrand Ijsbrecht 
+			Jacco Jacob Jan Johan
+			Karel Koenraad Kristof 
+			Lambert Lodewijk Ludewijn Lutbert Luthard 
+			Maertijn Marquart 
+			Niclaes
+			Olivier Otto Otwin Onno 
+			Pieter 
+			Reinaerd Reinoud Reginar Robrecht Robert Rodulf Roelof Roland Rutger Renger
+			Sebastiaen Sicco Simon Steven Steyn 
+			Theodolf 
+			Waelram Walter Wicher Willem Wolfert
+		}
+		female_names = {
+			Ada Adela Adelheid Aechte Agaete Aleid Alijse Aliken Anna Annelies 
+			Badeloge Bava Beatrijs Benedicta Blanca Blanceflore 
+			Cecily Cille Clara Clementia Catalijne Catalyne Catarina Catelijne Cathalijne Catharina Catharine Cathelijn Cathelijne Catherina Catherine Catrien Catrina Catrijn
+			Elisabeth Ellijnore Emma Ermingarde Elisa Elise Elsbeth 
+			Fenne Filippa Frida Floortje
+			Gheertrude Gerda Godila 
+			Helena Herlinda Hilligonda Hadewich Hedwich Heilwich
+			Ide Imagina Irene Isabelle Iudith Ina Ilse
+			Jacoba Jaccobijn Jasminne Johanna Jolanda Juliana Jutte Janna
+			Kathrijne Katrien Kaat Kaatje Katelijn Katelijne Katharina Kathelyn
+			Liedwin Lisebet Liesbet Liesbeth
+			Margareta Margarita Margriet Marguerite Margarete Margret Margreet Margreta Margretha Margaret Machtelt Maria Mathilde
+			Oda Odelt Olinde Onna 
+			Pieternelle 
+			Reynilde 
+			Sanne Sigerda Sophie Swanhildis 
+			Thetburga Trijn Trijntje
+			Waltrud Wila Wendelmoet Wenna Willemine 
+			Yonefij Yvonne 
+			Zoete
+		}
+		
+		dynasty_of_location_prefix = "dynnp_van"
+		
+		patronym_suffix_male = "dynnpat_suf_szoon"
+		patronym_suffix_female = "dynnpat_suf_sdochter"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_of_the_brabancon_wolf" coat_of_arms = "mc_company_of_the_brabancon_wolf" }
+			{ name = "mercenary_company_flemish_band" }
+			{ name = "mercenary_false_earls_company" }
+		}
+	}
+	
+	flemish = {
+		graphical_cultures = {
+			frisian_coa_gfx
+		}
+		color = { 1.0 0.8 0.6 }
+
+		cadet_dynasty_names = {
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Brabant" }
+			{ "dynnp_van" "dynn_Namen" }
+			{ "dynnp_van" "dynn_Boutershem" }
+			{ "dynnp_van" "dynn_Brunesheim" }
+			{ "dynnp_van" "dynn_Gaveren" }
+			{ "dynnp_van" "dynn_Glymes" }
+			{ "dynnp_van" "dynn_Grimberghe" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			{ "dynnp_van" "dynn_Groothusen" }
+			{ "dynnp_van" "dynn_Are" }
+			{ "dynnp_van" "dynn_Sierck" }
+			{ "dynnp_van" "dynn_Diest" }
+			"dynn_Munthe"
+		}
+
+		dynasty_names = {
+			{ "dynnp_van" "dynn_Wassemberg" }
+			{ "dynnp_van" "dynn_Brabant" }
+			{ "dynnp_van" "dynn_Namen" }
+			{ "dynnp_van" "dynn_Boutershem" }
+			{ "dynnp_van" "dynn_Brunesheim" }
+			{ "dynnp_van" "dynn_Gaveren" }
+			{ "dynnp_van" "dynn_Glymes" }
+			{ "dynnp_van" "dynn_Grimberghe" }
+			{ "dynnp_van" "dynn_Wesemael" }
+			{ "dynnp_van" "dynn_Wisch" }
+			{ "dynnp_van" "dynn_Kamerijk" }
+			{ "dynnp_van" "dynn_Groothusen" }
+			{ "dynnp_van" "dynn_Are" }
+			{ "dynnp_van" "dynn_Sierck" }
+			{ "dynnp_van" "dynn_Diest" }
+			"dynn_Munthe"
+		}
+		
+		male_names = {
+			Adriaen Albrecht Alwin Ambroos Antoon Arnold Arnulf 
+			Bauduin Balderik Barend Barnaerd Bartolomeus Bavo Bertold 
+			Claes Claeuwaert Charles
+			Daevit Damaes Diederick Dirk Douwe 
+			Eduard Egmund Ekbert Emmo Engelbrecht 
+			Filips Folbert Frans Frederik 
+			Gerard Gerolt Gerulf Gijsbrecht Giselbert Godfried Godschalk Gozewijn Guij Gwijde 
+			Hendrik Herman Hubert Hugo Hein Hendrikus Henrikus Rijk
+			Ijsbrand Ijsbrecht 
+			Jacco Jacob Jan 
+			Koenraad Kristof 
+			Lambert Lodewijk Ludewijn Lutbert Luthard 
+			Maertijn Marquart 
+			Niclaes
+			Olivier Otto Otwin Onno 
+			Pieter 
+			Reinaerd Reinoud Reginar Robrecht Robert Rodulf Roelof Roland Rutger 
+			Sebastiaen Sicco Simon Steven Steyn 
+			Theodolf 
+			Waelram Walter Wicher Willem
+		}
+		female_names = {
+			Ada Adela Adelheid Aechte Agaete Aleid Alijse Aliken Anna Annelies 
+			Badeloge Bava Beatrijs Benedicta Blanca Blanceflore 
+			Cecily Cille Clara Clementia Catalijne Catalyne Catarina Catelijne Cathalijne Catharina Catharine Cathelijn Cathelijne Catherina Catherine Catrina Catrijn
+			Elisabeth Ellijnore Emma Ermingarde Elisa Elise Elsbeth
+			Fenne Filippa Frida Fleur
+			Gheertrude Gerda Godila 
+			Helena Hilligonda Hadewich Hedwich Heilwich
+			Ide Imagina Irene Isabelle Iudith
+			Jacoba Jaccobijn Jasminne Johanna Jolanda Juliana Jutte Janna
+			Kathrijne Katrien Katelijn Katelijne Katharina Kathelyn
+			Liedwin Lisebet Liesbet Liesbeth
+			Margareta Margarita Margriet Marguerite Margarete Margret Margreet Margreta Margretha Margaret Machtelt Maria Mathilde 
+			Oda Odelt Olinde Onna 
+			Pieternelle 
+			Reynilde 
+			Sanne Sigerda Sophie Swanhildis 
+			Thetburga 
+			Waltrud Wila Wendelmoet Wenna Willemine 
+			Yonefij Yvonne 
+			Zoete
+		}
+		
+		dynasty_of_location_prefix = "dynnp_van"
+		
+		patronym_suffix_male = "dynnpat_suf_szoon"
+		patronym_suffix_female = "dynnpat_suf_sdochter"
+		always_use_patronym = yes	
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 10
+		father_name_chance = 25
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 20
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+
+		ethnicities = {
+			25 = caucasian_blond
+			15 = caucasian_ginger
+			35 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+
+		mercenary_names = {
+			{ name = "mercenary_company_of_the_brabancon_wolf" coat_of_arms = "mc_company_of_the_brabancon_wolf" }
+			{ name = "mercenary_company_flemish_band" }
+			{ name = "mercenary_false_earls_company" }
+		}
+	}
 }
