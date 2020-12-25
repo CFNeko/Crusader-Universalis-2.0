@@ -37,8 +37,8 @@
 @colonization = "gfx/interface/icons/culture_innovations/colonization.dds"
 @medicine = "gfx/interface/icons/culture_innovations/medicine.dds"
 @art = "gfx/interface/icons/culture_innovations/art.dds"
-@scythe = "gfx/interface/icons/culture_innovations/scythe.dds"
-@spring = "gfx/interface/icons/culture_innovations/spring.dds"
+@scythe = "gfx/interface/icons/culture_innovations/innovation_scythe.dds"
+@spring = "gfx/interface/icons/culture_innovations/innovation_spring.dds"
 
 #culture_group_military
 innovation_military_1 = {
