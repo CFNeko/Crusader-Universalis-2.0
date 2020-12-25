@@ -1,0 +1,11 @@
+﻿l_russian:
+
+ # ARQUEBUS IMPROVEMENT DECISION CHAIN #
+ improve_the_arquebus_decision:0 "Улучшить Аркебузу"
+ improve_the_arquebus_decision_confirm:0 "Отправить Маршала"
+ improve_the_arquebus_decision_tooltip:0 "Ваш Маршал попытается улучшить Аркебузу."
+ improve_the_arquebus_decision_desc:0 "Вы отправите Маршала в разные части вашего королевства и за границу в поисках военных инжереов."
+ 
+ # ARQUEBUS EVENT DECISION TOOLTIP
+ improve_the_arquebus_event_tooltip:0 "По их возвращению у вас будут варианты по тому, как улучшить оружие."
+ 

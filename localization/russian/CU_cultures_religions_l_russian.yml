@@ -1,0 +1,101 @@
+﻿l_russian:
+ # CULTURES #############
+
+ # ALBANIAN
+ illyrian_group:0 "Иллирийская"
+ albanian:0 "Албанская"
+ albanian_collective_noun:0 "Албанцы"
+
+ # IBERIAN
+ asturleonese:0 "Леонская"
+ asturleonese_collective_noun:0 "Леонцы"
+
+ # FRANKISH
+ frankish_group:0 "Франкская"
+ frankish_group_collective_noun:0 "Франкская"
+ french:0 "Французская"
+ french_collective_noun:0 "Французы"
+ walloon:0 "Валлонская"
+ walloon_collective_noun:0 "Валлоны"
+ gascon:0 "Гасконская"
+ gascon_collective_noun:0 "Гасконы"
+ burgundian:0 "Бургнудская"
+ burgundian_collective_noun:0 "Бургундцы"
+
+ # GERMANIC
+ rhenish:0 "Рейнийская"
+ rhenish_collective_noun:0 "Рейнийцы"
+ westphalian:0 "Вестфальская"
+ westphalian_collective_noun:0 "Вестфальск"
+ flemish:0 "Фламандская"
+ flemish_collective_noun:0 "Фламандцы"
+ swiss:0 "Швейцарская"
+ swiss_collective_noun:0 "Швейцары"
+
+ # LATIN
+ emilian: "Эмилийская"
+ emilian_collective_noun: "Эмилийцы"
+ ligurian: "Лугрианская"
+ ligurian_collective_noun: "Лигурианцы"
+ neapolitan: "Неаполитанская"
+ neapolitan_collective_noun: "Неаполитанцы"
+ piedmontese: "Пьедмондская"
+ piedmontese_collective_noun: "Пьедмонцы"
+ tuscan: "Тосканская"
+ tuscan_collective_noun: "Тосканцы"
+ venetian: "Венецианская"
+ venetian_collective_noun: "Венециане"
+ maltese:0 "Мальтийская"
+ maltese_collective_noun:1 "Мальтийцы"
+
+ # SLAVIC
+ sorbian:0 "Сорбийская"
+ sorbian_collective_noun:0 "Сорбийцы"
+ silesian:0 "Силезская"
+ silesian_collective_noun:0 "Силезийцы"
+ vlach:0 "Румынская"
+ vlach_collective_noun:0 "Румыны"
+ byelorussian:0 "Белорусская"
+ byelorussian_collective_noun:0 "Белоруссы"
+ ruthenian:0 "Русинская"
+ ruthenian_collective_noun:0 "Русины"
+ ryazanian:0 "Рязанская"
+ ryazanian_collective_noun:0 "Рязанцы"
+ novgorodian:0 "Новгородская"
+ novgorodian_collective_noun:0 "Новгордцы"
+ russian:0 "Московская"
+ russian_collective_noun:0 "Московцы"
+
+ # BALTIC
+ semigallian:0 "Земгальцская"
+ semigallian_collective_noun:0 "Земгальцы"
+
+ # RELIGION #############
+ hussite:0 "Гуситизм"
+ hussite_adj:0 "Гуситск"
+ hussite_adherent:0 "Гусит"
+ hussite_adherent_plural:0 "Гуситы"
+ hussite_desc:0 "The followers of Jan Hus proclaims that Jesus Christ is the supreme Head of the Church, and denounce the Catholic Church and their clergy as corrupt."
+ 
+ taborite:0 "Таборитизм"
+ taborite_adj:0 "Таборитск"
+ taborite_adherent:0 "Таборит"
+ taborite_adherent_plural:0 "Табориты"
+ taborite_desc:0 "The zealous Taborites wishes to create a utopian christian society where all Christian is equal to each other. To this end they proclaim themselves as soldiers of God, ready to fight the ungodly Apostates."
+ 
+ beguine:0 "Бегинизм"
+ beguine_adj:0 "Бегинизск"
+ beguine_adherent:0 "Бегин"
+ beguine_adherent_plural:0 "Бегины"
+ beguine_desc:0 "The Beguine are adult women who devoted themselves to the church and charity, even though they made no vows to the church and their members are free to join and leave the community. They believe that all men and women are equal in Christ and due to this has often found themselves sided with those who want to reform the Church."
+ 
+ special_doctrine_reformed_christian_name:0 "Реформация"
+ special_doctrine_reformed_christian_desc:0 "We denounce the Pope and his corrupt church who had become enamoured by wordly matters! For the Church to return to its Holiness, we need to reform it."
+ doctrine_parameter_hostility_override_special_doctrine_reformed_christian:0 "Other Christian [faiths|E] that have the Reformation doctrine are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of #V Hostile#!"
+ doctrine_parameter_hostility_override_special_doctrine_papacy:0 "Other Christian [faiths|E] that follow the Papacy are considered [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V] instead of #V Hostile#!"
+ 
+ special_doctrine_papacy_name:0 "папство"
+ special_doctrine_papacy_desc:0 "We adheres to the authority of the Pope as the Head of the Church, the successor of the Prime Apostle Saint Peter"
+
+ tenet_mass_translation_name:0 "Массовый Перевод"
+ tenet_mass_translation_desc:0 "By translating our holy book to the masses, everyone may understand the doctrines of our faith. Through it may we open the eyes of all infidels and apostates to the divine truth."

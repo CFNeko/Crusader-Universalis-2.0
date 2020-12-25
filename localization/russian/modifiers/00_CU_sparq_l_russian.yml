@@ -1,0 +1,30 @@
+﻿l_russian:
+ 
+ # ARQUEBUS IMPROVEMENT MODIFIERS
+ arquebus_fair_imp_modifier:0 "Улучшенная Аркебуза"
+ arquebus_fair_imp_modifier_desc:1 "Ваши военные инженерынашли практичное решение для громоздкой Аркебузы, приклад арбалета. Это позволяет прислонять Аркебузу к плечу."
+ arquebus_good_imp_modifier:0 "Утонченная Аркебуза"
+ arquebus_good_imp_modifier_desc:1 "Ваши самые умелые мастера изобрели гениальный метод смешивания пороха и создания Аркебуз, улучшая общее качество."
+ arquebus_excellent_imp_modifier:0 "Фитильная Аркебуза"
+ arquebus_excellent_imp_modifier_desc:1 "Ваши ремесленники улучшили Аркебузу с добавлением фетиля, превращая ее в переносное оружие."
+ 
+ # ARQUEBUS IMPROVEMENT EVENT MODIFIERS
+ arquebus_employed_artificer_modifier:0 "Нанятый Мастер-реесленник"
+ arquebus_employed_artificer_modifier_desc:1 "Этот персонаж нанимает мастера-ремесленика в свой двор."
+ arquebus_employed_locals_modifier:0 "Наняты Местные Мастера"
+ arquebus_employed_locals_modifier_desc:1 "Владыка этой страны нанял большинство местных мастеров в огромный проект."
+ arquebus_normal_progress_modifier:0 "Стабильная Разработка"
+ arquebus_normal_progress_modifier_desc:1 "Этот персонаж наблюдает стабильный успех в их нынешнем проекте."
+ arquebus_good_progress_modifier:0 "Главный Прорыв"
+ arquebus_good_progress_modifier_desc:1 "Проект, в котором учавствует этот персонаж, произошел главный прорыв, давая ценную информацию."
+ arquebus_bad_progress_modifier:0 "Задержка в Проекте"
+ arquebus_bad_progress_modifier_desc:1 "Этот персонаж наблюдает ужаснейшую задержку в их нынешнем проекте."
+ 
+ # ARQUEBUS REGIMENT MODIFIERS
+ arquebusiers_damage_add:1 "[arquebusier|E] [damage|E]"
+ arquebusiers_damage_mult:0 "$arquebusiers_damage_add$"
+ arquebusiers_toughness_add:1 "[arquebusier|E] [toughness|E]"
+ arquebusiers_toughness_mult:0 "$arquebusiers_toughness_add$"
+ arquebusiers_screen_add:1 "[arquebusier|E] [screen|E]"
+ arquebusiers_siege_value_add:1 "[arquebusier|E] [siege_progress|E]"
+ 

@@ -1,0 +1,6 @@
+﻿l_russian:
+    horde_government: "Степная Орда"
+    horde_government_adjective: "Ордынск"
+    horde_government_realm: "Орда"
+    horde_government_desc: "$game_concept_tribal_desc$\n\n#F В ордах, сила это всё. Лидер степной орды больше зависим от уважения и знаменитости, чем от денег для развития королевства и поддержки армии.#!"
+    
