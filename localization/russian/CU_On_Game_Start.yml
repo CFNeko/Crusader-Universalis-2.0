@@ -1,0 +1,9 @@
+﻿l_russian:
+ CKU_On_Game_Start.1.t: "1444, Crusader Universalis"
+ CKU_On_Game_Start.1.d: "Добро пожаловать в Crusader Universalis, мод, который соединяет CK3 с Eu4. Этот мод все еще на ранних стадиях разработки, но благодаря разнообразию механик в Crusader Kings, каждому игроку будет весело играть. Сейчас, самые завершенные страны таковы: Франция, Англия, Шотландия и технически, Ирландия, которая будет фокусом в обновлении на Столетнюю Войну.\n\nЕсли если выхотите дать нам обратную связь, напишите его в нашем сервере Discord: https://discord.gg/DaaBgJM"
+ CKU_On_Game_Start.1.a: "Хорошо!"
+ 
+ # English Start event
+ CKU_On_Game_Start.2.t: "Королевство Англия"
+ CKU_On_Game_Start.2.d: "The Hundred Years War which has torn France apart for over a century is currently halted by a truce following a number of key French victories. With the support of Joan of Arc, since martyred at the hands of the Flag of England English, and the support of the rich Flag of Provence Anjou family, Charles VII has reclaimed Paris and many of the French lands. Charles has also been acknowledged as the rightful King by the Dukes of Flag of Burgundy Burgundy in the treaty of Arras in 1435.\n\nHowever, the truce with England is tenuous. The English have still not relinquished their claims to the French throne, and one of the main demands of the new treaty, the surrender of Maine to France, has yet to materialize months later."
+ CKU_On_Game_Start.2.a: "Окей!"

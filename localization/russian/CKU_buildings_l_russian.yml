@@ -1,0 +1,20 @@
+﻿l_russian:
+ building_great_harbour_01:1 "Великий Мальтийский Порт"
+ building_type_great_harbour_01:1 "Великий Порт"
+ building_great_harbour_01_desc:1 "The great harbour of malta is basically epic"
+
+
+
+##### COLONIAL SHIT #####
+ colonisable_government:0 "Местное"
+ colonisable_holding:0 "Местное"
+ building_type_colonisable_01:0 "Нереформированное племя"
+ building_colonisalble_01:0 "аленькая деревня"
+ building_colonisable_01_desc:0 "Нереформированное племя с паленьким населнием, можно колонизировать"
+ colonise_colonisable_holding_interaction:0 "Колонизировать владение"
+ colonise_colonisable_holding_desc:0 "Уничтожить местные здания и превратить владение в колонию"
+ colonial_government:0 "Колониальное"
+ colony_holding:0 "Колониальное"
+ building_type_colony_01:0 "Колония"
+ building_colony_01:0 "Поселение"
+ building_colony_01_desc:0 "аленье поселение со стабильным приходом иммигрантов"

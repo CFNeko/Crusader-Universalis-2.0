@@ -1,0 +1,8 @@
+﻿l_russian:
+ 
+ # REQUIRED YEAR TRIGGER
+ required_year_trigger:0 "Необходимый год $VALUE|V0$."
+ NOT_required_year_trigger:0 "Необходимый год не $VALUE|V0$."
+ required_year_greater_or_equal_trigger:0 "Необходимый год $VALUE|V0$ или больше."
+ NOT_required_year_greater_or_equal_trigger:0 "Необходимый год не $VALUE|V0$ или больше."
+ 
