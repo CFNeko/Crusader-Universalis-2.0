@@ -1,0 +1,101 @@
+﻿l_korean:
+ # CULTURES #############
+
+ # ALBANIAN
+ illyrian_group:0 "일리리아"
+ albanian:0 "알바니아"
+ albanian_collective_noun:0 "알바니아"
+
+ # IBERIAN
+ asturleonese:0 "레온"
+ asturleonese_collective_noun:0 "레온"
+
+ # FRANKISH
+ frankish_group:0 "프랑크"
+ frankish_group_collective_noun:0 "프랑크"
+ french:0 "프랑스"
+ french_collective_noun:0 "프랑스"
+ walloon:0 "왈론"
+ walloon_collective_noun:0 "왈론"
+ gascon:0 "가스코뉴"
+ gascon_collective_noun:0 "가스코뉴"
+ burgundian:0 "부르고뉴"
+ burgundian_collective_noun:0 "부르고뉴"
+
+ # GERMANIC
+ rhenish:0 "라인"
+ rhenish_collective_noun:0 "라인"
+ westphalian:0 "베스트팔렌"
+ westphalian_collective_noun:0 "베스트팔렌"
+ flemish:0 "플라망"
+ flemish_collective_noun:0 "플라망"
+ swiss:0 "스위스"
+ swiss_collective_noun:0 "스위스"
+
+ # LATIN
+ emilian: "에밀리아"
+ emilian_collective_noun: "에밀리아"
+ ligurian: "리구리아"
+ ligurian_collective_noun: "리구리아"
+ piedmontese: "피에몬테"
+ piedmontese_collective_noun: "피에몬테"
+ tuscan: "토스카나"
+ neapolitan: "나폴리"
+ neapolitan_collective_noun: "나폴리"
+ tuscan_collective_noun: "토스카나"
+ venetian: "베네치아"
+ venetian_collective_noun: "베네치아"
+ maltese:0 "몰타"
+ maltese_collective_noun:1 "몰타"
+
+ # SLAVIC
+ sorbian:0 "소르브"
+ sorbian_collective_noun:0 "소르브"
+ silesian:0 "실레지아"
+ silesian_collective_noun:0 "실레지아"
+ vlach:0 "루마니아"
+ vlach_collective_noun:0 "루마니아"
+ byelorussian:0 "벨라루스"
+ byelorussian_collective_noun:0 "벨라루스"
+ ruthenian:0 "루테니아"
+ ruthenian_collective_noun:0 "루테니아"
+ ryazanian:0 "랴잔"
+ ryazanian_collective_noun:0 "랴잔"
+ novgorodian:0 "노브고르드"
+ novgorodian_collective_noun:0 "노브고르드"
+ russian:0 "모스크바"
+ russian_collective_noun:0 "모스크바"
+
+ # BALTIC
+ semigallian:0 "세미갈리아"
+ semigallian_collective_noun:0 "세미갈리아"
+
+ # RELIGION #############
+ hussite:0 "후스파"
+ hussite_adj:0 "후스파"
+ hussite_adherent:0 "후스파 신도"
+ hussite_adherent_plural:0 "후스파 신도"
+ hussite_desc:0 "얀 후스의 추종자들은 예수 그리스도가 지엄하신 교회의 수장이며 교황청과 사제가 타락했다고 비판합니다."
+ 
+ taborite:0 "타보르파"
+ taborite_adj:0 "타보르파"
+ taborite_adherent:0 "타보르파 신도"
+ taborite_adherent_plural:0 "타보르파 신도"
+ taborite_desc:0 "열성적인 타보르파 신도는 모든 기독교인들이 평등한 이상적인 기독교 사회를 만들고자 합니다. 신도들은 이를 위해 하나님의 군인을 자칭하며, 불경한 배교자들과 싸울 준비를 마쳤습니다."
+ 
+ beguine:0 "베긴회"
+ beguine_adj:0 "베긴회"
+ beguine_adherent:0 "베긴회 신도"
+ beguine_adherent_plural:0 "베긴회 신도"
+ beguine_desc:0 "베긴 운동은 수녀가 되지 않았지만 종교와 순결에 헌신한 성인 여성들의 운동입니다. 그들은 남자와 여자가 신 앞에 평등하다고 믿으며, 이로 인해 개혁교회의 편을 종종 들게 되었습니다."
+ 
+ special_doctrine_reformed_christian_name:0 "종교 개혁"
+ special_doctrine_reformed_christian_desc:0 "우리는 세속적 가치에 홀린 교황과 부패한 교회를 비난한다! 개혁된 교회만이 성스러우리라."
+ doctrine_parameter_hostility_override_special_doctrine_reformed_christian:0 "종교 개혁 교리를 가진 기독교 [faiths|E]들이 #V Hostile#! 대신 [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]으로 간주됨"
+ doctrine_parameter_hostility_override_special_doctrine_papacy:0 "교황청을 따르는 기독교 [faiths|E]들이 #V Hostile#! 대신 [GetHostilityLevelName( FAITH_DOCTRINE_PARAMETER.GetIntValue )|V]으로 간주됨!"
+ 
+ special_doctrine_papacy_name:0 "교황청"
+ special_doctrine_papacy_desc:0 "우리는 교황의 권위를 사도세자 성 베드로의 뒤를 이어 교회의 수장으로 따릅니다."
+
+ tenet_mass_translation_name:0 "성경 번역"
+ tenet_mass_translation_desc:0 "민중에게 우리 경전을 번역한다면, 우리 신앙의 교리가 널리 알려질 것입니다. 그리하여 우리는 모든 이교도와 배교자들의 눈을 뜨게 할 것입니다."

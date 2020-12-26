@@ -1,0 +1,20 @@
+﻿l_korean:
+ building_great_harbour_01:1 "그랑항"
+ building_type_great_harbour_01:1 "대항구"
+ building_great_harbour_01_desc:1 "몰타의 그랑항은 이름 그대로 거대한 항구입니다."
+
+
+
+##### COLONIAL SHIT #####
+ colonisable_government:0 "원주민"
+ colonisable_holding:0 "원주민"
+ building_type_colonisable_01:0 "미개 부족"
+ building_colonisalble_01:0 "작은 거주지"
+ building_colonisable_01_desc:0 "작은 미개 부족으로 식민지를 세우기에 적당합니다."
+ colonise_colonisable_holding_interaction:0 "식민지를 세운다"
+ colonise_colonisable_holding_desc:0 "원주민 거주지를 파괴하고 봉토를 식민지로 바꿉니다."
+ colonial_government:0 "식민정부"
+ colony_holding:0 "식민지"
+ building_type_colony_01:0 "식민지"
+ building_colony_01:0 "정착지"
+ building_colony_01_desc:0 "꾸준히 이민자가 들어오는 아담한 정착지입니다."

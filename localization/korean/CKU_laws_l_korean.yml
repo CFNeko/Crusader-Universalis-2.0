@@ -1,0 +1,11 @@
+﻿l_korean:
+ stadholder_succession_law: "총독"
+ special_contract_stadhouders_short: "총독"
+ special_contract_stadhouders: "총독 계약"
+ special_contract_stadhouders_desc: "총독은 세수를 크게 상승시키지만 군주의 행정에 예속되어 봉역 제한을 감소시키는 계약입니다."
+ governorship_tax_increase: "총독 계약"
+
+ CKU_governor_government: "총독"
+ CKU_governor_government_desc: "총독은 주군에게 더 많은 세금을 내는 통치자입니다."
+ CKU_governor_government_vassals_label: "총독 계약은 모든 총독 봉신들에게 동등하게 적용됩니다."
+ CKU_governor_government_obligations: "총독 계약"

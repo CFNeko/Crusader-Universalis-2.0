@@ -69,30 +69,8 @@
  # BALTIC
  semigallian:0 "Semigallian"
  semigallian_collective_noun:0 "Semigallians"
- 
- # JAPANESE
- japanese_group:0 "Japanese"
- japanese:0 "Japanese"
- japanese_collective_noun:0 "Japanese"
- 
- # Ainu
- ainu_group:0 "Ainu"
- ainu:0 "Ainu"
- ainu_collective_noun:0 "Ainu"
- 
- # west germanic
- western_germanic_group: "West Germanic"
- english:0 "English"
- english_collective_group_noun: "English"
- scots:0 "Scots"
- scots_collective_noun: "Scots"
- hiberno_norman: "Hiberno-Norman"
- hiberno_norman_colelctive_noun: "Hiberno-Normans"
- ulster_scots: "Ulster-Scots"
- ulster_scots_collective_noun: "Ulster-Scots"
 
  # RELIGION #############
- # Christianity #
  hussite:0 "Hussitism"
  hussite_adj:0 "Hussite"
  hussite_adherent:0 "Hussites"
@@ -121,30 +99,3 @@
 
  tenet_mass_translation_name:0 "Mass Translation"
  tenet_mass_translation_desc:0 "By translating our holy book to the masses, everyone may understand the doctrines of our faith. Through it may we open the eyes of all infidels and apostates to the divine truth."
- 
- #Islam#
- shafii:0 "Shafi'i"
- shafii_adj:0 "Shafi'i"
- shafii_adherent:0 "Shafi'ite"
- shafii_adherents:0 "Shafi'ites"
- shafii_desc:0 "Imam As-Shafi'i was renown for his careful deliberation and his adherence towards the Hadith. The followers of this school accordingly uphold rule of Islamic Law based on the Hadith as their central doctrine."
- 
- maliki:0 "Maliki"
- maliki_adj:0 "Maliki"
- maliki_adherent:0 "Malikite"
- maliki_adherents:0 "Malikites"
- maliki_desc:0 "Maliki school of thoughts accepts not only the Quran and the Hadith as their source of law, but also the rulings of Khulafaur Rashidin and Islamic customs and traditions."
- 
- hanafi:0 "Hanafi"
- hanafi_adj:0 "Hanafi"
- hanafi_adherent:0 "Hanafite"
- hanafii_adherents:0 "Hanafites"
- hanafi_desc:0 "The Hanafites are aware that with the progress of society, there arise problems that were unmentioned in the Quran or the Hadith. Thus the need of qiyas, using legal analogy to solve the problems of the Ummah."
- 
- hanbali:0 "Hanbali"
- hanbali_adj:0 "Hanbali"
- hanbali_adherent:0 "Hanbalite"
- hanbali_adherents:0 "Hanbalites"
- hanbali_desc:0 "Followers of Imam Ahmad ibn Hanbali put heavy emphasis on the Hadith. The words of The Prophets should be followed to the letter before one may pull their own interpretation."
- 
-
