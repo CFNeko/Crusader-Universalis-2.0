@@ -39,6 +39,7 @@
 @art = "gfx/interface/icons/culture_innovations/art.dds"
 @scythe = "gfx/interface/icons/culture_innovations/innovation_scythe.dds"
 @spring = "gfx/interface/icons/culture_innovations/innovation_spring.dds"
+@limbers_and_caissons = "gfx/interface/icons/culture_innovations/innovation_limbersandcaissons.dds"
 
 #culture_group_military
 innovation_military_1 = {
@@ -216,7 +217,7 @@ innovation_military_8 = {
 innovation_military_9 = {
 	group = culture_group_military
 	culture_era = culture_era_early_modern
-	icon =  @culverin
+	icon =  @limbers_and_caissons
 	
 	maa_upgrade = {
 		type = heavy_infantry
