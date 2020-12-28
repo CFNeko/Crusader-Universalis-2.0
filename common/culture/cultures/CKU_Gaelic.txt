@@ -1,0 +1,271 @@
+﻿goidelic_group = {
+	graphical_cultures = {
+		western_coa_gfx
+		western_building_gfx
+		northern_clothing_gfx
+		western_unit_gfx
+	}
+	
+
+	scottish_gaelic = {
+		graphical_cultures = {
+			scottish_coa_gfx
+		}
+		
+		color = rgb { 100 255 150 }
+
+		cadet_dynasty_names = {
+		dynn_beitean
+		dynn_bhasa
+		dynn_bhodhsa
+		dynn_boideach
+		dynn_breac
+		dynn_bruis
+		dynn_brus
+		dynn_caimbeul
+		dynn_caimbeulach
+		dynn_camran
+		dynn_ciar
+		dynn_dughlas
+		}
+
+		dynasty_names = {
+		dynn_aileanach
+		dynn_ailpeanach
+		dynn_allanach
+		dynn_ambarsan
+		dynn_anam
+		dynn_andarsan
+		dynn_arasgain
+		dynn_ariss
+		dynn_baran
+		dynn_barrach
+		dynn_blacach
+		dynn_blar
+		dynn_blarach
+		dynn_bochanan
+		dynn_boid
+		dynn_boyd
+		dynn_braigheach
+		dynn_breathnach
+		dynn_brothaigh
+		dynn_brun
+		dynn_buideach
+		dynn_buidheach
+		dynn_buids
+		dynn_buiseid
+		dynn_cailbhin
+		dynn_caileanach
+		dynn_cananach
+		dynn_canonach
+		dynn_caoidheach
+		dynn_catach
+		dynn_catan
+		dynn_ceamp
+		dynn_comhan
+		dynn_creag
+		dynn_dalais
+		dynn_dubhghlas
+		dynn_druimein
+		dynn_dubh
+		dynn_dubhach
+		dynn_dunaid
+		dynn_donchadh
+		dynn_flachnan
+		dynn_forbeis
+		dynn_folais
+		dynn_frasier
+		dynn_gall
+		dynn_gallach
+		}
+
+		male_names = {
+		Aindrea Alan Alasdair Alister Aonghus Athol Boyd Calum Cinaed Coinneach Conall Craig Davidh Deorsa Diarmad Domhnall Domnall Donald Donchadh Dubhghall Dubhghlas
+		Eachann Ealair Ealasaid Edan Eoghan Eoin Erskine Fearchar Fearghas Fergie Fife Filib Findlay Fionghall Fionnlagh Fionntan Forbes Frang Gawain Gilchrist Gillespie
+		Gillroy Glen Glenn Goraidh Graeme Greig Hamish Heck Iain Ivor Iomhar Keir Keith Kentigern Labhrainn Lachie Logan Maelcoluim Micheal Micheil Muir Muireadhach
+		Mungo Murchadh Naoise Naomhan Neacel Niall Nichol Ninian Padraig Pal Peadar Raghnall Raibeart Ranald Ranulf Roderick Ronald Rhuaidhri Sachairi Seaghdh Seoc
+		Seoras Seumas Sithech Steenie Suibhne Tadgh Tavish Tasgall Tearlach Teasag Tomas Torcuil Ualan Uilleam Uisdean Wallace 
+		}
+		female_names = {
+		Aifric Aileas Athol Barabal Beitris Cairistiona Caitriona Caoimhe Catrina Deoiridh Donella Oighrig Eithne Eilionoir Eilidh Fenella Fergie Finella Fionghuala Fionnuala Frangag 
+		Glenna Gormlaith Grizel Iseabail Keitha Kenina Kirstin Liusaidh Maighread Mairead Mairi Mhairi Mor Morag Maisie Moyna Nandag Oighrig Rhona Rodina Seonag Sheena Sheona Sileas
+		Sineag Slaine Sorcha Una 
+		}
+		
+		dynasty_title_names = no
+		
+		patronym_prefix_male = "dynnpat_pre_Mac"
+		patronym_prefix_female = "dynnpat_pre_Mac"
+		dynasty_of_location_prefix = "dynnp_a"
+		prefix = yes
+		
+		always_use_patronym = yes	
+
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+
+		ethnicities = {
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+	}
+	
+	irish = {
+		graphical_cultures = {
+			irish_coa_gfx
+		}
+		
+		color = rgb { 125 255 0 }
+
+		cadet_dynasty_names = {
+		{ "dynnp_o" "dynn_alaois" }
+		{ "dynnp_o" "dynn_bairre" }
+		{ "dynnp_o" "dynn_daibhi" }
+		{ "dynnp_o" "dynn_fillin" }
+		{ "dynnp_o" "dynn_ionatan" }
+		{ "dynnp_mc" "dynn_cearbhall" }
+		{ "dynnp_mc" "dynn_aran" }
+		{ "dynnp_mc" "dynn_aoibhe" }
+		{ "dynnp_mc" "dynn_comghall" }
+		{ "dynnp_mc" "dynn_cait" }
+		{ "dynnp_mac" "dynn_cairbre" }
+		{ "dynnp_mac" "dynn_fearghas" }
+		{ "dynnp_mac" "dynn_gearoid" }
+		{ "dynnp_mac" "dynn_tadgh" }
+		{ "dynnp_mac" "dynn_iulie" }
+		{ "dynnp_mac" "dynn_domnall" }
+		{ "dynnp_mac" "dynn_carthach" }
+		{ "dynnp_mac" "dynn_comhghan" }
+		}
+
+		dynasty_names = {
+		{ "dynnp_o" "dynn_eichthighearn" }
+		{ "dynnp_o" "dynn_byrne" }
+		{ "dynnp_o" "dynn_baoigheall" }
+		{ "dynnp_o" "dynn_bradaigh" }
+		{ "dynnp_o" "dynn_boyle" }
+		{ "dynnp_o" "dynn_beirne" }
+		{ "dynnp_o" "dynn_bradain" }
+		{ "dynnp_o" "dynn_baoighill" }
+		{ "dynnp_o" "dynn_buachalla" }
+		{ "dynnp_o" "dynn_ceallachain" }
+		{ "dynnp_o" "dynn_ceithearnaigh" }
+		{ "dynnp_o" "dynn_ciardha" }
+		{ "dynnp_o" "dynn_cearmada" }
+		{ "dynnp_o" "dynn_cathasaigh" }
+		{ "dynnp_o" "dynn_caiside" }
+		{ "dynnp_o" "dynn_cuidighthigh" }
+		{ "dynnp_o" "dynn_coilean" }
+		{ "dynnp_o" "dynn_conghalaigh" }
+		{ "dynnp_o" "dynn_conaire" }
+		{ "dynnp_o" "dynn_cochlain" }
+		{ "dynnp_o" "dynn_dubhshlaine" }
+		{ "dynnp_o" "dynn_diomasaigh" }
+		{ "dynnp_o" "dynn_damhain" }
+		{ "dynnp_o" "dynn_donnchadha" }
+		{ "dynnp_o" "dynn_donndubhain" }
+		{ "dynnp_o" "dynn_deorain" }
+		{ "dynnp_o" "dynn_doirnain" }
+		{ "dynnp_o" "dynn_flannagain" }
+		{ "dynnp_o" "dynn_floinn" }
+		{ "dynnp_o" "dynn_faghladha" }
+		{ "dynnp_o" "dynn_frighil" }
+		{ "dynnp_o" "dynn_gallchobhair" }
+		{ "dynnp_o" "dynn_hallmhurain" }
+		{ "dynnp_o" "dynn_hannagain" }
+		{ "dynnp_o" "dynn_haodh" }
+		{ "dynnp_o" "dynn_hlfearain" }
+		{ "dynnp_o" "dynn_loingsigh" }
+		{ "dynnp_o" "dynn_maolain" }
+		{ "dynnp_o" "dynn_neil" }
+		{ "dynnp_o" "dynn_huiginn" }
+		{ "dynnp_mac" "dynn_neil" }
+		{ "dynnp_mac" "dynn_aodha" }
+		{ "dynnp_mac" "dynn_maghnuis" }
+		{ "dynnp_mac" "dynn_mathghamnha" }
+		{ "dynnp_mac" "dynn_naoimhin" }
+		{ "dynnp_mac" "dynn_an_tsagairt" }
+		{ "dynnp_mac" "dynn_alistair" }
+		{ "dynnp_mac" "dynn_duibhshithe" }
+		{ "dynnp_mac" "dynn_farlane" }
+		{ "dynnp_mac" "dynn_giolla_phadraig" }
+		{ "dynnp_mac" "dynn_guire" }
+		{ "dynnp_mac" "dynn_iomhair" }
+		{ "dynnp_mac" "dynn_iver" }
+		{ "dynnp_mac" "dynn_lain" }
+		{ "dynnp_mac" "dynn_neachtain" }
+		{ "dynnp_mac" "dynn_sithigh" }
+		{ "dynnp_mac" "dynn_madaidhin" }
+		{ "dynnp_mac" "dynn_aonghuis" }
+		{ "dynnp_mac" "dynn_caba" }
+		{ "dynnp_mac" "dynn_reachtain" }
+		{ "dynnp_mac" "dynn_ginnis" }
+		{ "dynnp_mac" "dynn_reynold" }
+		{ "dynnp_mac" "dynn_mochain" }
+		{ "dynnp_mac" "dynn_muircheartach" }
+		{ "dynnp_mc" "dynn_reynolds" }
+		{ "dynnp_mc" "dynn_neal" }
+		{ "dynnp_mc" "dynn_neil" }
+		{ "dynnp_mc" "dynn_neachtain" }
+		{ "dynnp_mc" "dynn_ivor" }
+		{ "dynnp_mc" "dynn_farlane" }
+		{ "dynnp_mc" "dynn_domhnaill" }
+		{ "dynnp_mc" "dynn_giolla_fhaolain" }
+		{ "dynnp_mc" "dynn_crory" }
+		{ "dynnp_mc" "dynn_dermott" }
+		dynn_flanagon
+		dynn_kavanagh
+		dynn_carroll
+		dynn_boyle
+		dynn_cavanaugh
+		dynn_deasun
+		dynn_donoghue
+		}
+
+		male_names = {
+		Abban Adhamh Aengus Aodhan Aigneis Ailbhe Ailill Aindreas Aindriu Alaois Alastar Amhlaoibh Angus Anrai Aodh Aodhagan Aonghus Aran Ardal Ardghal Bairre Barra Barrfhionn Berach Bradach Breandan Brogan 
+		Cadogan Cahal Cahir Cainneach Cairbre Caoimhin Carbry Cearbhall Carthach Casey Cathalan Cathan Ciardha Colm Colman Comhghan Conan Comghall Criostoir Daibhi Daire Dalach Daithi Daley Damhan Daire 
+		Diarmaid Derry Desmond Domhnall Domnall Dougal Doyle Eamonn Edan Eibhear Einri Eimhin Enna Eoghan Eoin Dearchar Feardorcha Fechin Fearghas Fiachra Fillin Finbar Fionbharr Fionnan Gearoid Gilroy Goban
+		Greagor Eibhear Iomhar Ionatan Ivor Jarlath Kelly Leachlainn Lochlann Lonan Lorccan Lughaidh Luigseach Mainchin Manus Marcas Mellan Muireann Muirgel Patrick Patsy Rathnait Redmond Ronan Sean Seaghdha
+		Tadgh Tuathal Ultan
+		}
+		female_names = {
+		Aifric Ailbhe Aileen Aine AIngeal Aisilin Alannah Alastriona Aoibhe Aoibheann Aoibhin Ashling Assumpta Bairbre Bevin Biddy Bidelia Blaithin Blanid Blathanaid Brid Brogan Cait Caitlin Caitria Caitriona 
+		Caoilinn Caoilfhionn Casey Catriona Concepta Daley Damhnait Dairnie Dearbhail Deirbhile Deirdre Dervla Dervila Doireann Edna Eibhlin Eireen Eithne Emer Feidhelm Fiadh Fianna Fionna Gobnait Gobnet Gormflaith
+		Grainne Isbeal Iuile Kelly Lile Meabh Moira Nainsi Patsy Sadbh Saraid Sinead Toireasa 
+		}
+		
+		dynasty_title_names = no
+		
+		patronym_prefix_male = "dynnpat_pre_mac"
+		patronym_prefix_male_vowel = "dynnpat_pre_vow_mag"
+		patronym_prefix_female = "dynnpat_pre_nic"
+		patronym_prefix_female_vowel = "dynnpat_pre_vow_nig"
+		
+		always_use_patronym = yes	
+
+		
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 10
+
+		ethnicities = { 	
+			5 = caucasian_blond
+			30 = caucasian_ginger
+			35 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+	}
+}

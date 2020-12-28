@@ -1,0 +1,214 @@
+﻿brittonic_group = {
+	graphical_cultures = {
+		western_coa_gfx
+		western_building_gfx
+		western_clothing_gfx
+		western_unit_gfx
+	}
+	
+
+	welsh = {
+		graphical_cultures = {
+			welsh_coa_gfx
+		}
+		
+		color = rgb { 115 0 0 }
+
+		cadet_dynasty_names = {
+		dynn_buke
+		dynn_hier
+		dynn_baldwyn
+		dynn_powell
+		dynn_probert
+		dynn_pryce
+		dynn_parry
+		}
+
+		dynasty_names = {
+		dynn_aberffraw
+		dynn_bowen
+		dynn_bevan
+		dynn_blevins
+		dynn_cecil
+		dynn_cunedda
+		dynn_dinefwr
+		dynn_ellis
+		dynn_evans
+		dynn_floyd
+		dynn_griffith
+		dynn_gwertherion
+		dynn_mathrafal
+		dynn_howellson
+		dynn_jones
+		dynn_lewis
+		dynn_lloyd
+		dynn_morgan
+		dynn_morris
+		dynn_owen
+		dynn_prichard
+		dynn_pugh
+		dynn_reece
+		dynn_sayer
+		dynn_trevor
+		dynn_tudor
+		}
+
+		male_names = {
+		Aeron Aled Alex Alfred Afon Alan Alwyn Bevan Bran Brian Bryn Brynmor Cadoc Craddock George Henry Harry James John Luc Luke Maldwyn Meurig Maurice Roderick Oliver Robert Talfryn Tristan Urien Winfred Wyn Wynne Yale 
+		}
+		female_names = {
+		Aeron Afon Betrys Blodwen Dorothy Elizabeth Luned Mair Mary Maria Mari Marged Myf Rhian Rhosyn Seren Tegwen Tudor Wynne
+		}
+		
+		dynasty_title_names = no
+		
+		patronym_prefix_male = "dynnpat_pre_ap"
+		patronym_prefix_male_vowel = "dynnpat_pre_vow_ab"
+		patronym_prefix_female = "dynnpat_pre_ferch"	
+		always_use_patronym = yes
+
+		ethnicities = {
+			5 = caucasian_blond
+			25 = caucasian_ginger
+			40 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+	}
+	
+	cornish = {
+		graphical_cultures = {
+			welsh_coa_gfx
+		}
+		
+		color = rgb { 115 95 0 }
+
+		cadet_dynasty_names = {
+		dynn_michaels
+		dynn_pacob
+		}
+
+		dynasty_names = {
+		dynn_argall
+		dynn_couch
+		dynn_davids
+		dynn_evans
+		dynn_helyer
+		dynn_pirans
+		dynn_teague
+		}
+
+		male_names = {
+		Daveth David Jacob Jory George John Jowan Margh Mark Michael Pasco Pascal Ciran Piran 
+		}
+		female_names = {
+		Blejan Elowen Eseld Jennifer Meraud Merryn Morwenna Steren
+		}
+		
+		dynasty_title_names = no
+		
+
+		ethnicities = {
+			10 = caucasian_blond
+			10 = caucasian_ginger
+			50 = caucasian_brown_hair
+			30 = caucasian_dark_hair
+		}
+	}
+	breton = {
+		graphical_cultures = {
+			breton_coa_gfx
+		}
+		
+		color = rgb { 115 90 200 }
+
+		cadet_dynasty_names = {
+		dynn_cariou
+		dynn_eveno
+		dynn_guegan
+		dynn_jezequel
+		( dynnp_le dynn_goarnig )
+		( dynnp_le dynn_hir )
+		( dynnp_le dynn_meur )
+		dynn_marec
+		dynn_prigent
+		dynn_quiniou
+		dynn_stephan
+		dynn_trevidic
+		}
+
+		dynasty_names = {
+		dynn_abgrall
+		dynn_berthou
+		dynn_bollore
+		dynn_bosser
+		dynn_calvez
+		dynn_caradec
+		dynn_cloarec
+		dynn_corre
+		dynn_floch
+		dynn_gallou
+		dynn_goff
+		dynn_goureuff
+		dynn_guellec
+		dynn_guillou
+		dynn_guivarch
+		dynn_huessaff
+		dynn_jegou
+		dynn_kergoat
+		dynn_lagadec
+		( dynnp_le dynn_besco )
+		( dynnp_le dynn_bihan )
+		( dynnp_le dynn_bris )
+		( dynnp_le dynn_deunff )
+		( dynnp_le dynn_duff )
+		( dynnp_le dynn_fur )
+		( dynnp_le dynn_gall )
+		( dynnp_le dynn_guen )
+		( dynnp_le dynn_henaff )
+		( dynnp_le dynn_houerou )
+		( dynnp_le dynn_moal )
+		( dynnp_le dynn_pen )
+		( dynnp_le dynn_pennec )
+		( dynnp_le dynn_quellec )
+		( dynnp_le dynn_tallec )
+		dynn_lozach
+		dynn_madec
+		dynn_menez
+		dynn_mezec
+		dynn_moigne
+		dynn_ollivier
+		dynn_omnes
+		dynn_pelan
+		dynn_pichon
+		dynn_pinvidie
+		dynn_pouliquen
+		dynn_prado
+		dynn_quemener
+		dynn_quere
+		dynn_quiviger
+		dynn_riou
+		dynn_ropars
+		dynn_seznec
+		dynn_tanet
+		dynn_tanguy
+		)
+
+		male_names = {
+		Aaron Alan Alphonse Abel Anton Armel Brendan Corentin Deniel Edouard Elouan Erwan Fransez Gael Gwendal Gwenneg Gwilherm Herve Jodoc Judikael Loic Mael Malo Matthias Mikael Padrig Paol Paul Per Pierre Pierrick Robert Roparzh Tangi Tanguy Winoc
+		Yanick Yann Yezekael 
+		}
+		female_names = {
+		Adelaide Alana Annaig Enora Franseza Gaelle Gwenaelle Katarin Katell Maelle Mari Nadine Nolwenn Oanez Rozenn Yaick 
+		}
+		
+		dynasty_title_names = no
+		
+
+		ethnicities = {
+			15 = caucasian_blond
+			20 = caucasian_ginger
+			30 = caucasian_brown_hair
+			25 = caucasian_dark_hair
+		}
+	}
+}
