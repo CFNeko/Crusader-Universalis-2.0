@@ -1,20 +1,20 @@
-﻿l_english:
+﻿l_french:
 
  # ARQUEBUS IMPROVEMENT DECISION CHAIN #
- improve_the_arquebus_decision:0 "Improve the Arquebus"
- improve_the_arquebus_decision_confirm:0 "Dispatch your Marshal"
- improve_the_arquebus_decision_tooltip:0 "Your Marshal will attempt to improve the Arquebus."
- improve_the_arquebus_decision_desc:0 "You will dispatch your Marshal to the various parts of your realm and abroad to look for skilled war engineers."
+ improve_the_arquebus_decision:0 "Améliorer l'Arquebuse"
+ improve_the_arquebus_decision_confirm:0 "Envoyez votre maréchal"
+ improve_the_arquebus_decision_tooltip:0 "Votre maréchal va tenter d'améliorer l'Arquebuse."
+ improve_the_arquebus_decision_desc:0 "Vous enverrez votre maréchal dans les différentes parties de votre royaume et à l'étranger pour rechercher des ingénieurs de guerre compétents."
  
  # ARQUEBUS EVENT DECISION TOOLTIP
- improve_the_arquebus_event_tooltip:0 "Upon their return you will be provided with options on how to begin your improvement project."
+ improve_the_arquebus_event_tooltip:0 "À leur retour, vous recevrez des options sur la manière d'entamer votre projet d'amélioration."
  
  # SEEK GUNPOWDER DECISION
- seek_gunpowder_decision:0 "Search for Exotic Goods"
- seek_gunpowder_decision_confirm:0 "Dispatch Trade Mission"
- seek_gunpowder_decision_tooltip:0 "Your most skilled trader will seek out exotic goods."
- seek_gunpowder_decision_desc:0 "You will send out a trade mission towards the Silk Road to seek out any rare or exotic goods you've yet to discover."
+ seek_gunpowder_decision:0 "Recherche de produits exotiques"
+ seek_gunpowder_decision_confirm:0 "Envoi de missions commerciales"
+ seek_gunpowder_decision_tooltip:0 "Votre commerçant le plus habile recherchera des produits exotiques."
+ seek_gunpowder_decision_desc:0 "Vous enverrez une mission commerciale vers la route de la soie pour rechercher les marchandises rares ou exotiques que vous n'avez pas encore découvertes."
 
  # SEEK GUNPOWDER DECISION TOOLTIP
- seek_gunpowder_event_tooltip:0 "Upon their return your Steward will inspect any items they may have found that you might find useful."
+ seek_gunpowder_event_tooltip:0 "À son retour, votre intendant inspectera tous les objets qu'il a pu trouver et qui pourraient vous être utiles."
  
