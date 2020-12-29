@@ -3,3 +3,74 @@
 @smLysX = 0.23
 @smLysY = 0.26
 @smCross = 0.22
+
+
+#These two are subs for d_westminster
+d_westminster_sub_1 = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_flower.dds"
+		color1 = "red"
+		color2 = "green"
+		color3 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }
+	}
+}
+
+#Could also be used as House Wessex COA
+d_westminster_sub_2 = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_crosslet.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.45 } scale = { 1.0 1.2 } }
+	}
+	colored_emblem = {
+		texture = "ce_martlet.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "yellow"
+		instance = { position = { 0.25 0.25 } scale = { 0.2 0.2 } rotation = -10 } 
+		instance = { position = { 0.25 0.75 } scale = { 0.2 0.2 } rotation = -10 } 
+		instance = { position = { 0.75 0.25 } scale = { 0.2 0.2 } rotation = -10 } 
+		instance = { position = { 0.75 0.75 } scale = { 0.2 0.2 } rotation = -10 } 
+		instance = { position = { 0.5 0.9 } scale = { 0.2 0.2 } rotation = -10 }
+	}
+}
+
+#This is the actual d_westminster COA
+d_westminster = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "yellow"
+	sub = {
+        parent = "d_westminster_sub_1"
+		instance = { offset = { 0.0 0.0 } scale = { 0.16 0.16 } }
+		instance = { offset = { 0.31 0.0 } scale = { 0.16 0.16 } }
+		instance = { offset = { 0.50 0.50 } scale = { 0.16 0.16 } }
+		instance = { offset = { 0.81 0.50 } scale = { 0.16 0.16 } }
+	}
+	sub = {
+        parent = "d_westminster_sub_2"
+		instance = { offset = { 0.16 0.0 } scale = { 0.16 0.16 } }
+		instance = { offset = { 0.66 0.50 } scale = { 0.16 0.16 } }
+	}
+	colored_emblem = {
+		texture = "ce_portcullis.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.25 0.35 } scale = { 0.35 0.35 } }
+		instance = { position = { 0.75 0.85 } scale = { 0.35 0.35 } }
+	}
+	colored_emblem = {
+		texture = "ce_grain.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
+		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 } }
+	}
+}
