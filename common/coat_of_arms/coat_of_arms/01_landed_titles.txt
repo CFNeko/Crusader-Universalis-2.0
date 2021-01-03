@@ -486,4 +486,4 @@ d_desmond = {
 		instance = { position = { 0.5 0.5 } scale = { 0.25 0.25 } }
 		instance = { position = { 0.75 0.5 } scale = { 0.25 0.25 } }
 	}
-}	
+}

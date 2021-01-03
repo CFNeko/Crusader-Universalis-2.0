@@ -52,6 +52,7 @@ b_brest = {
 b_brittany_leon = {	
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
+	color2 = "black"
 	colored_emblem = {
 		texture = "ce_lion_rampant.dds"
 		color1 = "black"
@@ -62,7 +63,7 @@ b_brittany_leon = {
 b_quimper = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
-
+	color2 = "black"
 	colored_emblem = {
 		texture = "ce_ermine_spot.dds"
 		color1 = "black"
@@ -117,11 +118,12 @@ b_quimper = {
 b_carhaix = {	
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
+	color2 = "black"
 	colored_emblem = {
 		texture = "ce_bull_passant.dds"
 		color1 = "black"
 		color2 = "white"
-		instance = {	position = { 0.5 0.5 }	scale = { 0.9 0.9 }	}
+		instance = { position = { 0.5 0.5 }	scale = { 0.9 0.9 }	}
 	}
 }
 b_vannes = {
@@ -1003,6 +1005,7 @@ b_beaumont_sur_sarthe = {
 b_mayenne = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
+	color2 = "yellow"
 	colored_emblem = {
 		texture = "ce_escutcheon.dds"
 		color1 = "yellow"
@@ -1092,6 +1095,7 @@ b_champtoce = {
 b_sainte_suzanne = {
 	pattern = "pattern_solid.dds"
 	color1 = "red"
+	color2 = "white"
 	colored_emblem = {
 		texture = "ce_flower.dds"
 		color1 = "white"
@@ -1299,6 +1303,7 @@ b_cholet = {
 b_boulogne_sur_mer = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
+	color2 = "red"
 	colored_emblem = {
 		texture = "ce_circle.dds"
 		color1 = "red"
@@ -2014,6 +2019,7 @@ b_grandpre = {
 b_reims = {
 	pattern = "pattern_solid.dds"	
 	color1 = "blue"	
+	color2 = "white"
 	colored_emblem = {
 		texture = "ce_fleur.dds"
 		color1 = "yellow"
@@ -2058,7 +2064,8 @@ b_reims = {
 }
 b_chalons_en_champagne = {
 	pattern = "pattern_solid.dds"	
-	color1 = "blue"	
+	color1 = "blue"
+	color2 = "red"
 	colored_emblem = {
 		texture = "ce_fleur.dds"
 		color1 = "yellow"
@@ -3831,7 +3838,6 @@ b_chatellerault = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "red"
-
 	colored_emblem = {
 		texture = "ce_lion_rampant.dds"
 		color1 = "red"
@@ -6299,7 +6305,7 @@ b_montauban_sur_l_ouveze = {
 	color1 = "blue"	
 	color2 = "yellow"
 	colored_emblem = {
-		texture = ce_tower.dds"
+		texture = "ce_tower.dds"
 		color1 = "yellow"
 		color2 = "yellow"
 		instance = { position = { 0.25 0.25 } scale = { 0.75 0.75 } }
@@ -6423,7 +6429,17 @@ b_tallard = {
 c_brest = b_brest # Feudal
 c_brittany_leon = b_brittany_leon # Feudal
 c_quimper = b_quimper # Bishopric
-c_carhaix = b_carhaix # Feudal
+c_carhaix = {	
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "ce_bull_passant.dds"
+		color1 = "black"
+		color2 = "white"
+		instance = { position = { 0.5 0.5 }	scale = { 0.9 0.9 }	}
+	}
+}
 c_vannes = b_vannes # Feudal
 c_tregor = { # Feudal
 	pattern = "pattern_cross_01.dds"
@@ -6681,7 +6697,34 @@ c_calais = b_calais # Feudal
 ### Flanders ###
 c_duinkerke = b_duinkerke # Feudal
 c_kassel = b_kassel # Feudal
-c_ieper = b_ieper # Feudal
+c_ieper = { # Feudal
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_vairy.dds"
+		color1 = "blue"
+		color2 = "white"
+		instance = { position = { 0.5 0.25 } scale = { 0.75 0.75 } }
+		instance = { position = { 0.5 0.75 } scale = { 0.75 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_vairy.dds"
+		color1 = "blue"
+		color2 = "white"
+		instance = { position = { 0.0 0.5 } scale = { 0.75 0.75 } rotation = 90 }
+		instance = { position = { 1.0 0.5 } scale = { 0.75 0.75 } rotation = 270 }
+	}
+	colored_emblem = {
+		texture = "ce_square_kaaba.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.18 0.18 } scale = { 0.65 0.65 } }
+		instance = { position = { 0.82 0.18 } scale = { 0.65 0.65 } }
+		instance = { position = { 0.18 0.82 } scale = { 0.65 0.65 } }
+		instance = { position = { 0.82 0.82 } scale = { 0.65 0.65 } }
+	}
+}
 c_rijssel = b_rijssel # Feudal
 c_kortrijk = b_kortrijk # Feudal
 c_doornik = b_doornik # Bishopric
