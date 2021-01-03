@@ -1,1 +1,138 @@
-﻿
+﻿51 = {
+	prefix = "dynnp_von"
+	name = "dynn_Habsburg"
+	culture = "swabian"
+	motto = dynn_Habsburg_motto # Technically adopted in 1415, but hey...
+}
+93 = {
+	prefix = "dynnp_de"
+	name = "dynn_Lusignan"
+	culture = "french"
+}
+100 = {
+	prefix = "dynnp_d_"
+	name = "dynn_Artois"
+	culture = "french"
+}
+101 = {
+	prefix = "dynnp_de"
+	name = "dynn_Valois"
+	culture = "french"
+}
+106 = {
+	name = "dynn_Plantagenet"
+	culture = "norman"
+}
+177 = {
+	name = "dynn_Gryfita"
+	culture = "pommeranian"
+}
+217 = {
+	prefix = "dynnp_von"
+	name = "dynn_Wittelsbach"
+	culture = "bavarian"
+}
+263 = {
+	prefix = "dynnp_von"
+	name = "dynn_Nassau"
+	culture = "franconian"
+}
+353 = {
+	prefix = "dynnp_d_"
+	name = "dynn_Evreux"
+	culture = "french"
+}
+420 = {
+	prefix = "dynnp_von"
+	name = "dynn_Luxemburg"
+	culture = "franconian"
+}
+530 = {
+	prefix = "dynnp_de"
+	name = "dynn_Harcourt"
+	culture = "french"
+}
+681 = {
+	prefix = "dynnp_d_"
+	name = "dynn_Ivrea"
+	culture = "italian"
+}
+774 = {
+	prefix = "dynnp_de"
+	name = "dynn_TrastA_mara"
+	culture = "castilian"
+}
+3811 = {
+	name = "dynn_Bonde"
+	culture = "swedish"
+}
+5100 = {
+	prefix = "dynnp_de"
+	name = "dynn_Lomagne"
+	culture = "french"
+}
+7117 = {
+	prefix = "dynnp_von"
+	name = "dynn_der_Mark"
+	culture = "franconian"
+}
+100146 = {
+	prefix = "dynnp_de"
+	name = "dynn_Bourbon"
+	culture = "french"
+}
+12463 = {
+	prefix = "dynnp_von"
+	name = "dynn_Schauenburg"
+	culture = "saxon"
+}
+100058 = {
+	prefix = "dynnp_of"
+	name = "dynn_Lancaster"
+	culture = "english"
+}
+100150 = {
+	prefix = "dynnp_d_"
+	name = "dynn_Albret"
+	culture = "occitan"
+}
+100709 = {
+	name = "dynn_Nasrid"
+	culture = "bedouin"
+}
+
+
+
+
+
+
+
+
+
+
+
+86 = {
+	prefix = "dynnp_de"
+	name = "dynn_Dreux"
+	culture = "french"
+}
+319 = {
+	prefix = "dynnp_de"
+	name = "dynn_Laval"
+	culture = "french"
+}
+681 = {
+	prefix = "dynnp_d_"
+	name = "dynn_Ivrea"
+	culture = "italian"
+}
+684 = {
+	prefix = "dynnp_de"
+	name = "dynn_Foix"
+	culture = "french"
+}
+741 = {
+	prefix = "dynnp_de"
+	name = "dynn_Bourgogne"
+	culture = "french"
+}

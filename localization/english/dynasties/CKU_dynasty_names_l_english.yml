@@ -26,6 +26,33 @@
  dynnp_ua:"ua"
  dynnp_o:"Ó"
  dynnp_mc:"Mc"
+
+ #### Base Names | Possibly needs to be removed or integrated with CKU ####
+ dynn_Habsburg:0 "Habsburg"
+ dynn_Dreux:0 "Dreux"
+ dynn_Lusignan:0 "Lusignan"
+ dynn_Artois:0 "Artois"
+ dynn_Valois:0 "Valois"
+ dynn_Plantagenet:0 "Plantagenet"
+ dynn_Gryfita:0 "Gryfita"
+ dynn_Wittelsbach:0 "Wittelsbach"
+ dynn_Nassau:0 "Nassau"
+ dynn_Laval:0 "Laval"
+ dynn_Evreux:0 "Evreux"
+ dynn_Luxemburg:0 "Luxemburg"
+ dynn_Harcourt:0 "Harcourt"
+ dynn_Ivrea:0 "Ivrea"
+ dynn_Foix:0 "Foix"
+ dynn_Bourgogne:0 "Bourgogne"
+ dynn_TrastA_mara:0 "Trastámara"
+ dynn_Bonde:0 "Bonde"
+ dynn_Lomagne:0 "Lomagne"
+ dynn_der_Mark:0 "der Mark"
+ dynn_Bourbon:0 "Bourbon"
+ dynn_Schauenburg:0 "Schauenburg"
+ dynn_Lancaster:0 "Lancaster"
+ dynn_Albret:0 "Albret"
+ dynn_Nasrid:0 "Nasrid"
  
  ####Names####
  #Italy

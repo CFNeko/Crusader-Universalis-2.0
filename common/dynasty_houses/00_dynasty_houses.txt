@@ -1,1 +1,103 @@
-﻿ 
+﻿# Valois-Bourgogne
+house_bourgogne_nevers = {
+	name = "dynn_bourgogne_nevers"
+	dynasty = CKU_valois_bourgogne
+}
+
+# Capet-Bourgogne
+house_bourgogne_montagu = {
+	name = "dynn_bourgogne_montagu"
+	dynasty = 741
+}
+
+house_bourgogne_aviz = {
+	name = "dynn_bourgogne_aviz"
+	dynasty = 741
+}
+
+# Luxembourg
+house_luxembourg_bohemia = {
+	prefix = "dynnp_de"
+	name = "dynn_luxembourg_bohemia"
+	dynasty = 420
+}
+
+house_luxembourg_ligny = {
+	prefix = "dynnp_de"
+	name = "dynn_luxembourg_ligny"
+	dynasty = 420
+}
+
+# Valois
+house_alencon = {
+	prefix = "dynnp_d_"
+	name = "dynn_alencon"
+	dynasty = 101
+}
+
+house_anjou = {
+	prefix = "dynnp_d_"
+	name = "dynn_anjou"
+	dynasty = 101
+}
+
+house_orleans = {
+	prefix = "dynnp_d_"
+	name = "dynn_orleans"
+	dynasty = 101
+}
+
+house_angouleme = {
+	prefix = "dynnp_d_"
+	name = "dynn_angouleme"
+	dynasty = 101
+}
+
+house_longueville = { # Cadet branch of Valois-Orleans
+	prefix = "dynnp_de"
+	name = "dynn_longueville"
+	dynasty = 101
+}
+
+# Capetian Anjou
+house_anjou_durazzo = {
+	prefix = "dynnp_d_"
+	name = "dynn_anjou_durazzo"
+	dynasty = 81
+}
+
+# Ivrea
+house_chalon = {
+	name = "dynn_chalon"
+	dynasty = 681
+}
+
+# Foix
+house_foix_grailly = {
+	name = "dynn_foix_grailly"
+	dynasty = 684
+}
+
+# Laval
+house_montmorency_laval = {
+	prefix = "dynnp_de"
+	name = "dynn_montmorency_laval"
+	dynasty = 319
+}
+
+house_montfort_laval = {
+	prefix = "dynnp_de"
+	name = "dynn_montfort_laval"
+	dynasty = 319
+}
+
+# Dreux
+house_dreux_montfort = {
+	name = "dynn_dreux_montfort"
+	dynasty = 86
+}
+
+house_dreux_beu = {
+	name = "dynn_dreux_beu"
+	dynasty = 86
+}

@@ -1,0 +1,147 @@
+﻿CKU_testing_dynasty = {
+	prefix = "dynnp_de"
+	name = "dynn_testing_dynasty"
+	culture = "flemish"
+}
+
+CKU_baenst = {
+	prefix = "dynnp_de"
+	name = "dynn_baenst"
+	culture = "flemish"
+}
+
+CKU_trazegnies = {
+	prefix = "dynnp_de"
+	name = "dynn_trazegnies"
+	culture = "flemish"
+}
+
+CKU_gruuthuse = {
+	prefix = "dynnp_van"
+	name = "dynn_gruuthuse"
+	culture = "flemish"
+	motto = dynn_CKU_gruuthuse_motto
+}
+
+CKU_lannoy = {
+	prefix = "dynnp_de"
+	name = "dynn_lannoy"
+	culture = "flemish"
+	motto = dynn_CKU_lannoy_motto
+}
+
+CKU_grailly = {
+	prefix = "dynnp_de"
+	name = "dynn_grailly"
+	culture = "gascon"
+	motto = dynn_CKU_grailly_motto
+}
+
+CKU_tour_auvergene = {
+	prefix = "dynnp_de_la"
+	name = "dynn_tour_auvergene"
+	culture = "french"
+}
+
+CKU_valois_bourgogne = {
+	name = "dynn_valois_bourgogne"
+	culture = "french"
+}
+
+CKU_josne = {
+	prefix = "dynnp_de"
+	name = "dynn_josne"
+	culture = "french"
+}
+
+CKU_juvénal_des_ursins = {
+	name = "dynn_juvenal_des_ursins"
+	culture = "french"
+}
+
+CKU_clermont = {
+	prefix = "dynnp_de"
+	name = "dynn_clermont"
+	culture = "french"
+}
+
+CKU_tremoille = {
+	prefix = "dynnp_de_la"
+	name = "dynn_tremoille"
+	culture = "french"
+	motto = dynn_CKU_tremoille_motto
+}
+
+CKU_amboise = {
+	prefix = "dynnp_d_"
+	name = "dynn_amboise"
+	culture = "french"
+}
+
+CKU_belleville = {
+	prefix = "dynnp_de"
+	name = "dynn_belleville"
+	culture = "french"
+}
+
+CKU_breze = {
+	prefix = "dynnp_de"
+	name = "dynn_breze"
+	culture = "french"
+}
+
+CKU_bueil = {
+	prefix = "dynnp_de"
+	name = "dynn_bueil"
+	culture = "french"
+}
+
+CKU_clyte = {
+	prefix = "dynnp_de_la"
+	name = "dynn_clyte"
+	culture = "french"
+}
+
+CKU_crequy = {
+	prefix = "dynnp_de"
+	name = "dynn_crequy"
+	culture = "french"
+}
+
+CKU_croy = {
+	prefix = "dynnp_de"
+	name = "dynn_croy"
+	culture = "french"
+}
+
+CKU_chamaillard = {
+	prefix = "dynnp_de"
+	name = "dynn_chamaillard"
+	culture = "french"
+}
+
+CKU_melun = {
+	prefix = "dynnp_de"
+	name = "dynn_melun"
+	culture = "french"
+	motto = dynn_CKU_melun_motto
+}
+
+CKU_louvet = {
+	prefix = "dynnp_de"
+	name = "dynn_louvet"
+	culture = "french"
+}
+
+CKU_wavrin = {
+	prefix = "dynnp_de"
+	name = "dynn_wavrin"
+	culture = "french"
+}
+
+CKU_lalaing = {
+	prefix = "dynnp_de"
+	name = "dynn_lalaing"
+	culture = "flemish"
+	motto = dynn_CKU_lalaing_motto
+}
