@@ -15,23 +15,6 @@
 		death = "1500.1.13"
 	}
 }
-3 = {
-	name = "Mr Luigi"
-	dynasty = 3
-	martial = 1.0
-	diplomacy = 3.0
-	intrigue = 4.0
-	stewardship = 5.0
-	learning = 6.0
-	prowess = 2.0
-	female = No
-	1399.1.11 = {
-		birth = "1399.1.11"
-	}
-	1500.1.11 = {
-		death = "1500.1.11"
-	}
-}
 wasteland3 = {
 	name = "Wasteland 3"
 	dynasty = 0
@@ -126,28 +109,6 @@ wasteland6 = {
 		death = "1500.1.6"
 	}
 }
-CKU_ak_koyunlu_1 = {
-	name = "Jahangir bin Ali"
-	dynasty = dynn_ak_koyunlu
-	female = No
-	1414.1.1 = {
-		birth = "1414.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
-CKU_trebizond_1 = {
-	name = "Ioannes"
-	dynasty = dynn_komnenos
-	female = No
-	1403.1.1 = {
-		birth = "1403.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
 wasteland1 = {
 	name = "Wasteland 1"
 	dynasty = 0
@@ -169,15 +130,21 @@ wasteland4 = {
 		death = "1500.1.4"
 	}
 }
-CKU_kara_koyunlu_1 = {
-	name = "Isfahan"
-	dynasty = dynn_kara_koyunlu
+3 = {
+	name = "Mr Luigi"
+	dynasty = 3
+	martial = 1.0
+	diplomacy = 3.0
+	intrigue = 4.0
+	stewardship = 5.0
+	learning = 6.0
+	prowess = 2.0
 	female = No
-	1410.1.1 = {
-		birth = "1410.1.1"
+	1399.1.11 = {
+		birth = "1399.1.11"
 	}
-	1500.1.7 = {
-		death = "1500.1.7"
+	1500.1.11 = {
+		death = "1500.1.11"
 	}
 }
 2 = {
@@ -195,60 +162,5 @@ CKU_kara_koyunlu_1 = {
 	}
 	1500.1.10 = {
 		death = "1500.1.10"
-	}
-}
-CKU_mushasha_1 = {
-	name = "Muhammed"
-	dynasty = dynn_falah
-	female = No
-	1422.1.1 = {
-		birth = "1422.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
-CKU_jalair_1 = {
-	name = "Hussain bin Ala-ud-Daulah Ahmed"
-	dynasty = dynn_jalayir
-	female = No
-	1407.1.1 = {
-		birth = "1407.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
-CKU_hisn_kayfa_1 = {
-	name = "Salih Salah ad-Din"
-	dynasty = dynn_ayyubid
-	female = No
-	1411.1.1 = {
-		birth = "1411.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
-CKU_bitlis_1 = {
-	name = "Bidlo"
-	dynasty = dynn_rojaki
-	female = No
-	1421.1.1 = {
-		birth = "1421.1.1"
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
-	}
-}
-CKU_kharabakh_1 = {
-	name = "Albast"
-	dynasty = dynn_hasan_jalalyan
-	female = No
-	1425.1.1  = {
-		birth = "1425.1.1 "
-	}
-	1500.1.7 = {
-		death = "1500.1.7"
 	}
 }
