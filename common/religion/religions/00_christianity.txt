@@ -224,12 +224,12 @@
 			religious_head = k_papal_state
 			graphical_faith = "catholic_gfx"
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
+			
+			
+			
+			
+			
+			
 			
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian
@@ -299,12 +299,12 @@
 			graphical_faith = "catholic_gfx"
 			icon = protestantism
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
+			
+			
+			
+			
+			
+			
 			
 			#Special Tolerance
 			doctrine = special_doctrine_reformed_christian
@@ -377,12 +377,12 @@
 			graphical_faith = "catholic_gfx"
 			icon = protestantism
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
+			
+			
+			
+			
+			
+			
 			
 			#Special Tolerance
 			doctrine = special_doctrine_reformed_christian
@@ -455,12 +455,12 @@
 			graphical_faith = "catholic_gfx"
 			icon = protestantism
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
-			holy_site = segrada_familia
+			
+			
+			
+			
+			
+			
 			
 			#Special Tolerance
 			doctrine = special_doctrine_reformed_christian
@@ -533,11 +533,11 @@
 			color = { 0.7 0 0.5 }
 			religious_head = k_orthodox
 			
-			holy_site = jerusalem
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = alexandria
-			holy_site = antioch
+			
+			
+			
+			
+			
 
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian
@@ -605,11 +605,11 @@
 		coptic = {
 			color = { 210 235 87 }
 			religious_head = d_coptic_papacy
-			holy_site = alexandria
-			holy_site = jerusalem
-			holy_site = antioch
-			holy_site = aksum
-			holy_site = napata
+			
+			
+			
+			
+			
 
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian
@@ -680,11 +680,11 @@
 			religious_head = d_apostolic_church
 			icon = christianity_Armenian
 
-			holy_site = jerusalem
-			holy_site = antioch
-			holy_site = suenik	#city of Dvin within county of Suenik
-			holy_site = colonea
-			holy_site = beirut
+			
+			
+			
+			
+			
 
 			#Special Tolerance
 			doctrine = special_doctrine_ecumenical_christian
@@ -750,11 +750,11 @@
 			color = { 0.4 0.5 0.8 }
 			icon = conversos
 			
-			holy_site = rome
-			holy_site = cordoba
-			holy_site = jerusalem
-			holy_site = alexandria
-			holy_site = sinai
+			
+			
+			
+			
+			
 
 			# Tenets
 			doctrine = tenet_communion
@@ -781,11 +781,11 @@
 			graphical_faith = "catholic_gfx"
 
 			#Shared with Catholics
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
+			
+			
+			
+			
+			
 
 			#Main Group
 			doctrine = doctrine_no_head
@@ -825,11 +825,11 @@
 			graphical_faith = "catholic_gfx"
 
 			#Shared with Catholics
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
+			
+			
+			
+			
+			
 
 			#Main Group
 			doctrine = doctrine_pluralism_pluralistic
@@ -850,11 +850,11 @@
 			graphical_faith = "catholic_gfx"
 
 			#Shared with Catholics
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = cologne
-			holy_site = santiago
-			holy_site = kent
+			
+			
+			
+			
+			
 
 			#Main Gorup
 			doctrine = doctrine_theocracy_lay_clergy
@@ -876,11 +876,11 @@
 			religious_head = d_iconoclast
 
 			#Shared with Orthodox
-			holy_site = jerusalem
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = alexandria
-			holy_site = antioch
+			
+			
+			
+			
+			
 			
 			doctrine = special_doctrine_papacy
 			
@@ -902,11 +902,11 @@
 			icon = christianity_bogomilist
 
 			#Shared with Orthodox
-			holy_site = jerusalem
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = alexandria
-			holy_site = antioch
+			
+			
+			
+			
+			
 
 			#Main Gorup
 			doctrine = doctrine_no_head
@@ -942,11 +942,11 @@
 			icon = christianity_paulicanism
 
 			#Shared with Armenian?
-			holy_site = jerusalem
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = alexandria
-			holy_site = antioch
+			
+			
+			
+			
+			
 
 			#Clerical Functions
 			doctrine = doctrine_clerical_function_recruitment
@@ -969,11 +969,11 @@
 			color = { 0.8 0.3 0.5 }
 			religious_head = d_patriarchate_in_the_east
 
-			holy_site = jerusalem
-			holy_site = baghdad
-			holy_site = farz
-			holy_site = antioch
-			holy_site = kerala
+			
+			
+			
+			
+			
 
 			#Main Group
 			doctrine = doctrine_pluralism_pluralistic
@@ -992,11 +992,11 @@
 			color = { 0.6 0.1 0.4 }
 			icon = christianity_messalian
 
-			holy_site = jerusalem
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = alexandria
-			holy_site = antioch
+			
+			
+			
+			
+			
 
 			#Main Group
 			doctrine = doctrine_no_head
@@ -1038,11 +1038,11 @@
 			icon = adamites	
 			graphical_faith = "catholic_gfx"
 
-			holy_site = rome
-			holy_site = jerusalem
-			holy_site = fes
-			holy_site = alexandria
-			holy_site = carthage
+			
+			
+			
+			
+			
 
 			#Main Group
 			doctrine = doctrine_no_head
@@ -1082,11 +1082,11 @@
 			icon = insular_celtic
 			graphical_faith = "catholic_gfx"
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = kent
-			holy_site = armagh
-			holy_site = iona
+			
+			
+			
+			
+			
 
 			#Special Tolerance
 			doctrine = special_doctrine_papacy
@@ -1200,11 +1200,11 @@
 			icon = bosnian_church
 			graphical_faith = "catholic_gfx"
 			
-			holy_site = jerusalem
-			holy_site = rome
-			holy_site = visoki
-			holy_site = ragusa
-			holy_site = esztergom
+			
+			
+			
+			
+			
 
 			#Special Tolerance
 			#It should be noted that the Krstjani were never *really* ecumenical. Just isolated rural Christians, mostly forgotten by both the Orthodox and Catholic churches. When they started to become relevant, passive tolerance of them faded into persecution rather quickly.

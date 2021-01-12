@@ -535,7 +535,7 @@
 }
 108 = {	#Cololarisissa
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 109 = {	#Higorgesmos
@@ -600,12 +600,12 @@
 }
 121 = {	#Kimmerherathera
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 122 = {	#Hellesgourlea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 123 = {	#Morgannysthos
@@ -625,7 +625,7 @@
 }
 126 = {	#Mongouruf
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 127 = {	#Olmylalea
@@ -1110,7 +1110,7 @@
 }
 223 = {	#Kynathera
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 224 = {	#Leonmorganlia
@@ -1195,7 +1195,7 @@
 }
 240 = {	#Argyraphinae
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 241 = {	#Elmarouf
@@ -1529,8 +1529,8 @@
 	holding = tribal_holding
 }
 307 = {	#Isle_of_Man
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 308 = {	#Laremporum
@@ -1550,7 +1550,7 @@
 }
 311 = {	#Keleontinda
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 312 = {	#Gelnirmea
@@ -1635,7 +1635,7 @@
 }
 328 = {	#Milleibethrae
 	culture = walloon
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 329 = {	#Metapomileinda
@@ -2065,7 +2065,7 @@
 }
 414 = {	#Amphihublea
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 415 = {	#Marathmonasttiri
@@ -2740,7 +2740,7 @@
 }
 549 = {	#Maronlilate
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 550 = {	#Doryaleai
@@ -2954,8 +2954,8 @@
 	holding = tribal_holding
 }
 592 = {	#Southampton
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 593 = {	#Eleumasstiri
@@ -3120,7 +3120,7 @@
 }
 625 = {	#Marnaxine
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 626 = {	#Megalogeyra
@@ -3130,12 +3130,12 @@
 }
 627 = {	#Kynmukoli
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 628 = {	#Nymphgyrthera
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 629 = {	#Opapolloas
@@ -3255,7 +3255,7 @@
 }
 652 = {	#Korinmetholia
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 653 = {	#Orestorestmenus
@@ -3409,8 +3409,8 @@
 	holding = tribal_holding
 }
 683 = {	#Askeaton
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 684 = {	#Korinthgortlia
@@ -3479,8 +3479,8 @@
 	holding = tribal_holding
 }
 697 = {	#Kendal
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 698 = {	#Mogololi
@@ -3700,7 +3700,7 @@
 }
 741 = {	#Chemeteia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 742 = {	#Orickalatrea
@@ -3750,7 +3750,7 @@
 }
 751 = {	#Ambrcaliana
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 752 = {	#Olmaica
@@ -3955,7 +3955,7 @@
 }
 792 = {	#Delcebrium
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 793 = {	#Histrhermiila
@@ -4089,8 +4089,8 @@
 	holding = tribal_holding
 }
 819 = {	#Kesteven
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 820 = {	#Clazojukton
@@ -4140,7 +4140,7 @@
 }
 829 = {	#Methaaigtherna
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 830 = {	#Lindicaealia
@@ -4234,8 +4234,8 @@
 	holding = tribal_holding
 }
 848 = {	#Morvern
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 849 = {	#Aliaenoas
@@ -4335,7 +4335,7 @@
 }
 868 = {	#Olbiachissa
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 869 = {	#Dioshaliissa
@@ -4595,7 +4595,7 @@
 }
 920 = {	#Kniolythena
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 921 = {	#Lepreoeponia
@@ -4715,7 +4715,7 @@
 }
 944 = {	#Ithmukenetta
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 945 = {	#Argyrmukeinon
@@ -4809,8 +4809,8 @@
 	holding = tribal_holding
 }
 963 = {	#Scarborough
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 964 = {	#Ondelphatrea
@@ -4975,7 +4975,7 @@
 }
 996 = {	#Niamantmea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 997 = {	#Eresmagtiri
@@ -5240,7 +5240,7 @@
 }
 1049 = {	#Odesshyeesmos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1050 = {	#Klazkaica
@@ -5305,12 +5305,12 @@
 }
 1062 = {	#Kalcyene
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1063 = {	#Lapithgonthus
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1064 = {	#Korihysos
@@ -5449,8 +5449,8 @@
 	holding = tribal_holding
 }
 1091 = {	#Stirling
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 1092 = {	#Gournkallithrae
@@ -5840,7 +5840,7 @@
 }
 1169 = {	#Koimalina
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1170 = {	#Morgalarisosse
@@ -5860,7 +5860,7 @@
 }
 1173 = {	#Kimmemetharias
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1174 = {	#Ganorethera
@@ -5900,7 +5900,7 @@
 }
 1181 = {	#Nemknosinon
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1182 = {	#Onchmadthera
@@ -5955,7 +5955,7 @@
 }
 1192 = {	#Monasgonum
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1193 = {	#Bybimbllai
@@ -6165,7 +6165,7 @@
 }
 1234 = {	#Kamaaegmea
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1235 = {	#Megalephyita
@@ -6189,8 +6189,8 @@
 	holding = tribal_holding
 }
 1239 = {	#Denbigh
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 1240 = {	#Gythubllis
@@ -6355,7 +6355,7 @@
 }
 1272 = {	#Juchethrae
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1273 = {	#Orometaios
@@ -6510,7 +6510,7 @@
 }
 1303 = {	#Orchokanncia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1304 = {	#Ialyempoate
@@ -6569,8 +6569,8 @@
 	holding = tribal_holding
 }
 1315 = {	#Dublin
-	culture = Hiberno-Norman
-	religion = Catholic
+	culture = hiberno_norman
+	religion = catholic
 	holding = tribal_holding
 }
 1316 = {	#Katnicotrias
@@ -6654,8 +6654,8 @@
 	holding = tribal_holding
 }
 1332 = {	#Preston
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 1333 = {	#Liladicaeadus
@@ -6729,8 +6729,8 @@
 	holding = tribal_holding
 }
 1347 = {	#Carnarvon
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 1348 = {	#Niadimpolis
@@ -6764,8 +6764,8 @@
 	holding = tribal_holding
 }
 1354 = {	#Down
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 1355 = {	#Odborystes
@@ -6799,8 +6799,8 @@
 	holding = tribal_holding
 }
 1361 = {	#Uist
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 1362 = {	#Hiermiline
@@ -7394,8 +7394,8 @@
 	holding = tribal_holding
 }
 1480 = {	#Holme
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 1481 = {	#Apollkanninda
@@ -7430,7 +7430,7 @@
 }
 1487 = {	#Kydaphiios
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1488 = {	#Agrinoeptherna
@@ -7495,7 +7495,7 @@
 }
 1500 = {	#Idaleretetta
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1501 = {	#Morglocrera
@@ -7535,7 +7535,7 @@
 }
 1508 = {	#Megaloandthena
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1509 = {	#Kimmegournlia
@@ -7590,12 +7590,12 @@
 }
 1519 = {	#Assnemlia
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1520 = {	#Kiogythita
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1521 = {	#Hemebraaea
@@ -7915,7 +7915,7 @@
 }
 1584 = {	#Didlapiatrea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1585 = {	#Kyrencleomenus
@@ -7924,8 +7924,8 @@
 	holding = tribal_holding
 }
 1586 = {	#Buckingham
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 1587 = {	#Knikunae
@@ -8025,7 +8025,7 @@
 }
 1606 = {	#Lauaenrias
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1607 = {	#Hyantigon
@@ -8105,7 +8105,7 @@
 }
 1622 = {	#Clazhyder
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1623 = {	#Delphhermiatrea
@@ -8230,7 +8230,7 @@
 }
 1647 = {	#Korinachai
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1648 = {	#Marathchytai
@@ -8414,8 +8414,8 @@
 	holding = tribal_holding
 }
 1684 = {	#Clackmannan
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 1685 = {	#Larieleurias
@@ -8585,12 +8585,12 @@
 }
 1718 = {	#Klakourimos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1719 = {	#Mesemmates
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1720 = {	#Gazamniina
@@ -8879,13 +8879,13 @@
 	holding = tribal_holding
 }
 1777 = {	#Bamburgh
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 1778 = {	#Kamolbate
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1779 = {	#Kynmetaponai
@@ -8930,7 +8930,7 @@
 }
 1787 = {	#Katidaltherna
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1788 = {	#Bergklazrias
@@ -9000,7 +9000,7 @@
 }
 1801 = {	#Ganaigios
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1802 = {	#Millhemeinon
@@ -9015,7 +9015,7 @@
 }
 1804 = {	#Corcortrias
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1805 = {	#Argmanes
@@ -9125,7 +9125,7 @@
 }
 1826 = {	#Eretgytera
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1827 = {	#Miletmaate
@@ -9260,7 +9260,7 @@
 }
 1853 = {	#Madytdiduf
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1854 = {	#Klazithaate
@@ -9565,7 +9565,7 @@
 }
 1914 = {	#Momalae
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1915 = {	#Naucyrdia
@@ -9585,7 +9585,7 @@
 }
 1918 = {	#Assakrlia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1919 = {	#Maodesiana
@@ -9595,7 +9595,7 @@
 }
 1920 = {	#Katamantus
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1921 = {	#Laodikerkidia
@@ -9630,7 +9630,7 @@
 }
 1927 = {	#Oropmultiri
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1928 = {	#Ialyandoli
@@ -9724,8 +9724,8 @@
 	holding = tribal_holding
 }
 1946 = {	#Galway
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 1947 = {	#Juklisdia
@@ -9750,7 +9750,7 @@
 }
 1951 = {	#Methuolyila
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 1952 = {	#Apachaon
@@ -10070,7 +10070,7 @@
 }
 2015 = {	#Kamagorgiera
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2016 = {	#Mochcniosse
@@ -10105,7 +10105,7 @@
 }
 2022 = {	#Kyndelphium
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2023 = {	#Kourkanonia
@@ -10145,12 +10145,12 @@
 }
 2030 = {	#Lilaimbrthos
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2031 = {	#Klazoberrias
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2032 = {	#Niconaeia
@@ -10234,13 +10234,13 @@
 	holding = tribal_holding
 }
 2048 = {	#Carmarthen
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 2049 = {	#Lamlapitthena
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2050 = {	#Kepchalctrias
@@ -10400,7 +10400,7 @@
 }
 2081 = {	#Dymknosthrae
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2082 = {	#Andrasipetra
@@ -10565,7 +10565,7 @@
 }
 2114 = {	#Koikoita
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2115 = {	#Orcaryum
@@ -10705,7 +10705,7 @@
 }
 2142 = {	#Dyandlea
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2143 = {	#Chersodelia
@@ -10784,8 +10784,8 @@
 	holding = tribal_holding
 }
 2158 = {	#Plymouth
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 2159 = {	#Hiermaspetra
@@ -11005,7 +11005,7 @@
 }
 2202 = {	#Massaodeinon
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2203 = {	#Akrdimtiri
@@ -11125,7 +11125,7 @@
 }
 2226 = {	#Monateryae
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2227 = {	#Monasodesrias
@@ -11160,7 +11160,7 @@
 }
 2233 = {	#Locrbraalous
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2234 = {	#Epidephyretta
@@ -11410,7 +11410,7 @@
 }
 2283 = {	#Gelaleder
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2284 = {	#Assmagneonia
@@ -11494,8 +11494,8 @@
 	holding = tribal_holding
 }
 2300 = {	#West_Suffolk
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 2301 = {	#Eleuiaosia
@@ -11545,7 +11545,7 @@
 }
 2310 = {	#Empkamarmos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2311 = {	#Knosskyrenon
@@ -11745,7 +11745,7 @@
 }
 2350 = {	#Kimmekallia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2351 = {	#Gorkioiana
@@ -12255,7 +12255,7 @@
 }
 2452 = {	#Achamarica
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2453 = {	#Haginirai
@@ -12515,7 +12515,7 @@
 }
 2504 = {	#Megallaollai
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2505 = {	#Hykiesmos
@@ -12655,7 +12655,7 @@
 }
 2532 = {	#Kerkilamos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2533 = {	#Metageai
@@ -12740,7 +12740,7 @@
 }
 2549 = {	#Margyrthita
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2550 = {	#Odmegosse
@@ -13085,7 +13085,7 @@
 }
 2618 = {	#Nauerythion
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2619 = {	#Koimaratene
@@ -13150,7 +13150,7 @@
 }
 2631 = {	#Kerkilefus
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2632 = {	#Gorgmegaiana
@@ -13635,7 +13635,7 @@
 }
 2728 = {	#Oreoeinon
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2729 = {	#Cebbybiana
@@ -14905,7 +14905,7 @@
 }
 2982 = {	#Empkatoas
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 2983 = {	#Assidauf
@@ -15010,7 +15010,7 @@
 }
 3003 = {	#Kermalltiri
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3004 = {	#Mochmegder
@@ -15250,7 +15250,7 @@
 }
 3051 = {	#Leontoepate
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3052 = {	#Larikydrias
@@ -15474,8 +15474,8 @@
 	holding = tribal_holding
 }
 3096 = {	#Appleby
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 3097 = {	#Opulapithetta
@@ -15489,8 +15489,8 @@
 	holding = tribal_holding
 }
 3099 = {	#Aberdeen
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 3100 = {	#Larisagrinder
@@ -15635,7 +15635,7 @@
 }
 3128 = {	#Lampscolios
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3129 = {	#Antiggytina
@@ -15914,8 +15914,8 @@
 	holding = tribal_holding
 }
 3184 = {	#Longford
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3185 = {	#Kamalekhetta
@@ -16079,8 +16079,8 @@
 	holding = tribal_holding
 }
 3217 = {	#Dorchester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 3218 = {	#Gortyhemeroissa
@@ -16220,7 +16220,7 @@
 }
 3245 = {	#Braumegtiri
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3246 = {	#Komeglia
@@ -16460,7 +16460,7 @@
 }
 3293 = {	#Locrlekium
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3294 = {	#Amaronita
@@ -16869,8 +16869,8 @@
 	holding = tribal_holding
 }
 3375 = {	#Kilkenny
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3376 = {	#Mochlaonae
@@ -16899,8 +16899,8 @@
 	holding = tribal_holding
 }
 3381 = {	#Carlow
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3382 = {	#Kimmgangios
@@ -17180,7 +17180,7 @@
 }
 3437 = {	#Cyrnaxica
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3438 = {	#Cnilesoas
@@ -17270,7 +17270,7 @@
 }
 3455 = {	#Didylaristhena
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3456 = {	#Oricerythida
@@ -17290,12 +17290,12 @@
 }
 3459 = {	#Elecallilea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3460 = {	#Newry
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3461 = {	#Nemonus
@@ -17615,12 +17615,12 @@
 }
 3524 = {	#Artmukendos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3525 = {	#Kuchaeia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3526 = {	#Malaphiaea
@@ -17804,8 +17804,8 @@
 	holding = tribal_holding
 }
 3562 = {	#Bunratty
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3563 = {	#Ithannysaea
@@ -18125,7 +18125,7 @@
 }
 3626 = {	#Madytmadyosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3627 = {	#Leprdimaai
@@ -18205,7 +18205,7 @@
 }
 3642 = {	#Decediospolis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3643 = {	#Mukenlisetta
@@ -18284,8 +18284,8 @@
 	holding = tribal_holding
 }
 3658 = {	#Nenagh
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3659 = {	#Megalolaprias
@@ -18490,7 +18490,7 @@
 }
 3699 = {	#Eljuon
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3700 = {	#Lapiittiri
@@ -18505,7 +18505,7 @@
 }
 3702 = {	#Lekhaathpolis
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3703 = {	#Corlarilia
@@ -18625,12 +18625,12 @@
 }
 3726 = {	#Iomantiosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3727 = {	#Nakasmuf
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3728 = {	#Ephelefkapetra
@@ -18710,7 +18710,7 @@
 }
 3743 = {	#Mucythium
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3744 = {	#Amnimethasos
@@ -19064,8 +19064,8 @@
 	holding = tribal_holding
 }
 3814 = {	#Iveagh
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 3815 = {	#Demetkamarine
@@ -19074,8 +19074,8 @@
 	holding = tribal_holding
 }
 3816 = {	#Clitheroe
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 3817 = {	#Morkniica
@@ -19135,7 +19135,7 @@
 }
 3828 = {	#Astantiosse
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3829 = {	#Knidnymphtes
@@ -19215,7 +19215,7 @@
 }
 3844 = {	#Locrerydus
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3845 = {	#Nysmagllai
@@ -19270,7 +19270,7 @@
 }
 3855 = {	#Dyhierai
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3856 = {	#Antigdecesos
@@ -19310,12 +19310,12 @@
 }
 3863 = {	#Nenysus
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3864 = {	#Naxgonon
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3865 = {	#Cherelalia
@@ -19399,13 +19399,13 @@
 	holding = tribal_holding
 }
 3881 = {	#Chester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 3882 = {	#Warwick
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 3883 = {	#Gogorgoli
@@ -19470,7 +19470,7 @@
 }
 3895 = {	#Liskameiate
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3896 = {	#Magnekyreesmos
@@ -19484,8 +19484,8 @@
 	holding = tribal_holding
 }
 3898 = {	#Ipswich
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 3899 = {	#Leibekodia
@@ -19654,8 +19654,8 @@
 	holding = tribal_holding
 }
 3932 = {	#Caithness
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 3933 = {	#Adramhierlia
@@ -19710,12 +19710,12 @@
 }
 3943 = {	#Leonmassallai
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3944 = {	#Naulampsaus
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3945 = {	#Mugeina
@@ -19730,7 +19730,7 @@
 }
 3947 = {	#Crocorcia
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3948 = {	#Athmonatcia
@@ -19780,7 +19780,7 @@
 }
 3957 = {	#Knililyra
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3958 = {	#Gorgideceion
@@ -19815,7 +19815,7 @@
 }
 3964 = {	#Oropbyllalous
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 3965 = {	#Deceklazllai
@@ -19984,8 +19984,8 @@
 	holding = tribal_holding
 }
 3998 = {	#Renfrew
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 3999 = {	#Kallikourai
@@ -20265,7 +20265,7 @@
 }
 4054 = {	#Ydoreai
 	culture = walloon
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4055 = {	#Kimmemesemios
@@ -20335,7 +20335,7 @@
 }
 4068 = {	#Methachaica
 	culture = walloon
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4069 = {	#Idalgazlis
@@ -20625,7 +20625,7 @@
 }
 4126 = {	#Muaytuf
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4127 = {	#Larmetapoila
@@ -20705,7 +20705,7 @@
 }
 4142 = {	#Megkorinyra
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4143 = {	#Epheelida
@@ -20760,7 +20760,7 @@
 }
 4153 = {	#Calliartmea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4154 = {	#Kameiclazorea
@@ -20990,7 +20990,7 @@
 }
 4199 = {	#Magnecleoder
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4200 = {	#Gyrthigyrthai
@@ -21150,7 +21150,7 @@
 }
 4231 = {	#Amikoiaea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4232 = {	#Hyeleprera
@@ -21380,7 +21380,7 @@
 }
 4277 = {	#Monatmukeninon
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4278 = {	#Antipelemea
@@ -21395,7 +21395,7 @@
 }
 4280 = {	#Erythlison
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4281 = {	#Adrammonastiine
@@ -21455,7 +21455,7 @@
 }
 4292 = {	#Mangorine
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4293 = {	#Empoambrosia
@@ -21720,7 +21720,7 @@
 }
 4345 = {	#Ephdious
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4346 = {	#Dormaronion
@@ -21850,7 +21850,7 @@
 }
 4371 = {	#Kimmernyalous
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4372 = {	#Lefkankoas
@@ -21880,7 +21880,7 @@
 }
 4377 = {	#Korintedelea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4378 = {	#Ephemarayra
@@ -22080,7 +22080,7 @@
 }
 4417 = {	#Amiiaspolis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4418 = {	#Knikimmepolis
@@ -22430,7 +22430,7 @@
 }
 4487 = {	#Leonepidosse
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4488 = {	#Cormetaponlia
@@ -22500,7 +22500,7 @@
 }
 4501 = {	#Artamaryonia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4502 = {	#Histrliai
@@ -22560,7 +22560,7 @@
 }
 4513 = {	#Kalialetta
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4514 = {	#Lefcorcia
@@ -22875,7 +22875,7 @@
 }
 4576 = {	#Kasmepidera
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4577 = {	#Koronate
@@ -23195,7 +23195,7 @@
 }
 4640 = {	#Knokimmpolis
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4641 = {	#Eleulethrae
@@ -23205,7 +23205,7 @@
 }
 4642 = {	#Leibkydoalous
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4643 = {	#Kiokorosia
@@ -23435,7 +23435,7 @@
 }
 4688 = {	#Kynorothos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4689 = {	#Hierlapiththos
@@ -23600,7 +23600,7 @@
 }
 4721 = {	#Kocniida
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4722 = {	#Monasmukentes
@@ -23990,7 +23990,7 @@
 }
 4799 = {	#Borysleprnes
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4800 = {	#Mochantipum
@@ -24070,12 +24070,12 @@
 }
 4815 = {	#Kioithium
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4816 = {	#Locclainon
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4817 = {	#Eretkoietta
@@ -24135,7 +24135,7 @@
 }
 4828 = {	#Gythiolios
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4829 = {	#Eryclazoiana
@@ -24294,8 +24294,8 @@
 	holding = tribal_holding
 }
 4860 = {	#Flint
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 4861 = {	#Gonkameirmea
@@ -24420,7 +24420,7 @@
 }
 4885 = {	#Kasdeceera
 	culture = walloon
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4886 = {	#Cynymphuf
@@ -24585,7 +24585,7 @@
 }
 4918 = {	#Iolchelene
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4919 = {	#Metaoreia
@@ -24625,7 +24625,7 @@
 }
 4926 = {	#Lampacanosse
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4927 = {	#Morgoresthena
@@ -24660,7 +24660,7 @@
 }
 4933 = {	#Kalkepcum
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4934 = {	#Kamehisos
@@ -24754,8 +24754,8 @@
 	holding = tribal_holding
 }
 4952 = {	#Northampton
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 4953 = {	#Berkerkinpetra
@@ -24885,7 +24885,7 @@
 }
 4978 = {	#Helialiai
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 4979 = {	#Demkothera
@@ -25009,13 +25009,13 @@
 	holding = tribal_holding
 }
 5003 = {	#Bristol
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5004 = {	#Marmhelirea
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5005 = {	#Aphilindus
@@ -25100,7 +25100,7 @@
 }
 5021 = {	#Laphalithus
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5022 = {	#Nysithaae
@@ -25409,8 +25409,8 @@
 	holding = tribal_holding
 }
 5083 = {	#Cork
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5084 = {	#Lampklaera
@@ -25489,8 +25489,8 @@
 	holding = tribal_holding
 }
 5099 = {	#Winchester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5100 = {	#Nyedeios
@@ -25715,7 +25715,7 @@
 }
 5144 = {	#Gyrthmocmos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5145 = {	#Megkimos
@@ -26044,8 +26044,8 @@
 	holding = tribal_holding
 }
 5210 = {	#Offaly
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5211 = {	#Locorestios
@@ -26190,7 +26190,7 @@
 }
 5239 = {	#Kallicythos
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5240 = {	#Cololeibmenus
@@ -26245,7 +26245,7 @@
 }
 5250 = {	#Elatmeseica
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5251 = {	#Korimanetta
@@ -26409,8 +26409,8 @@
 	holding = tribal_holding
 }
 5283 = {	#Lynn
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5284 = {	#Haliartemnae
@@ -26629,8 +26629,8 @@
 	holding = tribal_holding
 }
 5327 = {	#Blakeney
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5328 = {	#Aleepheoli
@@ -26925,7 +26925,7 @@
 }
 5386 = {	#Mymetapai
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5387 = {	#Apolllaodioas
@@ -26944,8 +26944,8 @@
 	holding = tribal_holding
 }
 5390 = {	#Montgomery
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 5391 = {	#Decemanticia
@@ -27129,8 +27129,8 @@
 	holding = tribal_holding
 }
 5427 = {	#Muskerry
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5428 = {	#Leontknidita
@@ -27170,7 +27170,7 @@
 }
 5435 = {	#Lacebosia
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5436 = {	#Metakameinon
@@ -27229,8 +27229,8 @@
 	holding = tribal_holding
 }
 5447 = {	#Norwich
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5448 = {	#Leonlebtiri
@@ -27310,7 +27310,7 @@
 }
 5463 = {	#Iolcnicene
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5464 = {	#Delanklia
@@ -27330,7 +27330,7 @@
 }
 5467 = {	#Itakaliana
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5468 = {	#Mileresine
@@ -27445,7 +27445,7 @@
 }
 5490 = {	#Orchkimmthos
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5491 = {	#Marathknoseia
@@ -27455,12 +27455,12 @@
 }
 5492 = {	#Korinthelnae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5493 = {	#Golgcolinon
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5494 = {	#Kourialiida
@@ -27524,8 +27524,8 @@
 	holding = tribal_holding
 }
 5506 = {	#Waterford
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5507 = {	#Mallkourius
@@ -27549,8 +27549,8 @@
 	holding = tribal_holding
 }
 5511 = {	#Clanawley
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5512 = {	#Byzabyra
@@ -27699,8 +27699,8 @@
 	holding = tribal_holding
 }
 5541 = {	#Fermanagh
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5542 = {	#Leibantimos
@@ -27905,7 +27905,7 @@
 }
 5582 = {	#Mallargiana
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5583 = {	#Kerkincoloatrea
@@ -27980,7 +27980,7 @@
 }
 5597 = {	#Dimhagiatrea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5598 = {	#Actlamilia
@@ -28005,7 +28005,7 @@
 }
 5602 = {	#Imlampsamos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5603 = {	#Chyephyrlia
@@ -28094,8 +28094,8 @@
 	holding = tribal_holding
 }
 5620 = {	#Callan
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 5621 = {	#Megakeraea
@@ -28294,8 +28294,8 @@
 	holding = tribal_holding
 }
 5660 = {	#Carlisle
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5661 = {	#Amarkirias
@@ -29035,7 +29035,7 @@
 }
 5808 = {	#Mantloclea
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5809 = {	#Nyolyninon
@@ -29095,7 +29095,7 @@
 }
 5820 = {	#Imbolbai
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5821 = {	#Emporodesalous
@@ -29174,8 +29174,8 @@
 	holding = tribal_holding
 }
 5836 = {	#Brecknock
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 5837 = {	#Helempoila
@@ -29209,8 +29209,8 @@
 	holding = tribal_holding
 }
 5843 = {	#Worcester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5844 = {	#Klamagnum
@@ -29260,7 +29260,7 @@
 }
 5853 = {	#Lebcalliinon
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5854 = {	#Kuhislia
@@ -29405,7 +29405,7 @@
 }
 5882 = {	#Mukeolyaea
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5883 = {	#Corlarina
@@ -29640,7 +29640,7 @@
 }
 5929 = {	#Maassthera
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 5930 = {	#Antipolblea
@@ -29734,8 +29734,8 @@
 	holding = tribal_holding
 }
 5948 = {	#Perth
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 5949 = {	#Eleueubosia
@@ -29969,8 +29969,8 @@
 	holding = tribal_holding
 }
 5995 = {	#Orkney
-	culture = Norwegian
-	religion = Catholic
+	culture = norwegian
+	religion = catholic
 	holding = tribal_holding
 }
 5996 = {	#Alelapioli
@@ -29984,8 +29984,8 @@
 	holding = tribal_holding
 }
 5998 = {	#East_Sussex
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 5999 = {	#Elatlallai
@@ -30140,7 +30140,7 @@
 }
 6029 = {	#Kannkalia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6030 = {	#Actgorgoas
@@ -30210,7 +30210,7 @@
 }
 6043 = {	#Miletheraina
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6044 = {	#Amphileibum
@@ -30424,8 +30424,8 @@
 	holding = tribal_holding
 }
 6086 = {	#Haughmond
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6087 = {	#Mantinimbrai
@@ -30460,7 +30460,7 @@
 }
 6093 = {	#Katantitrias
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6094 = {	#Mukenmarminda
@@ -30470,7 +30470,7 @@
 }
 6095 = {	#Maramassum
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6096 = {	#Naxmarathae
@@ -30834,8 +30834,8 @@
 	holding = tribal_holding
 }
 6168 = {	#Holland
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6169 = {	#Golleidus
@@ -30895,7 +30895,7 @@
 }
 6180 = {	#Helasialous
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6181 = {	#Lampsaioldus
@@ -31139,8 +31139,8 @@
 	holding = tribal_holding
 }
 6229 = {	#Lu
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 6230 = {	#Mallagrinmos
@@ -31245,7 +31245,7 @@
 }
 6250 = {	#Adrambybium
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6251 = {	#Korintkylia
@@ -31315,7 +31315,7 @@
 }
 6264 = {	#Gythikumosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6265 = {	#Antipmillyra
@@ -31325,7 +31325,7 @@
 }
 6266 = {	#Cykollai
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6267 = {	#Orimadthera
@@ -31340,7 +31340,7 @@
 }
 6269 = {	#Dioeleurea
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6270 = {	#Gonkameilia
@@ -31590,7 +31590,7 @@
 }
 6319 = {	#Mamocoli
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6320 = {	#Olymchersosse
@@ -31634,8 +31634,8 @@
 	holding = tribal_holding
 }
 6328 = {	#Ripon
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6329 = {	#Amimaspetra
@@ -31845,7 +31845,7 @@
 }
 6370 = {	#Dicaealebeate
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6371 = {	#Argeubonia
@@ -31880,7 +31880,7 @@
 }
 6377 = {	#Oreithanica
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6378 = {	#Aphiborystherna
@@ -31895,7 +31895,7 @@
 }
 6380 = {	#Opusdemetene
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6381 = {	#Monataytrias
@@ -31944,8 +31944,8 @@
 	holding = tribal_holding
 }
 6390 = {	#Newcastle
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6391 = {	#Megalmonpetra
@@ -31990,7 +31990,7 @@
 }
 6399 = {	#Oenmocthrae
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6400 = {	#Kerkiargyreia
@@ -32114,8 +32114,8 @@
 	holding = tribal_holding
 }
 6424 = {	#Coleraine
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 6425 = {	#Hubcheai
@@ -32154,8 +32154,8 @@
 	holding = tribal_holding
 }
 6432 = {	#Hexham
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6433 = {	#Hublelene
@@ -32289,8 +32289,8 @@
 	holding = tribal_holding
 }
 6459 = {	#Exeter
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6460 = {	#Asgacum
@@ -32350,7 +32350,7 @@
 }
 6471 = {	#Borysepidlia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6472 = {	#Kourichamcia
@@ -32370,7 +32370,7 @@
 }
 6475 = {	#Metalieia
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6476 = {	#Aigcleina
@@ -32674,8 +32674,8 @@
 	holding = tribal_holding
 }
 6536 = {	#Bedford
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6537 = {	#Iolcbergdus
@@ -33174,8 +33174,8 @@
 	holding = tribal_holding
 }
 6636 = {	#Nottingham
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6637 = {	#Acanhagica
@@ -33374,8 +33374,8 @@
 	holding = tribal_holding
 }
 6676 = {	#Reading
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 6677 = {	#Alekaiana
@@ -33419,8 +33419,8 @@
 	holding = tribal_holding
 }
 6685 = {	#Nantwich
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6686 = {	#Edchimos
@@ -33520,7 +33520,7 @@
 }
 6705 = {	#Omorgae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6706 = {	#Chaamaron
@@ -33779,8 +33779,8 @@
 	holding = tribal_holding
 }
 6757 = {	#Moray
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 6758 = {	#Massaganlia
@@ -33865,7 +33865,7 @@
 }
 6774 = {	#Maradorymenus
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6775 = {	#Imbonder
@@ -34050,7 +34050,7 @@
 }
 6811 = {	#Cebroenae
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6812 = {	#Ithadiddia
@@ -34135,7 +34135,7 @@
 }
 6828 = {	#Morgademetdia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6829 = {	#Monamuksos
@@ -34155,7 +34155,7 @@
 }
 6832 = {	#Mamonatosia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6833 = {	#Lefkklazooas
@@ -34200,7 +34200,7 @@
 }
 6841 = {	#Miletnemthos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6842 = {	#Argyriolcdus
@@ -34380,7 +34380,7 @@
 }
 6877 = {	#Nymphchalcmea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6878 = {	#Korintedeatrea
@@ -34459,8 +34459,8 @@
 	holding = tribal_holding
 }
 6893 = {	#West_Sussex
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 6894 = {	#Aigaphiene
@@ -34510,7 +34510,7 @@
 }
 6903 = {	#Hylefdos
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 6904 = {	#Hagmillene
@@ -34599,8 +34599,8 @@
 	holding = tribal_holding
 }
 6921 = {	#Sligo
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 6922 = {	#Lapithkimmepetra
@@ -34914,8 +34914,8 @@
 	holding = tribal_holding
 }
 6984 = {	#Kinross
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 6985 = {	#Antimagnyra
@@ -34924,8 +34924,8 @@
 	holding = tribal_holding
 }
 6986 = {	#Tyrone
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 6987 = {	#Gormasesmos
@@ -34989,8 +34989,8 @@
 	holding = tribal_holding
 }
 6999 = {	#Easter_Ross
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 7000 = {	#Katalebrias
@@ -35315,7 +35315,7 @@
 }
 7064 = {	#Calgazina
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7065 = {	#Lileoninon
@@ -35330,7 +35330,7 @@
 }
 7067 = {	#Deceopusthrae
 	culture = walloon
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7068 = {	#Madyhagmenus
@@ -35370,7 +35370,7 @@
 }
 7075 = {	#Halinysmea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7076 = {	#Kanaphilia
@@ -35440,7 +35440,7 @@
 }
 7089 = {	#Hemerokerkinder
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7090 = {	#Metagelita
@@ -35945,7 +35945,7 @@
 }
 7190 = {	#Olnympmenus
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7191 = {	#Elitaica
@@ -36319,8 +36319,8 @@
 	holding = tribal_holding
 }
 7265 = {	#Wicklow
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7266 = {	#Gongourlia
@@ -36390,7 +36390,7 @@
 }
 7279 = {	#Lauleibyra
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7280 = {	#Hybouetta
@@ -36440,7 +36440,7 @@
 }
 7289 = {	#Ephlaolia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7290 = {	#Alamegalodos
@@ -36460,7 +36460,7 @@
 }
 7293 = {	#Knossmeseinon
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7294 = {	#Kumauf
@@ -36560,7 +36560,7 @@
 }
 7313 = {	#Abkimmerrias
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7314 = {	#Magnbrauate
@@ -36669,8 +36669,8 @@
 	holding = tribal_holding
 }
 7335 = {	#Kildare
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7336 = {	#Monastilepretiri
@@ -36889,13 +36889,13 @@
 	holding = tribal_holding
 }
 7379 = {	#Boyle
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7380 = {	#Cambridge
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7381 = {	#Mocleontpetra
@@ -37015,7 +37015,7 @@
 }
 7404 = {	#Milchiine
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7405 = {	#Metamaronlea
@@ -37060,7 +37060,7 @@
 }
 7413 = {	#Metapondiosmea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7414 = {	#Manmesemila
@@ -37080,7 +37080,7 @@
 }
 7417 = {	#Diclarisiana
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7418 = {	#Mukearsate
@@ -37339,8 +37339,8 @@
 	holding = tribal_holding
 }
 7469 = {	#Wrexham
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 7470 = {	#Marcarydus
@@ -37384,8 +37384,8 @@
 	holding = tribal_holding
 }
 7478 = {	#Lincoln
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7479 = {	#Callileontrias
@@ -37404,8 +37404,8 @@
 	holding = tribal_holding
 }
 7482 = {	#Middlesex
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7483 = {	#Ledecera
@@ -37515,7 +37515,7 @@
 }
 7504 = {	#Calymethoosse
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7505 = {	#Ephelampsum
@@ -37580,7 +37580,7 @@
 }
 7517 = {	#Monastigortyosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7518 = {	#Massaadramthrae
@@ -37605,7 +37605,7 @@
 }
 7522 = {	#Millaskthena
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7523 = {	#Argyrmylaita
@@ -37675,7 +37675,7 @@
 }
 7536 = {	#Itasklea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7537 = {	#Jumetapum
@@ -37939,8 +37939,8 @@
 	holding = tribal_holding
 }
 7589 = {	#Killarney
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7590 = {	#Ialcythrias
@@ -38104,8 +38104,8 @@
 	holding = tribal_holding
 }
 7622 = {	#Great_Yarmouth
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7623 = {	#Kimmiolthena
@@ -38220,7 +38220,7 @@
 }
 7645 = {	#Ialmorgus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7646 = {	#Eryjukus
@@ -38240,7 +38240,7 @@
 }
 7649 = {	#Olydoryum
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7650 = {	#Chikoualous
@@ -38679,8 +38679,8 @@
 	holding = tribal_holding
 }
 7737 = {	#Tullyhaw
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7738 = {	#Adramgythicum
@@ -38760,12 +38760,12 @@
 }
 7753 = {	#Eretlaulia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7754 = {	#Edorescia
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7755 = {	#Kasmmethoas
@@ -38805,7 +38805,7 @@
 }
 7762 = {	#Hermmarathrea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7763 = {	#Lefbythalous
@@ -38855,7 +38855,7 @@
 }
 7772 = {	#Kylaoina
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7773 = {	#Aphidyessa
@@ -38919,8 +38919,8 @@
 	holding = tribal_holding
 }
 7785 = {	#Dunwich
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7786 = {	#Lakioinda
@@ -39104,8 +39104,8 @@
 	holding = tribal_holding
 }
 7822 = {	#Wells
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7823 = {	#Onbergila
@@ -39119,8 +39119,8 @@
 	holding = tribal_holding
 }
 7825 = {	#Bute
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 7826 = {	#Morgaeliana
@@ -39164,8 +39164,8 @@
 	holding = tribal_holding
 }
 7834 = {	#Shrewsbury
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7835 = {	#Argyrmarmaosse
@@ -39330,7 +39330,7 @@
 }
 7867 = {	#Hermhiertherna
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7868 = {	#Calykasmosse
@@ -39435,7 +39435,7 @@
 }
 7888 = {	#Calnauthrae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7889 = {	#Elemukrias
@@ -39480,7 +39480,7 @@
 }
 7897 = {	#Koerettes
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7898 = {	#Calyoltiri
@@ -39489,8 +39489,8 @@
 	holding = tribal_holding
 }
 7899 = {	#Cavan
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 7900 = {	#Hagilarios
@@ -39509,8 +39509,8 @@
 	holding = tribal_holding
 }
 7903 = {	#Berwick
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7904 = {	#Gorgihemeroine
@@ -39644,8 +39644,8 @@
 	holding = tribal_holding
 }
 7930 = {	#Pontefract
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 7931 = {	#Kameirlarisaea
@@ -39985,7 +39985,7 @@
 }
 7998 = {	#Orestklathena
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 7999 = {	#Aigosacannae
@@ -40180,7 +40180,7 @@
 }
 8037 = {	#Gorgiialyoas
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8038 = {	#Cebrhaliios
@@ -40329,8 +40329,8 @@
 	holding = tribal_holding
 }
 8067 = {	#Gloucester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8068 = {	#Nemlapitus
@@ -40480,7 +40480,7 @@
 }
 8097 = {	#Cromethina
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8098 = {	#Asambrae
@@ -40600,7 +40600,7 @@
 }
 8121 = {	#Kamdemetcum
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8122 = {	#Morgepidon
@@ -40730,7 +40730,7 @@
 }
 8147 = {	#Chamkydos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8148 = {	#Kouriialyessa
@@ -41050,7 +41050,7 @@
 }
 8211 = {	#Hehemerolia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8212 = {	#Mesemlepion
@@ -41070,7 +41070,7 @@
 }
 8215 = {	#Kimmerkynina
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8216 = {	#Korgonae
@@ -41309,8 +41309,8 @@
 	holding = tribal_holding
 }
 8263 = {	#Wexford
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 8264 = {	#Lauhemerorea
@@ -41369,8 +41369,8 @@
 	holding = tribal_holding
 }
 8275 = {	#Castlebar
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 8276 = {	#Boryslapithiana
@@ -41379,8 +41379,8 @@
 	holding = tribal_holding
 }
 8277 = {	#Huntingdon
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8278 = {	#Chealinder
@@ -41675,7 +41675,7 @@
 }
 8336 = {	#Amahelooas
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8337 = {	#Mantclethena
@@ -41859,8 +41859,8 @@
 	holding = tribal_holding
 }
 8373 = {	#Bridlington
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8374 = {	#Jukknidon
@@ -42080,7 +42080,7 @@
 }
 8417 = {	#Lilaerylia
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8418 = {	#Madleinda
@@ -42270,7 +42270,7 @@
 }
 8455 = {	#Cladimdus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8456 = {	#Histkatpetra
@@ -42660,7 +42660,7 @@
 }
 8533 = {	#Argyrnymphcia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8534 = {	#Methokanlea
@@ -42710,7 +42710,7 @@
 }
 8543 = {	#Ialapalea
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8544 = {	#Madykorinteia
@@ -42724,8 +42724,8 @@
 	holding = tribal_holding
 }
 8546 = {	#Isle_of_Wight
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8547 = {	#Calyhagnes
@@ -43015,7 +43015,7 @@
 }
 8604 = {	#Crometaita
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8605 = {	#Edlocmenus
@@ -43094,8 +43094,8 @@
 	holding = tribal_holding
 }
 8620 = {	#Clare
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 8621 = {	#Mukedai
@@ -43109,8 +43109,8 @@
 	holding = tribal_holding
 }
 8623 = {	#Oxford
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 8624 = {	#Amichytila
@@ -43189,8 +43189,8 @@
 	holding = tribal_holding
 }
 8639 = {	#Atholl
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 8640 = {	#Hermcyrine
@@ -43360,7 +43360,7 @@
 }
 8673 = {	#Calkamemenus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8674 = {	#Bybclazonia
@@ -43390,7 +43390,7 @@
 }
 8679 = {	#Gyrthiorchollai
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8680 = {	#Demniapolis
@@ -43420,7 +43420,7 @@
 }
 8685 = {	#Megalleibios
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8686 = {	#Kimmehermthena
@@ -43514,8 +43514,8 @@
 	holding = tribal_holding
 }
 8704 = {	#Truro
-	culture = Cornish
-	religion = Catholic
+	culture = cornish
+	religion = catholic
 	holding = tribal_holding
 }
 8705 = {	#Nymphmegida
@@ -43669,8 +43669,8 @@
 	holding = tribal_holding
 }
 8735 = {	#Allerdale
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8736 = {	#Braberglia
@@ -43705,7 +43705,7 @@
 }
 8742 = {	#Cleleithus
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 8743 = {	#Astaegthera
@@ -44119,8 +44119,8 @@
 	holding = tribal_holding
 }
 8825 = {	#Islay
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 8826 = {	#Itanmotherna
@@ -44204,8 +44204,8 @@
 	holding = tribal_holding
 }
 8842 = {	#Mull
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 8843 = {	#Lockorinnae
@@ -44369,8 +44369,8 @@
 	holding = tribal_holding
 }
 8875 = {	#Dunster
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 8876 = {	#Aigkerion
@@ -44419,8 +44419,8 @@
 	holding = tribal_holding
 }
 8885 = {	#Laois
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 8886 = {	#Gournkyrai
@@ -44709,8 +44709,8 @@
 	holding = tribal_holding
 }
 8943 = {	#Peeble
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 8944 = {	#Magargyrthena
@@ -44734,8 +44734,8 @@
 	holding = tribal_holding
 }
 8948 = {	#Cardigan
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 8949 = {	#Kimmetapoatrea
@@ -45080,7 +45080,7 @@
 }
 9017 = {	#Mamalus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9018 = {	#Boryshieoas
@@ -45095,7 +45095,7 @@
 }
 9020 = {	#Epikerkiatrea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9021 = {	#Hublebetrias
@@ -45110,7 +45110,7 @@
 }
 9023 = {	#Alademetus
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9024 = {	#Calodesine
@@ -45165,7 +45165,7 @@
 }
 9034 = {	#Monerylis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9035 = {	#Akrdelphita
@@ -45175,7 +45175,7 @@
 }
 9036 = {	#Myleibetherna
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9037 = {	#Ydcebcum
@@ -45375,7 +45375,7 @@
 }
 9076 = {	#Launydus
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9077 = {	#Abactnae
@@ -45489,8 +45489,8 @@
 	holding = tribal_holding
 }
 9099 = {	#Mayo
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9100 = {	#Ithancnithus
@@ -45655,7 +45655,7 @@
 }
 9132 = {	#Golgmorganene
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9133 = {	#Alakalthus
@@ -45785,7 +45785,7 @@
 }
 9158 = {	#Leprnapetra
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9159 = {	#Koielatcia
@@ -46009,8 +46009,8 @@
 	holding = tribal_holding
 }
 9203 = {	#Monmouth
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 9204 = {	#Magnemadytaea
@@ -46370,7 +46370,7 @@
 }
 9275 = {	#Odesscleoosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9276 = {	#Itklazae
@@ -46534,8 +46534,8 @@
 	holding = tribal_holding
 }
 9308 = {	#Roscommon
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9309 = {	#Korineryiana
@@ -46584,8 +46584,8 @@
 	holding = tribal_holding
 }
 9318 = {	#Wester_Ross
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 9319 = {	#Goreleutiri
@@ -46795,7 +46795,7 @@
 }
 9360 = {	#Epheithalia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9361 = {	#Orestamphitiri
@@ -46850,7 +46850,7 @@
 }
 9371 = {	#Marathamaiana
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9372 = {	#Gyrthodelia
@@ -47035,7 +47035,7 @@
 }
 9408 = {	#Masmetamea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9409 = {	#Amnimaium
@@ -47044,8 +47044,8 @@
 	holding = tribal_holding
 }
 9410 = {	#Abingdon
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 9411 = {	#Dimanythena
@@ -47114,8 +47114,8 @@
 	holding = tribal_holding
 }
 9424 = {	#Leitrim
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9425 = {	#Juktmulaea
@@ -47255,7 +47255,7 @@
 }
 9452 = {	#Linnirios
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9453 = {	#Gortykorimenus
@@ -47515,7 +47515,7 @@
 }
 9504 = {	#Mantimukenida
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9505 = {	#Klalamius
@@ -47880,7 +47880,7 @@
 }
 9577 = {	#Carbyzlia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9578 = {	#Chakaosia
@@ -47929,8 +47929,8 @@
 	holding = tribal_holding
 }
 9587 = {	#Rutland
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 9588 = {	#Kabouera
@@ -47959,8 +47959,8 @@
 	holding = tribal_holding
 }
 9593 = {	#Shetland
-	culture = Norwegian
-	religion = Catholic
+	culture = norwegian
+	religion = catholic
 	holding = tribal_holding
 }
 9594 = {	#Cebrhiida
@@ -48145,7 +48145,7 @@
 }
 9630 = {	#Cherskydoum
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9631 = {	#Andmaratica
@@ -48229,8 +48229,8 @@
 	holding = tribal_holding
 }
 9647 = {	#Kerry
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9648 = {	#Nirgeate
@@ -48899,8 +48899,8 @@
 	holding = tribal_holding
 }
 9781 = {	#Kincardine
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 9782 = {	#Gorgichytine
@@ -48970,7 +48970,7 @@
 }
 9795 = {	#Mumochpolis
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9796 = {	#Gorgbraesmos
@@ -49009,8 +49009,8 @@
 	holding = tribal_holding
 }
 9803 = {	#Donegal
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9804 = {	#Kyrenmagneion
@@ -49150,7 +49150,7 @@
 }
 9831 = {	#Edemesemdus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9832 = {	#Megalhieramea
@@ -49210,7 +49210,7 @@
 }
 9843 = {	#Athbouosse
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9844 = {	#Lapephlia
@@ -49335,7 +49335,7 @@
 }
 9868 = {	#Metapokerkinpetra
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9869 = {	#Aigosodeesmos
@@ -49489,13 +49489,13 @@
 	holding = tribal_holding
 }
 9899 = {	#Argyll
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 9900 = {	#Imokilly
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 9901 = {	#Antiplarisate
@@ -49509,8 +49509,8 @@
 	holding = tribal_holding
 }
 9903 = {	#Peterborough
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 9904 = {	#Laudyine
@@ -49539,8 +49539,8 @@
 	holding = tribal_holding
 }
 9909 = {	#Selkirk
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 9910 = {	#Kaloepnae
@@ -49639,8 +49639,8 @@
 	holding = tribal_holding
 }
 9929 = {	#Dunbarton
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 9930 = {	#Berassmos
@@ -49930,12 +49930,12 @@
 }
 9987 = {	#Juaytmea
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9988 = {	#Argcolaea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 9989 = {	#Gournemposos
@@ -50125,7 +50125,7 @@
 }
 10026 = {	#Kumedeesmos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10027 = {	#Andrgodus
@@ -50154,8 +50154,8 @@
 	holding = tribal_holding
 }
 10032 = {	#Lanark
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 10033 = {	#Aytmorsos
@@ -50184,8 +50184,8 @@
 	holding = tribal_holding
 }
 10038 = {	#Roxburgh
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 10039 = {	#Kynoroonia
@@ -50299,8 +50299,8 @@
 	holding = tribal_holding
 }
 10061 = {	#Pickering
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10062 = {	#Eubalaai
@@ -50324,8 +50324,8 @@
 	holding = tribal_holding
 }
 10066 = {	#Leicester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10067 = {	#Cebkoipolis
@@ -50465,7 +50465,7 @@
 }
 10094 = {	#Lindcalliai
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10095 = {	#Korintmegalai
@@ -50669,8 +50669,8 @@
 	holding = tribal_holding
 }
 10135 = {	#Ferns
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10136 = {	#Golggorglia
@@ -50739,8 +50739,8 @@
 	holding = tribal_holding
 }
 10149 = {	#Durham
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10150 = {	#Gyrthantiptiri
@@ -50790,7 +50790,7 @@
 }
 10159 = {	#Orchkyrenthos
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10160 = {	#Gazmaraton
@@ -50870,7 +50870,7 @@
 }
 10175 = {	#Maronasklila
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10176 = {	#Elmarmaum
@@ -50944,8 +50944,8 @@
 	holding = tribal_holding
 }
 10190 = {	#Derby
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10191 = {	#Eleassos
@@ -50984,8 +50984,8 @@
 	holding = tribal_holding
 }
 10198 = {	#Sutherland
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 10199 = {	#Clazmocion
@@ -51479,8 +51479,8 @@
 	holding = tribal_holding
 }
 10297 = {	#Armagh
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10298 = {	#Lamileibrias
@@ -51625,7 +51625,7 @@
 }
 10326 = {	#Megaloleibepetra
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10327 = {	#Helodelphnae
@@ -51989,8 +51989,8 @@
 	holding = tribal_holding
 }
 10399 = {	#Tipperary
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10400 = {	#Eregenae
@@ -52529,8 +52529,8 @@
 	holding = tribal_holding
 }
 10507 = {	#Sutton-at-Hone
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10508 = {	#Byllmetapdia
@@ -52639,8 +52639,8 @@
 	holding = tribal_holding
 }
 10529 = {	#Limerick
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10530 = {	#Helepreion
@@ -52720,7 +52720,7 @@
 }
 10545 = {	#Amphilamiaea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10546 = {	#Magclazonae
@@ -53079,8 +53079,8 @@
 	holding = tribal_holding
 }
 10617 = {	#Strathearn
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 10618 = {	#Clazohyina
@@ -53255,7 +53255,7 @@
 }
 10652 = {	#Malgouron
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10653 = {	#Lebhieum
@@ -53310,7 +53310,7 @@
 }
 10663 = {	#Alegonesmos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10664 = {	#Lisantipaea
@@ -53370,7 +53370,7 @@
 }
 10675 = {	#Leondemetta
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 10676 = {	#Kamnaxica
@@ -53449,8 +53449,8 @@
 	holding = tribal_holding
 }
 10691 = {	#Kinsale
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10692 = {	#Gortymonasnae
@@ -53479,8 +53479,8 @@
 	holding = tribal_holding
 }
 10697 = {	#Athenry
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10698 = {	#Koiempoinda
@@ -54649,8 +54649,8 @@
 	holding = tribal_holding
 }
 10931 = {	#Skye
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 10932 = {	#Ialmethaine
@@ -54689,8 +54689,8 @@
 	holding = tribal_holding
 }
 10939 = {	#Farney
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 10940 = {	#Amphileae
@@ -54809,8 +54809,8 @@
 	holding = tribal_holding
 }
 10963 = {	#Manchester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10964 = {	#Katademetsos
@@ -54859,8 +54859,8 @@
 	holding = tribal_holding
 }
 10973 = {	#Hull
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 10974 = {	#Metaponcyressa
@@ -55209,8 +55209,8 @@
 	holding = tribal_holding
 }
 11043 = {	#Carrickfergus
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11044 = {	#Elkyreai
@@ -55244,8 +55244,8 @@
 	holding = tribal_holding
 }
 11050 = {	#Antrim
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11051 = {	#Locrhubina
@@ -55299,8 +55299,8 @@
 	holding = tribal_holding
 }
 11061 = {	#Grimsby
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 11062 = {	#Oreskolis
@@ -55689,8 +55689,8 @@
 	holding = tribal_holding
 }
 11139 = {	#Meath
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11140 = {	#Marediana
@@ -55904,13 +55904,13 @@
 	holding = tribal_holding
 }
 11182 = {	#Berwick-upon-Tweed
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 11183 = {	#Ephyrmethinda
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11184 = {	#Opukameaea
@@ -56195,7 +56195,7 @@
 }
 11240 = {	#Marmamagine
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11241 = {	#Kaldidlea
@@ -56419,8 +56419,8 @@
 	holding = tribal_holding
 }
 11285 = {	#West_Lothian
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 11286 = {	#Hidoryene
@@ -56710,7 +56710,7 @@
 }
 11343 = {	#Asklknosstes
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11344 = {	#Emporkasmon
@@ -56765,7 +56765,7 @@
 }
 11354 = {	#Itaydai
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11355 = {	#Kourilekium
@@ -56800,7 +56800,7 @@
 }
 11361 = {	#Lekhcrotosia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11362 = {	#Lilmorgancum
@@ -56964,8 +56964,8 @@
 	holding = tribal_holding
 }
 11394 = {	#Taunton
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 11395 = {	#Kihelaea
@@ -56994,8 +56994,8 @@
 	holding = tribal_holding
 }
 11400 = {	#Monaghan
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11401 = {	#Nychytiana
@@ -57164,8 +57164,8 @@
 	holding = tribal_holding
 }
 11434 = {	#Carbery
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11435 = {	#Heloantigetta
@@ -57250,7 +57250,7 @@
 }
 11451 = {	#Kydmethuion
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11452 = {	#Achantiiana
@@ -57754,8 +57754,8 @@
 	holding = tribal_holding
 }
 11552 = {	#Rochester
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 11553 = {	#Alegazene
@@ -57769,8 +57769,8 @@
 	holding = tribal_holding
 }
 11555 = {	#Wareham
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 11556 = {	#Calnautiri
@@ -57900,7 +57900,7 @@
 }
 11581 = {	#Nysodthena
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11582 = {	#Orchimbthrae
@@ -57930,7 +57930,7 @@
 }
 11587 = {	#Gortyydaea
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11588 = {	#Imidalatrea
@@ -58124,8 +58124,8 @@
 	holding = tribal_holding
 }
 11626 = {	#Fife
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 11627 = {	#Marcyrina
@@ -58349,8 +58349,8 @@
 	holding = tribal_holding
 }
 11671 = {	#Westmeath
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11672 = {	#Clazoclazoli
@@ -58619,8 +58619,8 @@
 	holding = tribal_holding
 }
 11725 = {	#Angus
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 11726 = {	#Ormegalum
@@ -58649,8 +58649,8 @@
 	holding = tribal_holding
 }
 11731 = {	#Liverpool
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 11732 = {	#Amniopiana
@@ -58700,7 +58700,7 @@
 }
 11741 = {	#Kourhalinae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11742 = {	#Delphlarius
@@ -58750,7 +58750,7 @@
 }
 11751 = {	#Halichieracum
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11752 = {	#Kiohermius
@@ -59000,7 +59000,7 @@
 }
 11801 = {	#Braalium
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11802 = {	#Chermaronina
@@ -59279,8 +59279,8 @@
 	holding = tribal_holding
 }
 11857 = {	#Anglesey
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 11858 = {	#Oresgyththena
@@ -59560,7 +59560,7 @@
 }
 11913 = {	#Astmanttrias
 	culture = flemish
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11914 = {	#Achgolglia
@@ -59690,7 +59690,7 @@
 }
 11939 = {	#Marmileaea
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 11940 = {	#Aleasslea
@@ -59734,8 +59734,8 @@
 	holding = tribal_holding
 }
 11948 = {	#Westport
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 11949 = {	#Elknosinon
@@ -60175,7 +60175,7 @@
 }
 12036 = {	#Kyreodoas
 	culture = basque
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12037 = {	#Millkallicum
@@ -60200,7 +60200,7 @@
 }
 12041 = {	#Kyrhagiana
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12042 = {	#Kydomarmion
@@ -60215,7 +60215,7 @@
 }
 12044 = {	#Lilchidos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12045 = {	#Magydium
@@ -60245,7 +60245,7 @@
 }
 12050 = {	#Modelphios
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12051 = {	#Korintlocrdos
@@ -60260,7 +60260,7 @@
 }
 12053 = {	#Megacanita
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12054 = {	#Hermimetaponlia
@@ -60564,8 +60564,8 @@
 	holding = tribal_holding
 }
 12114 = {	#Surrey
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 12115 = {	#Mocbythpetra
@@ -60590,7 +60590,7 @@
 }
 12119 = {	#Chaaegder
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12120 = {	#Korinthorchooas
@@ -60835,7 +60835,7 @@
 }
 12168 = {	#Chykepae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12169 = {	#Naukaiera
@@ -61075,7 +61075,7 @@
 }
 12216 = {	#Hyaegder
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12217 = {	#Doryneaaea
@@ -61325,7 +61325,7 @@
 }
 12266 = {	#Oroleontcia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12267 = {	#Morglampsates
@@ -61360,7 +61360,7 @@
 }
 12273 = {	#Korieryoas
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12274 = {	#Metathonia
@@ -61390,7 +61390,7 @@
 }
 12279 = {	#Mocempotherna
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12280 = {	#Dymaphiita
@@ -61689,8 +61689,8 @@
 	holding = tribal_holding
 }
 12339 = {	#Lancaster
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 12340 = {	#Korkourialous
@@ -61729,8 +61729,8 @@
 	holding = tribal_holding
 }
 12347 = {	#Stafford
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 12348 = {	#Lepkimmeum
@@ -61830,7 +61830,7 @@
 }
 12367 = {	#Aligolila
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12368 = {	#Assereuf
@@ -61925,7 +61925,7 @@
 }
 12386 = {	#Hieragelthera
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12387 = {	#Hykydonae
@@ -62000,7 +62000,7 @@
 }
 12401 = {	#Metacarlia
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12402 = {	#Dymmalrias
@@ -62180,7 +62180,7 @@
 }
 12437 = {	#Cherleprate
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12438 = {	#Amilampsaai
@@ -62624,8 +62624,8 @@
 	holding = tribal_holding
 }
 12526 = {	#Derry
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 12527 = {	#Actmukenosia
@@ -62990,12 +62990,12 @@
 }
 12599 = {	#Chamkannum
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12600 = {	#Oropolpolis
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12601 = {	#Gortyorea
@@ -63105,7 +63105,7 @@
 }
 12622 = {	#Idalbrauetta
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12623 = {	#Mantilaum
@@ -63450,7 +63450,7 @@
 }
 12691 = {	#Kameiakrtrias
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12692 = {	#Lefkalinessa
@@ -63560,12 +63560,12 @@
 }
 12713 = {	#Nymbybium
 	culture = arpitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12714 = {	#Asinyonia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12715 = {	#Klazydtes
@@ -63575,7 +63575,7 @@
 }
 12716 = {	#Hymagneia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12717 = {	#Coreleuthus
@@ -63625,7 +63625,7 @@
 }
 12726 = {	#Challamon
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12727 = {	#Kykalliita
@@ -63645,7 +63645,7 @@
 }
 12730 = {	#Opmoiana
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12731 = {	#Lepremoita
@@ -63685,7 +63685,7 @@
 }
 12738 = {	#Ioasklthena
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12739 = {	#Apamallmenus
@@ -63710,7 +63710,7 @@
 }
 12743 = {	#Kourlauf
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12744 = {	#Colacanpetra
@@ -63804,8 +63804,8 @@
 	holding = tribal_holding
 }
 12762 = {	#Inverness
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 12763 = {	#Kameiephyreia
@@ -64029,8 +64029,8 @@
 	holding = tribal_holding
 }
 12807 = {	#Hertford
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 12808 = {	#Apabraulia
@@ -64150,7 +64150,7 @@
 }
 12831 = {	#Kemassmea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12832 = {	#Monatnautes
@@ -64230,7 +64230,7 @@
 }
 12847 = {	#Amniopusdia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12848 = {	#Opeleuissa
@@ -64260,7 +64260,7 @@
 }
 12853 = {	#Deceklazlia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12854 = {	#Kamarantigpetra
@@ -64279,8 +64279,8 @@
 	holding = tribal_holding
 }
 12857 = {	#Barnstaple
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 12858 = {	#Diosdoryoli
@@ -64510,7 +64510,7 @@
 }
 12903 = {	#Moccorcmos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12904 = {	#Nympdecthus
@@ -64569,8 +64569,8 @@
 	holding = tribal_holding
 }
 12915 = {	#Ayr
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 12916 = {	#Eubkoae
@@ -64590,7 +64590,7 @@
 }
 12919 = {	#Ithanhylia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12920 = {	#Chalmiletcia
@@ -64675,7 +64675,7 @@
 }
 12936 = {	#Opuseretae
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12937 = {	#Apollmesthos
@@ -64760,7 +64760,7 @@
 }
 12953 = {	#Opuedlea
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12954 = {	#Chamchersdus
@@ -64815,7 +64815,7 @@
 }
 12964 = {	#Leelatlis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12965 = {	#Manaskate
@@ -64835,7 +64835,7 @@
 }
 12968 = {	#Ithkydate
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12969 = {	#Asskydetta
@@ -64890,7 +64890,7 @@
 }
 12979 = {	#Golkyrepolis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12980 = {	#Kouknoae
@@ -64954,13 +64954,13 @@
 	holding = tribal_holding
 }
 12992 = {	#Pembroke
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 12993 = {	#Laoroplia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 12994 = {	#Korigazsos
@@ -65074,8 +65074,8 @@
 	holding = tribal_holding
 }
 13016 = {	#Kirkcudbright
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 13017 = {	#Naueliana
@@ -65135,7 +65135,7 @@
 }
 13028 = {	#Elmylados
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13029 = {	#Dymkourilis
@@ -65179,8 +65179,8 @@
 	holding = tribal_holding
 }
 13037 = {	#Midlothian
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 13038 = {	#Gourkameirrea
@@ -65189,8 +65189,8 @@
 	holding = tribal_holding
 }
 13039 = {	#Fingal
-	culture = Hiberno-Norman
-	religion = Catholic
+	culture = hiberno_norman
+	religion = catholic
 	holding = tribal_holding
 }
 13040 = {	#Aeghelirea
@@ -65365,7 +65365,7 @@
 }
 13074 = {	#Amninaxlia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13075 = {	#Ithmarmoli
@@ -65489,8 +65489,8 @@
 	holding = tribal_holding
 }
 13099 = {	#Radnor
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 13100 = {	#Megalcrodus
@@ -65559,8 +65559,8 @@
 	holding = tribal_holding
 }
 13113 = {	#Furness
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13114 = {	#Achcebrium
@@ -65875,7 +65875,7 @@
 }
 13176 = {	#Neaoroios
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13177 = {	#Braujuktene
@@ -65955,7 +65955,7 @@
 }
 13192 = {	#Hublnyum
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13193 = {	#Artitamenus
@@ -66154,8 +66154,8 @@
 	holding = tribal_holding
 }
 13232 = {	#York
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13233 = {	#Oresmulthus
@@ -66220,7 +66220,7 @@
 }
 13245 = {	#Chalkaimos
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13246 = {	#Kiocymdia
@@ -66325,12 +66325,12 @@
 }
 13266 = {	#Imbrasteia
 	culture = franconian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13267 = {	#Byllbaroas
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13268 = {	#Asmochate
@@ -66435,7 +66435,7 @@
 }
 13288 = {	#Kioithathera
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13289 = {	#Didorestina
@@ -66489,8 +66489,8 @@
 	holding = tribal_holding
 }
 13299 = {	#Essex
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13300 = {	#Locrdecepetra
@@ -66545,7 +66545,7 @@
 }
 13310 = {	#Hemerohagilea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13311 = {	#Lekcalalous
@@ -66579,8 +66579,8 @@
 	holding = tribal_holding
 }
 13317 = {	#Wigtown
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 13318 = {	#Hermmagneion
@@ -66645,7 +66645,7 @@
 }
 13330 = {	#Odeeleinda
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13331 = {	#Kogyrthene
@@ -66829,8 +66829,8 @@
 	holding = tribal_holding
 }
 13367 = {	#Tuam
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 13368 = {	#Aytmanita
@@ -66930,7 +66930,7 @@
 }
 13387 = {	#Crotmetalous
 	culture = norman
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13388 = {	#Katamonoastesmos
@@ -67189,8 +67189,8 @@
 	holding = tribal_holding
 }
 13439 = {	#Glamorgan
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 13440 = {	#Amnilampslia
@@ -67290,7 +67290,7 @@
 }
 13459 = {	#Itanchersetta
 	culture = burgundian
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13460 = {	#Cebcalyita
@@ -67450,7 +67450,7 @@
 }
 13491 = {	#Kerkinkerkinae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13492 = {	#Lamihierias
@@ -67485,7 +67485,7 @@
 }
 13498 = {	#Hieraclelia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13499 = {	#Nympmarathmos
@@ -67724,13 +67724,13 @@
 	holding = tribal_holding
 }
 13546 = {	#Lewis_and_Harris
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 13547 = {	#Berhellescia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13548 = {	#Leibarion
@@ -67870,7 +67870,7 @@
 }
 13575 = {	#Locrkoulia
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13576 = {	#Olbiastdus
@@ -67884,8 +67884,8 @@
 	holding = tribal_holding
 }
 13578 = {	#Merioneth
-	culture = Welsh
-	religion = Catholic
+	culture = welsh
+	religion = catholic
 	holding = tribal_holding
 }
 13579 = {	#Hagkiolia
@@ -67925,7 +67925,7 @@
 }
 13586 = {	#Clalision
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13587 = {	#Colomileiana
@@ -68090,7 +68090,7 @@
 }
 13619 = {	#Kerkimagnoas
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13620 = {	#Lapartemlis
@@ -68195,7 +68195,7 @@
 }
 13640 = {	#Mochleflis
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13641 = {	#Carkoillai
@@ -68235,7 +68235,7 @@
 }
 13648 = {	#Juodaea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13649 = {	#Mocankoas
@@ -68245,7 +68245,7 @@
 }
 13650 = {	#Opusarginon
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13651 = {	#Chamchytcum
@@ -68655,7 +68655,7 @@
 }
 13732 = {	#Iolopustes
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13733 = {	#Cykalliai
@@ -68884,8 +68884,8 @@
 	holding = tribal_holding
 }
 13778 = {	#Doncaster
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13779 = {	#Golnirthus
@@ -68954,8 +68954,8 @@
 	holding = tribal_holding
 }
 13792 = {	#Folkestone
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13793 = {	#Gyrthimochthrae
@@ -69000,7 +69000,7 @@
 }
 13801 = {	#Olamniessa
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13802 = {	#Heramonasmea
@@ -69149,8 +69149,8 @@
 	holding = tribal_holding
 }
 13831 = {	#Louth
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13832 = {	#Edbhyrtlia
@@ -69210,7 +69210,7 @@
 }
 13843 = {	#Kimadtes
 	culture = picard
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13844 = {	#Olbkalthera
@@ -69405,7 +69405,7 @@
 }
 13882 = {	#Massaamaryida
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13883 = {	#Cymgorgider
@@ -69475,7 +69475,7 @@
 }
 13896 = {	#Amaractus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13897 = {	#Morganlamrias
@@ -69700,7 +69700,7 @@
 }
 13941 = {	#Callidorythus
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13942 = {	#Nympgortyila
@@ -69775,7 +69775,7 @@
 }
 13956 = {	#Kydepidium
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13957 = {	#Gyrthilaothena
@@ -69870,7 +69870,7 @@
 }
 13975 = {	#Monaalatrias
 	culture = breton
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13976 = {	#Kydladia
@@ -69914,8 +69914,8 @@
 	holding = tribal_holding
 }
 13984 = {	#Hereford
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 13985 = {	#Eretkitiri
@@ -69939,8 +69939,8 @@
 	holding = tribal_holding
 }
 13989 = {	#Bodmin
-	culture = Cornish
-	religion = Catholic
+	culture = cornish
+	religion = catholic
 	holding = tribal_holding
 }
 13990 = {	#Hieramoctes
@@ -69964,8 +69964,8 @@
 	holding = tribal_holding
 }
 13994 = {	#Mar
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 13995 = {	#Oepkioaea
@@ -69980,7 +69980,7 @@
 }
 13997 = {	#Opucalymea
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 13998 = {	#Koricniaea
@@ -69999,8 +69999,8 @@
 	holding = tribal_holding
 }
 14001 = {	#Canterbury
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 14002 = {	#Knosslapitina
@@ -70039,8 +70039,8 @@
 	holding = tribal_holding
 }
 14009 = {	#Macclesfield
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 14010 = {	#Kumcalai
@@ -70059,8 +70059,8 @@
 	holding = tribal_holding
 }
 14013 = {	#Carrick
-	culture = Gaelic
-	religion = Catholic
+	culture = gaelic
+	religion = catholic
 	holding = tribal_holding
 }
 14014 = {	#Achodesae
@@ -70204,8 +70204,8 @@
 	holding = tribal_holding
 }
 14042 = {	#Northallerton
-	culture = English
-	religion = Catholic
+	culture = english
+	religion = catholic
 	holding = tribal_holding
 }
 14043 = {	#Hemeandrus
@@ -70214,8 +70214,8 @@
 	holding = tribal_holding
 }
 14044 = {	#East_Lothian
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 14045 = {	#Marmcleoesmos
@@ -70224,8 +70224,8 @@
 	holding = tribal_holding
 }
 14046 = {	#Wiltshire
-	culture = English
-	religion = Lollard
+	culture = english
+	religion = lollard
 	holding = tribal_holding
 }
 14047 = {	#Lapithmethuine
@@ -70510,7 +70510,7 @@
 }
 14103 = {	#Hublmantnae
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 14104 = {	#Aenkasmdos
@@ -70519,8 +70519,8 @@
 	holding = tribal_holding
 }
 14105 = {	#Banff
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 14106 = {	#Clazmararea
@@ -70550,7 +70550,7 @@
 }
 14111 = {	#Alecleolia
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 14112 = {	#Orchoithdus
@@ -70694,8 +70694,8 @@
 	holding = tribal_holding
 }
 14140 = {	#Clonmel
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 14141 = {	#Knossbraesmos
@@ -70769,8 +70769,8 @@
 	holding = tribal_holding
 }
 14155 = {	#Dumfries
-	culture = Scots
-	religion = Catholic
+	culture = scots
+	religion = catholic
 	holding = tribal_holding
 }
 14156 = {	#Idakamion
@@ -70794,8 +70794,8 @@
 	holding = tribal_holding
 }
 14160 = {	#Mallow
-	culture = Irish
-	religion = Catholic
+	culture = irish
+	religion = catholic
 	holding = tribal_holding
 }
 14161 = {	#Ganggourpolis
@@ -70880,7 +70880,7 @@
 }
 14177 = {	#Eleargyrate
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 14178 = {	#Maghieyra
@@ -70970,7 +70970,7 @@
 }
 14195 = {	#Lampsaemporios
 	culture = french
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 14196 = {	#Gacnitiri
@@ -71005,7 +71005,7 @@
 }
 14202 = {	#Meglesai
 	culture = occitan
-	religion = Catholic
+	religion = catholic
 	holding = tribal_holding
 }
 14203 = {	#Orehiinon
