@@ -5,4 +5,11 @@
  NOT_required_year_trigger:0 "Необходимый год не $VALUE|V0$."
  required_year_greater_or_equal_trigger:0 "Необходимый год $VALUE|V0$ или больше."
  NOT_required_year_greater_or_equal_trigger:0 "Необходимый год не $VALUE|V0$ или больше."
+ required_year_lesser_or_equal_trigger:0 "Необходимый год $VALUE|V0$ или меньше."
+ NOT_required_year_lesser_or_equal_trigger:0 "Необходимый год не $VALUE|V0$ или меньше."
+
+ # DISCOVERED GUNPOWDER TRIGGER
+ discovered_gunpowder_trigger:0 "[CULTURE.GetName|V] культура открыла [gunpowder|E]."
+ NOT_discovered_gunpowder_trigger:0 "[CULTURE.GetName|V] культура не открыла [gunpowder|E]."
+ flag_found_gunpowder:0 "Открыт Порох"
  

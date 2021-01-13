@@ -9,3 +9,12 @@
  # ARQUEBUS EVENT DECISION TOOLTIP
  improve_the_arquebus_event_tooltip:0 "По их возвращению у вас будут варианты по тому, как улучшить оружие."
  
+ # SEEK GUNPOWDER DECISION
+ seek_gunpowder_decision:0 "Поиск Экзотических Вещей"
+ seek_gunpowder_decision_confirm:0 "Отправить людей в Торговую Миссию"
+ seek_gunpowder_decision_tooltip:0 "Ваш самый преданных торговец отправится искать экзотические вещи."
+ seek_gunpowder_decision_desc:0 "Вы отправите Торговую Миссиию по Шелковому Пути в поисках экзотических вещей, которых у вас еще нет."
+
+ # SEEK GUNPOWDER DECISION TOOLTIP
+ seek_gunpowder_event_tooltip:0 "По их возвращению, ваш Управлющий происнпектирует весь товар на полезность."
+ 
