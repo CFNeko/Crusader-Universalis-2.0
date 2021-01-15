@@ -15,7 +15,6 @@
 			change_variable = { name = peace_val add = 25 }
 
 
-
 			if = {
 				limit = {
 					var:peace_val = { compare_value > root.current_gold_value }
@@ -181,9 +180,36 @@
 					variable = taken_vassals
 					remove_variable = is_selected
 				}				
-
+				every_in_list = {
+					variable = potential_m
+					remove_variable = is_selectedm
+				}	
+				every_in_list = {
+					variable = potential_e
+					remove_variable = is_selectede
+				}
+				every_in_list = {
+					variable = potential_mf
+					remove_variable = is_selectedm
+				}	
+				every_in_list = {
+					variable = potential_ef
+					remove_variable = is_selectede
+				}
+				every_in_list = {
+					variable = make_inde_list
+					remove_variable = arv
+				}
+				every_in_list = {
+					variable = emake_inde_list
+					remove_variable = arv
+				}
+				clear_variable_list = make_inde_list
+				clear_variable_list = emake_inde_list												
+				clear_variable_list = marriage_give	
+				clear_variable_list = marriage_get					
 				clear_variable_list = my_lands
-				clear_variable_list = enemy_list
+				#clear_variable_list = enemy_list
 				clear_variable_list = enemys_land
 				clear_variable_list = my_claims
 				clear_variable_list = enemys_claim
@@ -217,18 +243,64 @@
 				remove_character_flag = ef_decimation
 				remove_character_flag = f_sacrifice
 				remove_character_flag = ef_sacrifice
-				remove_character_flag = f_death
-				remove_character_flag = ef_death
+				remove_character_flag = release_them
 				remove_character_flag = j_marriage
 				remove_character_flag = ej_marriage
-				remove_character_flag = unconditional_surrender
-				remove_character_flag = eunconditional_surrender
+				remove_character_flag = make_inde
+				remove_character_flag = emake_inde
+				#remove_variable = potential_m
+				clear_variable_list = potential_m
+				clear_variable_list = potential_e
+				clear_variable_list = potential_mf
+				clear_variable_list = potential_ef
 				heres_the_deal = {}
 			
 			}
 	}
+	clear_marriagez = {
+		root = {
+			every_in_list = {
+				variable = potential_m
+				remove_variable = is_selectedm
+			}	
+			every_in_list = {
+				variable = potential_e
+				remove_variable = is_selectede
+			}
+			every_in_list = {
+				variable = potential_mf
+				remove_variable = is_selectedm
+			}	
+			every_in_list = {
+				variable = potential_ef
+				remove_variable = is_selectede
+			}
+				clear_variable_list = marriage_give	
+				clear_variable_list = marriage_get								
+		}
+	}
 ########
-
+ remove_given = {
+	every_in_list = {
+		variable = potential_m
+		remove_variable = is_selectedm
+	}
+	every_in_list = {
+		variable = potential_mf
+		remove_variable = is_selectedm
+	}	
+	
+ }
+ remove_asks = {
+	every_in_list = {
+		variable = potential_e
+		remove_variable = is_selectede
+	}
+	every_in_list = {
+		variable = potential_ef
+		remove_variable = is_selectede
+	}	
+ } 
 ##################
 # Deal Evaluation
 #################
@@ -541,7 +613,97 @@
 						}
 					}
 				#end vassals
-
+				
+				#start inde
+					every_in_list = {
+						variable = make_inde_list
+						save_scope_as = this_guy
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_barony
+							}
+							root = {
+								change_variable = { name = the_deal add = 3 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_county
+							}
+							root = {
+								change_variable = { name = the_deal add = 10 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_duchy
+							}
+							root = {
+								change_variable = { name = the_deal add = 20 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_kingdom
+							}
+							root = {
+								change_variable = { name = the_deal add = 35 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_empire
+							}
+							root = {
+								change_variable = { name = the_deal add = 110 }
+							}
+						}
+					}
+					every_in_list = {
+						variable = emake_inde_list
+						save_scope_as = this_guy
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_barony
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 3 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_county
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 10 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_duchy
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 20 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_kingdom
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 35 }
+							}
+						}
+						if = { 
+							limit = {
+								scope:this_guy.primary_title.tier = tier_empire
+							}
+							root = {
+								change_variable = { name = the_deal subtract = 110 }
+							}
+						}
+					}					
+				#end Inde
 				#start gold
 					if = {
 						limit = { 
@@ -653,6 +815,7 @@
 					every_character_war = {
 						limit = { 
 							is_attacker = root
+							is_defender = scope:dork
 						}
 						save_scope_as = war
 						root = {
@@ -662,6 +825,7 @@
 					every_character_war = {
 						limit = { 
 							is_defender = root
+							is_attacker = scope:dork
 						}
 						save_scope_as = war
 						root = {
@@ -701,15 +865,15 @@
 				#Treaties
 					if = {
 						limit = {
-							has_character_flag = unconditional_surrender
+							has_character_flag = make_inde
 						}
-						change_variable = { name = the_deal add = 100 }
+						change_variable = { name = the_deal add = 50 }
 					}
 					if = {
 						limit = {
-							has_character_flag = eunconditional_surrender
+							has_character_flag = emake_inde
 						}
-						change_variable = { name = the_deal subtract = 100 }
+						change_variable = { name = the_deal subtract = 50 }
 					}
 					if = {
 						limit = {
@@ -734,18 +898,6 @@
 							has_character_flag = ef_conversion
 						}
 						change_variable = { name = the_deal subtract = 30 }
-					}
-					if = {
-						limit = {
-							has_character_flag = j_marriage
-						}
-						change_variable = { name = the_deal add = 20 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ej_marriage
-						}
-						change_variable = { name = the_deal subtract = 50 }
 					}
 					if = {
 						limit = {
@@ -785,16 +937,26 @@
 					}
 					if = {
 						limit = {
-							has_character_flag = f_death
+							has_character_flag = release_them
 						}
-						change_variable = { name = the_deal add = 110 }
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_death
+						root = {
+							every_prisoner = {
+								limit = { 
+									liege = scope:dork 
+								}
+								change_variable = { name = the_deal add = 5 }						
+							}
 						}
-						change_variable = { name = the_deal subtract = 110 }
+						scope:dork = {
+							every_prisoner = {
+								limit = { 
+									liege = root
+								}
+								change_variable = { name = the_deal subtract = 5 }						
+							}
+						}						
 					}
+
 					if = {
 						limit = {
 							has_character_flag = war_rep
@@ -843,6 +1005,374 @@
 						}
 						change_variable = { name = the_deal subtract = 130 }
 					}
+					
+				#Peace through marriage	
+					if = {
+						limit = {
+							AND = {
+								has_variable_list = marriage_get
+								has_variable_list = marriage_give
+							}
+						}
+						every_in_list = {
+							variable = marriage_give
+							save_scope_as = mgive
+						}
+						every_in_list = {
+							variable = marriage_get
+							save_scope_as = mget
+						}
+						# Tier Differences
+						if = {
+							limit = {
+								AND = {
+									root = {
+										has_variable = mmm
+									}
+									scope:mgive = {
+										is_female = yes
+									}
+								}
+							}
+							change_variable = { name = the_deal subtract = 15 }
+						}
+						if = {
+							limit = {
+								AND = {
+									root = {
+										has_variable = mmm
+									}
+									scope:mgive = {
+										is_female = no
+									}
+								}
+							}
+							change_variable = { name = the_deal add = 15 }
+						}						
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value >= 1
+								}
+							}
+							change_variable = { name = the_deal add = 10 }
+						}				
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = 2
+								}
+							}
+							change_variable = { name = the_deal add = 20 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = 3
+								}
+							}
+							change_variable = { name = the_deal add = 30 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = 4
+								}
+							}
+							change_variable = { name = the_deal add = 40 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = 5
+								}
+							}
+							change_variable = { name = the_deal add = 50 }
+						}
+
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value <= -1
+								}
+							}
+							change_variable = { name = the_deal subtract = 10 }
+						}				
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = -2
+								}
+							}
+							change_variable = { name = the_deal subtract = 20 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = -3
+								}
+							}
+							change_variable = { name = the_deal subtract = 30 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = -4
+								}
+							}
+							change_variable = { name = the_deal subtract = 40 }
+						}
+						if = {
+							limit = {
+								tier_difference = {
+									target = scope:mget
+									value = -5
+								}
+							}
+							change_variable = { name = the_deal subtract = 50 }
+						}
+
+						# heirs
+						if = {
+							limit = {
+								scope:mget = {
+									is_heir_of = scope:mget.liege
+								}
+							}
+
+							if = {
+								limit = {
+									scope:mgive = {
+										is_heir_of = scope:mgive.liege
+									}
+								}
+							}
+							else = {
+								change_variable = { name = the_deal subtract = 30 }
+							}
+						}
+						if = {
+							limit = {
+								scope:mgive = {
+									is_heir_of = scope:mgive.liege
+								}
+							}
+
+							if = {
+								limit = {
+									scope:mget= {
+										is_heir_of = scope:mget.liege
+									}
+								}
+							}
+							else = {
+								change_variable = { name = the_deal add = 30 }
+							}
+						}
+						#dislike
+						if = {
+							limit = {
+								scope:mget = { has_relation_rival = scope:mgive }
+							}
+							change_variable = { name = the_deal subtract = 30 }
+						}
+						# Dynasty Prestige Levels
+						if = {
+							limit = {
+								OR = {
+									scope:mgive = { has_dynasty = yes }
+									NOT = { scope:mgive.dynasty => scope:mget.dynasty }
+									scope:mgive.dynasty = { dynasty_prestige_level = 0 }
+								}
+							}
+							change_variable = { name = the_deal subtract = 30 }
+						}
+						if = {
+							limit = {
+								OR = {
+									scope:mget = { has_dynasty = yes }
+									NOT = { scope:mget.dynasty => scope:mgive.dynasty }
+									scope:mget.dynasty = { dynasty_prestige_level = 0 }
+								}
+							}
+							change_variable = { name = the_deal add = 30 }
+						}		
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 2 }
+							}
+							change_variable = { name = the_deal add = 5 }
+						}
+
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 3 }
+							}
+							change_variable = { name = the_deal add = 10 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 4 }
+							}
+							change_variable = { name = the_deal add = 15 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 5 }
+							}
+							change_variable = { name = the_deal add = 20 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 6 }
+							}
+							change_variable = { name = the_deal add = 25 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 7 }
+							}
+							change_variable = { name = the_deal add = 30 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 8 }
+							}
+							change_variable = { name = the_deal add = 35 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 9 }
+							}
+							change_variable = { name = the_deal add = 40 }
+						}
+						if = {
+							limit = {
+								scope:mgive.dynasty = { dynasty_prestige_level >= 10 }
+							}
+							change_variable = { name = the_deal add = 45 }
+						}
+						## ene dyn pres
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 2 }
+							}
+							change_variable = { name = the_deal subtract = 5 }
+						}
+
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 3 }
+							}
+							change_variable = { name = the_deal subtract = 10 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 4 }
+							}
+							change_variable = { name = the_deal subtract = 15 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 5 }
+							}
+							change_variable = { name = the_deal subtract = 20 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 6 }
+							}
+							change_variable = { name = the_deal subtract = 25 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 7 }
+							}
+							change_variable = { name = the_deal subtract = 30 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 8 }
+							}
+							change_variable = { name = the_deal subtract = 35 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 9 }
+							}
+							change_variable = { name = the_deal subtract = 40 }
+						}
+						if = {
+							limit = {
+								scope:mget.dynasty = { dynasty_prestige_level >= 10 }
+							}
+							change_variable = { name = the_deal subtract = 45 }
+						}
+						##	dyn pres			
+						
+						#Faith compatibility
+
+						if = {
+							limit = {
+								scope:mget.faith = {
+									faith_hostility_level = {
+										target = scope:mgive.faith
+										value > faith_fully_accepted_level
+									}
+								}
+							}
+							change_variable = { name = the_deal subtract = 5 }
+						}
+						if = {
+							limit = {
+								scope:mget.faith = {
+									faith_hostility_level = {
+										target = scope:mgive.faith
+										value >= faith_astray_level
+									}
+								}
+							}
+							change_variable = { name = the_deal subtract = 10 }
+						}
+						if = {
+							limit = {
+								scope:mget.faith = {
+									faith_hostility_level = {
+										target = scope:mgive.faith
+										value >= faith_hostile_level
+									}
+								}
+							}
+							change_variable = { name = the_deal subtract = 20 }
+						}
+						if = {
+							limit = {
+								scope:mget.faith = {
+									faith_hostility_level = {
+										target = scope:mgive.faith
+										value >= faith_evil_level
+									}
+								}
+							}
+							change_variable = { name = the_deal subtract = 30 }
+						}
+						if = {
+							limit = {
+								NOT = { scope:mget.culture = scope:mgive.culture }
+							}
+						}
+													
+					}
+				# end marriage	
 				#end treaty
 				#SPP
 					if = {

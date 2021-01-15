@@ -6,17 +6,6 @@
 
 		effect = {
 			root = {
-				every_primary_war_enemy = {
-					save_scope_as = dork
-						root = {
-							add_to_variable_list = {
-								name = enemy_list
-								target = prev
-							}
-						}
-				}
-
-
 				every_in_list = {
 					variable = enemy_list
 					every_held_title = {
@@ -214,6 +203,10 @@
 				remove_list_variable = { name = given_vassals target = scope:target }
 			}
 			else_if = {
+				scope:target = {
+					remove_variable = arv
+				}
+				remove_list_variable = { name = make_inde_list target = scope:target }
 				add_to_variable_list = {
 					name = given_vassals
 					target = scope:target
@@ -290,6 +283,10 @@
 				remove_list_variable = { name = taken_vassals target = scope:target }
 			}
 			else_if = {
+				scope:target = {
+					remove_variable = arv
+				}
+				remove_list_variable = { name =emake_inde_list target = scope:target }
 				add_to_variable_list = {
 					name = taken_vassals
 					target = scope:target
@@ -316,21 +313,107 @@
 							save_scope_as = dork
 						}
 						every_in_list = {
-							variable = given_lands
+								variable = given_lands
 
-						create_title_and_vassal_change = {
-							type = created
-							save_scope_as = title_change
-							add_claim_on_loss = no
-						}
+							create_title_and_vassal_change = {
+								type = created
+								save_scope_as = title_change
+								add_claim_on_loss = no
+							}
 
-						change_title_holder = {
-							holder = scope:dork
-							change = scope:title_change
+							change_title_holder = {
+								holder = scope:dork
+								change = scope:title_change
+							}
+							resolve_title_and_vassal_change = scope:title_change
 						}
-						resolve_title_and_vassal_change = scope:title_change
-						}
+						if = {
+							limit = {
+								has_character_flag = make_inde
+							}
+							scope:dork = {
+								add_truce_both_ways = {
+									character = root
+									days = 3650
+									name = TRUCE_GRANT_INDEPENDENCE
+								}
 
+								create_title_and_vassal_change = {
+									type = independency
+									save_scope_as = change
+									add_claim_on_loss = yes
+								}
+								becomes_independent = {
+									change = scope:change
+								}
+
+								resolve_title_and_vassal_change = scope:change
+							}						
+						}						
+						every_in_list = {
+							variable = make_inde_list
+							save_scope_as = this_lucky_guy
+
+							scope:this_lucky_guy = {
+
+								add_opinion = {
+									target = scope:dork
+									modifier = granted_independence_opinion
+								}
+
+								add_truce_both_ways = {
+									character = root
+									days = 3650
+									name = TRUCE_GRANT_INDEPENDENCE
+								}
+
+								create_title_and_vassal_change = {
+									type = independency
+									save_scope_as = change
+									add_claim_on_loss = yes
+								}
+								becomes_independent = {
+									change = scope:change
+								}
+
+								resolve_title_and_vassal_change = scope:change
+							}						
+						}
+						if = {
+							limit = {
+								AND = {
+									has_variable_list = marriage_get
+									has_variable_list = marriage_give
+								}
+							}
+							every_in_list = {
+								variable = marriage_give
+								save_scope_as = mgive
+							}
+							every_in_list = {
+								variable = marriage_get
+								save_scope_as = mget
+							}
+							if = {
+								limit = {
+									has_character_flag = mmatrilineal
+								}
+								scope:mgive = {
+									marry_matrilineal = scope:mget
+								}
+								root = {
+									create_alliance = scope:dork
+								}							
+							}
+							else = {
+								scope:mgive = {
+									marry = scope:mget
+								}
+								root = {
+									create_alliance = scope:dork
+								}							
+							}
+						}
 
 						every_in_list = {
 							variable = given_claims
@@ -560,8 +643,57 @@
 						}
 						resolve_title_and_vassal_change = scope:title_change
 					}
+					if = {
+						limit = {
+							has_character_flag = emake_inde
+						}
+						root = {
+							add_truce_both_ways = {
+								character = scope:dork
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
 
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
 
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}
+					every_in_list = {
+						variable = emake_inde_list
+						save_scope_as = that_lucky_guy
+						
+						scope:that_lucky_guy = {
+
+							add_opinion = {
+								target = root
+								modifier = granted_independence_opinion
+							}
+							add_truce_both_ways = {
+								character = scope:dork
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
+
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
+
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}
 					every_in_list = {
 						variable = taken_claims
 						root = {
@@ -572,8 +704,41 @@
 							remove_claim = prev
 						}
 					}
-
-
+						if = {
+							limit = {
+								AND = {
+									has_variable_list = marriage_get
+									has_variable_list = marriage_give
+								}
+							}
+							every_in_list = {
+								variable = marriage_give
+								save_scope_as = mgive
+							}
+							every_in_list = {
+								variable = marriage_get
+								save_scope_as = mget
+							}
+							if = {
+								limit = {
+									has_character_flag = mmatrilineal
+								}
+								scope:mgive = {
+									marry_matrilineal = scope:mget
+								}
+								root = {
+									create_alliance = scope:dork
+								}							
+							}
+							else = {
+								scope:mgive = {
+									marry = scope:mget
+								}
+								root = {
+									create_alliance = scope:dork
+								}							
+							}
+						}
 
 					every_in_list = {
 						variable = taken_vassals
@@ -612,7 +777,7 @@
 					}
 					if = {
 						limit = {
-							has_character_flag = ef_death
+							has_character_flag = release_them
 						}
 						scope:dork = {
 							death = {
@@ -780,15 +945,15 @@
 			is_shown = {
 				custom_description = {
 					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
-					var:the_deal > 110
+					var:the_deal > 100
 				}
 			}
 
-			is_valid ={
+			is_valid = {
 
 				custom_description = {
 					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
-					var:the_deal > 110
+					var:the_deal > 100
 				}
 				custom_description = {
 					text = "[Localize('Target is Human Player')]"
@@ -823,6 +988,109 @@
 						}
 					}
 					every_in_list = {
+						variable = make_inde_list
+						save_scope_as = this_lucky_guy
+
+						scope:this_lucky_guy = {
+
+							add_opinion = {
+								target = scope:dork
+								modifier = granted_independence_opinion
+							}
+
+							add_truce_both_ways = {
+								character = root
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
+
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
+
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}
+					every_in_list = {
+						variable = emake_inde_list
+						save_scope_as = that_lucky_guy
+						
+						scope:that_lucky_guy = {
+
+							add_opinion = {
+								target = root
+								modifier = granted_independence_opinion
+							}
+							add_truce_both_ways = {
+								character = scope:dork
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
+
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
+
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}									
+					if = {
+						limit = {
+							has_character_flag = make_inde
+						}
+						scope:dork = {
+							add_truce_both_ways = {
+								character = root
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
+
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
+
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}
+					if = {
+						limit = {
+							has_character_flag = emake_inde
+						}
+						root = {
+							add_truce_both_ways = {
+								character = scope:dork
+								days = 3650
+								name = TRUCE_GRANT_INDEPENDENCE
+							}
+
+							create_title_and_vassal_change = {
+								type = independency
+								save_scope_as = change
+								add_claim_on_loss = yes
+							}
+							becomes_independent = {
+								change = scope:change
+							}
+
+							resolve_title_and_vassal_change = scope:change
+						}						
+					}					
+					every_in_list = {
 						variable = given_lands
 
 						create_title_and_vassal_change = {
@@ -837,7 +1105,49 @@
 						}
 						resolve_title_and_vassal_change = scope:title_change
 					}
-
+						if = {
+							limit = {
+								AND = {
+									has_variable_list = marriage_get
+									has_variable_list = marriage_give
+								}
+							}
+							every_in_list = {
+								variable = marriage_give
+								save_scope_as = mgive
+							}
+							every_in_list = {
+								variable = marriage_get
+								save_scope_as = mget
+							}
+							if = {
+								limit = {
+									has_character_flag = mmatrilineal
+								}
+								scope:mgive = {
+									marry_matrilineal = scope:mget
+								}
+								root = {
+									create_alliance = {
+										target = scope:dork
+										allied_through_owner = scope:mgive
+										allied_through_target = scope:mget
+									}
+								}							
+							}
+							else = {
+								scope:mgive = {
+									marry = scope:mget
+								}
+								root = {
+									create_alliance = {
+										target = scope:dork
+										allied_through_owner = scope:mgive
+										allied_through_target = scope:mget
+									}
+								}							
+							}
+						}
 
 					every_in_list = {
 						variable = given_claims
@@ -931,22 +1241,28 @@
 							}
 						}
 					}
-
-					every_prisoner = {
-						limit = { 
-							liege = scope:dork 
+				#prisoners	
+					if = {
+						limit = {
+							has_character_flag = release_them
 						}
-						release_from_prison = yes 							
-					}
-
-					scope:dork= {
 						every_prisoner = {
 							limit = { 
-								liege = root 
+								liege = scope:dork 
 							}
 							release_from_prison = yes 							
 						}
+
+						scope:dork= {
+							every_prisoner = {
+								limit = { 
+									liege = root 
+								}
+								release_from_prison = yes 							
+							}
+						}						
 					}
+
 				#Humiliation
 					if = {
 						limit = {
@@ -1260,30 +1576,7 @@
 
 					}
 				#
-				#Suicide
-					if = {
-						limit = {
-							has_character_flag = f_death
-						}
-						root = {		
-							death = {
-								killer = root
-								#death_reason = "death_suicide"
-							}
-						}
-					}
-					if = {
-						limit = {
-							has_character_flag = ef_death
-						}
-						scope:dork = {
-							death = {
-								killer = scope:dork
-								#death_reason = "death_suicide"
-							}
-						}
-					}
-				#														
+														
 					every_character_war = {
 						end_war = invalidated
 					}
@@ -1299,7 +1592,7 @@
 				custom_description = {
 					text = "[Localize('ANSWER_SUM_MAYBE_NO_DESC')]"
 					#text = "Reason 1"
-					var:the_deal < 111
+					var:the_deal < 101
 				}
 			}
 
@@ -1356,26 +1649,438 @@
 			}
 		}
 	}
+
+
+	char_sm = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = marriage_give target = scope:target }
+				}
+				remove_list_variable = { name = marriage_give target = scope:target }
+				clear_variable_list = marriage_give
+				remove_given = {}
+				heres_the_deal = {}
+			}
+			else = {
+				remove_given = {}
+				scope:target = {
+					set_variable = {
+						name = is_selectedm
+						value = flag:selectedm
+					}
+				}
+				clear_variable_list = marriage_give
+				add_to_variable_list = {
+					name = marriage_give
+					target = scope:target
+				}
+				heres_the_deal = {}
+			}
+
+		}
+	}
+	char_se = {
+		scope = character
+
+		saved_scope = {
+		target
+		}
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = marriage_get target = scope:target }
+				}
+				remove_list_variable = { name = marriage_get target = scope:target }
+				clear_variable_list = marriage_get
+				remove_asks = {}
+				heres_the_deal = {}
+			}
+			else_if = {
+				remove_asks = {}
+				scope:target = {
+					set_variable = {
+						name = is_selectede
+						value = flag:selectede
+					}
+				}				
+				clear_variable_list = marriage_get
+				add_to_variable_list = {
+					name = marriage_get
+					target = scope:target
+				}
+				heres_the_deal = {}
+			}
+
+		}
+	}	
+	char_mm = {
+		scope = character
+		save_scope_as = moffer
+		effect = {
+
+			if = {
+				limit ={
+					has_variable = is_selectedm
+				}
+				remove_variable = is_selectedm
+			}
+			else = {
+
+				set_variable = {
+					name = is_selectedm
+					value = flag:selectedm
+				}
+			}			
+		}
+	}
+	char_me = {
+		scope = character
+
+		effect = {
+			if = {
+				limit ={
+					has_variable = is_selectede
+				}
+					remove_variable = is_selectede	
+			}
+			else = {
+	
+				set_variable = {
+					name = is_selectede
+					value = flag:selectede
+				}
+			}			
+		}
+	}
+	char_smx = {
+
+		scope = character
+
+		effect = {
+
+			if = {
+				limit = {
+					is_female = yes 
+				}	
+				root = {
+
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+					every_in_list = {
+						variable = potential_e
+						remove_variable = is_selectede
+					}	
+					clear_variable_list = potential_e
+						scope:dork = {
+							every_courtier = {
+								limit = {
+									is_female = no
+									marriage_interaction_can_be_picked_trigger = yes
+									is_clergy = no
+									is_betrothed = no
+								}
+								set_variable = { name = sm value = this.martial }
+								set_variable = { name = sd value = this.diplomacy }
+								set_variable = { name = si value = this.intrigue }
+								set_variable = { name = sp value = this.prowess }
+								set_variable = { name = ss value = this.stewardship }
+								set_variable = { name = sl value = this.learning }
+								root = {
+									add_to_variable_list = {
+										name = potential_e
+										target = prev
+									}
+								}
+							}
+							every_close_or_extended_family_member ={
+								limit = {
+									is_female = no
+									marriage_interaction_can_be_picked_trigger = yes
+									is_clergy = no
+									is_betrothed = no
+								}
+								set_variable = { name = sm value = this.martial }
+								set_variable = { name = sd value = this.diplomacy }
+								set_variable = { name = si value = this.intrigue }
+								set_variable = { name = sp value = this.prowess }
+								set_variable = { name = ss value = this.stewardship }
+								set_variable = { name = sl value = this.learning }
+								root = {
+									add_to_variable_list = {
+										name = potential_e
+										target = prev
+									}
+								}
+							}					
+						}
+				}
+			}
+			else = {
+
+				root = {
+				send_interface_message = {
+					type = designated_sacrifice_unsacrificed
+					title = "Is Female"
+					desc = "No"
+					right_icon = root
+				}
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+					every_in_list = {
+						variable = potential_e
+						remove_variable = is_selectede
+					}							
+					clear_variable_list = potential_e
+						scope:dork = {
+							every_courtier = {
+								limit = {
+									is_female = yes
+									marriage_interaction_can_be_picked_trigger = yes
+									is_clergy = no
+									is_betrothed = no
+								}
+								set_variable = { name = sm value = this.martial }
+								set_variable = { name = sd value = this.diplomacy }
+								set_variable = { name = si value = this.intrigue }
+								set_variable = { name = sp value = this.prowess }
+								set_variable = { name = ss value = this.stewardship }
+								set_variable = { name = sl value = this.learning }
+								root = {
+									add_to_variable_list = {
+										name = potential_e
+										target = prev
+									}
+								}
+							}
+							every_close_or_extended_family_member ={
+								limit = {
+									is_female = yes
+									marriage_interaction_can_be_picked_trigger = yes
+									is_clergy = no
+									is_betrothed = no
+								}
+								set_variable = { name = sm value = this.martial }
+								set_variable = { name = sd value = this.diplomacy }
+								set_variable = { name = si value = this.intrigue }
+								set_variable = { name = sp value = this.prowess }
+								set_variable = { name = ss value = this.stewardship }
+								set_variable = { name = sl value = this.learning }
+								root = {
+									add_to_variable_list = {
+										name = potential_e
+										target = prev
+									}
+								}
+							}					
+						}
+				}
+			}		
+		}
+	}
+	char_sex2 = {
+		scope = character
+		saved_scope = {
+			target
+		}
+		root = {
+			every_in_list = {
+				variable = marriage_give
+				save_scope_as = chozin
+			}
+		}
+		is_valid = { 
+			has_variable_list = marriage_give
+			if = {
+				limit = {
+					scope:target = {
+						is_female = yes
+					}
+				}
+			}
+			scope:target= {
+				sex_opposite_of = scope:chozin
+			}
+		}
+	}
+	add_enemy_left = {
+		scope = character
+		saved_scope = {
+			target
+		}
+
+		effect = {
+			if = {
+				limit = {
+					scope:target = root
+				}
+			}
+			else = {
+				root = {
+					add_to_variable_list = {
+						name = enemy_list
+						target = scope:target
+					}
+				}
+			}
+		}
+	}
+	add_enemy_right = {
+		scope = character
+		saved_scope = {
+			target
+		}
+
+		effect = {
+			if = {
+				limit = {
+					scope:target = root
+				}
+			}
+			else = {
+				root = {
+					add_to_variable_list = {
+						name = enemy_list
+						target = scope:target
+					}
+				}
+			}
+		}
+	}
+	matrilinealx = {
+		scope = character
+		effect = {
+			if = {
+				limit ={
+					has_variable = mmm
+				}
+				remove_variable = mmm
+				heres_the_deal = {}
+			}
+			else = {
+	
+				set_variable = {
+					name = mmm
+					value = flag:selected
+				}
+				heres_the_deal = {}
+			}			
+		}
+	}
+	arelease_vassal = {
+		scope = character
+		saved_scope = {
+			target
+		}
+
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = make_inde_list target = scope:target }
+				}
+				remove_list_variable = { name = make_inde_list target = scope:target }
+			}
+			else = {
+				root = {
+					scope:target = {
+						remove_variable = is_selected
+					}
+					remove_list_variable = { name = given_vassals target = scope:target }
+					add_to_variable_list = {
+						name = make_inde_list
+						target = scope:target
+					}
+					heres_the_deal = {}
+				}
+			}
+		}
+	}
+	aerelease_vassal = {
+		scope = character
+		saved_scope = {
+			target
+		}
+
+		effect = {
+			if = {
+				limit = {
+					is_target_in_variable_list = { name = emake_inde_list target = scope:target }
+				}
+				remove_list_variable = { name = emake_inde_list target = scope:target }
+			}
+			else = {
+				root = {
+					scope:target = {
+						remove_variable = is_selected
+					}
+					remove_list_variable = { name = taken_vassals target = scope:target }
+					add_to_variable_list = {
+						name = emake_inde_list
+						target = scope:target
+					}
+					heres_the_deal = {}
+				}
+			}
+		}
+	}
+	brelease_vassal = {
+		scope = character
+		effect = {
+			if = {
+				limit ={
+					has_variable = arv
+				}
+				remove_variable = arv
+				heres_the_deal = {}
+			}
+			else = {
+	
+				set_variable = {
+					name = arv
+					value = flag:selected
+				}
+				heres_the_deal = {}
+			}			
+		}
+	}						
 ##########################################################
 ###########################################################
 # START Treaties
 ###########################################################
-		tr_surrender = {
+		tr_inde = {
 			scope = character
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
+			}
+
 			is_valid = {
-				has_trait = invalid
+				scope:dork = {
+					is_vassal_of = root
+				}
 			}
 
 			effect ={
 				if = {
 					limit = {
-						has_character_flag = unconditional_surrender
+						has_character_flag = make_inde
 					}
-					remove_character_flag = unconditional_surrender
+					remove_character_flag = make_inde
 				}
 				else = {
 					add_character_flag = {
-						flag = unconditional_surrender
+						flag = make_inde
 					}
 				}
 				root = {
@@ -1440,24 +2145,116 @@
 			scope = character
 			
 			is_valid = {
-				has_trait = invalid
+				#has_trait = invalid
 			}
 
 			effect ={
-				if = {
-					limit = {
-						has_character_flag = j_marriage
-					}
-					remove_character_flag = j_marriage
-				}
-				else = {
-					add_character_flag = {
-						flag = j_marriage
-					}
-				}
 				root = {
-					heres_the_deal = {}
-				}				
+					every_in_list = {
+						variable = enemy_list
+						save_scope_as = dork
+					}
+
+					every_close_family_member ={
+						limit = {
+							marriage_interaction_can_be_picked_trigger = yes
+							is_female = no
+							is_clergy = no
+							is_betrothed = no
+						}
+						set_variable = { name = sm value = this.martial }
+						set_variable = { name = sd value = this.diplomacy }
+						set_variable = { name = si value = this.intrigue }
+						set_variable = { name = sp value = this.prowess }
+						set_variable = { name = ss value = this.stewardship }
+						set_variable = { name = sl value = this.learning }
+						root = {
+							add_to_variable_list = {
+								name = potential_m
+								target = prev
+							}
+						}
+					}
+
+					every_close_family_member ={
+						limit = {
+							marriage_interaction_can_be_picked_trigger = yes
+							is_female = yes
+							is_clergy = no
+							is_betrothed = no
+						}
+						set_variable = { name = sm value = this.martial }
+						set_variable = { name = sd value = this.diplomacy }
+						set_variable = { name = si value = this.intrigue }
+						set_variable = { name = sp value = this.prowess }
+						set_variable = { name = ss value = this.stewardship }
+						set_variable = { name = sl value = this.learning }
+						root = {
+							add_to_variable_list = {
+								name = potential_mf
+								target = prev
+							}
+						}
+					}					
+				}
+				scope:dork = {
+
+					every_close_family_member ={
+						limit = {
+							marriage_interaction_can_be_picked_trigger = yes
+							is_clergy = no
+							is_betrothed = no
+							is_female = no
+						}
+						set_variable = { name = sm value = this.martial }
+						set_variable = { name = sd value = this.diplomacy }
+						set_variable = { name = si value = this.intrigue }
+						set_variable = { name = sp value = this.prowess }
+						set_variable = { name = ss value = this.stewardship }
+						set_variable = { name = sl value = this.learning }
+						root = {
+							add_to_variable_list = {
+								name = potential_e
+								target = prev
+							}
+						}
+					}
+
+					every_close_family_member ={
+						limit = {
+							marriage_interaction_can_be_picked_trigger = yes
+							is_clergy = no
+							is_betrothed = no
+							is_female = yes
+						}
+						set_variable = { name = sm value = this.martial }
+						set_variable = { name = sd value = this.diplomacy }
+						set_variable = { name = si value = this.intrigue }
+						set_variable = { name = sp value = this.prowess }
+						set_variable = { name = ss value = this.stewardship }
+						set_variable = { name = sl value = this.learning }
+						root = {
+							add_to_variable_list = {
+								name = potential_ef
+								target = prev
+							}
+						}
+					}										
+				}
+				#if = {
+				#	limit = {
+				#		has_character_flag = j_marriage
+				#	}
+				#	remove_character_flag = j_marriage
+				#}
+				#else = {
+				#	add_character_flag = {
+				#		flag = j_marriage
+				#	}
+				#}
+				#root = {
+				#	heres_the_deal = {}
+				#}				
 			}
 		}
 		tr_vassalize = {
@@ -1532,23 +2329,23 @@
 				}				
 			}
 		}
-		tr_death= {
+		tr_prison = {
 			scope = character
 
 			is_valid = {
-				has_trait = zealous
+
 			}
 
 			effect ={
 				if = {
 					limit = {
-						has_character_flag = f_death
+						has_character_flag = release_them
 					}
-					remove_character_flag = f_death
+					remove_character_flag = release_them
 				}
 				else = {
 					add_character_flag = {
-						flag = f_death
+						flag = release_them
 					}
 				}
 				root = {
@@ -1663,23 +2460,31 @@
 		}
 
 	#enemy
-		tre_surrender = {
+		tre_inde = {
 			scope = character
-			is_valid = {
-				has_trait = invalid
+			root = {
+				every_in_list = {
+					variable = enemy_list
+					save_scope_as = dork
+				}
 			}
-			
+
+			is_valid = {
+				root = {
+					is_vassal_of = scope:dork
+				}
+			}
 
 			effect ={
 				if = {
 					limit = {
-						has_character_flag = eunconditional_surrender
+						has_character_flag = emake_inde
 					}
-					remove_character_flag = eunconditional_surrender
+					remove_character_flag = emake_inde
 				}
 				else = {
 					add_character_flag = {
-						flag = eunconditional_surrender
+						flag = emake_inde
 					}
 				}
 				root = {
@@ -1834,23 +2639,23 @@
 				}
 			}
 		}
-		tre_death= {
+		tre_prison = {
 			scope = character
 
 			is_valid = {
-					has_trait = zealous
+		
 			}
 
 			effect ={
 				if = {
 					limit = {
-						has_character_flag = ef_death
+						has_character_flag = release_them
 					}
-					remove_character_flag = ef_death
+					remove_character_flag = release_them
 				}
 				else = {
 					add_character_flag = {
-						flag = ef_death
+						flag = release_them
 					}
 				}
 				root = {
@@ -1963,23 +2768,4 @@
 				}
 			}
 		}
-#1. Unconditional Surrender
-#2. Humiliation (minor Humiliation event) ie kiss the ring or bow in crowd. OR whatever / expose secrets
-#3. Conversion (target)
-#4. Joined thru Marriage
-
-#5. Vassilation (condition NOT same tier)
-#6. Strong Hook
-#7. Weak Hook
-#8. Love me or Else!  - makes taget love them, target becomes lover (has trait seduce)
-#or
-#8a. Death - war is ended, targets ends their own life the nobel way.
-
-#9. War Reparations (has trait Greed)
-#- member pays long term gold
-#10. Decimation (has trait sadistic)
-#- target is whipped event, every other vassal is executed
-#11. sacrifice ( has flag Witch )
-#- lands raised -population control etc.. lowered, every vassal executed
-#12. inquisition - is spanish?
-#- nobody expected this! converts realm
+###########################################################

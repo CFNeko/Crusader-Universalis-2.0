@@ -8,7 +8,7 @@ window = {
 
 	layer = middle
 	allow_outside = yes
-
+	
 	state = {
 		name = _mouse_hierarchy_enter
 		start_sound = {
@@ -349,10 +349,10 @@ window = {
 						}
 
 						state = {
-							
 							name = "war_overview_show"
 							next = b
 							alpha = 0
+							on_start = "[GetScriptedGui('add_enemy_left').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarParticipantItem.GetCharacter.MakeScope ).End )]"
 						}
 
 						state = {
@@ -367,6 +367,7 @@ window = {
 							duration = 0.3
 							using = Animation_Curve_Default
 							alpha = 0
+							on_start = "[GetScriptedGui('rem_my_enemy').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 						}
 
 						### INFO ###
@@ -593,6 +594,7 @@ window = {
 							name = "war_overview_show"
 							next = b
 							alpha = 0
+							
 						}
 
 						state = {
@@ -699,6 +701,7 @@ window = {
 							name = "war_overview_show"
 							next = b
 							alpha = 0
+							on_start = "[GetScriptedGui('add_enemy_right').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarParticipantItem.GetCharacter.MakeScope ).End )]"
 						}
 
 						state = {
@@ -713,6 +716,7 @@ window = {
 							duration = 0.3
 							using = Animation_Curve_Default
 							alpha = 0
+							on_start = "[GetScriptedGui('rem_my_enemy').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 						}
 
 						### INFO ###
@@ -2020,20 +2024,17 @@ window = {
 							name = _show
 							duration = 0.1
 							using = Animation_Curve_Default
-							on_start = "[GetScriptedGui('enemy_lands').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[GetScriptedGui('my_landia').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[GetScriptedGui('my_claim').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[GetScriptedGui('enemy_claims').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[GetScriptedGui('enemy_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[GetScriptedGui('my_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-							on_start = "[ExecuteConsoleCommand('effect heres_the_deal')]"
-							on_start = "[GetVariableSystem.Toggle( 'view_offer' )]"
-							#on_start = "[ExecuteConsoleCommand(Concatenate('effect add_ex_occu = { cal =',Concatenate(WarOverviewWindow.GetOccupationWarScore,' }')))]"
-							#on_start = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,' }')))]"
-							on_start = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,Concatenate(' cal =',Concatenate(WarOverviewWindow.GetOccupationWarScore,Concatenate(' dal = ',Concatenate(WarOverviewWindow.GetBattlesWarScore,' }')))))))]"
-							#on_start = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,Concatenate(' cal = ',WarOverviewWindow.GetOccupationWarScore,Concatenate(' dal = ',Concatenate(WarOverviewWindow.GetOccupationWarScore,' }')))))))]"
-							# effect add_ex_impr = { tal = 5 cal = 5 }
-							#WarOverviewWindow.GetBattlesWarScore
+							on_start = "[GetScriptedGui('add_enemy_left').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarOverviewWindow.GetLeftSideLeaderItem.GetCharacter.MakeScope ).End )]"
+							on_start = "[GetScriptedGui('add_enemy_right').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarOverviewWindow.GetRightSideLeaderItem.GetCharacter.MakeScope ).End )]"
+							on_finish = "[GetScriptedGui('enemy_lands').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[GetScriptedGui('my_landia').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[GetScriptedGui('my_claim').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[GetScriptedGui('enemy_claims').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[GetScriptedGui('enemy_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[GetScriptedGui('my_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							on_finish = "[ExecuteConsoleCommand('effect heres_the_deal')]"
+							on_finish = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,Concatenate(' cal =',Concatenate(WarOverviewWindow.GetOccupationWarScore,Concatenate(' dal = ',Concatenate(WarOverviewWindow.GetBattlesWarScore,' }')))))))]"
+
 							alpha = 1
 							size = { 0 750}
 							start_sound = {
@@ -2045,9 +2046,10 @@ window = {
 							name = _hide
 							duration = 0.3
 							using = Animation_Curve_Default
-							on_start = "[GetScriptedGui('rem_my_enemy').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+							
 							on_start = "[ExecuteConsoleCommand('effect peace_reset_list')]"
 							on_start = "[GetVariableSystem.Clear( 'view_offer')]"
+							onclick = "[GetVariableSystem.Clear( 'marry_this')]"
 							on_start = "[GetVariableSystem.Clear( 'trait1' )]"
 							on_start = "[GetVariableSystem.Clear( 'trait2' )]"
 							alpha = 0
@@ -2300,7 +2302,6 @@ window = {
 													position = { 90 0 }
 													#parentanchor = vcenter
 												}
-
 			
 												portrait_head_small = {
 													parentanchor = vcenter
@@ -2308,6 +2309,24 @@ window = {
 													size = { 50 50 }
 													position = {15 15 }
 												}
+												button_checkbox_label = {
+													parentanchor = bottom|left
+													position = {100 -2 }
+													onclick = "[GetScriptedGui('arelease_vassal').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', Scope.GetCharacter.MakeScope ).End )]"
+													onclick = "[GetScriptedGui('brelease_vassal').Execute(GuiScope.SetRoot(Scope.GetCharacter.MakeScope).End)]"
+													tooltip = PM_RELVAL
+
+													blockoverride "checkbox"
+													{
+														checked = "[EqualTo_string(Scope.GetCharacter.MakeScope.Var('arv').GetFlagName, 'selected')]"
+
+													}
+
+													blockoverride "text"
+													{
+														text = PM_RELVAL
+													}
+												}												
 
 										}
 
@@ -2334,10 +2353,10 @@ window = {
 								button = {
 									position = { 10 0 }
 									size = { 50 50 }
-									tooltip = "[GetScriptedGui('tr_surrender').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									texture = "gfx/interface/icons/eu/surrender.dds"
-									onclick = "[GetScriptedGui('tr_surrender').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tr_surrender').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									tooltip = "[GetScriptedGui('tr_inde').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									texture = "gfx/interface/icons/eu/inde.dds"
+									onclick = "[GetScriptedGui('tr_inde').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									enabled = "[GetScriptedGui('tr_inde').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								
 									text_single = {
 										text = PM_SUR
@@ -2376,8 +2395,9 @@ window = {
 									size = { 50 50 }
 									tooltip = "[GetScriptedGui('tr_marriage').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									texture = "gfx/interface/icons/eu/marriage.dds"
+									onclick = "[GetVariableSystem.Toggle( 'marry_this')]"
 									onclick = "[GetScriptedGui('tr_marriage').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tr_marriage').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									#enabled = "[GetScriptedGui('tr_marriage').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									text_single = {
 										text = PM_PTM
 										parentanchor = vcenter
@@ -2426,12 +2446,12 @@ window = {
 								button = {
 									position = { 200 180 }
 									size = { 50 50 }
-									tooltip = "[GetScriptedGui('tr_death').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									texture = "gfx/interface/icons/eu/death.dds"
-									onclick = "[GetScriptedGui('tr_death').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tr_death').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									tooltip = "[GetScriptedGui('tr_prison').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									texture = "gfx/interface/icons/eu/prison.dds"
+									onclick = "[GetScriptedGui('tr_prison').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									enabled = "[GetScriptedGui('tr_prison').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									text_single = {
-										text = PM_SUICIDE
+										text = PM_PRISON
 										parentanchor = vcenter
 										position = { 60 0 }
 									}
@@ -2724,6 +2744,24 @@ window = {
 													size = { 50 50 }
 													position = {15 15 }
 												}
+												button_checkbox_label = {
+													parentanchor = bottom|left
+													position = {100 -2 }
+													onclick = "[GetScriptedGui('aerelease_vassal').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', Scope.GetCharacter.MakeScope ).End )]"
+													onclick = "[GetScriptedGui('brelease_vassal').Execute(GuiScope.SetRoot(Scope.GetCharacter.MakeScope).End)]"
+													tooltip = PM_RELVAL
+
+													blockoverride "checkbox"
+													{
+														checked = "[EqualTo_string(Scope.GetCharacter.MakeScope.Var('arv').GetFlagName, 'selected')]"
+
+													}
+
+													blockoverride "text"
+													{
+														text = PM_RELVAL
+													}
+												}												
 
 										}
 
@@ -2749,13 +2787,13 @@ window = {
 								button = {
 									position = { 10 0 }
 									size = { 50 50 }
-									tooltip = "[GetScriptedGui('tre_surrender').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									texture = "gfx/interface/icons/eu/surrender.dds"
-									onclick = "[GetScriptedGui('tre_surrender').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tre_surrender').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									tooltip = "[GetScriptedGui('tre_inde').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									texture = "gfx/interface/icons/eu/inde.dds"
+									onclick = "[GetScriptedGui('tre_inde').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									enabled = "[GetScriptedGui('tre_inde').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 								
 									text_single = {
-										text = PM_SUR
+										text = PM_SUR2
 										parentanchor = vcenter
 										position = { 60 0 }
 									}
@@ -2789,10 +2827,11 @@ window = {
 								button = {
 									position = { 10 180 }
 									size = { 50 50 }
-									tooltip = "[GetScriptedGui('tre_marriage').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									tooltip = "[GetScriptedGui('tr_marriage').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									texture = "gfx/interface/icons/eu/marriage.dds"
-									onclick = "[GetScriptedGui('tre_marriage').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tre_marriage').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									onclick = "[GetVariableSystem.Toggle( 'marry_this')]"
+									onclick = "[GetScriptedGui('tr_marriage').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									#enabled = "[GetScriptedGui('tr_marriage').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									text_single = {
 										text = PM_PTM
 										parentanchor = vcenter
@@ -2841,12 +2880,12 @@ window = {
 								button = {
 									position = { 200 180 }
 									size = { 50 50 }
-									tooltip = "[GetScriptedGui('tre_death').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									texture = "gfx/interface/icons/eu/death.dds"
-									onclick = "[GetScriptedGui('tre_death').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
-									enabled = "[GetScriptedGui('tre_death').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									tooltip = "[GetScriptedGui('tre_prison').BuildTooltip(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									texture = "gfx/interface/icons/eu/prison.dds"
+									onclick = "[GetScriptedGui('tre_prison').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+									enabled = "[GetScriptedGui('tre_prison').IsValid(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 									text_single = {
-										text = PM_SUICIDE
+										text = PM_PRISON
 										parentanchor = vcenter
 										position = { 60 0 }
 									}
@@ -2951,7 +2990,7 @@ window = {
 								onclick = "[GetVariableSystem.Clear( 'mytreaty' )]"
 								onclick = "[GetVariableSystem.Clear( 'etreaty' )]"
 								onclick = "[GetVariableSystem.Toggle( 'give_vassal' )]"
-								tooltip = "Release Vassals"
+								tooltip = PM_RTV
 								texture = "gfx/interface/icons/eu/rnat.dds"
 						}
 						button = {
@@ -3005,7 +3044,7 @@ window = {
 								onclick = "[GetVariableSystem.Clear( 'mytreaty' )]"
 								onclick = "[GetVariableSystem.Clear( 'etreaty' )]"
 								onclick = "[GetVariableSystem.Toggle( 'take_vassal' )]"
-								tooltip = "Take Vassals"
+								tooltip = PM_RTV
 								texture = "gfx/interface/icons/eu/rnat_e.dds"
 						}
 						button = {
@@ -3405,6 +3444,7 @@ window = {
 							mirror = vertical
 							onclick = "[PdxGuiTriggerAllAnimations('war_end_terms_refresh')]"
 							onclick = "[WarOverviewWindow.SetEffectsTabVictory]"
+							onclick = "[GetVariableSystem.Clear( 'marry_this')]"
 							down = "[WarOverviewWindow.IsEffectsTabVictory]"
 							text = "Open Menu"
 							default_format = "#high"
@@ -3693,7 +3733,291 @@ window = {
 
 		}
 	}
+	#mm offer
+	widget = {
+		name = "mm_offer"
+		using = Window_Background_Subwindow
+		minimumsize = { 420 490 }
+		alwaystransparent = no
+		size = { 630 600 }
+		position = { -310 0 }
+		parentanchor = hcenter
+		widgetanchor = right|vcenter
 
+		focuspolicy = click
+		visible = "[GetVariableSystem.Exists( 'marry_this')]"
+		allow_outside = yes
+
+		state = {
+			name = _show
+			using = Animation_FadeIn_Quick
+			on_start = "[GetVariableSystem.Set( 'mm_offer_open', 'true'  )]"
+			position_y = -35
+		}
+
+		state = {
+			name = _hide
+			using = Animation_FadeOut_Quick
+			on_start = "[GetVariableSystem.Clear( 'mm_offer_open' )]"
+			position_y = 50
+		}
+		button_checkbox_label = {
+			parentanchor = top|left
+			position = { 10 60 }
+			#datacontext = "[MarriageInteractionWindow.GetMarriageInfo]"
+			onclick = "[GetScriptedGui('matrilinealx').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
+			tooltip = "MARRIAGE_MATRILINEAL_TOGGLE_TOOLTIP"
+
+			blockoverride "checkbox"
+			{
+				checked = "[EqualTo_string(GetPlayer.MakeScope.Var('mmm').GetFlagName, 'selected')]"
+
+			}
+
+			blockoverride "text"
+			{
+				text = "MARRIAGE_MATRILINEAL_TOGGLE"
+			}
+		}
+		button_standard ={
+			position = { -140 55 }
+			parentanchor = hcenter
+			size = { 100 30 }
+			text = "Ladies"
+			visible = "[Not(GetVariableSystem.Exists( 'ladies' ))]"
+			onclick = "[GetVariableSystem.Toggle( 'ladies' )]"
+			onclick = "[ExecuteConsoleCommand('effect clear_marriagez')]"
+		}
+		button_standard ={
+			position = { -140 55 }
+			parentanchor = hcenter
+			size = { 100 30 }
+			text = "Lords"
+			visible = "[GetVariableSystem.Exists( 'ladies' )]"
+			onclick = "[GetVariableSystem.Toggle( 'ladies' )]"
+			onclick = "[ExecuteConsoleCommand('effect clear_marriagez')]"
+		}
+		#button_standard ={
+		#	position = { 0 55 }
+		#	parentanchor = hcenter
+		#	size = { 150 30 }
+		#	text = "Confirm"
+			#onclick = "[ExecuteConsoleCommand('effect heres_the_deal')]"
+			#onclick = "[GetVariableSystem.Clear( 'marry_this')]"
+		#}				
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			margin = { 4 4 }
+
+			header_pattern = {
+				layoutpolicy_horizontal = expanding
+
+				blockoverride "header_text"
+				{
+					text = "Offered Hand"
+				}
+
+				blockoverride "button_close"
+				{
+						onclick = "[GetVariableSystem.Clear( 'marry_this')]"
+						#onclick = "[ExecuteConsoleCommand('effect clear_marriagez')]"
+				}
+			}
+			### Character List
+			vbox = {
+
+				name = "character_list2"
+				#visible = "[Not(MatchmakerInteractionWindow.HasPickedCharacters)]"
+				layoutpolicy_vertical = expanding
+				layoutpolicy_horizontal = expanding
+				spacing = 0
+				datacontext = "[Scope.GetCharacter]"
+				#datamodel = "[GetPlayer.MakeScope.GetList('potential_m')]"
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 0
+					margin_left = 15
+					margin_right = 130
+					ignoreinvisible = no
+				}
+
+				vbox_character_list = {
+					margin_top = -10
+					datacontext = "[MatchmakerInteractionWindow.GetCharacterList]"
+					datacontext = "[CharacterSelectionList.GetFilterWithDefault('fertility_filter', '(int32)1')]"
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+
+					blockoverride "container_implementation" {
+						fixedgridbox = {
+							visible = "[Not(GetVariableSystem.Exists( 'ladies'))]"
+							addcolumn = 667
+							addrow = 100
+							#name = "characters_grid"
+							datamodel_reuse_widgets = yes
+
+							datamodel = "[GetPlayer.MakeScope.GetList('potential_m')]"
+							#visible = "[Not(CharacterSelectionList.IsBuildingList)]"
+
+							item = {
+								widget_character_list_item2 = {
+									datacontext = "[Scope.GetCharacter]"
+									size = { 650 110 }
+								}
+							}
+						}
+						fixedgridbox = {
+							visible = "[GetVariableSystem.Exists( 'ladies')]"
+							addcolumn = 667
+							addrow = 100
+							#name = "characters_grid"
+							datamodel_reuse_widgets = yes
+
+							datamodel = "[GetPlayer.MakeScope.GetList('potential_mf')]"
+							#visible = "[Not(CharacterSelectionList.IsBuildingList)]"
+
+							item = {
+								widget_character_list_item2 = {
+									datacontext = "[Scope.GetCharacter]"
+									size = { 650 110 }
+								}
+							}
+						}
+					}
+
+					blockoverride "scrollbox_empty_visibility"
+					{
+						layoutpolicy_vertical = expanding
+						#visible = "[And( IsDataModelEmpty( CharacterSelectionList.GetList ), Not( MatchmakerInteractionWindow.HasTopCharacterItem ) )]"
+						text = "NO_CHARACTERS_TO_SELECT"
+					}
+				}
+			}
+
+		}
+	}
+	#me_offer
+	widget = {
+		name = "me_offer"
+		using = Window_Background_Subwindow
+		minimumsize = { 420 490 }
+		alwaystransparent = no
+		size = { 630 600 }
+		position = { 310 -50 }
+		parentanchor = hcenter
+		widgetanchor = left|vcenter
+
+		focuspolicy = click
+		visible = "[GetVariableSystem.Exists( 'marry_this')]"
+		allow_outside = yes
+
+		state = {
+			name = _show
+			using = Animation_FadeIn_Quick
+			on_start = "[GetVariableSystem.Set( 'me_offer_open', 'true'  )]"
+			position_y = -35
+		}
+
+		state = {
+			name = _hide
+			using = Animation_FadeOut_Quick
+			on_start = "[GetVariableSystem.Clear( 'me_offer_open'' )]"
+			position_y = 50
+		}
+
+		vbox = {
+			layoutpolicy_horizontal = expanding
+			margin = { 4 4 }
+
+			header_pattern = {
+				layoutpolicy_horizontal = expanding
+
+				blockoverride "header_text"
+				{
+					text = "Requested Hand"
+				}
+
+				blockoverride "button_close"
+				{
+						onclick = "[GetVariableSystem.Clear( 'marry_this')]"
+						#onclick = "[ExecuteConsoleCommand('effect clear_marriagez')]"
+				}
+			}
+
+			### Character List
+			vbox = {
+
+				name = "character_list1"
+				#visible = "[Not(MatchmakerInteractionWindow.HasPickedCharacters)]"
+				layoutpolicy_vertical = expanding
+				layoutpolicy_horizontal = expanding
+				spacing = 0
+				datacontext = "[Scope.GetCharacter]"
+				#datamodel = "[GetPlayer.MakeScope.GetList('potential_m')]"
+				hbox = {
+					layoutpolicy_horizontal = expanding
+					spacing = 0
+					margin_left = 15
+					margin_right = 130
+					ignoreinvisible = no
+
+				}
+
+				vbox_character_list = {
+					margin_top = -10
+					datacontext = "[MatchmakerInteractionWindow.GetCharacterList]"
+					datacontext = "[CharacterSelectionList.GetFilterWithDefault('fertility_filter', '(int32)1')]"
+					layoutpolicy_vertical = expanding
+					layoutpolicy_horizontal = expanding
+
+					blockoverride "container_implementation" {
+						fixedgridbox = {
+							visible = "[GetVariableSystem.Exists( 'ladies')]"
+							addcolumn = 667
+							addrow = 100
+							#name = "characters_grid"
+							datamodel_reuse_widgets = yes
+
+							datamodel = "[GetPlayer.MakeScope.GetList('potential_e')]"
+							#visible = "[Not(CharacterSelectionList.IsBuildingList)]"
+
+							item = {
+								widget_character_list_item3 = {
+									datacontext = "[Scope.GetCharacter]"
+									size = { 650 110 }
+								}
+							}
+						}
+						fixedgridbox = {
+							visible = "[Not(GetVariableSystem.Exists( 'ladies'))]"
+							addcolumn = 667
+							addrow = 100
+							#name = "characters_grid"
+							datamodel_reuse_widgets = yes
+
+							datamodel = "[GetPlayer.MakeScope.GetList('potential_ef')]"
+							#visible = "[Not(CharacterSelectionList.IsBuildingList)]"
+
+							item = {
+								widget_character_list_item3= {
+									datacontext = "[Scope.GetCharacter]"
+									size = { 650 110 }
+								}
+							}
+						}
+					}
+
+					blockoverride "scrollbox_empty_visibility"
+					{
+						layoutpolicy_vertical = expanding
+						#visible = "[And( IsDataModelEmpty( CharacterSelectionList.GetList ), Not( MatchmakerInteractionWindow.HasTopCharacterItem ) )]"
+						text = "NO_CHARACTERS_TO_SELECT"
+					}
+				}
+			}
+
+		}
+	}
 	widget = {
 		name = "list_left"
 		using = Window_Background_Subwindow
@@ -4058,7 +4382,7 @@ template Animation_WarOverview_Blood
 		alpha = 0
 	}
 }
-
+	
 types WarOverView
 {
 	type icon_blood_splatter = highlight_icon {
