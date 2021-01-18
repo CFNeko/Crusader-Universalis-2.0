@@ -2022,7 +2022,7 @@ window = {
 						#findshow
 						state = {
 							name = _show
-							duration = 0.1
+							duration = 0.3
 							using = Animation_Curve_Default
 							on_start = "[GetScriptedGui('add_enemy_left').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarOverviewWindow.GetLeftSideLeaderItem.GetCharacter.MakeScope ).End )]"
 							on_start = "[GetScriptedGui('add_enemy_right').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).AddScope('target', WarOverviewWindow.GetRightSideLeaderItem.GetCharacter.MakeScope ).End )]"
@@ -2033,7 +2033,7 @@ window = {
 							on_finish = "[GetScriptedGui('enemy_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							on_finish = "[GetScriptedGui('my_vassals').Execute(GuiScope.SetRoot(GetPlayer.MakeScope).End)]"
 							on_finish = "[ExecuteConsoleCommand('effect heres_the_deal')]"
-							on_finish = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,Concatenate(' cal =',Concatenate(WarOverviewWindow.GetOccupationWarScore,Concatenate(' dal = ',Concatenate(WarOverviewWindow.GetBattlesWarScore,' }')))))))]"
+							on_start = "[ExecuteConsoleCommand(Concatenate('effect add_ex_impr = { tal =',Concatenate(WarOverviewWindow.GetImprisonmentWarScore,Concatenate(' cal =',Concatenate(WarOverviewWindow.GetOccupationWarScore,Concatenate(' dal = ',Concatenate(WarOverviewWindow.GetBattlesWarScore,' }')))))))]"
 
 							alpha = 1
 							size = { 0 750}

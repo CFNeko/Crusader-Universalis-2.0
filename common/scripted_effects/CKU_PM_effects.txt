@@ -306,23 +306,18 @@
 #################
 	heres_the_deal = {
 
-		if = {
-			limit = {
-			NOT = { has_variable = the_deal }
-			}
-			set_variable = {
-				name = the_deal
-				value = 0
-			}
-		}
-		set_variable = { name = the_deal value = 0 }
+
+		#set_variable = { name = the_deal value = 0 }
 		root = {
 			every_in_list = {
 				variable = enemy_list
 				save_scope_as = dork
 			}
 		}
-
+				#EXTENDED WARSCORE
+					#set_variable = { name = ex_warscore value = root.var:mcss }
+					#change_variable = { name = ex_warscore subtract = 100 }
+					set_variable = { name = the_deal value = root.var:mcss }
 			#start deal scores
 
 				#start lands
@@ -812,26 +807,7 @@
 					}
 				#endgold
 				#warscore
-					every_character_war = {
-						limit = { 
-							is_attacker = root
-							is_defender = scope:dork
-						}
-						save_scope_as = war
-						root = {
-							change_variable = { name = the_deal add = scope:war.attacker_war_score }
-						}
-					}
-					every_character_war = {
-						limit = { 
-							is_defender = root
-							is_attacker = scope:dork
-						}
-						save_scope_as = war
-						root = {
-							change_variable = { name = the_deal add = scope:war.defender_war_score }
-						}
-					}
+
 				#fear
 					if = {
 						limit ={
@@ -1381,24 +1357,11 @@
 						}
 						change_variable = { name = the_deal add = 50 }
 					}
-
-				#
-				#EXTENDED WARSCORE
-					
 				#Add EXT WARSCORE
-					set_variable = { name = ex_warscore value = 0 }
-					change_variable = { name = ex_warscore add = root.var:ex_impr }
-					change_variable = { name = ex_warscore add = root.var:ex_occu }
-					change_variable = { name = ex_warscore add = root.var:ex_batl }
-				if = {
-					limit = {
-						var:ex_warscore = { compare_value > 100 }
-					}				
-					change_variable = { name = ex_warscore subtract = 100 }
-					change_variable = { name = the_deal add = root.var:ex_warscore }
-				}			
-				
+				#
+	
 	}
+
 	add_ex_impr = { 
 
 		set_variable = { name = ex_impr value = 0 }
