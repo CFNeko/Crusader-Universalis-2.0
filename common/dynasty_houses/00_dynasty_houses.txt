@@ -101,3 +101,35 @@ house_dreux_beu = {
 	name = "dynn_dreux_beu"
 	dynasty = 86
 }
+
+# Baux
+house_baux_orange = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_orange"
+    dynasty = 5117
+}
+house_baux_berre = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_berre"
+    dynasty = 5117
+}
+house_baux_andria = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_andria"
+    dynasty = 5117
+}
+house_baux_marignan = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_marignan"
+    dynasty = 5117
+}
+house_baux_meyrargues = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_meyrargues"
+    dynasty = 5117
+}
+house_baux_courthezon = {
+    prefix = "dynnp_des"
+    name = "dynn_baux_courthezon"
+    dynasty = 5117
+}

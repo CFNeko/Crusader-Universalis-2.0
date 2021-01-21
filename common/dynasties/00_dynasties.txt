@@ -71,6 +71,11 @@
 	name = "dynn_Lomagne"
 	culture = "french"
 }
+5117 = {
+	prefix = "dynnp_des"
+	name = "dynn_Baux"
+	culture = "occitan"
+}
 7117 = {
 	prefix = "dynnp_von"
 	name = "dynn_der_Mark"
@@ -100,13 +105,6 @@
 	name = "dynn_Nasrid"
 	culture = "bedouin"
 }
-
-
-
-
-
-
-
 
 
 

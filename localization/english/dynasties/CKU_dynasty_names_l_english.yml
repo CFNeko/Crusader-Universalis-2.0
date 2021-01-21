@@ -47,6 +47,7 @@
  dynn_TrastA_mara:0 "Trastámara"
  dynn_Bonde:0 "Bonde"
  dynn_Lomagne:0 "Lomagne"
+ dynn_Baux:0 "Baux"
  dynn_der_Mark:0 "der Mark"
  dynn_Bourbon:0 "Bourbon"
  dynn_Schauenburg:0 "Schauenburg"
@@ -111,6 +112,12 @@
  dynn_alsace:"Alsace"
  dynn_lorraine:"Lorraine"
  dynn_henin_lietard:"Hénin-Liétard"
+ dynn_baux_orange:"Baux-Orange"
+ dynn_baux_berre:"Baux-Berre"
+ dynn_baux_andria:"Baux-Andria"
+ dynn_baux_marignan:"Baux-Marignan"
+ dynn_baux_meyrargues:"Baux-Meyrargues"
+ dynn_baux_courthezon:"Baux-Courthézon"
  
  #LowCountries
  dynn_clyte:"DelaClyte"
