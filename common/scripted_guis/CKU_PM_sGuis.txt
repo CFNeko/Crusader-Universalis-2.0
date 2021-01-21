@@ -1578,6 +1578,14 @@
 				#
 														
 					every_character_war = {
+						limit = {
+						
+							OR = {
+								is_attacker = scope:dork
+								is_defender = scope:dork
+							}
+							
+						}
 						end_war = invalidated
 					}
 				}
