@@ -1,7 +1,7 @@
 ﻿l_english:
  ####Prefixes####
- dynnp_van_der:0"vander"
- dynnp_van_den:0"vanden"
+ dynnp_van_der:0"van der "
+ dynnp_van_den:0"van den "
  
  dynnpat_pre_fitz:0"Fitz"
  
@@ -16,9 +16,8 @@
  
  dynnpat_pre_Mac:0"Mac"
  
- dynnp_de:0"de"
- 
- dynnp_le:"Le"
+ dynnp_de:0"de "
+ dynnp_le:"Le "
  
  dynnpat_pre_vow_mag:"Mag"
  dynnpat_pre_nic:"Nic"
@@ -118,6 +117,8 @@
  dynn_baux_marignan:"Baux-Marignan"
  dynn_baux_meyrargues:"Baux-Meyrargues"
  dynn_baux_courthezon:"Baux-Courthézon"
+ dynn_chabannes:"Chabannes"
+ dynn_chabannes_dammartin:"Chabannes-Dammartin"
  
  #LowCountries
  dynn_clyte:"DelaClyte"

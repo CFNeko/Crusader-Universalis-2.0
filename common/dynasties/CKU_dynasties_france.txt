@@ -145,3 +145,9 @@ CKU_lalaing = {
 	culture = "flemish"
 	motto = dynn_CKU_lalaing_motto
 }
+
+CKU_chabannes = {
+	prefix = "dynnp_de"
+	name = "dynn_chabannes"
+	culture = "occitan"
+}

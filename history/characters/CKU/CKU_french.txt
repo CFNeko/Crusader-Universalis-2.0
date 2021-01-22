@@ -632,7 +632,999 @@
 			}
 		}
 	#}
-	
+	# Valois-Anjou {
+		CKU_anjou_1 = {
+			name = "Rene"
+			dna = CKU_anjou_1_dna
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_10
+			mother = CKU_savoy_20
+			# Married Isabelle de Lorraine
+			1409.1.16 = {
+				birth = yes
+			}
+			1420.10.20 = {
+				add_spouse = CKU_swabian_lord_2
+			}
+			1434.11.12 = {
+				set_primary_title_to = title:d_anjou
+			}
+			1435.2.2 = {
+				add_pressed_claim = k_sicily
+				add_pressed_claim = d_naples
+				add_pressed_claim = k_jerusalem
+			}
+			1480.7.10 = {
+				death = yes
+			}
+		}
+		CKU_anjou_2 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			1426.8.2 = {
+				birth = yes
+			}
+			1435.2.2 = {
+				add_pressed_claim = d_calabria
+			}
+			1444.1.1 = {
+				add_spouse = CKU_bourbon_4
+			}
+			1470.12.16 = {
+				death = yes
+			}
+		}
+		CKU_anjou_3 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			1426.8.2 = {
+				birth = yes
+			}
+			1445.10.16 = {
+				death = yes
+			}
+		}
+		CKU_anjou_4 = {
+			name = "Nicolas"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			trait = twin
+			1428.11.2 = {
+				birth = yes
+			}
+			1430.1.1 = {
+				death = yes
+			}
+		}
+		CKU_anjou_5 = {
+			name = "Yolande"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			trait = twin
+			1428.11.2 = {
+				birth = yes
+			}
+			1483.3.23 = {
+				death = yes
+			}
+		}
+		CKU_anjou_6 = {
+			name = "Marguerite"
+			dna = CKU_anjou_6_dna
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			trait = ambitious
+			trait = diligent
+			1430.3.23 = {
+				birth = yes
+			}
+			1482.8.25 = {
+				death = yes
+			}
+		}
+		CKU_anjou_7 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_1
+			mother = CKU_swabian_lord_2
+			1437.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		
+		######### Extra Characters #########
+		CKU_anjou_8 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_valois_2
+			# mother = Jutta von Luxembourg
+			# Married Marie de Blois
+			1339.7.23 = {
+				birth = yes
+			}
+			1360.7.9 = {
+				add_spouse = CKU_chatillon_6
+			}
+			1384.9.20 = {
+				death = yes
+			}
+		}
+		CKU_anjou_9 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_8
+			mother = CKU_chatillon_6
+			1370.1.1 = {
+				birth = yes
+			}
+			1383.1.1 = {
+				death = yes
+			}
+		}
+		CKU_anjou_10 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_8
+			mother = CKU_chatillon_6
+			# Married Yolanda de Aragón
+			1377.10.5 = {
+				birth = yes
+			}
+			1417.4.29 = {
+				death = yes
+			}
+		}
+		CKU_anjou_11 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_8
+			mother = CKU_chatillon_6
+			1380.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_anjou_12 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_10
+			# mother = Yolanda de Aragón
+			# Married Margherita di Savoia
+			1403.9.25 = {
+				birth = yes
+			}
+			1431.3.31 = {
+				add_spouse = CKU_savoy_20
+			}
+			1434.11.12 = {
+				death = yes
+			}
+		}
+		CKU_anjou_13 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_10
+			# mother = Yolanda de Aragón
+			# Married Isabelle von Luxembourg
+			1414.10.14 = {
+				birth = yes
+			}
+			1443.1.1 = {
+				add_spouse = CKU_luxembourg_ligny_29
+			}
+			1472.4.10 = {
+				death = yes
+			}
+		}
+		CKU_anjou_14 = {
+			name = "Marie"
+			dna = CKU_anjou_14_dna
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_10
+			# mother = Yolanda de Aragón
+			# Married Charles VII de Valois
+			1404.10.14 = {
+				birth = yes
+			}
+			1463.11.29 = {
+				death = yes
+			}
+		}
+		CKU_anjou_15 = {
+			name = "Yolande"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty_house = house_anjou
+			father = CKU_anjou_10
+			# mother = Yolanda de Aragón
+			# Married François de Montfort
+			1412.8.13 = {
+				birth = yes
+			}
+			1440.7.17 = {
+				death = yes
+			}
+		}
+	# }
+	# Capetian-Bourbon {
+		CKU_bourbon_1 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_26
+			mother = CKU_evreux_8
+			1408.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_2 = {
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_17
+			mother = CKU_valois_8
+			# Married Agnès de Valois-Burgundy
+			1401.1.1 = {
+				birth = yes
+			}
+			1410.1.1 = {
+				add_spouse = CKU_lomagne_armagnac_9
+			}
+			1425.9.17 = {
+				add_spouse = CKU_bourgogne_16
+			}
+			1456.12.4 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1426.8.30 = {
+				birth = yes
+			}
+			1488.4.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_4 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1428.1.1 = {
+				birth = yes
+			}
+			1448.7.7 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_5 = { # Archbishop of Lyon in 1444 at age 11
+			name = "Charles"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1434.1.1 = {
+				birth = yes
+			}
+			1488.9.13 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_6 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1436.1.1 = {
+				birth = yes
+			}
+			1465.9.26 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_7 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1438.12.1 = {
+				birth = yes
+			}
+			1503.10.10 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_8 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1437.1.1 = {
+				birth = yes
+			}
+			1482.8.30 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_9 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1438.2.5 = {
+				birth = yes
+			}
+			1483.4.24 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_10 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1439.1.1 = {#?
+				birth = yes
+			}
+			1469.5.21 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_11 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1441.1.1 = {#?
+				birth = yes
+			}
+			1493.7.10 = {
+				death = yes
+			}
+		}
+		
+		######### Extra Characters #########
+		CKU_bourbon_12 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Charles de Valois
+			1338.2.3 = {
+				birth = yes
+			}
+			1350.4.8 = {
+				add_spouse = CKU_valois_3
+			}
+			1378.2.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_13 = {
+			name = "Blanche"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Pedro de Ivrea
+			1339.1.1 = {
+				birth = yes
+			}
+			1361.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_14 = {
+			name = "Bonne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Amedeo di Savoia
+			1341.1.1 = {
+				birth = yes
+			}
+			1355.9.1 = {
+				add_spouse = 462155
+			}
+			1402.1.19 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_15 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Jean IV de Harcourt
+			1341.1.1 = {
+				birth = yes
+			}
+			1402.1.19 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_16 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455651
+			mother = 455506
+			# Married Arnaud-Amanieu de Albret
+			1344.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_17 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			# Married Marie de Auvergne
+			1381.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				add_spouse = CKU_valois_8
+			}
+			1434.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_18 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_17
+			mother = CKU_valois_8
+			# Married Jeanne de Auvergne
+			# Married Gabrielle de la Tour-Auvergne
+			1405.1.1 = {
+				birth = yes
+			}
+			1442.2.15 = {
+				add_spouse = CKU_tour_auvergne_4
+			}
+			1486.5.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_19 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_2
+			mother = CKU_bourgogne_16
+			1428.2.11 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_20 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			1388.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_21 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455658
+			# mother = Anne de Auvergne
+			1384.1.1 = {
+				birth = yes
+			}
+			1451.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_22 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Bouchard de Montoire
+			1340.1.1 = {
+				birth = yes
+			}
+			1371.5.15 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_23 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			1342.1.1 = {
+				birth = yes
+			}
+			1362.4.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_24 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Catherine de Montoire
+			1344.1.1 = {
+				birth = yes
+			}
+			1393.6.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_25 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455656
+			mother = 455705
+			# Married Marguerite Préaulx
+			1345.1.1 = {
+				birth = yes
+			}
+			1417.10.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_26 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Beatriz de Evreux Navarra
+			# Married Marguerite de Blois
+			# Married Jeanne de Anjou # Anjou-Durazzo died out with Ladislas King of Naples
+			1380.1.1 = {
+				birth = yes
+			}
+			1406.9.14 = {
+				add_spouse = CKU_evreux_8
+			}
+			1438.9.24 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_27 = {
+			name = "Elenore"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_26
+			mother = CKU_evreux_8
+			# Married Bernard de Armagnac
+			1407.9.7 = {
+				birth = yes
+			}
+			1464.8.21 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_28 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx 
+			1389.1.1 = {
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_29 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx
+			# Married Élisabeth of Montagu
+			1390.1.1 = {
+				birth = yes
+			}
+			1422.10.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_30 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_25
+			# mother = Marguerite Préaulx
+			1391.1.1 = {
+				birth = yes
+			}
+			1429.10.19 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_31 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jeanne de Laval
+			1382.1.1 = {
+				birth = yes
+			}
+			1408.1.1 = {
+				employer = CKU_francien_1
+				give_council_position = councillor_steward
+			}
+			1424.8.24 = {
+				add_spouse = CKU_montfort_laval_5
+			}
+			1446.12.21 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_32 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_31
+			mother = CKU_montfort_laval_5
+			1428.1.1 = {
+				birth = yes
+			}
+			1477.1.6 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_33 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jean de Valois
+			# Married Ludwig von Bayern
+			1375.1.1 = {
+				birth = yes
+			}
+			1408.9.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_34 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Catherine de Artois
+			# Married Jeanne de Vendômois
+			1385.1.1 = {
+				birth = yes
+			}
+			1416.1.1 = {
+				add_spouse = CKU_artois_7
+			}
+			1458.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_35 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Jean de Croix
+			1386.1.1 = {
+				birth = yes
+			}
+			1463.9.11 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_36 = {
+			name = "Charlotte"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_24
+			# mother = Catherine de Montoire
+			# Married Janus de Lusignan (King of Cyprus)
+			1392.1.1 = {
+				birth = yes
+			}
+			1434.12.15 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_37 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_26
+			mother = CKU_evreux_8
+			1410.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_38 = {
+			name = "Louis"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1418.1.1 = {
+				birth = yes
+			}
+			1458.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_39 = {
+			name = "Pierre"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1424.2.1 = {
+				birth = yes
+			}
+			1481.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_40 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			# Married Antoinette de La Tour-Auvergne # Not enough sources on the old la Tour Auvergne branch
+			1427.1.1 = {#?
+				birth = yes
+			}
+			1493.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_41 = {
+			name = "Philippe"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_34
+			# mother = Jeanne de Vendômois
+			1428.1.1 = {#?
+				birth = yes
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_42 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = 455650
+			# mother = Unkown
+			# Married Agnes de Chastellus
+			# Married Jeanne de Chatel-Perron
+			trait = legitimized_bastard
+			1299.1.1 = {
+				birth = yes
+			}
+			1349.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_43 = {
+			name = "Guichard"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_42
+			# mother = Agnes de Chastellus
+			# Married Jeanne de Chatillon # Unknown
+			# Married Alis de Bourbon # Unknown
+			1299.1.1 = {
+				birth = yes
+			}
+			1349.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_44 = {
+			name = "Isabelle"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_43
+			# mother = Alis de Bourbon # Unknown
+			# Married  Bernard de Montaigu-Listenois
+			# Married  Guillaume de Mello
+			1349.1.1 = {#?
+				birth = yes
+			}
+			1409.1.1 = {
+				death = yes
+			}
+		}
+		CKU_bourbon_45 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_43
+			# mother = Alis de Bourbon # Unknown
+			# Married Louis de Damas
+			# Married Antoine de Toulongeon
+			1349.8.22 = {
+				birth = yes
+			}
+			1415.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_bourbon_46 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = french
+			dynasty = 100146
+			father = CKU_bourbon_18
+			mother = CKU_tour_auvergne_4
+			1443.1.1 = {
+				birth = yes
+			}
+			1496.10.15 = {
+				death = yes
+			}
+		}
+	# }
 	# Valois-Alençon = {
 		CKU_alencon_1 = {
 			name = "Pierre"
@@ -7992,7 +8984,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty_house = house_baux_orange
+			dynasty = CKU_testing_dynasty
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -11460,999 +12452,6 @@
 # }
 
 # Occitan = {
-	# Anjou {
-		CKU_anjou_1 = {
-			name = "Rene"
-			dna = CKU_anjou_1_dna
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_10
-			mother = CKU_savoy_20
-			# Married Isabelle de Lorraine
-			1409.1.16 = {
-				birth = yes
-			}
-			1420.10.20 = {
-				add_spouse = CKU_swabian_lord_2
-			}
-			1434.11.12 = {
-				set_primary_title_to = title:d_anjou
-			}
-			1435.2.2 = {
-				add_pressed_claim = k_sicily
-				add_pressed_claim = d_naples
-				add_pressed_claim = k_jerusalem
-			}
-			1480.7.10 = {
-				death = yes
-			}
-		}
-		CKU_anjou_2 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			1426.8.2 = {
-				birth = yes
-			}
-			1435.2.2 = {
-				add_pressed_claim = d_calabria
-			}
-			1444.1.1 = {
-				add_spouse = CKU_bourbon_4
-			}
-			1470.12.16 = {
-				death = yes
-			}
-		}
-		CKU_anjou_3 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			1426.8.2 = {
-				birth = yes
-			}
-			1444.10.16 = {
-				death = yes
-			}
-		}
-		CKU_anjou_4 = {
-			name = "Nicolas"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			trait = twin
-			1428.11.2 = {
-				birth = yes
-			}
-			1430.1.1 = {
-				death = yes
-			}
-		}
-		CKU_anjou_5 = {
-			name = "Yolande"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			trait = twin
-			1428.11.2 = {
-				birth = yes
-			}
-			1483.3.23 = {
-				death = yes
-			}
-		}
-		CKU_anjou_6 = {
-			name = "Marguerite"
-			dna = CKU_anjou_6_dna
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			trait = ambitious
-			trait = diligent
-			1430.3.23 = {
-				birth = yes
-			}
-			1482.8.25 = {
-				death = yes
-			}
-		}
-		CKU_anjou_7 = {
-			name = "Anne"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_1
-			mother = CKU_swabian_lord_2
-			1437.1.1 = {
-				birth = yes
-			}
-			1450.1.1 = {
-				death = yes
-			}
-		}
-		
-		######### Extra Characters #########
-		CKU_anjou_8 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_valois_2
-			# mother = Jutta von Luxembourg
-			# Married Marie de Blois
-			1339.7.23 = {
-				birth = yes
-			}
-			1360.7.9 = {
-				add_spouse = CKU_chatillon_6
-			}
-			1384.9.20 = {
-				death = yes
-			}
-		}
-		CKU_anjou_9 = {
-			name = "Marie"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_8
-			mother = CKU_chatillon_6
-			1370.1.1 = {
-				birth = yes
-			}
-			1383.1.1 = {
-				death = yes
-			}
-		}
-		CKU_anjou_10 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_8
-			mother = CKU_chatillon_6
-			# Married Yolanda de Aragón
-			1377.10.5 = {
-				birth = yes
-			}
-			1417.4.29 = {
-				death = yes
-			}
-		}
-		CKU_anjou_11 = {
-			name = "Charles"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_8
-			mother = CKU_chatillon_6
-			1380.1.1 = {
-				birth = yes
-			}
-			1404.1.1 = {
-				death = yes
-			}
-		}
-		CKU_anjou_12 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_10
-			# mother = Yolanda de Aragón
-			# Married Margherita di Savoia
-			1403.9.25 = {
-				birth = yes
-			}
-			1431.3.31 = {
-				add_spouse = CKU_savoy_20
-			}
-			1434.11.12 = {
-				death = yes
-			}
-		}
-		CKU_anjou_13 = {
-			name = "Charles"
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_10
-			# mother = Yolanda de Aragón
-			# Married Isabelle von Luxembourg
-			1414.10.14 = {
-				birth = yes
-			}
-			1443.1.1 = {
-				add_spouse = CKU_luxembourg_ligny_29
-			}
-			1472.4.10 = {
-				death = yes
-			}
-		}
-		CKU_anjou_14 = {
-			name = "Marie"
-			dna = CKU_anjou_14_dna
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_10
-			# mother = Yolanda de Aragón
-			# Married Charles VII de Valois
-			1404.10.14 = {
-				birth = yes
-			}
-			1463.11.29 = {
-				death = yes
-			}
-		}
-		CKU_anjou_15 = {
-			name = "Yolande"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty_house = house_anjou
-			father = CKU_anjou_10
-			# mother = Yolanda de Aragón
-			# Married François de Montfort
-			1412.8.13 = {
-				birth = yes
-			}
-			1440.7.17 = {
-				death = yes
-			}
-		}
-	# }
-	# bourbon {
-		CKU_bourbon_1 = {
-			name = "Isabelle"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_26
-			mother = CKU_evreux_8
-			1408.1.1 = {
-				birth = yes
-			}
-			1445.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_2 = {
-			name = "Charles"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_17
-			mother = CKU_valois_8
-			# Married Agnès de Valois-Burgundy
-			1401.1.1 = {
-				birth = yes
-			}
-			1410.1.1 = {
-				add_spouse = CKU_lomagne_armagnac_9
-			}
-			1425.9.17 = {
-				add_spouse = CKU_bourgogne_16
-			}
-			1456.12.4 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_3 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1426.8.30 = {
-				birth = yes
-			}
-			1488.4.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_4 = {
-			name = "Marie"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1428.1.1 = {
-				birth = yes
-			}
-			1448.7.7 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_5 = { # Archbishop of Lyon in 1444 at age 11
-			name = "Charles"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1434.1.1 = {
-				birth = yes
-			}
-			1488.9.13 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_6 = {
-			name = "Isabelle"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1436.1.1 = {
-				birth = yes
-			}
-			1465.9.26 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_7 = {
-			name = "Pierre"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1438.12.1 = {
-				birth = yes
-			}
-			1503.10.10 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_8 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1437.1.1 = {
-				birth = yes
-			}
-			1482.8.30 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_9 = {
-			name = "Marguerite"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1438.2.5 = {
-				birth = yes
-			}
-			1483.4.24 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_10 = {
-			name = "Catherine"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1439.1.1 = {#?
-				birth = yes
-			}
-			1469.5.21 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_11 = {
-			name = "Jeanne"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1441.1.1 = {#?
-				birth = yes
-			}
-			1493.7.10 = {
-				death = yes
-			}
-		}
-		
-		######### Extra Characters #########
-		CKU_bourbon_12 = {
-			name = "Jeanne"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455651
-			mother = 455506
-			# Married Charles de Valois
-			1338.2.3 = {
-				birth = yes
-			}
-			1350.4.8 = {
-				add_spouse = CKU_valois_3
-			}
-			1378.2.6 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_13 = {
-			name = "Blanche"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455651
-			mother = 455506
-			# Married Pedro de Ivrea
-			1339.1.1 = {
-				birth = yes
-			}
-			1361.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_14 = {
-			name = "Bonne"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455651
-			mother = 455506
-			# Married Amedeo di Savoia
-			1341.1.1 = {
-				birth = yes
-			}
-			1355.9.1 = {
-				add_spouse = 462155
-			}
-			1402.1.19 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_15 = {
-			name = "Catherine"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455651
-			mother = 455506
-			# Married Jean IV de Harcourt
-			1341.1.1 = {
-				birth = yes
-			}
-			1402.1.19 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_16 = {
-			name = "Marguerite"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455651
-			mother = 455506
-			# Married Arnaud-Amanieu de Albret
-			1344.1.1 = {
-				birth = yes
-			}
-			1416.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_17 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455658
-			# mother = Anne de Auvergne
-			# Married Marie de Auvergne
-			1381.1.1 = {
-				birth = yes
-			}
-			1400.1.1 = {
-				add_spouse = CKU_valois_8
-			}
-			1434.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_18 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_17
-			mother = CKU_valois_8
-			# Married Jeanne de Auvergne
-			# Married Gabrielle de la Tour-Auvergne
-			1405.1.1 = {
-				birth = yes
-			}
-			1442.2.15 = {
-				add_spouse = CKU_tour_auvergne_4
-			}
-			1486.5.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_19 = {
-			name = "Philippe"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_2
-			mother = CKU_bourgogne_16
-			1428.2.11 = {
-				birth = yes
-			}
-			1445.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_20 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455658
-			# mother = Anne de Auvergne
-			1388.1.1 = {
-				birth = yes
-			}
-			1404.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_21 = {
-			name = "Isabelle"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455658
-			# mother = Anne de Auvergne
-			1384.1.1 = {
-				birth = yes
-			}
-			1451.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_22 = {
-			name = "Isabelle"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455656
-			mother = 455705
-			# Married Bouchard de Montoire
-			1340.1.1 = {
-				birth = yes
-			}
-			1371.5.15 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_23 = {
-			name = "Pierre"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455656
-			mother = 455705
-			1342.1.1 = {
-				birth = yes
-			}
-			1362.4.6 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_24 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455656
-			mother = 455705
-			# Married Catherine de Montoire
-			1344.1.1 = {
-				birth = yes
-			}
-			1393.6.11 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_25 = {
-			name = "Jacques"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455656
-			mother = 455705
-			# Married Marguerite Préaulx
-			1345.1.1 = {
-				birth = yes
-			}
-			1417.10.6 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_26 = {
-			name = "Jacques"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Beatriz de Evreux Navarra
-			# Married Marguerite de Blois
-			# Married Jeanne de Anjou # Anjou-Durazzo died out with Ladislas King of Naples
-			1380.1.1 = {
-				birth = yes
-			}
-			1406.9.14 = {
-				add_spouse = CKU_evreux_8
-			}
-			1438.9.24 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_27 = {
-			name = "Elenore"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_26
-			mother = CKU_evreux_8
-			# Married Bernard de Armagnac
-			1407.9.7 = {
-				birth = yes
-			}
-			1464.8.21 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_28 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_25
-			# mother = Marguerite Préaulx 
-			1389.1.1 = {
-				birth = yes
-			}
-			1415.10.25 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_29 = {
-			name = "Pierre"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_25
-			# mother = Marguerite Préaulx
-			# Married Élisabeth of Montagu
-			1390.1.1 = {
-				birth = yes
-			}
-			1422.10.11 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_30 = {
-			name = "Jacques"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_25
-			# mother = Marguerite Préaulx
-			1391.1.1 = {
-				birth = yes
-			}
-			1429.10.19 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_31 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Jeanne de Laval
-			1382.1.1 = {
-				birth = yes
-			}
-			1408.1.1 = {
-				employer = CKU_francien_1
-				give_council_position = councillor_steward
-			}
-			1424.8.24 = {
-				add_spouse = CKU_montfort_laval_5
-			}
-			1446.12.21 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_32 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_31
-			mother = CKU_montfort_laval_5
-			1428.1.1 = {
-				birth = yes
-			}
-			1477.1.6 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_33 = {
-			name = "Anne"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Jean de Valois
-			# Married Ludwig von Bayern
-			1375.1.1 = {
-				birth = yes
-			}
-			1408.9.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_34 = {
-			name = "Jean"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Catherine de Artois
-			# Married Jeanne de Vendômois
-			1385.1.1 = {
-				birth = yes
-			}
-			1416.1.1 = {
-				add_spouse = CKU_artois_7
-			}
-			1458.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_35 = {
-			name = "Marie"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Jean de Croix
-			1386.1.1 = {
-				birth = yes
-			}
-			1463.9.11 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_36 = {
-			name = "Charlotte"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_24
-			# mother = Catherine de Montoire
-			# Married Janus de Lusignan (King of Cyprus)
-			1392.1.1 = {
-				birth = yes
-			}
-			1434.12.15 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_37 = {
-			name = "Marie"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_26
-			mother = CKU_evreux_8
-			1410.1.1 = {
-				birth = yes
-			}
-			1445.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_38 = {
-			name = "Louis"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_34
-			# mother = Jeanne de Vendômois
-			1418.1.1 = {
-				birth = yes
-			}
-			1458.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_39 = {
-			name = "Pierre"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_34
-			# mother = Jeanne de Vendômois
-			1424.2.1 = {
-				birth = yes
-			}
-			1481.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_40 = {
-			name = "Jacques"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_34
-			# mother = Jeanne de Vendômois
-			# Married Antoinette de La Tour-Auvergne # Not enough sources on the old la Tour Auvergne branch
-			1427.1.1 = {#?
-				birth = yes
-			}
-			1493.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_41 = {
-			name = "Philippe"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_34
-			# mother = Jeanne de Vendômois
-			1428.1.1 = {#?
-				birth = yes
-			}
-			1492.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_42 = {
-			name = "Guy"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = 455650
-			# mother = Unkown
-			# Married Agnes de Chastellus
-			# Married Jeanne de Chatel-Perron
-			trait = legitimized_bastard
-			1299.1.1 = {
-				birth = yes
-			}
-			1349.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_43 = {
-			name = "Guichard"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_42
-			# mother = Agnes de Chastellus
-			# Married Jeanne de Chatillon # Unknown
-			# Married Alis de Bourbon # Unknown
-			1299.1.1 = {
-				birth = yes
-			}
-			1349.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_44 = {
-			name = "Isabelle"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_43
-			# mother = Alis de Bourbon # Unknown
-			# Married  Bernard de Montaigu-Listenois
-			# Married  Guillaume de Mello
-			1349.1.1 = {#?
-				birth = yes
-			}
-			1409.1.1 = {
-				death = yes
-			}
-		}
-		CKU_bourbon_45 = {
-			name = "Catherine"
-			female = yes
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_43
-			# mother = Alis de Bourbon # Unknown
-			# Married Louis de Damas
-			# Married Antoine de Toulongeon
-			1349.8.22 = {
-				birth = yes
-			}
-			1415.1.1 = {#?
-				death = yes
-			}
-		}
-		CKU_bourbon_46 = {
-			name = "Gilbert"
-			religion = catholic
-			culture = french
-			dynasty = 100146
-			father = CKU_bourbon_18
-			mother = CKU_tour_auvergne_4
-			1443.1.1 = {
-				birth = yes
-			}
-			1496.10.15 = {
-				death = yes
-			}
-		}
-	# }
 	# La Tour d'Auvergne {
 		CKU_tour_auvergne_1 = {
 			name = "Bertrand"
@@ -12716,6 +12715,140 @@
 			}
 		}
 	# }
+	# Chabannes {
+		CKU_chabannes_1 = {
+			name = "Hugues"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			#father = Ebles de Chabannes
+			#mother = de Lestranges
+			# Married Gaillarde de Madic
+			1320.1.1 = {
+				birth = yes
+			}
+			1401.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_2 = {
+			name = "Robert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_1
+			#mother = Gaillarde de Madic
+			# Married Alix de Bort
+			1360.1.1 = {#?
+				birth = yes
+			}
+			1415.10.25 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_3 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_1
+			#mother = Gaillarde de Madic
+			1365.1.1 = {#?
+				birth = yes
+			}
+			1435.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_4 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_1
+			#mother = Gaillarde de Madic
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1410.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_5 = {
+			name = "Hugues"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_2
+			#mother = Alix de Bort
+			1395.1.1 = {#?
+				birth = yes
+			}
+			1423.7.31 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_6 = {
+			name = "Jacques"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_2
+			#mother = Alix de Bort
+			# Married Anne de Launay
+			# Married Anne de Lavieu
+			1400.1.1 = {#?
+				birth = yes
+			}
+			1453.10.20 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_7 = {
+			name = "Antoine"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_chabannes_dammartin
+			father = CKU_chabannes_2
+			#mother = Alix de Bort
+			# Married Marguerite de Nanteuil
+			1411.1.1 = {
+				birth = yes
+			}
+			1488.12.25 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_8 = {
+			name = "Geoffroy"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_6
+			#mother = Anne de Lavieu
+			# Married Charlotte de Prie
+			1433.1.1 = {
+				birth = yes
+			}
+			1494.1.1 = {
+				death = yes
+			}
+		}
+		CKU_chabannes_9 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_chabannes
+			father = CKU_chabannes_6
+			#mother = Anne de Lavieu
+			# Married Françoise de la Tour d'Auvergne
+			1439.1.1 = {
+				birth = yes
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
 # }
 
 # Bretagne = {
@@ -14777,7 +14910,7 @@
 			1420.1.1 = {
 				birth = yes
 			}
-			1473.1.1 = {
+			1463.1.1 = {
 				death = yes
 			}
 		}

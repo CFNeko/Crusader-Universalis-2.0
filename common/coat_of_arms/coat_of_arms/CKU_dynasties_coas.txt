@@ -2096,6 +2096,42 @@ house_baux_andria = 5117
 house_baux_meyrargues = 5117
 house_baux_marignan = 5117
 
+CKU_chabannes = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant_crown_ermine.dds"
+		color1 = "white"
+		color2 = "black"
+		color3 = "yellow"
+	}
+}
+house_chabannes_dammartin = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "white"
+
+    sub = {
+        parent = "CKU_chabannes"  # defined elsewhere
+        instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
+        instance = { offset = { 0.5 0.5 } scale = { 0.5 0.5 }  } # bottom right
+    }
+    colored_emblem = {
+        texture = "ce_barry_06.dds"
+        color1 = "white"
+        color2 = "blue"
+        instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
+        instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+        texture = "ce_square_border_shield.dds"
+        color1 = "red"
+        instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
+        instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 } }
+	}
+}
 
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
