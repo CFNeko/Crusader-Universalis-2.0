@@ -8984,7 +8984,7 @@
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = CKU_testing_dynasty
+			dynasty = CKU_lavedan
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -12849,6 +12849,501 @@
 				death = yes
 			}
 		}
+	# }
+	# Lavedan {
+		CKU_lavedan_1 = {
+			name = "Mansion-Loup"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			#father = Loup-Donat
+			#mother = Unknown
+			# Married Unknown
+			885.1.1 = {
+				birth = yes
+			}
+			935.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_2 = {
+			name = "Aner-Mans"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_1
+			#mother = Unknown
+			# Married Unknown
+			915.1.1 = {
+				birth = yes
+			}
+			965.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_3 = {
+			name = "Fort-Aner"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_2
+			#mother = Unknown
+			# Married Wisola
+			955.1.1 = {
+				birth = yes
+			}
+			1005.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_4 = {
+			name = "Garcia-Fort"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_3
+			#mother = Wisola
+			# Married Unknown
+			985.1.1 = {
+				birth = yes
+			}
+			1037.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_5 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_4
+			#mother = Unknown
+			# Married Unknown
+			1005.1.1 = {
+				birth = yes
+			}
+			1075.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_6 = {
+			name = "Auger"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_5
+			#mother = Unknown
+			# Married Unknown
+			1035.1.1 = {
+				birth = yes
+			}
+			1080.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_7 = {
+			name = "Raimond"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_6
+			#mother = Unknown
+			# Married Unknown
+			1060.1.1 = {
+				birth = yes
+			}
+			1100.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_8 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_7
+			#mother = Unknown
+			# Married Oria de Pailhars
+			1094.1.1 = {
+				birth = yes
+			}
+			1144.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_9 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_8
+			#mother = Oria de Pailhars
+			# Married Cornélie de Barbazan
+			1136.1.1 = {
+				birth = yes
+			}
+			1186.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_10 = {
+			name = "Pérégrin"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_9
+			#mother = Cornélie de Barbazan
+			# Married Tigborst
+			1150.1.1 = {
+				birth = yes
+			}
+			1215.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_11 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_10
+			#mother = Tigborst
+			# Married Unknown
+			1178.1.1 = {
+				birth = yes
+			}
+			1228.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_12 = {
+			name = "Pérégrin"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_11
+			#mother = Unknown
+			# Married Simone de Dours
+			1200.1.1 = {
+				birth = yes
+			}
+			1253.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_13 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_12
+			#mother = Simone de Dours
+			# Married Unknown
+			1243.1.1 = {
+				birth = yes
+			}
+			1293.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_14 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_13
+			#mother = Unknown
+			# Married Béatrice de Esparros
+			1270.1.1 = {
+				birth = yes
+			}
+			1319.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_15 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_14
+			#mother = Béatrice de Esparros
+			# Married Unknown
+			1289.1.1 = {
+				birth = yes
+			}
+			1339.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_16 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_15
+			#mother = Unknown
+			# Married Unknown
+			1310.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_17 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_16
+			#mother = Unknown
+			# Married Unknown
+			1340.1.1 = {
+				birth = yes
+			}
+			1411.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_18 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_17
+			#mother = Unknown
+			# Married Brunissende de Gerderest
+			# Married Cébilie de Coarraze
+			1365.1.1 = {
+				birth = yes
+			}
+			1422.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_19 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Cébilie de Coarraze
+			# Married Jeanne de Beaucens
+			1385.1.1 = {
+				birth = yes
+			}
+			1444.12.31 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_20 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			# Married 
+			1415.1.1 = {
+				birth = yes
+			}
+			1492.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_21 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			# Married Gaston du Lion
+			1432.1.1 = {
+				birth = yes
+			}
+			1467.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_22 = {
+			name = "Raimond-Garcia"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Cébilie de Coarraze
+			1395.1.1 = {
+				birth = yes
+			}
+			1442.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_23 = {
+			name = "Pérégrin"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Cébilie de Coarraze
+			1408.1.1 = {
+				birth = yes
+			}
+			1463.1.23 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_24 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Cébilie de Coarraze
+			# Married Jean de Baudean
+			1397.1.1 = {
+				birth = yes
+			}
+			1447.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_25 = {
+			name = "Galiane"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Cébilie de Coarraze
+			# Married Bernard de Riviere
+			1399.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_26 = {
+			name = "Bertrand"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Brunissende de Gerderest
+			# Married Jacquette de Riviere
+			1415.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_27 = {
+			name = "Raimond-Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Brunissende de Gerderest
+			1419.1.1 = {
+				birth = yes
+			}
+			1465.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_28 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_18
+			#mother = Brunissende de Gerderest
+			1420.1.1 = {
+				birth = yes
+			}
+			1455.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_29 = {
+			name = "Fortaner"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			1417.1.1 = {
+				birth = yes
+			}
+			1449.6.29 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_30 = {
+			name = "Arnaud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			1420.1.1 = {
+				birth = yes
+			}
+			1470.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_31 = {
+			name = "Aner"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			1425.1.1 = {
+				birth = yes
+			}
+			1475.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_32 = {
+			name = "Bernard"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			1430.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lavedan_33 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lavedan
+			father = CKU_lavedan_19
+			#mother = Jeanne de Beaucens
+			# Married Arnaud de Montaut
+			1432.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+	# }
 # }
 
 # Bretagne = {

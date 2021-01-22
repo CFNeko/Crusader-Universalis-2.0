@@ -2133,6 +2133,21 @@ house_chabannes_dammartin = {
 	}
 }
 
+CKU_lavedan = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	color2 = "black"
+
+	colored_emblem = {
+        texture = "ce_falcon.dds"
+		color1 = "black"
+		color2 = "black"
+        instance = { position = { 0.30 0.25 } scale = { 0.5 0.5 } }
+		instance = { position = { 0.70 0.25 } scale = { 0.5 0.5 } }
+		instance = { position = { 0.50 0.70 } scale = { 0.5 0.5 } }
+	}
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
