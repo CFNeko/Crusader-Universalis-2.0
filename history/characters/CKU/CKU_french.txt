@@ -13144,7 +13144,6 @@
 			dynasty = CKU_lavedan
 			father = CKU_lavedan_19
 			#mother = Jeanne de Beaucens
-			# Married 
 			1415.1.1 = {
 				birth = yes
 			}
@@ -13158,7 +13157,7 @@
 			religion = catholic
 			culture = occitan
 			dynasty = CKU_lavedan
-			father = CKU_lavedan_19
+			father = CKU_lavedan_20
 			#mother = Jeanne de Beaucens
 			# Married Gaston du Lion
 			1432.1.1 = {
@@ -13340,6 +13339,440 @@
 				birth = yes
 			}
 			1480.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# La Cropte {
+		CKU_la_cropte_1 = {
+			name = "Geraud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			#father = Unknown
+			#mother = Unknown
+			# Married Unknown
+			1254.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_2 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_1
+			#mother = Unknown
+			# Married Unknown
+			1281.1.1 = {
+				birth = yes
+			}
+			1336.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_3 = {
+			name = "Raimond"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_1
+			#mother = Unknown
+			# Married Unknown
+			1282.1.1 = {
+				birth = yes
+			}
+			1327.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_4 = {
+			name = "Geraud"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_1
+			#mother = Unknown
+			1285.1.1 = {
+				birth = yes
+			}
+			1304.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_5 = {
+			name = "Fortanier"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			#father = Pierre de La Cropte
+			#mother = Unknown
+			# Married Fine Vigier
+			1209.1.1 = {
+				birth = yes
+			}
+			1282.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_6 = {
+			name = "Hélie"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_5
+			#mother = Fine Vigier
+			# Married Marguerite de Barriere
+			1231.1.1 = {
+				birth = yes
+			}
+			1299.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_7 = {
+			name = "Almois"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_5
+			#mother = Fine Vigier
+			# Married Pierre Vigier
+			1237.1.1 = {
+				birth = yes
+			}
+			1287.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_8 = {
+			name = "Fortanier"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_6
+			#mother = Marguerite de Barriere
+			# Married Bertrande de Siorac
+			1257.1.1 = {
+				birth = yes
+			}
+			1310.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_9 = {
+			name = "Lambert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_6
+			#mother = Marguerite de Barriere
+			1255.1.1 = {
+				birth = yes
+			}
+			1318.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_10 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			# Married Unknown
+			1291.1.1 = {
+				birth = yes
+			}
+			1349.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_11 = {
+			name = "Lambert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			1298.1.1 = {
+				birth = yes
+			}
+			1340.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_12 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			1299.1.1 = {
+				birth = yes
+			}
+			1335.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_13 = {
+			name = "Bertrande"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			# Married Guillaume de Auberoche
+			1283.1.1 = {
+				birth = yes
+			}
+			1333.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_14 = {
+			name = "Fine"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			1285.1.1 = {
+				birth = yes
+			}
+			1335.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_15 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			1289.1.1 = {
+				birth = yes
+			}
+			1339.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_16 = {
+			name = "Esclarmonde"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_8
+			#mother = Bertrande de Siorac
+			1295.1.1 = {
+				birth = yes
+			}
+			1345.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_17 = {
+			name = "Fortanier"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_10
+			#mother = Unknown
+			# Married Fine de Beynac
+			# Married Jeanne de Suplessan
+			1320.1.1 = {
+				birth = yes
+			}
+			1367.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_18 = {
+			name = "Gérald"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_10
+			#mother = Unknown
+			1316.1.1 = {
+				birth = yes
+			}
+			1394.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_19 = {
+			name = "Hélie"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_10
+			#mother = Unknown
+			1314.1.1 = {
+				birth = yes
+			}
+			1365.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_20 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_10
+			#mother = Unknown
+			# Married Unknown
+			1321.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_21 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_17
+			#mother = Jeanne de Suplessan
+			# Married Jeanne de Portafé
+			1345.1.1 = {
+				birth = yes
+			}
+			1394.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_22 = {
+			name = "Lucie"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_17
+			#mother = Jeanne de Suplessan
+			1342.1.1 = {
+				birth = yes
+			}
+			1368.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_23 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_21
+			#mother = Jeanne de Portafé
+			# Married Marguerite du Fleix
+			1378.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_24 = {
+			name = "Bertrand"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_21
+			#mother = Jeanne de Portafé
+			1376.1.1 = {
+				birth = yes
+			}
+			1446.10.26 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_25 = {
+			name = "Hugues"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_21
+			#mother = Jeanne de Portafé
+			1372.1.1 = {
+				birth = yes
+			}
+			1423.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_26 = {
+			name = "Marie"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_21
+			#mother = Jeanne de Portafé
+			# Married Arnaud de Bruzac
+			1370.1.1 = {
+				birth = yes
+			}
+			1420.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_27 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_23
+			#mother = Marguerite du Fleix
+			# Married Jeanne de Mehmont
+			1399.1.1 = {
+				birth = yes
+			}
+			1453.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_28 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_27
+			#mother = Jeanne de Mehmont
+			# Married Unknown
+			1424.1.1 = {
+				birth = yes
+			}
+			1470.1.1 = {
+				death = yes
+			}
+		}
+		CKU_la_cropte_29 = {
+			name = "Raimond"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_la_cropte
+			father = CKU_la_cropte_27
+			#mother = Jeanne de Mehmont
+			# Married Jeanne Rebuffe
+			# Married Philippe Flamenc
+			1422.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
 				death = yes
 			}
 		}

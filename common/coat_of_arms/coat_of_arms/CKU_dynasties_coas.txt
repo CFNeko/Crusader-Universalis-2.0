@@ -2148,6 +2148,19 @@ CKU_lavedan = {
 	}
 }
 
+CKU_la_cropte = {
+	pattern = "pattern_bend_01.dds"
+	color1 = "blue"
+	color2 = "yellow"
+
+	colored_emblem = {
+        texture = "ce_fleur.dds"
+		color1 = "yellow"
+        instance = { position = { 0.75 0.25 } scale = { 0.45 0.45 } }
+		instance = { position = { 0.25 0.75 } scale = { 0.45 0.45 } }
+	}
+}
+
 51 = { # Habsburg
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"

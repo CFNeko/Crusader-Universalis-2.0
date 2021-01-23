@@ -157,3 +157,9 @@ CKU_lavedan = {
 	name = "dynn_lavedan"
 	culture = "occitan"
 }
+
+CKU_la_cropte = {
+	prefix = "dynnp_de"
+	name = "dynn_la_cropte"
+	culture = "occitan"
+}
