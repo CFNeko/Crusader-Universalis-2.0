@@ -1360,6 +1360,23 @@ house_longueville = {
 	}
 }
 
+86 = { # Dreux
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_checky_06.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { position = { 0.5 0.54 } scale = { 1.24 1.24 }  }				
+	}	
+	colored_emblem = {
+		texture = "ce_border_shield.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
+	}	
+}
 house_dreux_montfort = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
@@ -1370,6 +1387,23 @@ house_dreux_montfort = {
 		color1 = "black"
 		color2 = "white"
 		instance = { position = { 0.5 0.5 } scale = { 1.5 1.5 }  }
+	}
+}
+house_dreux_beu = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_checky_06.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { position = { 0.5 0.54 } scale = { 1.24 1.24 }  }				
+	}	
+	colored_emblem = {
+		texture = "ce_border_shield_engrailed_02.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
 	}
 }
 
@@ -1386,24 +1420,6 @@ house_bourgogne_montagu = {
 	sub = {
         parent = "house_dreux_montfort"  # defined elsewhere
 		instance = { offset = { 0.0 0.0 } scale = { 0.5 0.5 }  } # top left
-	}
-}
-
-house_dreux_beu = {
-	pattern = "pattern_solid.dds"
-	color1 = "yellow"
-	color2 = "blue"
-	colored_emblem = {
-		texture = "ce_checky_06.dds"
-		color1 = "yellow"
-		color2 = "blue"
-		instance = { position = { 0.5 0.54 } scale = { 1.24 1.24 }  }				
-	}	
-	colored_emblem = {
-		texture = "ce_border_shield_engrailed_02.dds"
-		color1 = "red"
-		color2 = "red"
-		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 }  }		
 	}
 }
 
@@ -2158,6 +2174,109 @@ CKU_la_cropte = {
 		color1 = "yellow"
         instance = { position = { 0.75 0.25 } scale = { 0.45 0.45 } }
 		instance = { position = { 0.25 0.75 } scale = { 0.45 0.45 } }
+	}
+}
+
+CKU_limoges = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"	
+	color2 = "blue"
+
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "blue"
+		color2 = "blue"
+		instance = { position = { 0.315 0.29 } scale = { 0.48 0.48 }  }
+		instance = { position = { 0.685 0.29 } scale = { 0.48 0.48 }  }
+		instance = { position = { 0.5 0.68 } scale = { 0.48 0.48 }  }
+	}
+}
+house_limoges_comborn = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"	
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_lion_passant_small.dds"
+		color1 = "red"
+		color2 = "red"
+		instance = { position = { 0.50 0.33 } scale = { 1.0 1.0 }  }
+		instance = { position = { 0.50 0.66 } scale = { 1.0 1.0 }  }
+	}
+}
+house_limoges_turenne = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"	
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_bends_04.dds"
+		color1 = "red"
+	}
+}
+house_limoges_ventadour = {
+	pattern = "pattern_checkers_06.dds"
+	color1 = "red"	
+	color2 = "yellow"
+}
+house_limoges_aubusson = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"	
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_cross_moline.dds"
+		color1 = "red"
+	}
+}
+house_limoges_brosse = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"	
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_grain.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { position = { 0.30 0.25 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.70 0.25 } scale = { 0.50 0.50 }  }
+		instance = { position = { 0.5 0.70 } scale = { 0.50 0.50 }  }
+	}
+}
+house_limoges_rochechouart = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"	
+	color2 = "red"
+
+	colored_emblem = {
+		texture = "ce_nebuly_01.dds"
+		color1 = "red"
+		color2 = "white"
+	}
+}
+
+CKU_malestroit = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		instance = { position = { 0.24 0.20 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.5 0.20 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.76 0.20 } scale = { 0.30 0.30 }  }
+
+		instance = { position = { 0.24 0.40 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.5 0.40 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.76 0.40 } scale = { 0.30 0.30 }  }
+
+		instance = { position = { 0.24 0.60 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.5 0.60 } scale = { 0.30 0.30 }  }
+		instance = { position = { 0.76 0.60 } scale = { 0.30 0.30 }  }
+
+		instance = { position = { 0.5 0.80 } scale = { 0.30 0.30 }  }
 	}
 }
 

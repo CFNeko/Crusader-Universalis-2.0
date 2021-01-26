@@ -140,3 +140,35 @@ house_chabannes_dammartin = {
 	name = "dynn_chabannes_dammartin"
 	dynasty = CKU_chabannes
 }
+
+# Limoges
+house_limoges_comborn = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_comborn"
+	dynasty = CKU_limoges
+}
+house_limoges_turenne = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_turenne"
+	dynasty = CKU_limoges
+}
+house_limoges_ventadour = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_ventadour"
+	dynasty = CKU_limoges
+}
+house_limoges_aubusson = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_aubusson"
+	dynasty = CKU_limoges
+}
+house_limoges_brosse = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_brosse"
+	dynasty = CKU_limoges
+}
+house_limoges_rochechouart = {
+	prefix = "dynnp_de"
+	name = "dynn_limoges_rochechouart"
+	dynasty = CKU_limoges
+}

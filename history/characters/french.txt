@@ -1,1 +1,1374 @@
-﻿
+﻿455499 = {
+	name = "Charles"
+	dynasty = 101
+	martial = 8
+	diplomacy = 5
+	intrigue = 8
+	stewardship = 8
+	religion = "catholic"
+	culture = french
+	father = 455502
+	mother = 462600
+	1337.1.2 = {
+		birth = "1337.1.2"
+	}
+	1387.1.2 = {
+		death = "1387.1.2"
+	}
+}
+
+455500 = {
+	name = "Philippe"
+	dynasty = 101
+	martial = 3
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 7
+	religion = "catholic"
+	culture = french
+	trait = wrathful
+	trait = deceitful
+	trait = arrogant
+	trait = zealous
+	trait = education_martial_1
+	father = 455512
+	mother = 455805
+	1293.1.2 = {
+		birth = "1293.1.2"
+	}
+	1329.1.2 = {
+		add_spouse = 455532
+	}
+	1350.8.22 = {
+		death = "1350.8.22"
+	}
+}
+
+455501 = {
+	name = "Jeanne"
+	female = yes
+	dynasty = 101
+	martial = 6
+	diplomacy = 4
+	intrigue = 7
+	stewardship = 7
+	religion = "catholic"
+	culture = french
+	trait = wrathful
+	trait = honest
+	trait = education_learning_2
+	father = 455512
+	mother = 455805
+	1294.1.2 = {
+		birth = "1294.1.2"
+	}
+	1342.3.7 = {
+		death = "1342.3.7"
+	}
+}
+
+455502 = {
+	name = "Jean"
+	# AKA: Jean II
+	dynasty = 101
+	martial = 5
+	diplomacy = 2
+	intrigue = 4
+	stewardship = 5
+	religion = "catholic"
+	culture = french
+	trait = arbitrary
+	trait = deceitful
+	trait = education_intrigue_1
+	father = 455500
+	mother = 455532
+	1319.4.16 = {
+		birth = "1319.4.16"
+	}
+	1332.7.28 = {
+		add_spouse = 462600
+	}
+	1364.4.8 = {
+		death = "1364.4.8"
+	}
+}
+
+455503 = {
+	name = "Marie"
+	# AKA: Marie de France
+	female = yes
+	dynasty = 101
+	martial = 7
+	diplomacy = 6
+	intrigue = 4
+	stewardship = 6
+	religion = "catholic"
+	culture = french
+	trait = greedy
+	trait = education_learning_2
+	father = 455500
+	mother = 455532
+	1326.1.2 = {
+		birth = "1326.1.2"
+	}
+	1333.1.2 = {
+		death = "1333.1.2"
+	}
+}
+
+455504 = {
+	name = "Philippe"
+	# AKA: Philippe d'Orléans
+	dynasty = 101
+	martial = 4
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = french
+	father = 455500
+	mother = 455532
+	1336.7.1 = {
+		birth = "1336.7.1"
+	}
+	1376.9.1 = {
+		death = "1376.9.1"
+	}
+}
+
+455506 = {
+	name = "Isabelle"
+	female = yes
+	dynasty = 101
+	martial = 7
+	diplomacy = 7
+	intrigue = 5
+	stewardship = 7
+	religion = "catholic"
+	culture = french
+	trait = cynical
+	trait = education_intrigue_1
+	father = 455512
+	mother = 161362
+	1313.1.2 = {
+		birth = "1313.1.2"
+	}
+	1383.7.26 = {
+		death = "1383.7.26"
+	}
+}
+
+455510 = {
+	name = "Isabelle"
+	female = yes
+	dynasty = 101
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = french
+	trait = education_intrigue_1
+	father = 455512
+	mother = 455805
+	1292.1.2 = {
+		birth = "1292.1.2"
+	}
+	1309.1.13 = {
+		death = "1309.1.13"
+	}
+}
+
+455511 = {
+	name = "Marguerite"
+	female = yes
+	dynasty = 101
+	martial = 7
+	diplomacy = 8
+	intrigue = 5
+	stewardship = 7
+	religion = "catholic"
+	culture = french
+	trait = education_learning_2
+	father = 455512
+	mother = 455805
+	1295.1.2 = {
+		birth = "1295.1.2"
+	}
+	1342.1.2 = {
+		death = "1342.1.2"
+	}
+}
+
+455512 = {
+	name = "Charles"
+	dynasty = 101
+	martial = 6
+	diplomacy = 8
+	intrigue = 7
+	stewardship = 7
+	religion = "catholic"
+	culture = french
+	trait = calm
+	trait = arrogant
+	trait = education_martial_3
+	father = 455528
+	mother = 455529
+	1270.3.12 = {
+		birth = "1270.3.12"
+	}
+	1290.8.16 = {
+		add_spouse = 455805 # Marguerite of Sicily
+	}
+	1301.2.28 = {
+		add_spouse = 32791 # Catherine de Courtenay
+	}
+	1308.6.1 = {
+		add_spouse = 161362 # Mahaut of Châtillon
+	}
+	1325.12.16 = {
+		death = "1325.12.16"
+	}
+}
+
+455513 = {
+	name = "Charles"
+	dynasty = 101
+	martial = 4
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 6
+	religion = "catholic"
+	culture = french
+	trait = chaste
+	trait = education_learning_3
+	father = 455512
+	mother = 455805
+	1297.1.2 = {
+		birth = "1297.1.2"
+	}
+	1336.12.1 = {
+		add_spouse = 457560 # Maria de la Cerda
+	}
+	1346.8.26 = {
+		death = "1346.8.26"
+	}
+}
+
+455514 = {
+	name = "Charles"
+	dynasty = 101
+	martial = 7
+	diplomacy = 7
+	intrigue = 6
+	stewardship = 4
+	religion = "catholic"
+	culture = french
+	father = 455513
+	mother = 457560 # Maria de la Cerda
+	1337.2.2 = {
+		birth = "1337.2.2"
+	}
+	1375.7.5 = {
+		death = "1375.7.5"
+	}
+}
+
+455537 = {
+	name = "Blanche"
+	female = yes
+	dynasty = 101
+	martial = 5
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = french
+	trait = arrogant
+	trait = education_intrigue_1
+	father = 455512
+	mother = 161362 # Mahaut of Châtillon
+	1317.1.1 = {
+		birth = "1317.1.1"
+	}
+	1348.8.1 = {
+		death = "1348.8.1"
+	}
+}
+
+461702 = {
+	name = "Marie"
+	female = yes
+	dynasty = 101
+	martial = 5
+	diplomacy = 4
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = french
+	trait = arrogant
+	trait = education_intrigue_2
+	father = 455512
+	mother = 161362 # Mahaut of Châtillon
+	1309.1.2 = {
+		birth = "1309.1.2"
+	}
+	1331.10.28 = {
+		death = "1331.10.28"
+	}
+}
+
+461717 = {
+	name = "Catherine"
+	female = yes
+	dynasty = 101
+	martial = 5
+	diplomacy = 9
+	intrigue = 8
+	stewardship = 9
+	religion = "catholic"
+	culture = french
+	trait = calm
+	trait = education_learning_3
+	father = 455512
+	mother = 32791 # Catherine de Courtenay
+	1303.1.1 = {
+		birth = "1303.1.1"
+	}
+	1346.10.1 = {
+		death = "1346.10.1"
+	}
+}
+
+161900 = {
+	name = "Jeanne" # Jeanne de Valois
+	female = yes
+	dynasty = 101
+	religion = "catholic"
+	culture = french
+	father = 455512
+	mother = 32791 # Catherine de Courtenay
+	1304.1.2 = {
+		birth = "1304.1.2"
+	}
+	1363.7.13 = {
+		death = "1363.7.13"
+	}
+}
+
+204986 = {
+	name = "Alix" #Alix de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	#Raoul I de Coucy (1174.1.1)
+	1217.1.1 = {
+		death = "1217.1.1"
+	}
+}
+
+204987 = {
+	name = "Robert" #Robert II de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1154.1.1 = {
+		birth = "1154.1.1"
+	}
+	1177.1.1 = {
+		add_spouse = 205714 #Mahaut de Bourgogne
+	}
+	1181.1.1 = {
+		remove_spouse = 205714 #Mahaut de Bourgogne
+	}
+	1184.1.1 = {
+		add_spouse = 204982 #Yolande de Courcy
+	}
+	1190.7.4 = {
+		trait = faith_warrior
+	}
+	1191.8.3 = {
+		remove_trait = faith_warrior
+	}
+	1218.12.28 = {
+		death = "1218.12.28"
+	}
+}
+
+204988 = {
+	name = "Henri" #Henri de Dreux, bishop of Orléans
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_2
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1155.1.1 = {
+		birth = "1155.1.1"
+	}
+	1199.1.1 = {
+		death = "1199.1.1"
+	}
+}
+
+204989 = {
+	name = "Robert" #Robert III Gasteblé
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1185.1.1 = {
+		birth = "1185.1.1"
+	}
+	1210.1.1 = {
+		add_spouse = 91138 #Aénor de Saint-Valery
+	}
+	1234.1.1 = {
+		death = "1234.1.1"
+	}
+}
+
+205517 = {
+	name = "Mamilie" #Mamilie de Dreux
+	# AKA: Mabille
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_3 #nun
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1166.1.1 = {
+		birth = "1166.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+455517 = {
+	name = "Blanche" #Blanche de Bretagne
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	martial = 4
+	diplomacy = 7
+	intrigue = 4
+	stewardship = 7
+	learning = 5
+	religion = "catholic"
+	culture = french
+	trait = calm
+	trait = generous
+	trait = arrogant
+	trait = education_learning_2
+	father = 455789 #Jean II de Bretagne
+	mother = 455791 #Béatrice d'Angleterre
+	1270.1.1 = {
+		birth = "1270.1.1"
+	}
+	1327.3.19 = {
+		death = "1327.3.19"
+	}
+}
+
+455753 = {
+	name = "Jeanne"
+	female = yes
+	dynasty = 86
+	martial = 5
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 8
+	religion = "catholic"
+	culture = french
+	trait = deceitful
+	trait = education_learning_3
+	father = 455754
+	mother = 455770
+	1319.1.2 = {
+		birth = "1319.1.2"
+	}
+	1369.1.2 = {
+		death = "1369.1.2"
+	}
+}
+
+455788 = {
+	name = "Marie"
+	female = yes
+	dynasty = 86
+	martial = 6
+	diplomacy = 5
+	intrigue = 6
+	stewardship = 5
+	religion = "catholic"
+	culture = french
+	trait = just
+	trait = zealous
+	trait = calm
+	trait = education_intrigue_2
+	father = 455789
+	mother = 455791
+	1268.1.1 = {
+		birth = "1268.1.1"
+	}
+	1339.1.1 = {
+		death = "1339.1.1"
+	}
+}
+
+455789 = {
+	name = "Jean"
+	dynasty = 86
+	martial = 7
+	diplomacy = 5
+	intrigue = 5
+	stewardship = 4
+	religion = "catholic"
+	culture = french
+	trait = education_martial_3
+	father = 7621
+	1239.1.1 = {
+		birth = "1239.1.1"
+	}
+	1260.1.22 = {
+		add_spouse = 455791
+	}
+	1305.11.18 = {
+		death = "1305.11.18"
+	}
+}
+
+7431 = {
+	name = "Jean"
+	dynasty = 86
+	religion = "catholic"
+	culture = french
+	father = 455789
+	mother = 455791
+	1266.1.1 = {
+		birth = "1266.1.1"
+	}
+	1334.1.17 = {
+		death = "1334.1.17"
+	}
+}
+
+7620 = {
+	name = "Pierre" #Pierre I Mauclerc
+	# AKA: Peter
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_1 #Mauclerc
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1187.1.1 = {
+		birth = "1187.1.1"
+	}
+	1213.1.1 = {
+		add_spouse = 91139 #Alix de Thouars
+	}
+	1226.1.30 = {
+		trait = faith_warrior
+	}
+	1226.11.8 = {
+		remove_trait = faith_warrior
+	}
+	1249.6.5 = {
+		trait = faith_warrior
+	}
+	1250.7.6 = {
+		death = "1250.7.6"
+	}
+}
+
+7621 = {
+	name = "Jean" #Jean I de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7620 #Pierre I Mauclerc
+	mother = 91139 #Alix de Thouars
+	1217.1.1 = {
+		birth = "1217.1.1"
+	}
+	1236.1.16 = {
+		add_spouse = 71564 #Infanta doña Blanca de Navarra
+	}
+	1286.10.8 = {
+		death = "1286.10.8"
+	}
+}
+
+7626 = {
+	name = "Yolande"
+	# AKA: Yolanda
+	female = yes
+	dynasty = 86
+	martial = 7
+	diplomacy = 7
+	intrigue = 7
+	stewardship = 6
+	religion = "catholic"
+	culture = french
+	trait = arrogant
+	trait = wrathful
+	trait = education_martial_3
+	father = 204989
+	1212.1.5 = {
+		birth = "1212.1.5"
+	}
+	1248.2.1 = {
+		death = "1248.2.1"
+	}
+}
+
+91035 = {
+	name = "Simon" #Simon de Dreux
+	# AKA: Simon de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91133 #Agnès de Garlande
+	1141.1.1 = {
+		birth = "1141.1.1"
+	}
+	1182.1.1 = {
+		death = "1182.1.1"
+	}
+}
+
+91036 = {
+	name = "AdE_le" #Adèle de Dreux
+	# AKA: Adele de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91134 #Harvise d'Évreux
+	1145.1.1 = {
+		birth = "1145.1.1"
+	}
+	1215.1.1 = {
+		death = "1215.1.1"
+	}
+}
+
+91039 = {
+	name = "E_lE_onore" #Éléonore de Dreux
+	# AKA: Eleonore de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1186.1.1 = {
+		birth = "1186.1.1"
+	}
+	#Hugues III de Châteauneuf
+	#Robert de Saint-Clair
+	1250.1.1 = {
+		death = "1250.1.1"
+	}
+}
+
+91041 = {
+	name = "Isabelle" #Isabelle de Dreux
+	# AKA: Isabelle de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1188.1.1 = {
+		birth = "1188.1.1"
+	}
+	#Jean II de Pierrepont
+	1245.1.1 = {
+		death = "1245.1.1"
+	}
+}
+
+91042 = {
+	name = "Alix" #Alix de Dreux
+	# AKA: Alix de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1189.1.1 = {
+		birth = "1189.1.1"
+	}
+	#Gauthier IV de Bourgogne (1200.1.1)
+	#Renaud III de Choiseul (1221.1.1)
+	1258.1.1 = {
+		death = "1258.1.1"
+	}
+}
+
+91043 = {
+	name = "Philippa" #Philippa de Dreux
+	# AKA: Philippa de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1192.1.1 = {
+		birth = "1192.1.1"
+	}
+	#Henri II de Bar (1219.1.1)
+	1242.1.1 = {
+		death = "1242.1.1"
+	}
+}
+
+91044 = {
+	name = "Henri" #Henri de Dreux
+	# AKA: Henri de Dreux, archbishop of Reims
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_3
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1193.1.1 = {
+		birth = "1193.1.1"
+	}
+	1240.1.1 = {
+		death = "1240.1.1"
+	}
+}
+
+91045 = {
+	name = "AgnE_s" #Agnès de Dreux
+	# AKA: Agnes de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1195.1.1 = {
+		birth = "1195.1.1"
+	}
+	#Étienne III de Bourgogne
+	1258.1.1 = {
+		death = "1258.1.1"
+	}
+}
+
+91046 = {
+	name = "Yolande" #Yolande de Dreux
+	# AKA: Yolande de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1196.1.1 = {
+		birth = "1196.1.1"
+	}
+	1239.1.1 = {
+		death = "1239.1.1"
+	}
+}
+
+91047 = {
+	name = "Jean" #Jean de Dreux, count of Mâcon and Vienne
+	# AKA: Jean de Dreux, count of Macon and Vienne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1198.1.1 = {
+		birth = "1198.1.1"
+	}
+	1220.1.1 = {
+		add_spouse = 91140 #Alix de Bourgogne
+	}
+	1234.1.1 = {
+		trait = faith_warrior
+	}
+	1239.1.1 = {
+		death = "1239.1.1"
+	}
+}
+
+91048 = {
+	name = "Jeanne" #Jeanne de Dreux
+	# AKA: Jeanne de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_1
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1199.1.1 = {
+		birth = "1199.1.1"
+	}
+	1272.1.1 = {
+		death = "1272.1.1"
+	}
+}
+
+91049 = {
+	name = "Geoffroy" #Geoffroy de Dreux
+	# AKA: Geoffroy de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204987 #Robert II de Dreux
+	mother = 204982 #Yolande de Coucy
+	1200.1.1 = {
+		birth = "1200.1.1"
+	}
+	1219.1.1 = {
+		death = "1219.1.1"
+	}
+}
+
+91050 = {
+	name = "Philippe" #Philippe de Dreux, archbishop of Reims, bishop of Beauvais
+	# AKA: Philippe de Dreux, archbishop of Reims
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_2
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1158.1.1 = {
+		birth = "1158.1.1"
+	}
+	1190.1.1 = {
+		trait = faith_warrior
+	}
+	1217.11.2 = {
+		death = "1217.11.2"
+	}
+}
+
+91051 = {
+	name = "Isabeau" #Isabeau de Dreux
+	# AKA: Isabeau de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1160.1.1 = {
+		birth = "1160.1.1"
+	}
+	#Hugues III de Broyes (1178.1.1)
+	1239.1.1 = {
+		death = "1239.1.1"
+	}
+}
+
+91052 = {
+	name = "Pierre" #Pierre de Dreux
+	# AKA: Pierre de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1161.1.1 = {
+		birth = "1161.1.1"
+	}
+	1186.1.1 = {
+		death = "1186.1.1"
+	}
+}
+
+91053 = {
+	name = "Guillaume" #Guillaume de Dreux
+	# AKA: Guillaume de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1163.1.1 = {
+		birth = "1163.1.1"
+	}
+	1190.1.1 = {
+		death = "1190.1.1"
+	}
+}
+
+91054 = {
+	name = "Jean" #Jean de Dreux
+	# AKA: Jean de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1164.1.1 = {
+		birth = "1164.1.1"
+	}
+	
+	1190.1.1 = {
+		death = "1190.1.1"
+	}
+}
+
+91056 = {
+	name = "Marguerite" #Marguerite de Dreux
+	# AKA: Marguerite de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = education_learning_4
+	father = 205508 #Robert I le Grand
+	mother = 91135 #Agnès de Baudemont
+	1167.1.1 = {
+		birth = "1167.1.1"
+	}
+	1200.1.1 = {
+		death = "1200.1.1"
+	}
+}
+
+91128 = {
+	name = "Alix" #Alix de Bretagne
+	# AKA: Alix de Bretagne
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	#Blanche de Navarre
+	1243.1.1 = {
+		birth = "1243.1.1"
+	}
+	1287.1.1 = {
+		death = "1287.1.1"
+	}
+}
+
+91166 = {
+	name = "Yolande" #Yolande de Bretagne
+	#AKA Yolande de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7620 #Pierre I Mauclerc
+	mother = 91139 #Alix de Thouars
+	1218.1.1 = {
+		birth = "1218.1.1"
+	}
+	#Spouse of Hugues XI de Lusignan
+	1272.10.10 = {
+		death = "1272.10.10"
+	}
+}
+
+91225 = {
+	name = "Arthur" #Arthur de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7620 #Pierre Mauclerc
+	mother = 91139 #Alix de Thouars
+	1220.1.1 = {
+		birth = "1220.1.1"
+	}
+	1224.1.1 = {
+		death = "1224.1.1" #shortly after 1223.1.1
+	}
+}
+
+91226 = {
+	name = "Olivier" #Olivier I de Machecoul
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7620 #Pierre Mauclerc
+	#Nicole
+	1231.1.1 = {
+		birth = "1231.1.1"
+	}
+	1279.1.1 = {
+		death = "1279.1.1"
+	}
+}
+
+91227 = {
+	name = "Pierre" #Pierre de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1245.4.2 = {
+		birth = "1245.4.2"
+	}
+	1266.8.6 = {
+		add_spouse = 487041 #Marguerite de Flandres
+	}
+	1268.10.19 = {
+		death = "1268.10.19"
+	}
+}
+
+91228 = {
+	name = "Thibaut" #Thibaut de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1245.7.23 = {
+		birth = "1245.7.23"
+	}
+	1246.10.23 = {
+		death = "1246.10.23"
+	}
+}
+
+91229 = {
+	name = "Thibaut" #Thibaut de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1247.11.9 = {
+		birth = "1247.11.9"
+	}
+	1255.1.1 = {
+		death = "1255.1.1" #young
+	}
+}
+
+91230 = {
+	name = "AliE_nor" #Aliénor de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	female = yes
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1248.12.1 = {
+		birth = "1248.12.1" #end 1248
+	}
+	1255.1.1 = {
+		death = "1255.1.1" #young
+	}
+}
+
+91231 = {
+	name = "Nicolas" #Aliénor de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1249.12.8 = {
+		birth = "1249.12.8"
+	}
+	1251.8.14 = {
+		death = "1251.8.14"
+	}
+}
+91232 = {
+	name = "Robert" #Robert de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 7621 #Jean I le Roux
+	mother = 71564 #Infanta doña Blanca de Navarra
+	1251.3.6 = {
+		birth = "1251.3.6"
+	}
+	1259.2.4 = {
+		death = "1259.2.4"
+	}
+}
+91233 = {
+	name = "Pierre" #Pierre de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455789 #Jean II de Bretagne
+	mother = 455791 #Béatrice d'Angleterre
+	1269.1.1 = {
+		birth = "1269.1.1"
+	}
+	1312.7.1 = {
+		death = "1312.7.1"
+	}
+}
+91234 = {
+	name = "AliE_nor" #Aliénor de Bretagne
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455789 #Jean II de Bretagne
+	mother = 455791 #Béatrice d'Angleterre
+	1275.1.1 = {
+		birth = "1275.1.1"
+	}
+	1342.5.16 = {
+		death = "1342.5.16"
+	}
+}
+91235 = {
+	name = "Jean" #Jean bâtard de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	trait = bastard
+	father = 455750 #Jean III le Bon
+	1300.1.1 = {
+		birth = "1300.1.1"
+	}
+	1360.1.1 = {
+		death = "1360.1.1"
+	}
+}
+
+91236 = {
+	name = "Pierre" #Pierre de Bretagne, seigneur d'Avesnes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 455590 #Marie de Limoges
+	1289.1.1 = {
+		birth = "1289.1.1"
+	}
+	1312.1.1 = {
+		death = "1312.1.1"
+	}
+}
+
+91237 = {
+	name = "Jean" #Jean I de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 204989 #Robert III Gasteblé
+	mother = 91138 #Aénor de Saint-Valery
+	1215.1.1 = {
+		birth = "1215.1.1"
+	}
+	1240.4.1 = {
+		add_spouse = 91238 #Marie de Bourbon
+	}
+	1249.1.1 = {
+		death = "1249.1.1"
+	}
+}
+
+91239 = {
+	name = "Robert" #Robert IV de Dreux
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 91237 #Jean I de Dreux
+	mother = 91238 #Marie de Bourbon
+	1241.1.1 = {
+		birth = "1241.1.1"
+	}
+	#1260 Béatrix, countess of Montfort
+	1282.11.12 = {
+		death = "1282.11.12"
+	}
+}
+91240 = {
+	name = "Yolande" #Yolande de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 91239 #Robert IV de Dreux
+	#Béatrix de Montfort
+	1269.1.1 = {
+		birth = "1269.1.1"
+	}
+	1322.8.2 = {
+		death = "1322.8.2"
+	}
+}
+
+91241 = {
+	name = "BE_atrix" #Béatrix de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1295.12.7 = {
+		birth = "1295.12.7"
+	}
+	1384.12.9 = {
+		death = "1384.12.9"
+	}
+}
+91242 = {
+	name = "Jeanne" #Jeanne de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1296.1.1 = {
+		birth = "1296.1.1"
+	}
+	1364.3.24 = {
+		death = "1364.3.24"
+	}
+}
+91243 = {
+	name = "Blanche" #Blanche de Dreux
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1300.7.18 = {
+		birth = "1300.7.18"
+	}
+	1305.1.1 = {
+		death = "1305.1.1" #young
+	}
+}
+
+455755 = {
+	name = "Jean" #Jean IV de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1293.1.1 = {
+		birth = "1293.1.1"
+	}
+	1329.1.2 = {
+		add_spouse = 455714
+	}
+	1345.9.26 = {
+		death = "1345.9.26"
+	}
+}
+
+455756 = {
+	name = "Alix" #Alix de Bretagne
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1298.1.1 = {
+		birth = "1298.1.1"
+	}
+	1377.5.1 = {
+		death = "1377.5.1"
+	}
+}
+
+455757 = {
+	name = "Marie" #Marie de Bretagne
+	female = yes
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455751 #Arthur II de Bretagne
+	mother = 91240 #Yolande de Dreux
+	1302.1.1 = {
+		birth = "1302.1.1"
+	}
+	1371.5.24 = {
+		death = "1371.5.24"
+	}
+}
+
+455751 = {
+	name = "Arthur" #Arthur II de Bretagne
+	dynasty = 86 #Capetian house of Dreux
+	religion = "catholic"
+	culture = french
+	father = 455789 #Jean II de Bretagne
+	mother = 455791 #Béatrix d'Angleterre
+	1262.7.25 = {
+		birth = "1262.7.25"
+	}
+	1277.1.1 = {
+		add_spouse = CKU_limoges_26 #Marie de Limoges
+	}
+	1292.5.1 = {
+		add_spouse = 91240 #Yolande de Dreux
+	}
+	1312.8.27 = {
+		death = "1312.8.27"
+	}
+}
+
+455750 = {
+	name = "Jean" #Jean III le Bon de Bretagne
+	dynasty = 86
+	religion = "catholic"
+	culture = french
+	trait = just
+	father = 455751  #Arthur II de Bretagne
+	mother = 455590  #Marie de Comborn
+	1286.3.8 = {
+		birth = "1286.3.8"
+	}
+	1298.1.1 = {
+		add_spouse = 455510
+		give_nickname = "nick_the_good"
+	}
+	1341.4.30 = {
+		death = "1341.4.30"
+	}
+}
+
+455754 = {
+	name = "Guy" #Guy VII de Limoges
+	dynasty = 86
+	religion = "catholic"
+	culture = french
+	father = 455751  #Arthur II de Bretagne
+	mother = 455590  #Marie de Comborn
+	1287.1.1 = {
+		birth = "1287.1.1"
+	}
+	1316.1.1 = {
+		add_spouse = 455770
+	}
+	1331.3.27 = {
+		death = "1331.3.27"
+	}
+}
