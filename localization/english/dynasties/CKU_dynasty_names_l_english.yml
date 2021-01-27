@@ -53,6 +53,7 @@
  dynn_Lancaster:0 "Lancaster"
  dynn_Albret:0 "Albret"
  dynn_Nasrid:0 "Nasrid"
+ dynn_Rieux:0 "Rieux"
  
  ####Names####
  #Italy
@@ -129,6 +130,10 @@
  dynn_limoges_brosse:"Brosse"
  dynn_limoges_rochechouart:"Rochechouart"
  dynn_malestroit:"Malestroit"
+ dynn_poitiers_valentinois:"Poitiers-Valentinois"
+ dynn_dinan:"Dinan"
+ dynn_dinan_dinham:"Dinham"
+ dynn_dinan_belliere:"Dinan-La Bellière"
  
  #LowCountries
  dynn_clyte:"DelaClyte"

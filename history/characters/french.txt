@@ -1372,3 +1372,120 @@
 		death = "1331.3.27"
 	}
 }
+159699 = {
+	name = "Rudalt"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159698
+	880.1.1 = {
+		birth = "880.1.1"
+	}
+	917.1.1 = {
+		death = "917.1.1"
+	}
+}
+159700 = {
+	name = "Alan"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159699
+	910.1.1 = {
+		birth = "910.1.1"
+	}
+	987.1.1 = {
+		death = "987.1.1"
+	}
+}
+159701 = {
+	name = "Rudalt"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159700
+	950.1.1 = {
+		birth = "950.1.1"
+	}
+	1021.1.1 = {
+		death = "1021.1.1"
+	}
+}
+159702 = {
+	name = "Alan"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159701
+	980.1.1 = {
+		birth = "980.1.1"
+	}
+	1051.1.1 = {
+		death = "1051.1.1"
+	}
+}
+159703 = {
+	name = "Rudalt"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159702
+	1020.1.1 = {
+		birth = "1020.1.1"
+	}
+	1066.1.1 = {
+		death = "1066.1.1"
+	}
+}
+159704 = {
+	name = "Iocilin"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159703
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1107.1.1 = {
+		death = "1107.1.1"
+	}
+}
+159705 = {
+	name = "Raoul"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159703
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1064.1.1 = {
+		death = "1064.1.1"
+	}
+}
+159706 = {
+	name = "Alan"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159705
+	1064.1.1 = {
+		birth = "1064.1.1"
+	}
+	1124.1.1 = {
+		death = "1124.1.1"
+	}
+}
+159707 = {
+	name = "GuE_thenoc"
+	religion = "catholic"
+	culture = "breton"
+	dynasty = 1029103 #de Rieux
+	father = 159704
+	1061.1.1 = {
+		birth = "1061.1.1"
+	}
+	1127.1.1 = {
+		death = "1127.1.1"
+	}
+}

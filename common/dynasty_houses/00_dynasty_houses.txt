@@ -172,3 +172,13 @@ house_limoges_rochechouart = {
 	name = "dynn_limoges_rochechouart"
 	dynasty = CKU_limoges
 }
+
+# Dinan
+house_dinan_dinham = {
+	name = "dynn_dinan_dinham"
+	dynasty = CKU_dinan
+}
+house_dinan_belliere = {
+	name = "dynn_dinan_belliere"
+	dynasty = CKU_dinan
+}
