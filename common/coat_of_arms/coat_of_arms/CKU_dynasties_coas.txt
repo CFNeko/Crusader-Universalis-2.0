@@ -717,13 +717,23 @@ CKU_lannoy = {
 }
 
 CKU_testing_dynasty = {
-	pattern = "pattern_solid.dds"
-	color1 = "blue"
-	color2 = "yellow"
+	pattern = "pattern_shield_04.dds"
+	color1 = "white"
+	color2 = "red"
 	colored_emblem = {
-		texture = "ce_french_empire_eagle.dds"
+		texture = "ce_block_02.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_bend_thin.dds"
 		color1 = "yellow"
-		color2 = "white"
+		instance = { position = { 0.50 0.45 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+		texture = "ce_fur_vair_01.dds"
+		color1 = "white"
+		color2 = "blue"
+		mask = { 1 }
 	}
 }
 
@@ -2348,6 +2358,98 @@ house_dinan_belliere = {
 		texture = "ce_chief_indented.dds"
 		color1 = "black"
 		color2 = "yellow"
+	}
+}
+
+CKU_motier_dela_fayette = {
+	pattern = "pattern_shield_04.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_bend_thin.dds"
+		color1 = "yellow"
+		instance = { position = { 0.50 0.45 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+		texture = "ce_fur_vair_01.dds"
+		color1 = "white"
+		color2 = "blue"
+		mask = { 1 }
+	}
+}
+house_motier_champetieres = {
+	pattern = "pattern_shield_04.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_block_02.dds"
+		color1 = "red"
+	}
+	colored_emblem = {
+		texture = "ce_ordinary_chevron_5.dds"
+		color1 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_fur_vair_01.dds"
+		color1 = "white"
+		color2 = "blue"
+		mask = { 1 }
+	}
+}
+
+CKU_hellande = {
+	pattern = "pattern_bend_01.dds"
+	color1 = "white"
+	color2 = "red"
+}
+
+CKU_gouges = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_ordinary_fess_5.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_crescent.dds"
+		color1 = "yellow"
+		instance = { position = { 0.25 0.20 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.75 0.20 } scale = { 0.5 0.5 }  }
+		instance = { position = { 0.5 0.80 } scale = { 0.5 0.5 }  }
+	}
+}
+
+CKU_vienne = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_eagle.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+	}
+}
+
+CKU_lapanouse = {
+	pattern = "temp_pattern_bendy_special.dds"
+	color1 = "red"
+	color2 = "white"
+}
+
+CKU_pons = {
+	pattern = "pattern_horizontal_stripes_01.dds"
+	color1 = "white"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_bendy_08.dds"
+		color1 = "red"
+		color2 = "yellow"
+		mask = { 2 }
 	}
 }
 

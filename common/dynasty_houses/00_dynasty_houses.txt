@@ -182,3 +182,9 @@ house_dinan_belliere = {
 	name = "dynn_dinan_belliere"
 	dynasty = CKU_dinan
 }
+
+# Motier de La Fayette 
+house_motier_champetieres = {
+	name = "dynn_motier_champetieres"
+	dynasty = CKU_motier_dela_fayette
+}

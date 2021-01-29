@@ -45,7 +45,7 @@ CKU_tour_auvergene = {
 
 CKU_valois_bourgogne = {
 	name = "dynn_valois_bourgogne"
-	culture = "french"
+	culture = "burgundian"
 }
 
 CKU_josne = {
@@ -186,4 +186,39 @@ CKU_dinan = {
 	prefix = "dynnp_de"
 	name = "dynn_dinan"
 	culture = "breton"
+}
+
+CKU_motier_dela_fayette = {
+	name = "dynn_motier_dela_fayette"
+	culture = "occitan"
+	motto = dynn_CKU_motier_dela_fayette_motto
+}
+
+CKU_hellande = {
+	prefix = "dynnp_de"
+	name = "dynn_hellande"
+	culture = "french"
+}
+
+CKU_gouges = {
+	name = "dynn_gouges"
+	culture = "french"
+}
+
+CKU_vienne = {
+	prefix = "dynnp_de"
+	name = "dynn_vienne"
+	culture = "burgundian"
+}
+
+CKU_lapanouse = {
+	prefix = "dynnp_de"
+	name = "dynn_lapanouse"
+	culture = "occitan"
+}
+
+CKU_pons = {
+	prefix = "dynnp_de"
+	name = "dynn_pons"
+	culture = "french"
 }

@@ -8447,6 +8447,290 @@
 			}
 		}
 	# }
+	# Gouges = {
+		CKU_gouges_1 = { # Fake Character to tie the following characters together as brothers
+			name = "Martin"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			# father = Unknown
+			# mother = Unknown
+			# Married Unknown
+			1335.1.1 = {#?
+				birth = yes
+			}
+			1400.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_gouges_2 = {
+			name = "Martin"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_1
+			# mother = Unknown
+			# Married Marguerite the Normant
+			1370.1.1 = {#?
+				birth = yes
+			}
+			1444.11.25 = {
+				death = yes
+			}
+		}
+		CKU_gouges_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_1
+			# mother = Unknown
+			# Married Marie Saume
+			1377.1.1 = {#?
+				birth = yes
+			}
+			1402.8.23 = {
+				death = yes
+			}
+		}
+		CKU_gouges_4 = {
+			name = "Martin"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_3
+			# mother = Marie Saume
+			# Married Unknown
+			1399.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gouges_5 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_3
+			# mother = Marie Saume
+			1403.1.1 = {
+				birth = yes
+			}
+			1448.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gouges_6 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_3
+			# mother = Marie Saume
+			# Married Jacques de Montmorin
+			1401.1.1 = {
+				birth = yes
+			}
+			1434.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gouges_7 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_3
+			# mother = Marie Saume
+			# Married Jean de Langeac
+			1400.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_gouges_8 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			dynasty = CKU_gouges
+			father = CKU_gouges_4
+			# mother = Unknown
+			# Married Unknown
+			1425.1.1 = {
+				birth = yes
+			}
+			1467.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Pons = {
+		CKU_pons_1 = {
+			name = "Raymond"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			# father = Unknown
+			# mother = Unknown
+			# Married Agathe de Pons
+			1240.1.1 = {#?
+				birth = yes
+			}
+			1290.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_pons_2 = {
+			name = "Geoffroy"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_1
+			# mother = Agathe de Pons
+			# Married Isabelle de Rodez
+			1265.1.1 = {#?
+				birth = yes
+			}
+			1305.1.1 = {#?
+				death = yes
+			}
+		}
+		CKU_pons_3 = {
+			name = "Renaud"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_2
+			# mother = Isabelle de Rodez
+			# Married Jeanne d'Albret
+			1291.1.1 = {
+				birth = yes
+			}
+			1356.9.19 = {
+				death = yes
+			}
+		}
+		CKU_pons_4 = {
+			name = "Renaud"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_3
+			# mother = Jeanne d'Albret
+			# Married Unknown de Flotte
+			1330.1.1 = {
+				birth = yes
+			}
+			1356.9.19 = {
+				death = yes
+			}
+		}
+		CKU_pons_5 = {
+			name = "Thomasse"
+			female = yes
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_3
+			# mother = Jeanne d'Albret
+			# Married Pons V de Castillon
+			1335.1.1 = {
+				birth = yes
+			}
+			1380.1.1 = {
+				death = yes
+			}
+		}
+		CKU_pons_6 = {
+			name = "Renaud"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_4
+			# mother = Unknown de Flotte
+			# Married Marguerite de Périgord
+			# Married Marguerite de La Trémoïlle
+			# Married Catherine de Montbron
+			1343.1.1 = {
+				birth = yes
+			}
+			1411.1.17 = {
+				add_spouse = CKU_tremoille_12
+			}
+			1426.9.19 = {
+				death = yes
+			}
+		}
+		CKU_pons_7 = {
+			name = "Hélie"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_4
+			# mother = Unknown de Flotte
+			1344.1.1 = {
+				birth = yes
+			}
+			1381.1.1 = {
+				death = yes
+			}
+		}
+		CKU_pons_8 = {
+			name = "Renaud"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_6
+			# mother = Marguerite de Périgord
+			1366.1.1 = {
+				birth = yes
+			}
+			1396.9.28 = {
+				death = yes
+			}
+		}
+		CKU_pons_9 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_6
+			mother = CKU_tremoille_12
+			# Married Isabella of Foix
+			1413.1.1 = {
+				birth = yes
+			}
+			1425.1.17 = {
+				add_spouse = CKU_foix_17
+			}
+			1473.1.1 = {
+				death = yes
+			}
+		}
+		CKU_pons_10 = {
+			name = "Guy"
+			religion = catholic
+			culture = french
+			dynasty = CKU_pons
+			father = CKU_pons_9
+			mother = CKU_foix_17
+			# Married Isabella of Foix
+			# Married Jeanne de Castelnau-Tursan
+			1431.3.11 = {
+				birth = yes
+			}
+			1510.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	
 	# Price-Bishopric Cambrésis = {
 		# CKU_french_bishop_1 = {
 		#	name = "Jean"
@@ -9017,12 +9301,82 @@
 				death = yes
 			}
 		}
+		CKU_francien_minor_38 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_hellande
+			# father = Robert de Hellande
+			# mother = Jeanne de Montmorency
+			1405.1.1 = {#?
+				birth = yes
+			}
+			1462.4.3 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_39 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = french
+			# dynasty = Le Tur
+			# father = Unknown
+			# mother = Unknown
+			1402.1.1 = {#?
+				birth = yes
+			}
+			1453.6.10 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_40 = {
+			name = "Jacques"
+			religion = catholic
+			culture = french
+			# dynasty = de Gaujac
+			# father = Unknown
+			# mother = Unknown
+			1411.1.1 = {
+				birth = yes
+			}
+			1450.1.22 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_41 = {
+			name = "Jean"
+			religion = catholic
+			culture = picard
+			# dynasty = Advantage
+			# father = Unknown
+			# mother = Unknown
+			1387.1.1 = {
+				birth = yes
+			}
+			1456.11.24 = {
+				death = yes
+			}
+		}
+		CKU_francien_minor_42 = {
+			name = "Jean"
+			religion = catholic
+			culture = french
+			# dynasty = Bernard
+			# father = Unknown
+			# mother = Unknown
+			1386.1.1 = {
+				birth = yes
+			}
+			1466.4.28 = {
+				death = yes
+			}
+		}
 		######## Test Character ########
 		CKU_francien_test_1 = {
 			name = "Jean"
 			religion = catholic
 			culture = french
-			dynasty = CKU_testing_dynasty
+			dynasty = 360
 			martial = 20
 			1395.1.1 = {
 				birth = yes
@@ -11433,6 +11787,9 @@
 			1348.1.1 = {
 				birth = yes
 			}
+			1370.1.1 = {
+				add_spouse = CKU_vienne_49
+			}
 			1406.1.1 = {
 				death = yes
 			}
@@ -11472,7 +11829,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Isabelle de Mello
 			1380.1.1 = {
 				birth = yes
@@ -11490,7 +11847,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Marguerite de Sennecey
 			1381.1.1 = {#?
 				birth = yes
@@ -11506,7 +11863,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Béraud de Coligny
 			1382.1.1 = {#?
 				birth = yes
@@ -11522,7 +11879,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Alexandre de Blaizy
 			1383.1.1 = {
 				birth = yes
@@ -11538,7 +11895,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Jean de Damas
 			1384.1.1 = {#?
 				birth = yes
@@ -11554,7 +11911,7 @@
 			culture = burgundian
 			dynasty_house = house_bourgogne_montagu
 			father = CKU_bourgogne_montagu_32
-			# mother = Jeanne de Vienne
+			mother = CKU_vienne_49
 			# Married Guillaume de Etrabonne
 			1385.1.1 = {#?
 				birth = yes
@@ -12497,6 +12854,748 @@
 				birth = yes
 			}
 			1519.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Vienne {
+		CKU_vienne_1 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			# father = Hugues d'Antigny
+			# mother = Beatrix de Mâcon
+			# Married Alix de Faucogney
+			1220.1.1 = {
+				birth = yes
+			}
+			1277.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_2 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_1
+			# mother = Alix de Faucogney
+			# Married Agnès de Chalon
+			# Married Jeanne de Geneva
+			1240.1.1 = {
+				birth = yes
+			}
+			1303.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_3 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_1
+			# mother = Alix de Faucogney
+			# Married Agathe/Comtesson de Geneva
+			1270.1.1 = {
+				birth = yes
+			}
+			1319.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_4 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_2
+			# mother = Agnès de Chalon
+			# Married Gillette de Chaussin
+			1265.1.1 = {
+				birth = yes
+			}
+			1315.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_5 = {
+			name = "Étienne"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_2
+			# mother = Agnès de Chalon
+			# Married Unknown
+			1270.1.1 = {
+				birth = yes
+			}
+			1314.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_6 = {
+			name = "Huguette"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_2
+			# mother = Agnès de Chalon
+			# Married Eudes de Montferrand
+			1275.1.1 = {
+				birth = yes
+			}
+			1303.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_7 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_5
+			# mother = Unknown
+			1300.1.1 = {
+				birth = yes
+			}
+			1351.6.14 = {
+				death = yes
+			}
+		}
+		CKU_vienne_8 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_2
+			# mother = Jeanne de Geneva
+			# Married Unknown
+			1295.1.1 = {
+				birth = yes
+			}
+			1328.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_9 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_2
+			# mother = Jeanne de Geneva
+			1300.1.1 = {
+				birth = yes
+			}
+			1355.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_10 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_4
+			# mother = Gillette de Chaussin
+			# Married 
+			1290.1.1 = {
+				birth = yes
+			}
+			1370.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_11 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_4
+			# mother = Gillette de Chaussin
+			# Married Unknown
+			1293.1.1 = {
+				birth = yes
+			}
+			1334.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_12 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_4
+			# mother = Gillette de Chaussin
+			# Married Unknown
+			1295.1.1 = {
+				birth = yes
+			}
+			1345.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_13 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_11
+			# mother = Unknown
+			# Married Unknown
+			1320.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_14 = {
+			name = "Guy"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_10
+			# mother = Unknown
+			# Married Unknown
+			1320.1.1 = {
+				birth = yes
+			}
+			1404.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_15 = {
+			name = "Jacques"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_14
+			# mother = Unknown
+			# Married Unknown
+			1360.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_16 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_15
+			# mother = Unknown
+			# Married Unknown
+			1385.1.1 = {
+				birth = yes
+			}
+			1445.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_17 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_15
+			# mother = Unknown
+			1390.1.1 = {
+				birth = yes
+			}
+			1451.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_18 = {
+			name = "Louis"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_16
+			# mother = Unknown
+			# Married Unknown
+			1415.1.1 = {
+				birth = yes
+			}
+			1486.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_19 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_12
+			# mother = Unknown
+			# Married Jeanne de Châteauvillain
+			1325.1.1 = {
+				birth = yes
+			}
+			1361.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_20 = {
+			name = "Jacques"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_12
+			# mother = Unknown
+			# Married Unknown
+			1320.1.1 = {
+				birth = yes
+			}
+			1372.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_21 = {
+			name = "Jacques"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_20
+			# mother = Unknown
+			# Married Unknown
+			1345.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_22 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_21
+			# mother = Unknown
+			# Married Unknown
+			1390.1.1 = {
+				birth = yes
+			}
+			1430.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_23 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_19
+			# mother = Jeanne de Châteauvillain
+			# Married Unknown
+			1350.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_24 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_19
+			# mother = Jeanne de Châteauvillain
+			# Married Louise de Thoire-Villars
+			# Married Marie Dauphin
+			1360.1.1 = {
+				birth = yes
+			}
+			1434.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_25 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_24
+			# mother = Marie Dauphin
+			# Married Alix de Chalon
+			# Married Rodolphe de Neuchâtel
+			1401.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_26 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_8
+			# mother = Unknown
+			# Married Unknown
+			1317.1.1 = {
+				birth = yes
+			}
+			1353.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_27 = {
+			name = "Hugues"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_26
+			# mother = Unknown
+			# Married Unknown
+			1335.1.1 = {
+				birth = yes
+			}
+			1374.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_28 = {
+			name = "Henri"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_27
+			# mother = Unknown
+			# Married Unknown
+			1365.1.1 = {
+				birth = yes
+			}
+			1429.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_29 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_27
+			# mother = Unknown
+			# Married Unknown
+			1370.1.1 = {
+				birth = yes
+			}
+			1436.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_30 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_28
+			# mother = Unknown
+			# Married Unknown
+			1385.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_31 = {
+			name = "Gérard"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_30
+			# mother = Unknown
+			# Married Unknown
+			1410.1.1 = {
+				birth = yes
+			}
+			1437.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_32 = {
+			name = "Vauthier"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_3
+			# mother = Agathe/Comtesson de Geneva
+			# Married Achillande of La Roche-en-Montagne
+			1295.1.1 = {
+				birth = yes
+			}
+			1344.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_33 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_3
+			# mother = Agathe/Comtesson de Geneva
+			# Married Marguerite de Chaudenay
+			1300.1.1 = {
+				birth = yes
+			}
+			1360.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_34 = {
+			name = "Henri"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_32
+			# mother = Achillande of La Roche-en-Montagne
+			# Married Unknown
+			1325.1.1 = {
+				birth = yes
+			}
+			1371.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_35 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_32
+			# mother = Achillande of La Roche-en-Montagne
+			1330.1.1 = {
+				birth = yes
+			}
+			1382.10.7 = {
+				death = yes
+			}
+		}
+		CKU_vienne_36 = {
+			name = "Gauthier"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_34
+			# mother = Unknown
+			# Married Unknown
+			1350.1.1 = {
+				birth = yes
+			}
+			1390.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_37 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_34
+			# mother = Unknown
+			# Married Unknown
+			1355.1.1 = {
+				birth = yes
+			}
+			1395.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_38 = {
+			name = "Vauthier"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_37
+			# mother = Unknown
+			# Married Unknown
+			1380.1.1 = {
+				birth = yes
+			}
+			1396.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_39 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_33
+			# mother = Marguerite de Chaudenay
+			# Married Jeanne d'Oiselay
+			1325.1.1 = {
+				birth = yes
+			}
+			1396.9.25 = {
+				death = yes
+			}
+		}
+		CKU_vienne_40 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_33
+			# mother = Marguerite de Chaudenay
+			1350.1.1 = {
+				birth = yes
+			}
+			1407.2.28 = {
+				death = yes
+			}
+		}
+		CKU_vienne_41 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_39
+			# mother = Jeanne d'Oiselay
+			# Married Philiberte de Maubec
+			1360.1.1 = {
+				birth = yes
+			}
+			1413.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_42 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_41
+			# mother = Philiberte de Maubec
+			# Married Beatrice of Saint-Cheron
+			1396.1.1 = {
+				birth = yes
+			}
+			1440.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_43 = {
+			name = "Jean"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_41
+			# mother = Philiberte de Maubec
+			# Married Isabeau/Jeanne de Montaigut
+			1398.1.1 = {
+				birth = yes
+			}
+			1425.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_44 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_41
+			# mother = Philiberte de Maubec
+			# Married Jean de Crux
+			1400.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_45 = {
+			name = "Guillemette"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_41
+			# mother = Philiberte de Maubec
+			# Married Antoine de Vergy
+			# Married Thibault de Neufchâtel
+			1403.1.1 = {
+				birth = yes
+			}
+			1450.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_46 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_41
+			# mother = Philiberte de Maubec
+			# Married Béatrice von Cusance
+			# Married Claude de Faucogney
+			1405.1.1 = {
+				birth = yes
+			}
+			1471.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_47 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_42
+			# mother = Beatrice of Saint-Cheron
+			# Married Antoine de La Roche et de Ray
+			1420.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_48 = {
+			name = "Philippe"
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_43
+			# mother = Isabeau/Jeanne de Montaigut
+			# Married Péronnelle de Chazeron
+			1420.1.1 = {
+				birth = yes
+			}
+			1470.1.1 = {
+				death = yes
+			}
+		}
+		CKU_vienne_49 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = burgundian
+			dynasty = CKU_vienne
+			father = CKU_vienne_20
+			# mother = Unknown
+			# Married Unknown
+			1350.1.1 = {
+				birth = yes
+			}
+			1400.1.1 = {
 				death = yes
 			}
 		}
@@ -17060,6 +18159,773 @@
 			}
 		}
 	# }
+	# Motier de La Fayette {
+		CKU_motier_dela_fayette_1 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			# father = Unknown
+			# mother = Unknown
+			# Married Unknown
+			1045.1.1 = {
+				birth = yes
+			}
+			1095.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_2 = {
+			name = "Etienne"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_1
+			# mother = Unknown
+			# Married Gibe de Beauvoir
+			1070.1.1 = {
+				birth = yes
+			}
+			1220.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_3 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_2
+			# mother = Gibe de Beauvoir
+			# Married Unknown
+			1200.1.1 = {
+				birth = yes
+			}
+			1250.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_4 = {
+			name = "Pons"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_3
+			# mother = Unknown
+			# Married Hélis Brun du Peschin
+			1225.1.1 = {
+				birth = yes
+			}
+			1280.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_5 = {
+			name = "Pons"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_motier_champetieres # Founder of the branch of Motier de Champetières
+			father = CKU_motier_dela_fayette_4
+			# mother = Hélis Brun du Peschin
+			# Married Hélis de Boulier du Chariol
+			1270.1.1 = {
+				birth = yes
+			}
+			1307.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_6 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_4
+			# mother = Hélis Brun du Peschin
+			# Married Charlotte de Dienne
+			1265.1.1 = {
+				birth = yes
+			}
+			1315.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_7 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_6
+			# mother = Charlotte de Dienne
+			# Married Marguerite de La Roche-Tournoël
+			1310.1.1 = {
+				birth = yes
+			}
+			1356.9.19 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_8 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_6
+			# mother = Charlotte de Dienne
+			# Married Unkown
+			1315.1.1 = {
+				birth = yes
+			}
+			1356.9.19 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_9 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_7
+			# mother = Marguerite de La Roche-Tournoël
+			# Married Marguerite Catherine Brun du Peschin
+			1355.1.1 = {
+				birth = yes
+			}
+			1405.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_10 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_7
+			# mother = Marguerite de La Roche-Tournoël
+			1360.1.1 = {
+				birth = yes
+			}
+			1391.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_11 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_9
+			# mother = Marguerite Catherine Brun du Peschin
+			# Married Dauphine de Monteith
+			# Married Jeanne de Joyeuse
+			trait = brave
+			trait = arrogant
+			trait = gregarious
+			trait = education_martial_3
+			trait = gallant
+			trait = organizer
+			1380.1.1 = {
+				birth = yes
+			}
+			1464.2.22 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_12 = {
+			name = "Barthélemy"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_9
+			# mother = Marguerite Catherine Brun du Peschin
+			1285.1.1 = {
+				birth = yes
+			}
+			1439.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_13 = {
+			name = "Charles"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married Catherine Chaulet
+			1425.1.1 = {
+				birth = yes
+			}
+			1486.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_14 = {
+			name = "Antoine"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married Louise de Montboissier
+			# Married Catherine de Murol
+			1426.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_15 = {
+			name = "Françoise"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married Jacques Fourrier
+			1427.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_16 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de JoyeuseJean
+			1430.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_17 = {
+			name = "Louis"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			1431.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_18 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married Hughes de Chauvigny
+			1432.1.1 = {
+				birth = yes
+			}
+			1484.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_19 = {
+			name = "Anne"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married François de Maubec
+			1434.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_20 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			1435.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_21 = {
+			name = "Gilbert"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Jeanne de Joyeuse
+			# Married Isabeau de Polignac
+			1440.1.1 = {
+				birth = yes
+			}
+			1527.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_22 = {
+			name = "Louise"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_motier_dela_fayette
+			father = CKU_motier_dela_fayette_11
+			# mother = Unknown
+			# Married Jehan de La Roche
+			trait = bastard
+			1410.1.1 = {
+				birth = yes
+			}
+			1456.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_23 = {
+			name = "Gilles"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_motier_champetieres
+			father = CKU_motier_dela_fayette_5
+			# mother = Hélis de Boulier du Chariol
+			# Married Jeanne de Montravel
+			1300.1.1 = {
+				birth = yes
+			}
+			1353.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_24 = {
+			name = "Gilles"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_motier_champetieres
+			father = CKU_motier_dela_fayette_23
+			# mother = Jeanne de Montravel
+			# Married Gaillarde de Laire
+			1330.1.1 = {
+				birth = yes
+			}
+			1364.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_25 = {
+			name = "Guillaume"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_motier_champetieres
+			father = CKU_motier_dela_fayette_24
+			# mother = Gaillarde de Laire
+			# Married Catherine de La Garde
+			1360.1.1 = {
+				birth = yes
+			}
+			1418.1.1 = {
+				death = yes
+			}
+		}
+		CKU_motier_dela_fayette_26 = {
+			name = "Marcellin"
+			religion = catholic
+			culture = occitan
+			dynasty_house = house_motier_champetieres
+			father = CKU_motier_dela_fayette_25
+			# mother = Catherine de La Garde
+			# Married Léone de Vassel
+			1400.1.1 = {
+				birth = yes
+			}
+			1462.1.1 = {
+				death = yes
+			}
+		}
+	# }
+	# Lapanouse {
+		CKU_lapanouse_1 = {
+			name = "Motet"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			#father = Unknown
+			#mother = Unknown
+			# Married Unknown
+			1134.1.1 = {
+				birth = yes
+			}
+			1190.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_2 = {
+			name = "Motet"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_1
+			#mother = Unknown
+			# Married Stéphanie
+			1185.1.1 = {
+				birth = yes
+			}
+			1270.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_3 = {
+			name = "Motet"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_2
+			#mother = Stéphanie
+			# Married Unknown
+			1225.1.1 = {
+				birth = yes
+			}
+			1307.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_4 = {
+			name = "Raoul"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_3
+			#mother = Unknown
+			# Married Unknown
+			1265.1.1 = {
+				birth = yes
+			}
+			1346.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_5 = {
+			name = "Motet"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_3
+			#mother = Unknown
+			1270.1.1 = {
+				birth = yes
+			}
+			1320.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_6 = {
+			name = "Stéphanie"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_3
+			#mother = Unknown
+			# Married Bernard Bertrand
+			1275.1.1 = {
+				birth = yes
+			}
+			1325.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_7 = {
+			name = "Motet"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_3
+			#mother = Unknown
+			# Married Hugues de Valat
+			1280.1.1 = {
+				birth = yes
+			}
+			1330.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_8 = {
+			name = "Ysens"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_3
+			#mother = Unknown
+			# Married Raimond de Saint-Esteve
+			1285.1.1 = {
+				birth = yes
+			}
+			1335.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_9 = {
+			name = "Motet"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_4
+			#mother = Unknown
+			# Married Miracle de Erailh
+			1310.1.1 = {
+				birth = yes
+			}
+			1397.10.6 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_10 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_9
+			#mother = Miracle de Erailh
+			# Married Lombarde de Erailh
+			1355.1.1 = {
+				birth = yes
+			}
+			1416.10.6 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_11 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_10
+			#mother = Lombarde de Erailh
+			# Married Marguerite de Dienne
+			1399.1.1 = {
+				birth = yes
+			}
+			1416.10.6 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_12 = {
+			name = "Amalric"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_10
+			#mother = Lombarde de Erailh
+			# Married Marguerite de Salles
+			# Married Bertrande des Ondes
+			1400.1.1 = {
+				birth = yes
+			}
+			1472.7.9 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_13 = {
+			name = "Guy"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_10
+			#mother = Lombarde de Erailh
+			1403.1.1 = {
+				birth = yes
+			}
+			1471.4.21 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_14 = {
+			name = "Raimond"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_10
+			#mother = Lombarde de Erailh
+			1405.1.1 = {
+				birth = yes
+			}
+			1455.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_15 = {
+			name = "Philippe"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			# Married Bourguine
+			1423.1.1 = {
+				birth = yes
+			}
+			1478.11.11 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_16 = {
+			name = "Antoine"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			1424.1.1 = {
+				birth = yes
+			}
+			1473.6.28 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_17 = {
+			name = "Jean"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			1425.1.1 = {
+				birth = yes
+			}
+			1475.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_18 = {
+			name = "Pierre"
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			1428.1.1 = {
+				birth = yes
+			}
+			1478.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_19 = {
+			name = "Jérémie"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			# Married Jean de Morlhon
+			1430.1.1 = {
+				birth = yes
+			}
+			1480.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_20 = {
+			name = "Catherine"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			# Married Jean de Prevenquieres
+			1432.1.1 = {
+				birth = yes
+			}
+			1482.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_21 = {
+			name = "Béatrix"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_11
+			#mother = Marguerite de Dienne
+			# Married Bernard de Pauliac
+			1435.1.1 = {
+				birth = yes
+			}
+			1485.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_22 = {
+			name = "Marguerite"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_12
+			#mother = Marguerite de Salles
+			# Married Etienne de Esteve
+			1433.1.1 = {
+				birth = yes
+			}
+			1483.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_23 = {
+			name = "Béatrix"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_12
+			#mother = Marguerite de Salles
+			# Married Jean de Saint-Marsal
+			1435.1.1 = {
+				birth = yes
+			}
+			1485.1.1 = {
+				death = yes
+			}
+		}
+		CKU_lapanouse_24 = {
+			name = "Jeanne"
+			female = yes
+			religion = catholic
+			culture = occitan
+			dynasty = CKU_lapanouse
+			father = CKU_lapanouse_12
+			#mother = Marguerite de Salles
+			# Married Bernard de Rives
+			1440.1.1 = {
+				birth = yes
+			}
+			1490.1.1 = {
+				death = yes
+			}
+		}
+	# }
 # }
 
 # Bretagne = {
@@ -20146,7 +22012,7 @@
 			name = "Bernard"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455646
 			# mother = Jeanne de Périgord
 			# Married Bonne de Berry
@@ -20164,7 +22030,7 @@
 			name = "Jean"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_1
 			mother = CKU_valois_6
 			# Married Isabelle de Evreux
@@ -20186,7 +22052,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_2
 			mother = CKU_evreux_9
 			# Married Jean de Alençon
@@ -20201,7 +22067,7 @@
 			name = "Jean"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_2
 			mother = CKU_evreux_9
 			1420.1.1 = {
@@ -20216,7 +22082,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_2
 			mother = CKU_evreux_9
 			1423.1.1 = {
@@ -20230,7 +22096,7 @@
 			name = "Charles"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_2
 			mother = CKU_evreux_9
 			1425.1.1 = {
@@ -20245,7 +22111,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_2
 			mother = CKU_evreux_9
 			1430.1.1 = {
@@ -20260,7 +22126,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_1
 			mother = CKU_valois_6
 			# Married Charles de Albret
@@ -20276,7 +22142,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_1
 			mother = CKU_valois_6
 			# Married Charles de Orleans
@@ -20291,7 +22157,7 @@
 			name = "Bernard"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_1
 			mother = CKU_valois_6
 			# Married Elenore de Bourbon
@@ -20309,7 +22175,7 @@
 			name = "Jacques"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_10
 			mother = CKU_bourbon_27
 			1433.1.1 = {
@@ -20326,7 +22192,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455640
 			mother = 455725
 			1346.1.1 = {
@@ -20341,7 +22207,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455646
 			# mother = Jeanne de Périgord
 			# Married Gaston de Béarn
@@ -20357,7 +22223,7 @@
 			name = "Jean"
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455646
 			# mother = Jeanne de Périgord
 			# Married Marguerite de Comminges
@@ -20373,7 +22239,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_15
 			# mother = Marguerite de Comminges
 			# Married Guillaume-Amanieu de Madaillan
@@ -20389,7 +22255,7 @@
 			female = yes
 			dynasty = 5100
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_lomagne_armagnac_15
 			# mother = Marguerite de Comminges
 			# Married Guillaume de Narbonne
@@ -20406,7 +22272,7 @@
 			name = "Roger-Bernard"
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455544
 			mother = 455545
 			# Married Constance de Luna
@@ -20421,7 +22287,7 @@
 			name = "Roger-Bernard"
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_1
 			# mother = Constance de Luna
 			# Married Geraude de Navailles
@@ -20436,7 +22302,7 @@
 			name = "Mathieu"
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_2
 			# mother = Geraude de Navailles
 			# Married Juana de Barcelona
@@ -20452,7 +22318,7 @@
 			female = yes
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_2
 			# mother = Geraude de Navailles
 			# Married Archambaud de Grailly
@@ -20467,7 +22333,7 @@
 			name = "Jean"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_10
 			mother = CKU_foix_4
 			# Married Jeanne de Evreux
@@ -20489,7 +22355,7 @@
 			name = "Gaston"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_5
 			mother = CKU_albret_9
 			# Married Elenore de Trastamara
@@ -20504,7 +22370,7 @@
 			name = "Gaston"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_6
 			# mother = Elenore de Trastamara
 			1444.1.1 = {
@@ -20518,7 +22384,7 @@
 			name = "Pierre"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_5
 			mother = CKU_albret_9
 			1429.1.1 = {
@@ -20532,7 +22398,7 @@
 			name = "Gaston"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_10
 			mother = CKU_foix_4
 			# Married Marguerite de Albret
@@ -20550,7 +22416,7 @@
 			name = "Jean"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_9
 			mother = CKU_albret_7
 			# Married Margaret Kerdeston
@@ -20565,7 +22431,7 @@
 			name = "Archambaud"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_10
 			mother = CKU_foix_4
 			# Married Sança Ximenis de Cabrera
@@ -20580,7 +22446,7 @@
 			name = "Mathieu"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_10
 			mother = CKU_foix_4
 			# Married Marguerite de Comminges
@@ -20595,7 +22461,7 @@
 			name = "Pierre"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_10
 			mother = CKU_foix_4
 			1386.1.1 = {
@@ -20609,7 +22475,7 @@
 			name = "Gaston"
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455541
 			# mother = Doña Iñès de Navarre
 			1365.1.1 = {
@@ -20624,7 +22490,7 @@
 			female = yes
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_11
 			# mother = Sança Ximenis de Cabrera
 			# Married Jean de Carmain
@@ -20640,7 +22506,7 @@
 			female = yes
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_9
 			mother = CKU_albret_7
 			# Married Jean de La Lande
@@ -20656,7 +22522,7 @@
 			female = yes
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_9
 			mother = CKU_albret_7
 			# Married Jacques de Pons
@@ -20673,7 +22539,7 @@
 			female = yes
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_9
 			mother = CKU_albret_7
 			# Married Pierre-Arnaud de Laminsans
@@ -20689,7 +22555,7 @@
 			female = yes
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_foix_5
 			mother = CKU_albret_9
 			# Married Bernard de Cauna
@@ -20705,7 +22571,7 @@
 			female = yes
 			dynasty = 684
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455544
 			mother = 455545
 			# Married Jean de Grailly
@@ -20722,7 +22588,7 @@
 			name = "Jean"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			# father = Pierre de Grailly
 			# mother = Beatrix de Mont
 			# Married Béatrice Rousseau
@@ -20737,7 +22603,7 @@
 			name = "Pierre"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_1
 			# mother = Béatrice Rousseau
 			# Married Thalèze de Bouville
@@ -20754,7 +22620,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_2
 			# mother = Thalèze de Bouville
 			# Married Jourdain de L’Isle-Jourdain
@@ -20771,7 +22637,7 @@
 			name = "Pierre"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_2
 			# mother = Thalèze de Bouville
 			# Married Assalide de Bordeaux
@@ -20787,7 +22653,7 @@
 			name = "Jean"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Assalide de Bordeaux
 			# Married Blanche de Foix-Béarn
@@ -20806,7 +22672,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Assalide de Bordeaux
 			# Married Bernard de Albret # Cant get it ingame because of the first character of Albret being a vanilla character, Cant make characters before him.
@@ -20822,7 +22688,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Assalide de Bordeaux
 			# Married Senebrun de Lesparre
@@ -20837,7 +22703,7 @@
 			name = "Gaston"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_5
 			mother = CKU_foix_20
 			1330.1.1 = {
@@ -20851,7 +22717,7 @@
 			name = "Jean"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_5
 			mother = CKU_foix_20
 			# Married Rose d’Albret
@@ -20869,7 +22735,7 @@
 			name = "Archambaud"
 			dynasty_house = house_foix_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Rosemburge de Périgord
 			# Married Isabelle de Foix
@@ -20888,7 +22754,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Rosemburge de Périgord
 			# Married Aymeric de La Rochefoucauld
@@ -20903,7 +22769,7 @@
 			name = "Roger"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_4
 			# mother = Rosemburge de Périgord
 			# Married  Anne de Cantaloup
@@ -20918,7 +22784,7 @@
 			name = "Pierre"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_12
 			# mother = Anne de Cantaloup
 			# Married Jeanne de Preyssac de Latrau
@@ -20933,7 +22799,7 @@
 			name = "Roger"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_12
 			# mother = Anne de Cantaloup
 			# Married Unknown
@@ -20949,7 +22815,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_14
 			# mother = Unknown
 			1425.1.1 = {
@@ -20963,7 +22829,7 @@
 			name = "Jean"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_13
 			# mother = Jeanne de Preyssac de Latrau
 			# Married Trenquine de Lavagnac
@@ -20978,7 +22844,7 @@
 			name = "Roger"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_13
 			# mother = Jeanne de Preyssac de Latrau
 			1405.1.1 = {
@@ -20992,7 +22858,7 @@
 			name = "Pierre"
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_13
 			# mother = Jeanne de Preyssac de Latrau
 			1410.1.1 = {
@@ -21007,7 +22873,7 @@
 			female = yes
 			dynasty = CKU_grailly
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_grailly_13
 			# mother = Jeanne de Preyssac de Latrau
 			1420.1.1 = {
@@ -21023,7 +22889,7 @@
 			name = "Arnaud-Amanieu"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455630
 			mother = 455645
 			# Married Marguerite de Bourbon
@@ -21041,7 +22907,7 @@
 			name = "Bernard"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455630
 			mother = 455645
 			# Married Helene de Caumont
@@ -21057,7 +22923,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455630
 			mother = 455645
 			# Married Jean de Grailly
@@ -21073,7 +22939,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455630
 			mother = 455645
 			# Married Jean Jourdain
@@ -21089,7 +22955,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = 455630
 			mother = 455645
 			# Married Jean de Pommiers
@@ -21104,7 +22970,7 @@
 			name = "Charles"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_1
 			mother = CKU_bourbon_16
 			# Married Marie de Sully
@@ -21120,7 +22986,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_1
 			mother = CKU_bourbon_16
 			# Married Gaston de Foix
@@ -21135,7 +23001,7 @@
 			name = "François"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_2
 			# mother = Helene de Caumont
 			# Married Jeanne de Pierrepont
@@ -21151,7 +23017,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_6
 			# mother = Marie de Sully
 			# Married Charles de Montagu
@@ -21167,7 +23033,7 @@
 			name = "Charles"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_6
 			# mother = Marie de Sully
 			# Married Anne de Armagnac
@@ -21185,7 +23051,7 @@
 			name = "Jean"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			# Married Catherine de Rohan
@@ -21201,7 +23067,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			# Married Arthur de Montfort
@@ -21216,7 +23082,7 @@
 			name = "Arnaud-Amanieu"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			1420.1.1 = {
@@ -21230,7 +23096,7 @@
 			name = "Louis"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			1422.12.23 = {
@@ -21245,7 +23111,7 @@
 			female = yes
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			1426.1.1 = {
@@ -21259,7 +23125,7 @@
 			name = "Guillaume"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_6
 			# mother = Marie de Sully
 			1409.1.1 = {
@@ -21273,7 +23139,7 @@
 			name = "Alain"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_11
 			# mother = Catherine de Rohan
 			1440.1.1 = {
@@ -21287,7 +23153,7 @@
 			name = "Charles"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			1430.1.1 = {
@@ -21301,7 +23167,7 @@
 			name = "Gilles"
 			dynasty = 100150
 			religion = "catholic"
-			culture = gascon
+			culture = occitan
 			father = CKU_albret_10
 			mother = CKU_lomagne_armagnac_8
 			1433.1.1 = {#?
@@ -21321,7 +23187,7 @@
 	# Baux {
 		baux_0000 = {
 			name = "Agathe"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21335,7 +23201,7 @@
 		}
 		baux_0001 = {
 			name = "Agoult"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0002 #Bertrand
@@ -21348,7 +23214,7 @@
 		}
 		baux_0003 = {
 			name = "Alazasia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21362,7 +23228,7 @@
 		}
 		baux_0005 = {
 			name = "Alazasia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21376,7 +23242,7 @@
 		}
 		baux_0007 = {
 			name = "Alice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21391,7 +23257,7 @@
 		}
 		baux_0010 = {
 			name = "Alix"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21405,7 +23271,7 @@
 		}
 		baux_0012 = {
 			name = "Amiel"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0001 #Agoult
@@ -21418,7 +23284,7 @@
 		}
 		baux_0013 = {
 			name = "Antoine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0014 #Hugues
@@ -21431,7 +23297,7 @@
 		}
 		baux_0015 = {
 			name = "Barral"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0006 #Hugues
@@ -21444,7 +23310,7 @@
 		}
 		baux_0016 = {
 			name = "Barral"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0002 #Bertrand
@@ -21457,7 +23323,7 @@
 		}
 		baux_0017 = {
 			name = "Bauzia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21471,7 +23337,7 @@
 		}
 		baux_0018 = {
 			name = "Beatrice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21485,7 +23351,7 @@
 		}
 		baux_0019 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0004 #Raymond
@@ -21498,7 +23364,7 @@
 		}
 		baux_0020 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0019 #Bertrand
@@ -21511,7 +23377,7 @@
 		}
 		baux_0002 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0015 #Barral
@@ -21524,7 +23390,7 @@
 		}
 		baux_0021 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0001 #Agoult
@@ -21540,7 +23406,7 @@
 		}
 		baux_0023 = {
 			name = "Cecile"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21554,7 +23420,7 @@
 		}
 		baux_0024 = {
 			name = "Cecile"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21568,7 +23434,7 @@
 		}
 		baux_0025 = {
 			name = "Cecile"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21582,7 +23448,7 @@
 		}
 		baux_0026 = {
 			name = "Cecile"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21596,7 +23462,7 @@
 		}
 		baux_0027 = {
 			name = "Dragonnet"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0001 #Agoult
@@ -21610,7 +23476,7 @@
 		}
 		baux_0028 = {
 			name = "Etiennette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21624,7 +23490,7 @@
 		}
 		baux_0029 = {
 			name = "François"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0014 #Hugues
@@ -21637,7 +23503,7 @@
 		}
 		baux_0030 = {
 			name = "Gilbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0004 #Raymond
@@ -21650,7 +23516,7 @@
 		}
 		baux_0031 = {
 			name = "Gilbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0006 #Hugues
@@ -21663,7 +23529,7 @@
 		}
 		baux_0032 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0004 #Raymond
@@ -21676,7 +23542,7 @@
 		}
 		baux_0033 = {
 			name = "Guillaume Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0034 #Hugues
@@ -21689,7 +23555,7 @@
 		}
 		baux_0034 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0035 #Pons
@@ -21702,7 +23568,7 @@
 		}
 		baux_0036 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0004 #Raymond
@@ -21715,7 +23581,7 @@
 		}
 		baux_0006 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0019 #Bertrand
@@ -21728,7 +23594,7 @@
 		}
 		baux_0037 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0002 #Bertrand
@@ -21741,7 +23607,7 @@
 		}
 		baux_0014 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0008 #Raymond
@@ -21755,7 +23621,7 @@
 		}
 		baux_0038 = {
 			name = "Ison"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0039 #Pons
@@ -21768,7 +23634,7 @@
 		}
 		baux_0040 = {
 			name = "Jacques"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0016 #Barral
@@ -21781,7 +23647,7 @@
 		}
 		baux_0041 = {
 			name = "Louis"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0001 #Agoult
@@ -21794,7 +23660,7 @@
 		}
 		baux_0042 = {
 			name = "Marquise"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21808,7 +23674,7 @@
 		}
 		baux_0043 = {
 			name = "Philippine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21823,7 +23689,7 @@
 		}
 		baux_0039 = {
 			name = "Pons"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			860.1.1 = {
@@ -21835,7 +23701,7 @@
 		}
 		baux_0044 = {
 			name = "Pons"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0038 #Ison
@@ -21848,7 +23714,7 @@
 		}
 		baux_0035 = {
 			name = "Pons"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0044 #Pons
@@ -21861,7 +23727,7 @@
 		}
 		baux_0004 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0033 #Guillaume Hugues
@@ -21874,7 +23740,7 @@
 		}
 		baux_0045 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0020 #Bertrand
@@ -21887,7 +23753,7 @@
 		}
 		baux_0008 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0002 #Bertrand
@@ -21903,7 +23769,7 @@
 		}
 		baux_0046 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0001 #Agoult
@@ -21917,7 +23783,7 @@
 		}
 		baux_0011 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0014 #Hugues
@@ -21930,7 +23796,7 @@
 		}
 		baux_0047 = {
 			name = "Robert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0014 #Hugues
@@ -21943,7 +23809,7 @@
 		}
 		baux_0048 = {
 			name = "Sibylla"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21957,7 +23823,7 @@
 		}
 		baux_0049 = {
 			name = "Sibylla"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty = 5117 #Baux
@@ -21972,7 +23838,7 @@
 		}
 		baux_0050 = {
 			name = "Umbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty = 5117 #Baux
 			father = baux_0039 #Pons
@@ -21985,7 +23851,7 @@
 		}
 		baux_0051 = {
 			name = "Angilbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0052 #Francois
@@ -21998,7 +23864,7 @@
 		}
 		baux_0053 = {
 			name = "Antonia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_andria #Baux-Andria
@@ -22012,7 +23878,7 @@
 		}
 		baux_0054 = {
 			name = "Francois"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0055 #Bertrand
@@ -22025,7 +23891,7 @@
 		}
 		baux_0052 = {
 			name = "Francois"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0056 #Guillaume
@@ -22038,7 +23904,7 @@
 		}
 		baux_0056 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0054 #Francois
@@ -22051,7 +23917,7 @@
 		}
 		baux_0057 = {
 			name = "Jacques"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0054 #Francois
@@ -22064,7 +23930,7 @@
 		}
 		baux_0058 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_andria #Baux-Andria
@@ -22078,7 +23944,7 @@
 		}
 		baux_0059 = {
 			name = "Pierre"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_andria #Baux-Andria
 			father = baux_0052 #Francois
@@ -22091,7 +23957,7 @@
 		}
 		baux_0060 = {
 			name = "Barral"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0061 #Guillaume
@@ -22104,7 +23970,7 @@
 		}
 		baux_0062 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0061 #Guillaume
@@ -22117,7 +23983,7 @@
 		}
 		baux_0055 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0062 #Bertrand
@@ -22130,7 +23996,7 @@
 		}
 		baux_0063 = {
 			name = "Blanche"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_berre #Baux-Berre
@@ -22144,7 +24010,7 @@
 		}
 		baux_0064 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_berre #Baux-Berre
@@ -22158,7 +24024,7 @@
 		}
 		baux_0061 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0045 #Raymond
@@ -22171,7 +24037,7 @@
 		}
 		baux_0065 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0061 #Guillaume
@@ -22185,7 +24051,7 @@
 		}
 		baux_0066 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0062 #Bertrand
@@ -22201,7 +24067,7 @@
 		}
 		baux_0068 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_berre #Baux-Berre
 			father = baux_0062 #Bertrand
@@ -22217,7 +24083,7 @@
 		}
 		baux_0070 = {
 			name = "Isabelle"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_berre #Baux-Berre
@@ -22231,7 +24097,7 @@
 		}
 		baux_0071 = {
 			name = "Izoarde"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_berre #Baux-Berre
@@ -22245,7 +24111,7 @@
 		}
 		baux_0072 = {
 			name = "Marie"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_berre #Baux-Berre
@@ -22259,7 +24125,7 @@
 		}
 		baux_0073 = {
 			name = "Amiel"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22273,7 +24139,7 @@
 		}
 		baux_0076 = {
 			name = "Amiel"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0077 #Jean Théoden
@@ -22287,7 +24153,7 @@
 		}
 		baux_0078 = {
 			name = "Banselen"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22301,7 +24167,7 @@
 		}
 		baux_0079 = {
 			name = "Barral"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22315,7 +24181,7 @@
 		}
 		baux_0074 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0080 #Raymond
@@ -22331,7 +24197,7 @@
 		}
 		baux_0081 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22348,7 +24214,7 @@
 		}
 		baux_0083 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0084 #Raymond
@@ -22361,7 +24227,7 @@
 		}
 		baux_0085 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0073 #Amiel
@@ -22374,7 +24240,7 @@
 		}
 		baux_0022 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22391,7 +24257,7 @@
 		}
 		baux_0086 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22405,7 +24271,7 @@
 		}
 		baux_0088 = {
 			name = "Giovanella"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22419,7 +24285,7 @@
 		}
 		baux_0089 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22433,7 +24299,7 @@
 		}
 		baux_0090 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22447,7 +24313,7 @@
 		}
 		baux_0069 = {
 			name = "Isoard"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22464,7 +24330,7 @@
 		}
 		baux_0091 = {
 			name = "Jacques"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0092 #Raymond
@@ -22477,7 +24343,7 @@
 		}
 		baux_0087 = {
 			name = "Jacques"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0091 #Jacques
@@ -22490,7 +24356,7 @@
 		}
 		baux_0077 = {
 			name = "Jean Théoden"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0073 #Amiel
@@ -22503,7 +24369,7 @@
 		}
 		baux_0093 = {
 			name = "Lucretia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22517,7 +24383,7 @@
 		}
 		baux_0094 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
@@ -22531,7 +24397,7 @@
 		}
 		baux_0080 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0095 #Guillaume
@@ -22544,7 +24410,7 @@
 		}
 		baux_0084 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0074 #Bertrand
@@ -22558,7 +24424,7 @@
 		}
 		baux_0092 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0077 #Jean Théoden
@@ -22571,7 +24437,7 @@
 		}
 		baux_0096 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0080 #Raymond
@@ -22584,7 +24450,7 @@
 		}
 		baux_0097 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0091 #Jacques
@@ -22597,7 +24463,7 @@
 		}
 		baux_0098 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_courthezon #Baux-Courthézon
 			father = baux_0087 #Jacques
@@ -22610,7 +24476,7 @@
 		}
 		baux_0099 = {
 			name = "Alice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22624,7 +24490,7 @@
 		}
 		baux_0101 = {
 			name = "Anne"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22638,7 +24504,7 @@
 		}
 		baux_0103 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0104 #Gilbert
@@ -22651,7 +24517,7 @@
 		}
 		baux_0105 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0106 #Raymond
@@ -22664,7 +24530,7 @@
 		}
 		baux_0067 = {
 			name = "Eleanor"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22681,7 +24547,7 @@
 		}
 		baux_0108 = {
 			name = "Fanetta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22695,7 +24561,7 @@
 		}
 		baux_0100 = {
 			name = "François"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0109 #Guillaume
@@ -22708,7 +24574,7 @@
 		}
 		baux_0104 = {
 			name = "Gilbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0045 #Raymond
@@ -22721,7 +24587,7 @@
 		}
 		baux_0107 = {
 			name = "Gilbert"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0106 #Raymond
@@ -22734,7 +24600,7 @@
 		}
 		baux_0109 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0107 #Gilbert
@@ -22747,7 +24613,7 @@
 		}
 		baux_0110 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0109 #Guillaume
@@ -22760,7 +24626,7 @@
 		}
 		baux_0111 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0110 #Guillaume
@@ -22773,7 +24639,7 @@
 		}
 		baux_0112 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0104 #Gilbert
@@ -22786,7 +24652,7 @@
 		}
 		baux_0113 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0106 #Raymond
@@ -22799,7 +24665,7 @@
 		}
 		baux_0102 = {
 			name = "Jean"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0111 #Guillaume
@@ -22812,7 +24678,7 @@
 		}
 		baux_0114 = {
 			name = "Jugetta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22826,7 +24692,7 @@
 		}
 		baux_0115 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22841,7 +24707,7 @@
 		}
 		baux_0116 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_marignan #Baux-Marignan
@@ -22855,7 +24721,7 @@
 		}
 		baux_0106 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0104 #Gilbert
@@ -22868,7 +24734,7 @@
 		}
 		baux_0117 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_marignan #Baux-Marignan
 			father = baux_0107 #Gilbert
@@ -22881,7 +24747,7 @@
 		}
 		baux_0118 = {
 			name = "Alazasia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22895,7 +24761,7 @@
 		}
 		baux_0120 = {
 			name = "Alazasia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22910,7 +24776,7 @@
 		}
 		baux_0122 = {
 			name = "Beatrice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22924,7 +24790,7 @@
 		}
 		baux_0123 = {
 			name = "Beatrice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22938,7 +24804,7 @@
 		}
 		baux_0119 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0045 #Raymond
@@ -22951,7 +24817,7 @@
 		}
 		baux_0125 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0121 #Raymond
@@ -22964,7 +24830,7 @@
 		}
 		baux_0126 = {
 			name = "Eliza"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22978,7 +24844,7 @@
 		}
 		baux_0009 = {
 			name = "Etiennette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -22995,7 +24861,7 @@
 		}
 		baux_0127 = {
 			name = "Floretta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23009,7 +24875,7 @@
 		}
 		baux_0124 = {
 			name = "Guillaume Monet"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0121 #Raymond
@@ -23022,7 +24888,7 @@
 		}
 		baux_0128 = {
 			name = "Hugues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0119 #Bertrand
@@ -23035,7 +24901,7 @@
 		}
 		baux_0129 = {
 			name = "Leonia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23049,7 +24915,7 @@
 		}
 		baux_0130 = {
 			name = "Margarita"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23064,7 +24930,7 @@
 		}
 		baux_0131 = {
 			name = "Martha"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23078,7 +24944,7 @@
 		}
 		baux_0121 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0119 #Bertrand
@@ -23091,7 +24957,7 @@
 		}
 		baux_0132 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
 			father = baux_0124 #Guillaume Monet
@@ -23104,7 +24970,7 @@
 		}
 		baux_0133 = {
 			name = "Santia"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23118,7 +24984,7 @@
 		}
 		baux_0134 = {
 			name = "Tasetta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23132,7 +24998,7 @@
 		}
 		baux_0135 = {
 			name = "Tassetta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_meyrargues #Baux-Meyrargues
@@ -23147,7 +25013,7 @@
 		}
 		baux_0136 = {
 			name = "Annette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23161,7 +25027,7 @@
 		}
 		baux_0138 = {
 			name = "Annette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23175,7 +25041,7 @@
 		}
 		baux_0140 = {
 			name = "Beatrice"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23189,7 +25055,7 @@
 		}
 		baux_0142 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0143 #Guillaume
@@ -23202,7 +25068,7 @@
 		}
 		baux_0144 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0095 #Guillaume
@@ -23215,7 +25081,7 @@
 		}
 		baux_0145 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0146 #Raymond
@@ -23228,7 +25094,7 @@
 		}
 		baux_0147 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0145 #Bertrand
@@ -23242,7 +25108,7 @@
 		}
 		baux_0141 = {
 			name = "Bertrand"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0137 #Raymond
@@ -23255,7 +25121,7 @@
 		}
 		baux_0148 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23269,7 +25135,7 @@
 		}
 		baux_0149 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23283,7 +25149,7 @@
 		}
 		baux_0150 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23297,7 +25163,7 @@
 		}
 		baux_0151 = {
 			name = "Catherine"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23311,7 +25177,7 @@
 		}
 		baux_0152 = {
 			name = "Eleanor"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23325,7 +25191,7 @@
 		}
 		baux_0075 = {
 			name = "Etienette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23342,7 +25208,7 @@
 		}
 		baux_0154 = {
 			name = "Gidon"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0137 #Raymond
@@ -23355,7 +25221,7 @@
 		}
 		baux_0155 = {
 			name = "Guigues"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0137 #Raymond
@@ -23368,7 +25234,7 @@
 		}
 		baux_0143 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0019 #Bertrand
@@ -23381,7 +25247,7 @@
 		}
 		baux_0095 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0143 #Guillaume
@@ -23394,7 +25260,7 @@
 		}
 		baux_0156 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0095 #Guillaume
@@ -23407,7 +25273,7 @@
 		}
 		baux_0153 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0146 #Raymond
@@ -23420,7 +25286,7 @@
 		}
 		baux_0157 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0145 #Bertrand
@@ -23433,7 +25299,7 @@
 		}
 		baux_0139 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0137 #Raymond
@@ -23446,7 +25312,7 @@
 		}
 		baux_0158 = {
 			name = "Guillaume"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0139 #Guillaume
@@ -23459,7 +25325,7 @@
 		}
 		baux_0159 = {
 			name = "Henri"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0145 #Bertrand
@@ -23473,7 +25339,7 @@
 		}
 		baux_0160 = {
 			name = "Isabelle"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23487,7 +25353,7 @@
 		}
 		baux_0161 = {
 			name = "Jeanne"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23501,7 +25367,7 @@
 		}
 		baux_0162 = {
 			name = "Jeannette"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23515,7 +25381,7 @@
 		}
 		baux_0163 = {
 			name = "Jugetta"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23529,7 +25395,7 @@
 		}
 		baux_0082 = {
 			name = "Margarita"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23546,7 +25412,7 @@
 		}
 		baux_0164 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23560,7 +25426,7 @@
 		}
 		baux_0165 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23574,7 +25440,7 @@
 		}
 		baux_0166 = {
 			name = "Marguerite"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23588,7 +25454,7 @@
 		}
 		baux_0167 = {
 			name = "Marie"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23602,7 +25468,7 @@
 		}
 		baux_0146 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0143 #Guillaume
@@ -23615,7 +25481,7 @@
 		}
 		baux_0137 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0145 #Bertrand
@@ -23628,7 +25494,7 @@
 		}
 		baux_0168 = {
 			name = "Raymond"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			dynasty_house = house_baux_orange #Baux-Orange
 			father = baux_0137 #Raymond
@@ -23641,7 +25507,7 @@
 		}
 		baux_0169 = {
 			name = "Stephanie"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23655,7 +25521,7 @@
 		}
 		baux_0170 = {
 			name = "Tiburge"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange
@@ -23669,7 +25535,7 @@
 		}
 		baux_0171 = {
 			name = "Tiburge"
-			culture = "french"
+			culture = occitan
 			religion = "catholic"
 			female = yes
 			dynasty_house = house_baux_orange #Baux-Orange

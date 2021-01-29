@@ -86,9 +86,9 @@
  dynn_Walsee:"Walsee"
  #dynn_Lomagne:1"Lomagne-Armagnac"#Needstooverwritethevanillaname"Lomagne",doesnotworkyet.
  dynn_hunyadi:"Hunyadi"
- dynn_tour_auvergene:"Tourd'Auvergne"
+ dynn_tour_auvergene:"Tour d'Auvergne"
  dynn_josne:"Josne"
- dynn_juvenal_des_ursins:"JuvénaldesUrsins"
+ dynn_juvenal_des_ursins:"Juvénal des Ursins"
  dynn_clermont:"Clermont"
  dynn_tremoille:"Trémoille"
  dynn_amboise:"Amboise"
@@ -134,6 +134,13 @@
  dynn_dinan:"Dinan"
  dynn_dinan_dinham:"Dinham"
  dynn_dinan_belliere:"Dinan-La Bellière"
+ dynn_motier_dela_fayette:"Motier de La Fayette"
+ dynn_motier_champetieres:"Motier de Champetières"
+ dynn_hellande:"Hellande"
+ dynn_gouges:"Gouges"
+ dynn_vienne:"Vienne"
+ dynn_lapanouse:"Lapanouse"
+ dynn_pons:"Pons"
  
  #LowCountries
  dynn_clyte:"DelaClyte"
