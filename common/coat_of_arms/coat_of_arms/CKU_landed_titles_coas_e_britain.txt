@@ -4,6 +4,22 @@
 @smLysY = 0.26
 @smCross = 0.22
 
+###################################################################################################
+#English stuff
+k_england = {
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_leopard_passant_guardant.dds"
+		color1 = "yellow"
+		color2 = "blue"
+		instance = { position = { 0.5 0.16 } scale = { 0.85 0.85 }  }
+		instance = { position = { 0.5 0.415 } scale = { 0.85 0.85 }  }
+		instance = { position = { 0.5 0.67 } scale = { 0.85 0.85 }  }
+	}
+}
+
 #These two are subs for d_westminster
 d_westminster_sub_1 = {
 	pattern = "pattern_solid.dds"
