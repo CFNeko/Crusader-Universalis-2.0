@@ -330,7 +330,8 @@ d_northumberland = {
 		instance = { position = { 0.875 0.875 } scale = { 0.25 0.25 } }
 	}
 }
-
+########################################################################################################
+#Welsh stuff
 d_welsh_marches = {
 	pattern = "pattern_checkers_02.dds"
 	color1 = "red"
@@ -369,6 +370,25 @@ d_wales = {
 		color3 = "white"
 		instance = { position = { 0.5 0.5 } scale = { 1.25 1.0 } }
 	}
+}
+#######################################################################################################
+#Scottish stuff
+
+k_scotland = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "red"
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "red"
+		color2 = "blue"
+		instance = { position = { 0.5 0.485 } scale = { 0.57 0.57 }  }
+	}		
+	colored_emblem = {
+		texture = "ce_double_tressure.dds"
+		color1 = "red"
+		color2 = "red"
+	}	
 }
 
 d_buccleuch = {
@@ -456,6 +476,16 @@ d_orkney = {
 		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
 	}
 }
+##########################################################################################################
+#Irish stuff
+k_ireland = {
+pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_harp.dds"
+		color1 = "yellow"
+	}
+}
 
 d_thomond = {
 	pattern = "pattern_solid.dds"
@@ -484,5 +514,52 @@ d_desmond = {
 		instance = { position = { 0.25 0.5 } scale = { 0.25 0.25 } }
 		instance = { position = { 0.5 0.5 } scale = { 0.25 0.25 } }
 		instance = { position = { 0.75 0.5 } scale = { 0.25 0.25 } }
+	}
+}
+
+d_leinster = {
+	pattern = "pattern_solid.dds"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_harp.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+}
+
+d_meath = {
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_bend_potenty.dds"
+		color1 = "green"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.75 1.25 } rotation = 45 }
+	}
+	colored_emblem = {
+		texture = "ce_angel.dds"
+		color1 = "white"
+		color2 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+	}
+}
+
+d_ulster = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_cross_large.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 1.0 1.0 } }
+	}
+	colored_emblem = {
+		texture = "ce_shield_01.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_hand.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.5 0.5 } }
 	}
 }
